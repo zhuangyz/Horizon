@@ -52,12 +52,6 @@
         "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
         "enabled": true,
         "category": "github-trending"
-      },
-      {
-        "name": "LWN.net",
-        "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
-        "enabled": true,
-        "category": "linux-kernel"
       }
     ],
     "reddit": {
@@ -73,6 +67,30 @@
         },
         {
           "subreddit": "LocalLLaMA",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 60
+        },
+        {
+          "subreddit": "Economics",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 60
+        },
+        {
+          "subreddit": "ValueInvesting",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 15,
+          "min_score": 60
+        },
+        {
+          "subreddit": "stocks",
           "enabled": true,
           "sort": "hot",
           "time_filter": "day",
