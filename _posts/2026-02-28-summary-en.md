@@ -9,191 +9,188 @@ lang: en
 
 ---
 
-1. [AI Companies Resist Government Demands for Surveillance and Autonomous Weapons](#item-1) ⭐️ 8.0/10
-2. [AI Coding Skeptic Documents Ambitious Experiments, Including Porting scikit-learn to Rust](#item-2) ⭐️ 8.0/10
-3. [ChatGPT Nears 1 Billion Weekly Active Users, Surpasses 50 Million Paid Subscribers](#item-3) ⭐️ 8.0/10
-4. [QingLong Panel Targeted by .fullgc Mining Malware, Causing 800% CPU Usage](#item-4) ⭐️ 8.0/10
-5. [Security Expert Urges Developers to Stop Using Passkeys for Data Encryption](#item-5) ⭐️ 7.0/10
+1. [Anthropic Refuses Pentagon Demands for AI in Surveillance and Autonomous Killing](#item-1) ⭐️ 9.0/10
+2. [Security Expert Urges Developers to Stop Using Passkeys for Data Encryption](#item-2) ⭐️ 8.0/10
+3. [AI coding skeptic attempts ambitious port of scikit-learn to Rust using AI agents](#item-3) ⭐️ 8.0/10
+4. [ChatGPT Nears 1 Billion Weekly Active Users, Surpasses 50 Million Paid Subscribers](#item-4) ⭐️ 8.0/10
+5. [QingLong Panel Compromised by .fullgc Mining Malware, Causing 800% CPU Usage](#item-5) ⭐️ 8.0/10
 6. [Google Chrome Automatically Downloads 4GB Local AI Model Gemini Nano by Default](#item-6) ⭐️ 7.0/10
-7. [South Korea's Tax Service accidentally exposes hardware wallet seed phrase, leading to $4.8M crypto transfer](#item-7) ⭐️ 7.0/10
-8. [Leaked Motorola presentation reveals GrapheneOS partnership, first non-Pixel device possible by 2027](#item-8) ⭐️ 7.0/10
+7. [South Korean Tax Service Exposes Hardware Wallet Seed Phrase, Leading to $4.8M Crypto Transfer](#item-7) ⭐️ 7.0/10
+8. [Leaked Motorola presentation hints at GrapheneOS partnership, first non-Pixel device possible by 2027](#item-8) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [AI Companies Resist Government Demands for Surveillance and Autonomous Weapons](https://notdivided.org/) ⭐️ 8.0/10
+## [Anthropic Refuses Pentagon Demands for AI in Surveillance and Autonomous Killing](https://notdivided.org/) ⭐️ 9.0/10
 
-A public call has been issued for AI companies to refuse government demands to use their AI models for domestic mass surveillance and autonomous killing systems without human oversight. This stance is exemplified by companies like Anthropic, which has explicitly stated its models cannot be used for these purposes. This represents a critical juncture for corporate responsibility in AI, setting a precedent for how tech companies navigate ethical red lines versus government pressure. The outcome could shape global norms on the militarization of AI and the balance between national security and civil liberties in the digital age. The specific demands reportedly come from the U.S. Department of War, seeking to remove restrictions on AI use for mass domestic surveillance and fully autonomous weapons. While companies like Anthropic support AI for lawful foreign intelligence, they draw a firm line against domestic surveillance of citizens.
+AI company Anthropic publicly refused to comply with new U.S. Department of War (DoW) contract terms that would allow its AI models to be used for domestic mass surveillance and fully autonomous lethal weapons. This refusal has led to the Trump administration reportedly blacklisting Anthropic and ordering the federal government to stop using its technology. This confrontation sets a major precedent for corporate responsibility in AI ethics, directly challenging government attempts to deploy advanced AI for controversial domestic and military applications. It forces a public debate on the limits of state power, the role of tech companies in national security, and the ethical red lines for autonomous systems that can kill. The specific demands Anthropic refused involved loosening guardrails on its AI models to allow for "any lawful use," which the company interpreted as encompassing domestic surveillance and autonomous killing. In contrast, OpenAI has reportedly reached an agreement with the DoW to deploy its models within the department's classified network, with claims of 'no domestic mass surveillance'.
 
 hackernews · BloondAndDoom · Feb 28, 00:54
 
-**Background**: Lethal Autonomous Weapon Systems (LAWS), often called 'slaughterbots' or 'killer robots', are weapons that use AI to identify, select, and engage targets without human intervention. Domestic mass surveillance using AI involves analyzing vast amounts of data on a population's activities, communications, and movements. The ethical debate centers on the removal of human judgment from life-and-death decisions and the potential for unprecedented scale and intrusiveness in state monitoring.
+**Background**: Large AI models can significantly lower the cost and increase the scale of automated surveillance, making mass monitoring more feasible. Autonomous Weapon Systems (AWS) are machines that can select and engage targets without human intervention, raising profound ethical and legal questions about delegating life-and-death decisions to algorithms. The U.S. Department of War, sometimes referenced in this context, is likely a colloquial or historical reference to the Department of Defense (the Pentagon).
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Lethal_autonomous_weapon">Lethal autonomous weapon - Wikipedia</a></li>
-<li><a href="https://officechai.com/ai/anthropic-defies-us-govt-says-its-models-cant-be-used-for-domestic-surveillance-or-autonomous-weapons/">Anthropic Defies US Govt, Says Its Models Can't Be Used For Domestic ...</a></li>
-<li><a href="https://www.commoncause.org/resources/pete-hegseth-vs-anthropic-read-our-letter-on-ai-surveillance/">Pete Hegseth vs. Anthropic: Read Our Letter On AI Surveillance</a></li>
+<li><a href="https://www.theverge.com/ai-artificial-intelligence/886082/ai-vs-the-pentagon-killer-robots-mass-surveillance-and-red-lines">AI vs. the Pentagon: killer robots, mass surveillance, and red lines | The Verge</a></li>
+<li><a href="https://www.cnbc.com/2026/02/27/trump-anthropic-ai-pentagon.html">Trump admin blacklists Anthropic; AI firm refuses Pentagon demands</a></li>
+<li><a href="https://www.hindustantimes.com/world-news/us-news/no-domestic-mass-surveillance-whats-inside-openai-deal-dow-trump-admin-anthropic-ai-tussle-101772250629771.html">'No domestic mass surveillance': What's inside OpenAI's deal with Trump admin amid Anthropic tussle | Hindustan Times</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments reveal deep concern about the broader implications of government overreach, with users fearing the precedent could be used to punish any company that displeases an administration. Others highlight the hypocrisy of domestic surveillance policies when considered from an international perspective, and some warn that the capabilities being requested could ultimately backfire on those in power if weaponized AI systems are hacked or misused.
+**Discussion**: Community sentiment is strongly supportive of Anthropic's stance but deeply concerned about broader implications. Key viewpoints include fear of government overreach and the abuse of procurement rules to punish disloyal companies, warnings about the global precedent set by domestic surveillance policies, and concerns that eliminating Anthropic will damage trust in the U.S. tech ecosystem.
 
-**Tags**: `#AI Ethics`, `#Government Surveillance`, `#National Security`, `#Corporate Responsibility`, `#Autonomous Weapons`
+**Tags**: `#ai-ethics`, `#government-surveillance`, `#autonomous-weapons`, `#corporate-responsibility`, `#national-security`
 
 ---
 
 <a id="item-2"></a>
-## [AI Coding Skeptic Documents Ambitious Experiments, Including Porting scikit-learn to Rust](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything) ⭐️ 8.0/10
+## [Security Expert Urges Developers to Stop Using Passkeys for Data Encryption](https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything) ⭐️ 8.0/10
 
-Max Woolf, a previously skeptical developer, documented a series of increasingly complex projects using AI coding agents, culminating in an attempt to port the core machine learning library scikit-learn from Python to Rust. He found that models like Anthropic's Opus 4.6 and OpenAI's Codex 5.3 performed complex tasks that would have taken him months to complete manually. This detailed, hands-on account from a skeptic provides strong, practical evidence of a significant leap in AI-assisted coding capabilities, suggesting these tools are now capable of tackling substantial, real-world software engineering projects. It signals a potential shift in developer workflows, where AI agents could accelerate or even autonomously handle complex tasks like library porting and algorithm implementation. The ambitious 'rustlearn' project aims not just to replicate scikit-learn's algorithms like logistic regression and k-means clustering in Rust, but to potentially outperform the original Python implementations in speed. The author specifically highlights the dramatic improvement in models released around November 2025, noting their performance is an 'order of magnitude better' than models from just months prior.
+Security expert Tim Cappalli has issued a public plea to the identity industry to stop promoting and using passkeys for encrypting user data. This warning highlights the critical risk of permanent, unrecoverable data loss when users inevitably lose their passkeys. This matters because a growing trend of using passkeys for client-side encryption, enabled by features like the WebAuthn PRF extension, creates a systemic risk of data loss at scale. Developers who follow this pattern are building systems where user data becomes permanently inaccessible if a passkey is lost, misplacing the security benefits of passkeys for authentication. The warning specifically targets the misuse of the WebAuthn Pseudo-Random Function (PRF) extension, which allows passkeys to generate deterministic encryption keys. A key caveat is that passkeys, unlike passwords, are device-bound cryptographic key pairs where the private key is not designed to be backed up or recovered in the same way, making key loss catastrophic for encrypted data.
 
-rss · Simon Willison · Feb 27, 20:43
+rss · Simon Willison · Feb 27, 22:49
 
-**Background**: AI coding agents are autonomous or semi-autonomous software tools that use large language models (LLMs) to understand natural language instructions and generate, debug, or refactor code. Scikit-learn is a foundational, open-source Python library for machine learning, widely considered the industry standard for classical ML algorithms. Rust is a systems programming language praised for its performance and memory safety, and a 'crate' is Rust's term for a package or library of code.
+**Background**: Passkeys are a passwordless authentication technology based on the WebAuthn standard, using public-key cryptography. For authentication, a user's private key stays on their device (like a phone or security key), and only a public key is shared with the website. The WebAuthn PRF (Pseudo-Random Function) extension is a newer feature that allows a passkey to also generate a consistent cryptographic key, which some developers are repurposing for client-side data encryption.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://cssauthor.com/best-ai-coding-agents/">Best AI Coding Agents 2026: The Senior Editor’s Guide</a></li>
-<li><a href="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html">LinearRegression — scikit - learn 1.8.0 documentation</a></li>
+<li><a href="https://bitwarden.com/blog/prf-webauthn-and-its-role-in-passkeys/">PRF WebAuthn and its role in passkeys | Bitwarden</a></li>
+<li><a href="https://www.corbado.com/blog/passkeys-prf-webauthn">Passkeys & WebAuthn PRF for End-to-End Encryption (2026)</a></li>
+<li><a href="https://bitwarden.com/resources/passkey-vs-password-whats-the-difference/">Passkey vs password: What's the difference? - Bitwarden</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#security`, `#authentication`, `#passkeys`, `#cryptography`, `#usability`
+
+---
+
+<a id="item-3"></a>
+## [AI coding skeptic attempts ambitious port of scikit-learn to Rust using AI agents](https://simonwillison.net/2026/Feb/27/ai-agent-coding-in-excessive-detail/#atom-everything) ⭐️ 8.0/10
+
+Developer and AI coding skeptic Max Woolf conducted a detailed experiment using AI coding agents, starting with simple tasks and culminating in an ambitious attempt to port Python's scikit-learn machine learning library to Rust, creating a project tentatively named 'rustlearn'. The experiment tested models like Opus 4.6 and Codex 5.3, which he found to be an order of magnitude better than previous coding LLMs. This experiment demonstrates a significant leap in the practical capabilities of AI coding agents, moving beyond simple code generation to potentially automating complex, large-scale software engineering projects like library porting. It signals a potential paradigm shift in developer workflows, where AI agents could substantially accelerate development cycles and tackle ambitious cross-language or cross-platform projects that were previously considered too time-consuming. The 'rustlearn' project aims not only to implement standard ML algorithms like logistic regression and k-means clustering in Rust but also to match or exceed the performance of scikit-learn's implementations. The author notes the difficulty in communicating the dramatic improvement of recent models without sounding like hype, as they consistently handle complex tasks that would take a human developer months to complete.
+
+rss · Simon Willison · Feb 27, 20:43
+
+**Background**: AI coding agents are autonomous or semi-autonomous software tools that use large language models (LLMs) to understand, generate, and sometimes execute code based on natural language instructions. Scikit-learn is a foundational, open-source Python library for machine learning, widely considered the 'gold standard' for data science; it is built on NumPy and SciPy, with performance-critical parts written in Cython. A 'crate' in Rust is the fundamental unit of compilation and packaging, equivalent to a library or package in other languages, managed by the Cargo tool.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Scikit-learn">scikit-learn - Wikipedia</a></li>
 <li><a href="https://doc.rust-lang.org/book/ch07-01-packages-and-crates.html">Packages and Crates - The Rust Programming Language</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI-agents`, `#software-development`, `#Rust`, `#machine-learning`, `#automation`
-
----
-
-<a id="item-3"></a>
-## [ChatGPT Nears 1 Billion Weekly Active Users, Surpasses 50 Million Paid Subscribers](https://9to5mac.com/2026/02/27/chatgpt-approaching-1-billion-weekly-active-users/) ⭐️ 8.0/10
-
-OpenAI has disclosed that ChatGPT now has 900 million weekly active users, a 350% increase from 200 million 18 months ago, and is approaching the 1 billion milestone. The service has also surpassed 50 million individual paid subscribers, representing over 5% of its user base, with record subscription growth in January and February 2026. These metrics demonstrate ChatGPT's massive and accelerating adoption, solidifying its position as a dominant consumer AI platform. The deep integration with Apple's ecosystem (like Siri in iOS 18) and potential future partnerships with Google Gemini and Anthropic for developer tools signal its expanding influence across the entire tech industry. The report highlights strategic integrations, including ChatGPT's deep integration with Siri via iOS 18. Furthermore, Apple plans to introduce Google Gemini in a future iOS 26.5 update and is collaborating with Anthropic to provide AI programming support within Xcode, Apple's integrated development environment.
-
-telegram · zaihuapd · Feb 28, 03:23
-
-**Background**: ChatGPT is a conversational AI chatbot developed by OpenAI. Anthropic is an AI safety and research company known for its Claude family of large language models. Xcode is Apple's integrated development environment (IDE) used for building software for macOS, iOS, iPadOS, and other Apple platforms. Recent updates to Xcode, like version 26.3, have begun incorporating AI coding agents to assist developers.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic - Wikipedia</a></li>
-<li><a href="https://developer.apple.com/documentation/xcode/writing-code-with-intelligence-in-xcode">Writing code with intelligence in Xcode - Apple Developer</a></li>
-<li><a href="https://appleinsider.com/articles/26/02/26/xcode-with-vibecoding-ai-agents-to-help-build-apps-is-now-available">Xcode now runs with AI agents to analyze, modify & build apps</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI`, `#ChatGPT`, `#User Metrics`, `#Apple Integration`, `#Industry Trends`
+**Tags**: `#AI-agents`, `#software-engineering`, `#Rust`, `#machine-learning`, `#developer-tools`
 
 ---
 
 <a id="item-4"></a>
-## [QingLong Panel Targeted by .fullgc Mining Malware, Causing 800% CPU Usage](https://t.me/zaihuapd/39934) ⭐️ 8.0/10
+## [ChatGPT Nears 1 Billion Weekly Active Users, Surpasses 50 Million Paid Subscribers](https://9to5mac.com/2026/02/27/chatgpt-approaching-1-billion-weekly-active-users/) ⭐️ 8.0/10
 
-On February 7, 2026, multiple users reported that QingLong Panel, a popular task management tool, was infected by a mining malware named .fullgc, causing server CPU usage to spike abnormally to 800%. The malware achieves persistence by tampering with the `config.sh` configuration file and can automatically download malicious programs based on the system architecture. This incident highlights a significant security risk for widely used, internet-facing server management tools, turning them into vectors for cryptojacking attacks that steal computational resources. It underscores the persistent threat to open-source infrastructure and the potential for substantial financial and operational damage to affected server operators. Security analysis identifies the malware as part of the SusMiner family, primarily connecting to XMR (Monero) mining pools for illicit cryptocurrency mining. The primary targets are servers exposed to public IPv4 addresses, and users are advised to check for hidden files in the `/ql/data/db/` directory.
+OpenAI has disclosed that ChatGPT now has 900 million weekly active users, a 350% increase from 200 million 18 months ago, and is approaching the 1 billion milestone. The platform has also surpassed 50 million individual paid subscribers, representing over 5% of its user base, with record new subscription growth in January and February 2026. These metrics demonstrate ChatGPT's explosive growth and mainstream adoption, solidifying its position as a dominant AI platform. The high number of paying subscribers indicates strong commercial viability and suggests users increasingly rely on its advanced capabilities, which are becoming deeply integrated into major ecosystems like Apple's iOS and developer tools. The growth is partly driven by strategic integrations, including a deep Siri integration in iOS 18 that allows users to access ChatGPT for more in-depth answers. Furthermore, Apple plans to introduce Google Gemini in a future iOS update and has partnered with Anthropic to provide AI coding support in Xcode 26.3, expanding ChatGPT's reach within the Apple ecosystem.
 
-telegram · zaihuapd · Feb 28, 13:16
+telegram · zaihuapd · Feb 28, 03:23
 
-**Background**: QingLong Panel (青龙面板) is an open-source, Docker-based timed task management panel that supports scripting in TypeScript, JavaScript, Python, and Shell. It is commonly used for automating various online tasks. Cryptojacking malware, like the .fullgc variant, secretly hijacks a computer's processing power to mine cryptocurrency for the attacker's profit, often leading to severe performance degradation. The SusMiner family is a known group of malware specifically designed for such illicit mining operations.
+**Background**: ChatGPT is a large language model (LLM) developed by OpenAI, capable of generating human-like text, answering questions, and assisting with various tasks. Apple Intelligence is a suite of AI features integrated into Apple's operating systems. Siri is Apple's built-in voice assistant. Xcode is Apple's integrated development environment (IDE) used for creating software for Apple platforms. Agentic coding, as introduced in Xcode 26.3, refers to a development paradigm where AI agents (like those from Anthropic and OpenAI) assist or automate parts of the coding process.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://hub.docker.com/r/whyour/qinglong">whyour/qinglong - Docker Image</a></li>
-<li><a href="https://cybersecuritynews.com/advanced-crypto-mining-malware/">Advanced Crypto Mining Malware Spreads Through External ...</a></li>
-<li><a href="https://hunt.io/malware-families">The Most Popular Malware Families - hunt.io</a></li>
+<li><a href="https://support.apple.com/guide/iphone/use-chatgpt-with-apple-intelligence-iph00fd3c8c2/ios">Use ChatGPT with Apple Intelligence on iPhone - Apple Support</a></li>
+<li><a href="https://www.apple.com/newsroom/2026/02/xcode-26-point-3-unlocks-the-power-of-agentic-coding/">Xcode 26.3 unlocks the power of agentic coding - Apple</a></li>
+<li><a href="https://vertu.com/ai-tools/apple-siri-google-gemini-integration-ai-revolution-coming-to-ios-in-2026/">Apple Siri Google Gemini Integration 2026 | Specs & Rollout</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#malware`, `#cryptojacking`, `#server-security`, `#incident-response`
+**Tags**: `#AI`, `#ChatGPT`, `#User Metrics`, `#Platform Integration`, `#Industry Trends`
 
 ---
 
 <a id="item-5"></a>
-## [Security Expert Urges Developers to Stop Using Passkeys for Data Encryption](https://simonwillison.net/2026/Feb/27/passkeys/#atom-everything) ⭐️ 7.0/10
+## [QingLong Panel Compromised by .fullgc Mining Malware, Causing 800% CPU Usage](https://t.me/zaihuapd/39934) ⭐️ 8.0/10
 
-Identity industry expert Tim Cappalli has issued a direct plea for developers to stop using passkeys to encrypt user data, warning that this practice leads to permanent data loss when users inevitably lose their passkeys. This warning specifically addresses the misuse of the WebAuthn PRF (Pseudo-Random Function) extension, which some services employ to generate encryption keys from passkeys. This matters because it highlights a critical conflict between security goals and user experience: using passkeys for encryption creates an irreversible single point of failure. If this pattern continues unchecked, widespread adoption of passkeys could ironically lead to massive, unrecoverable data loss for ordinary users who lose access to their authenticators. The core issue is that the WebAuthn API and passkeys were designed primarily for authentication, not for general-purpose encryption. While the PRF extension can deterministically generate keys, it lacks mechanisms for key recovery or escrow, making any data encrypted with such keys permanently inaccessible if the passkey is lost.
+On February 7, 2026, multiple users reported that QingLong Panel, a popular task scheduling tool, was compromised by a mining malware named .fullgc, causing abnormal server CPU usage to spike to 800%. The malware achieves persistence by tampering with the config.sh configuration file and can automatically download malicious programs based on the system architecture. This is a significant security incident because QingLong Panel is widely used for server automation, meaning many public-facing servers could be compromised for cryptojacking, leading to severe performance degradation and increased operational costs. The attack highlights the risks associated with exposed management interfaces and the ongoing threat of cryptocurrency mining malware targeting popular open-source tools. Security analysis indicates the malware belongs to the SusMiner family and primarily connects to XMR (Monero) mining pools for illicit cryptocurrency mining. The primary attack targets are servers exposed to public IPv4 environments, and users are advised to check for hidden files in the /ql/data/db/ directory.
 
-rss · Simon Willison · Feb 27, 22:49
+telegram · zaihuapd · Feb 28, 13:16
 
-**Background**: Passkeys are a passwordless authentication standard built on WebAuthn, using public-key cryptography where a private key stays on a user's device (like a phone or security key) and a public key is stored by the service. They are praised for being phishing-resistant and easier to use than passwords. The WebAuthn PRF extension is a feature that allows a passkey's authenticator to generate a symmetric cryptographic key from a provided 'salt', enabling deterministic key derivation for purposes like end-to-end encryption.
+**Background**: QingLong Panel is an open-source timed task management platform that supports Python3, JavaScript, Shell, and TypeScript, often deployed via Docker for automating scripts and jobs. Cryptojacking malware, like this SusMiner variant, secretly hijacks a victim's computing resources to mine cryptocurrencies such as Monero (XMR), which is favored for its privacy features. Persistence mechanisms allow malware to survive reboots, often by modifying system files or configurations.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.corbado.com/blog/passkeys-prf-webauthn">Passkeys & WebAuthn PRF for End-to-End Encryption (2026)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/WebAuthn">WebAuthn - Wikipedia</a></li>
-<li><a href="https://stackoverflow.com/questions/59837620/webauthn-for-encryption">Webauthn for encryption - Stack Overflow</a></li>
+<li><a href="https://github.com/whyour/qinglong">GitHub - whyour/qinglong: 支持 Python3、JavaScript、Shell ...</a></li>
+<li><a href="https://www.pcrisk.com/removal-guides/12913-xmr-miner-virus">XMR Miner Virus - Easy removal steps (updated)</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#passkeys`, `#usability`, `#encryption`, `#authentication`
+**Tags**: `#security`, `#malware`, `#server-security`, `#cryptojacking`, `#open-source-security`
 
 ---
 
 <a id="item-6"></a>
 ## [Google Chrome Automatically Downloads 4GB Local AI Model Gemini Nano by Default](https://winaero.com/google-chrome-secretly-downloads-huge-local-ai-models/) ⭐️ 7.0/10
 
-Google Chrome has been discovered automatically downloading a roughly 4GB local AI model file named 'weights.bin' by default. This file contains the Gemini Nano model and is used to power built-in AI features like the Prompt API, translation, and summarization. This practice represents a significant shift in how major browsers deploy AI, directly impacting user storage and raising questions about transparency and consent. It highlights the industry's push towards on-device AI for speed and privacy, but at the cost of automatic, large-scale resource consumption. Users can disable the related experimental flags in Chrome and manually delete the corresponding folder to reclaim disk space, though this will disable the associated AI features. The model is designed to run locally to improve response times and protect user privacy by not sending data to external servers.
+Google Chrome has been found to automatically download a roughly 4GB local AI model file named 'weights.bin' by default. This file powers built-in browser AI features like the Prompt API, translation, and summarization. This move signifies a major push by Google to integrate powerful, on-device AI directly into the browser, prioritizing speed and privacy for AI features. However, the automatic download without clear user consent raises significant concerns about transparency, control over disk space usage, and the precedent it sets for software behavior. The model file is associated with Gemini Nano, a compact version of Google's Gemini LLM family designed for on-device use. Users can disable the feature via experimental flags and manually delete the file to free up space, but doing so will cause the related AI features to stop working.
 
 telegram · zaihuapd · Feb 28, 05:02
 
-**Background**: Gemini is a family of multimodal large language models (LLMs) developed by Google DeepMind. The 'weights.bin' file is a common format for storing a model's learned parameters, which are essential for its function. Chrome's built-in Prompt API, available from version 138, provides developers access to this local Gemini Nano model to build on-device AI features for extensions.
+**Background**: Gemini is a family of multimodal large language models (LLMs) developed by Google DeepMind, succeeding models like LaMDA and PaLM 2. Chrome's Prompt API is a developer interface that allows web applications to send natural language requests to these local AI models, enabling features like chatbots and content summarization that can work offline. The 'weights.bin' file is a common format for storing the learned parameters (weights) of a neural network model.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Gemini_(language_model)">Gemini (language model) - Wikipedia</a></li>
-<li><a href="https://medium.com/@dobidev/building-a-privacy-first-summarizer-with-chrome-prompt-api-and-structured-output-25d51759de9b">Building a Privacy-First Summarizer with Chrome Prompt API and...</a></li>
-<li><a href="https://medium.com/@ch.mittendorf/navigating-model-weight-file-formats-safetensors-bin-pt-hdf5-and-beyond-97266a621bdf">Navigating Model Weight File Formats: .safetensors, .bin, .pt ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gemini_(language_model)">Gemini (language model ) - Wikipedia</a></li>
+<li><a href="https://developer.chrome.com/docs/ai/prompt-api">The Prompt API | AI on Chrome | Chrome for Developers</a></li>
+<li><a href="https://medium.com/@ch.mittendorf/navigating-model-weight-file-formats-safetensors-bin-pt-hdf5-and-beyond-97266a621bdf">Navigating Model Weight File Formats: .safetensors, .bin, .pt, HDF5 ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Google Chrome`, `#AI Models`, `#Privacy`, `#Browser`, `#Local AI`
+**Tags**: `#Google Chrome`, `#Local AI`, `#Privacy`, `#Browser`, `#Gemini`
 
 ---
 
 <a id="item-7"></a>
-## [South Korea's Tax Service accidentally exposes hardware wallet seed phrase, leading to $4.8M crypto transfer](https://www.mk.co.kr/cn/stock/11974731) ⭐️ 7.0/10
+## [South Korean Tax Service Exposes Hardware Wallet Seed Phrase, Leading to $4.8M Crypto Transfer](https://www.mk.co.kr/cn/stock/11974731) ⭐️ 7.0/10
 
-South Korea's National Tax Service (NTS) accidentally published the complete seed phrase of a seized Ledger hardware wallet in a press release, which led to the transfer of 4 million PRTG tokens worth approximately $4.8 million from the wallet. Approximately 20 hours later, the tokens were returned to the original wallet address. This incident highlights a critical institutional failure in cryptocurrency security by a major government agency, demonstrating how basic security lapses can lead to immediate, high-value losses. It underscores the vulnerability of seized crypto assets during legal proceedings and raises serious questions about the competency of authorities managing digital assets. The exposed seed phrase was from a Ledger hardware wallet, and the image was published without any redaction. The affected wallets, which had been inactive since January 2023, collectively controlled 40% of the total PRTG token supply. PRTG has extremely low liquidity, trading only on MEXC with daily volume around $332, meaning a sale of just $59 could cause a 2% price drop.
+South Korea's National Tax Service (NTS) accidentally published the full seed phrase of a seized Ledger hardware wallet in a press release, leading to the unauthorized transfer of 4 million PRTG tokens worth approximately $4.8 million. The tokens were returned to the original wallet about 20 hours later. This incident highlights a critical and fundamental security failure by a government agency in handling seized digital assets, undermining public trust in institutional cryptocurrency management. It exposes systemic vulnerabilities in procedures for securing sensitive cryptographic information, with potential implications for legal seizures and asset security worldwide. The exposed wallets, at least three of which had been inactive since January 2023, collectively held 40% of the total PRTG token supply. PRTG has extremely low liquidity, trading only on MEXC with a daily volume around $332, meaning a sale of just $59 could cause a 2% price drop.
 
 telegram · zaihuapd · Feb 28, 11:27
 
-**Background**: A seed phrase (also called a secret recovery phrase or backup phrase) is a list of 12, 18, or 24 words that stores all the information needed to recover and access the funds in a cryptocurrency wallet. Hardware wallets like Ledger generate and store these seed phrases offline to provide enhanced security, as the private keys never leave the device. Anyone who possesses a wallet's seed phrase has complete control over all the assets stored in that wallet.
+**Background**: A seed phrase (or recovery phrase) is a series of words generated by a cryptocurrency wallet that provides full access to the funds stored within it. Hardware wallets like Ledger are physical devices designed to keep seed phrases offline and secure, making the digital exposure of a seed phrase a catastrophic security breach. The fundamental rule of cryptocurrency self-custody is to never share or digitally store the seed phrase.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.ledger.com/academy/basic-basics/2-how-to-own-crypto/whats-a-secret-recovery-phrase">What is a Seed Phrase (Secret Recovery Phrase)? | Ledger</a></li>
-<li><a href="https://www.thecryptomerchant.com/blogs/resources/hardware-wallet-recovery-seeds-explained">Hardware Wallet Recovery Seeds Explained – The Crypto Merchant</a></li>
-<li><a href="https://en.bitcoin.it/wiki/Seed_phrase">Seed phrase - Bitcoin Wiki</a></li>
+<li><a href="https://www.ledger.com/academy/hardwarewallet/best-ways-to-protect-your-recovery-phrase">How to Keep Your Seed Phrase Secure - Ledger</a></li>
+<li><a href="https://decrypt.co/359404/ethereum-tokens-swiped-returned-south-korean-tax-service">Ethereum Tokens Swiped, Returned After South Korean Tax ... - Decrypt</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#cryptocurrency`, `#security`, `#blockchain`, `#institutional-failure`, `#South-Korea`
+**Tags**: `#cryptocurrency`, `#security`, `#government`, `#blockchain`, `#hardware-wallet`
 
 ---
 
 <a id="item-8"></a>
-## [Leaked Motorola presentation reveals GrapheneOS partnership, first non-Pixel device possible by 2027](https://grapheneos.social/@GrapheneOS/116115497756691311) ⭐️ 7.0/10
+## [Leaked Motorola presentation hints at GrapheneOS partnership, first non-Pixel device possible by 2027](https://grapheneos.social/@GrapheneOS/116115497756691311) ⭐️ 7.0/10
 
-A leaked internal Motorola presentation slide shows GrapheneOS listed in the company's security features section, strongly suggesting a partnership. The GrapheneOS official Mastodon account later stated that an OEM partner announcement is scheduled for March 2026, with devices planned for 2027. This represents a potential major expansion for GrapheneOS beyond its exclusive support for Google Pixel devices, which could significantly increase its adoption and legitimacy in the mobile security market. A partnership with a major OEM like Motorola, which is owned by Lenovo and has a strong enterprise security focus, could bring privacy-focused, de-Googled mobile devices to a much wider audience. The leaked slide was originally posted on the r/GrapheneOS subreddit before being removed by moderators, but it had already spread widely. Neither GrapheneOS nor Motorola has issued an official statement confirming the partnership details as of the report.
+A leaked internal Motorola presentation slide, originally posted on Reddit, explicitly lists GrapheneOS within the company's security features section, strongly suggesting a partnership. The GrapheneOS project later confirmed on Mastodon that an official OEM partner announcement is scheduled for March 2026, with a device planned for release in 2027. This represents a potential major expansion for GrapheneOS beyond its exclusive support for Google Pixel devices, significantly increasing its accessibility and market presence. A partnership with a major OEM like Motorola, which is owned by Lenovo and has a strong focus on enterprise security, could lend substantial legitimacy to the privacy-focused OS and accelerate its adoption in business and security-conscious consumer markets. The leaked slide was quickly deleted by moderators on the r/GrapheneOS subreddit but had already spread widely. Neither GrapheneOS nor Motorola has issued an official statement regarding the leak, and the information remains unconfirmed by the companies involved.
 
 telegram · zaihuapd · Feb 28, 12:38
 
-**Background**: GrapheneOS is a privacy and security-focused mobile operating system based on the Android Open Source Project (AOSP). It is renowned for its strong security enhancements, including full and timely security patches, and has historically only officially supported Google Pixel devices due to their robust hardware security features. Motorola Solutions is a technology company providing safety and security products and services, including its ThinkShield platform for mobile data security and endpoint management.
+**Background**: GrapheneOS is a privacy and security-focused mobile operating system based on the Android Open Source Project (AOSP), known for its hardened security features and default privacy protections. It has historically been officially supported only on a select range of Google Pixel devices due to their strong hardware security capabilities. Motorola Solutions, under Lenovo, offers enterprise mobility management and security solutions like 'moto-safe' for business customers, positioning itself in the secure mobile device market.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://grapheneos.org/features">Features overview - GrapheneOS</a></li>
-<li><a href="https://tbot.substack.com/p/grapheneos-new-oem-partnership">GrapheneOS Confirms New OEM Partnership for Next-Gen Secure ...</a></li>
-<li><a href="https://www.motorola.com/business/thinkshield/p">Motorola ThinkShield for Mobile Data Security | Motorola ...</a></li>
+<li><a href="https://www.allthingssecured.com/identity-protection/android-vs-grapheneos-compared/">Android vs GrapheneOS: Privacy, Security & Features Compared</a></li>
+<li><a href="https://www.reddit.com/r/GrapheneOS/comments/1r7m2q9/grapheneos_project_member_confirms_oem_partner/">GrapheneOS project member confirms OEM Partner unveil in March 2026</a></li>
+<li><a href="https://www.motorola.com/business/moto-safe">moto-safe - Motorola</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#mobile-security`, `#privacy`, `#android`, `#grapheneos`, `#oem-partnership`
+**Tags**: `#mobile-security`, `#privacy`, `#operating-systems`, `#hardware`, `#android`
 
 ---
