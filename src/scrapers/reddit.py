@@ -202,6 +202,8 @@ class RedditScraper(BaseScraper):
 
     async def _reddit_get(self, url: str, params: dict) -> Optional[dict]:
         headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
+        if USER_AGENT == "***":
+            logger.warning("Using default User-Agent for Reddit API requests. Consider setting REDDIT_USER env variable for better compliance and to avoid blocks.")
         try:
             response = await self.client.get(url, params=params, headers=headers, follow_redirects=True)
             if response.status_code == 403:
