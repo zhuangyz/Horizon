@@ -40,6 +40,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
           keep_files: true  # Keep existing summaries on gh-pages branch
-          commit_message: "📝 Daily Summary: $(date +'%Y-%m-%d')"
+          commit_message: "📝 Daily Summary: $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
           publish_branch: gh-pages
           enable_jekyll: true
