@@ -19,7 +19,7 @@ Welcome to [Horizon](https://github.com/thysrael/Horizon), an AI-driven informat
   {% assign zh_posts = site.posts | where: "lang", "zh" %}
   {% for post in zh_posts limit:20 %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d" }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d %H:%M" }}</a>
     </li>
   {% else %}
     <li><em>暂无内容</em></li>
@@ -32,7 +32,7 @@ Welcome to [Horizon](https://github.com/thysrael/Horizon), an AI-driven informat
   {% assign en_posts = site.posts | where: "lang", "en" %}
   {% for post in en_posts limit:20 %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d" }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.date | date: "%Y-%m-%d %H:%M" }}</a>
     </li>
   {% else %}
     <li><em>No posts yet</em></li>
