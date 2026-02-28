@@ -27,18 +27,12 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Test Reddit access from runner
+      - name: Verify REDDIT_USER secret (masked-safe)
         env:
           REDDIT_USER: ${{ secrets.REDDIT_USER }}
         run: |
-          if [ -n "${{ secrets.REDDIT_USER }}" ]; then
-            UA="Horizon/1.0 by /u/${{ secrets.REDDIT_USER }} (+https://github.com/thysrael/horizon)"
-          else
-            UA="Horizon/1.0 (content aggregator; +https://github.com/thysrael/horizon)"
-          fi
-          echo "Using User-Agent: $UA"
-          echo "Requesting https://www.reddit.com/r/LocalLLaMA/hot.json?limit=1&raw_json=1"
-          curl -I -sS -A "$UA" "https://www.reddit.com/r/LocalLLaMA/hot.json?limit=1&raw_json=1" || true
+          echo "REDDIT_USER length: ${#REDDIT_USER}"
+          echo -n "$REDDIT_USER" | sha256sum
 
       - name: Run Horizon
         env:
