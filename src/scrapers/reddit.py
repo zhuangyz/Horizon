@@ -202,10 +202,11 @@ class RedditScraper(BaseScraper):
 
     async def _reddit_get(self, url: str, params: dict) -> Optional[dict]:
         headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
+        logger.warning("Requesting Reddit URL: %s with headers: %s", url, headers)
         try:
             response = await self.client.get(url, params=params, headers=headers, follow_redirects=True)
             if response.status_code == 403:
-                logger.warning("Reddit returned 403 for %s — possible IP/user-agent block. Request headers: %s, Response headers: %s", url, headers, dict(response.headers))
+                logger.warning("Reddit returned 403 for %s — possible IP/user-agent block, Response headers: %s", url, dict(response.headers))
                 return None
             if response.status_code == 429:
                 retry_after = int(response.headers.get("Retry-After", 5))
