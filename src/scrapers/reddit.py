@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 REDDIT_BASE = "https://www.reddit.com"
 # Build a compliant User-Agent. Prefer setting REDDIT_USER env to your reddit username (without /u/)
-_reddit_user = os.environ.get("REDDIT_USER")
+_reddit_user = os.getenv("REDDIT_USER")
 if _reddit_user:
     USER_AGENT = f"Horizon/1.0 by /u/{_reddit_user} (+https://github.com/thysrael/horizon)"
 else:
