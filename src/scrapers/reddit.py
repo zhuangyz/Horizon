@@ -205,7 +205,7 @@ class RedditScraper(BaseScraper):
         try:
             response = await self.client.get(url, params=params, headers=headers, follow_redirects=True)
             if response.status_code == 403:
-                logger.warning("Reddit returned 403 for %s — possible IP/user-agent block. Response headers: %s", url, dict(response.headers))
+                logger.warning("Reddit returned 403 for %s — possible IP/user-agent block. Request headers: %s, Response headers: %s", url, headers, dict(response.headers))
                 return None
             if response.status_code == 429:
                 retry_after = int(response.headers.get("Retry-After", 5))

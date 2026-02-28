@@ -28,6 +28,8 @@ jobs:
         run: uv sync
 
       - name: Test Reddit access from runner
+        env:
+          REDDIT_USER: ${{ secrets.REDDIT_USER }}
         run: |
           if [ -n "${{ secrets.REDDIT_USER }}" ]; then
             UA="Horizon/1.0 by /u/${{ secrets.REDDIT_USER }} (+https://github.com/thysrael/horizon)"
@@ -43,6 +45,7 @@ jobs:
           # Map secrets to environment variables expected by config.json
           # Modify these based on your config.json provider settings
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          REDDIT_USER: ${{ secrets.REDDIT_USER }}
         run: uv run horizon --hours 24
 
       - name: Deploy to GitHub Pages
