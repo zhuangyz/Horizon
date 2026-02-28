@@ -27,6 +27,17 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
+      - name: Test Reddit access from runner
+        run: |
+          if [ -n "${{ secrets.REDDIT_USER }}" ]; then
+            UA="Horizon/1.0 by /u/${{ secrets.REDDIT_USER }} (+https://github.com/thysrael/horizon)"
+          else
+            UA="Horizon/1.0 (content aggregator; +https://github.com/thysrael/horizon)"
+          fi
+          echo "Using User-Agent: $UA"
+          echo "Requesting https://www.reddit.com/r/LocalLLaMA/hot.json?limit=1&raw_json=1"
+          curl -I -sS -A "$UA" "https://www.reddit.com/r/LocalLLaMA/hot.json?limit=1&raw_json=1" || true
+
       - name: Run Horizon
         env:
           # Map secrets to environment variables expected by config.json

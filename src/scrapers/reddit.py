@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 from typing import List, Optional
 
 import httpx
+import os
 
 from .base import BaseScraper
 from ..models import ContentItem, RedditConfig, RedditSubredditConfig, RedditUserConfig, SourceType
@@ -14,7 +15,12 @@ from ..models import ContentItem, RedditConfig, RedditSubredditConfig, RedditUse
 logger = logging.getLogger(__name__)
 
 REDDIT_BASE = "https://www.reddit.com"
-USER_AGENT = "Horizon/1.0 (content aggregator; +https://github.com/thysrael/horizon)"
+# Build a compliant User-Agent. Prefer setting REDDIT_USER env to your reddit username (without /u/)
+_reddit_user = os.environ.get("REDDIT_USER")
+if _reddit_user:
+    USER_AGENT = f"Horizon/1.0 by /u/{_reddit_user} (+https://github.com/thysrael/horizon)"
+else:
+    USER_AGENT = "Horizon/1.0 (content aggregator; +https://github.com/thysrael/horizon)"
 
 
 class RedditScraper(BaseScraper):
@@ -195,9 +201,12 @@ class RedditScraper(BaseScraper):
         )
 
     async def _reddit_get(self, url: str, params: dict) -> Optional[dict]:
-        headers = {"User-Agent": USER_AGENT}
+        headers = {"User-Agent": USER_AGENT, "Accept": "application/json"}
         try:
             response = await self.client.get(url, params=params, headers=headers, follow_redirects=True)
+            if response.status_code == 403:
+                logger.warning("Reddit returned 403 for %s — possible IP/user-agent block. Response headers: %s", url, dict(response.headers))
+                return None
             if response.status_code == 429:
                 retry_after = int(response.headers.get("Retry-After", 5))
                 logger.warning("Reddit rate limited, retrying after %ds", retry_after)
