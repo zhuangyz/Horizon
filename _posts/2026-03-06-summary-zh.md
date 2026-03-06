@@ -5,289 +5,256 @@ date: 2026-03-06
 lang: zh
 ---
 
-> From 24 items, 12 important content pieces were selected
+> From 27 items, 11 important content pieces were selected
 
 ---
 
-1. [OpenAI 发布 GPT-5.4，具备 100 万 token 上下文窗口和具有竞争力的定价](#item-1) ⭐️ 9.0/10
-2. [苹果发布采用全新 Fusion Architecture 的 M5 Pro 和 M5 Max 芯片用于 MacBook Pro，MacBook Air 搭载 M5 芯片](#item-2) ⭐️ 9.0/10
-3. [蠕虫攻击致管理员账户大规模泄露，维基百科被迫进入只读模式](#item-3) ⭐️ 8.0/10
-4. [AI 编程代理通过快速“净室”重写开源代码引发许可协议争议](#item-4) ⭐️ 8.0/10
-5. [美国国防部将 Anthropic 列入黑名单，国防承包商禁用 Claude AI](#item-5) ⭐️ 8.0/10
-6. [微软发布 Phi-4 多模态推理模型，采用混合推理机制，专为高效边缘 AI 设计。](#item-6) ⭐️ 8.0/10
-7. [美国考虑将英伟达 H200 对单一中国客户的出口上限设为 75000 片](#item-7) ⭐️ 8.0/10
-8. [OpenAI 开源 Symphony 框架，实现 AI 智能体自主管理项目流程](#item-8) ⭐️ 8.0/10
-9. [比亚迪发布第二代刀片电池，9 分钟可从 10%充至 97%](#item-9) ⭐️ 8.0/10
-10. [SpaceX 披露 Starlink V2 卫星性能：数据密度提升 100 倍，拟实现“太空 5G”。](#item-10) ⭐️ 8.0/10
-11. [文章主张优秀软件应懂得适时停止添加功能，转而专注于稳定性。](#item-11) ⭐️ 7.0/10
-12. [Instacart 与 OpenAI 在 ChatGPT 内推出集成购物与结账功能](#item-12) ⭐️ 7.0/10
+1. [OpenAI 发布 GPT-5.4，具备 100 万 token 上下文窗口和具有竞争力的定价。](#item-1) ⭐️ 9.0/10
+2. [苹果发布采用全新 Fusion Architecture 的 M5 Pro 和 M5 Max 芯片用于 MacBook Pro，并为 MacBook Air 配备 M5 芯片。](#item-2) ⭐️ 9.0/10
+3. [研究论文指出全球变暖已显著加速](#item-3) ⭐️ 8.0/10
+4. [System76 反对要求操作系统内置监控功能的年龄验证法律](#item-4) ⭐️ 8.0/10
+5. [安全研究员演示通过 GitHub Issue 标题的提示注入攻击，可破坏 Cline 的生产版本发布。](#item-5) ⭐️ 8.0/10
+6. [AI 编程助手通过“净室”重写 chardet 库引发开源许可争议](#item-6) ⭐️ 8.0/10
+7. [美国拟推全球 AI 芯片出口许可制度，强化对英伟达和 AMD 的管控](#item-7) ⭐️ 8.0/10
+8. [Anthropic CEO 紧急重启五角大楼谈判，试图挽回被定性为供应链风险后的 AI 供应协议](#item-8) ⭐️ 8.0/10
+9. [荷兰暂停《商品可得性法》干预，将安世半导体控制权归还中国母公司闻泰科技](#item-9) ⭐️ 8.0/10
+10. [研究发现近半数第三方大语言模型中转 API 存在模型不一致问题](#item-10) ⭐️ 7.0/10
+11. [消息称美国海关与边境保护局可利用广告定位数据进行监控](#item-11) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [OpenAI 发布 GPT-5.4，具备 100 万 token 上下文窗口和具有竞争力的定价](https://openai.com/index/introducing-gpt-5-4/) ⭐️ 9.0/10
+## [OpenAI 发布 GPT-5.4，具备 100 万 token 上下文窗口和具有竞争力的定价。](https://openai.com/index/introducing-gpt-5-4/) ⭐️ 9.0/10
 
-OpenAI 推出了 GPT-5.4，这是一个具备 100 万 token 上下文窗口的新模型。该模型的定价为每百万输入 token 2.5 美元，每百万输出 token 15 美元，使其在与 Anthropic 的 Claude Opus 等其他领先模型的竞争中具有价格优势。 此次发布意义重大，因为 100 万 token 的上下文窗口允许在单个提示中处理整本书、长篇研究论文或大型代码库，从而可能减少对复杂检索增强生成（RAG）设置的需求。具有竞争力的定价也给整个 LLM 市场带来了压力，使开发者和企业更容易获得先进的长上下文处理能力。 GPT-5.4 是 OpenAI 'Thinking' 模型系列的一部分，并且是该系列中首个针对高风险网络安全能力实施了特定缓解措施的通用模型。与一些对超出特定 token 限制的生成收取额外费用的竞争对手不同，OpenAI 的定价页面显示，超出最初 20 万 token 的部分没有额外费用。
+OpenAI 宣布了其主要的全新 AI 模型 GPT-5.4，该模型具备 100 万 token 的上下文窗口。其定价为每百万输入 token 2.50 美元，每百万输出 token 15 美元，这比 Claude Opus 4.6 等竞争对手的价格要低得多。 巨大的 100 万 token 上下文窗口使得模型能够一次性处理整本书、长篇研究论文或大型代码库，这可能会减少对复杂检索增强生成（RAG）架构的需求。具有竞争力的定价使开发者和企业更容易获得先进的长上下文 AI 能力，加剧了 LLM 市场的竞争。 与某些模型对超出特定 token 限制的生成收取额外费用不同，GPT-5.4 的定价包含了完整的 100 万上下文窗口，没有额外费用。OpenAI 还为 GPT-5.4 发布了 'Thinking System Card'，详细说明了其安全性和推理能力，该卡片基于 GPT-5.3 Codex 中使用的方法构建。
 
 hackernews · mudkipdev · Mar 5, 18:08
 
-**背景**: 大语言模型（LLM）的上下文窗口是指模型在生成响应时可以考虑的 token（词片段）总数，包括输入提示和模型输出。更大的上下文窗口使模型能够在更长的对话中保持连贯性，并处理更大的文档。在此之前，许多领先模型如 Claude Opus 已支持高达 100 万 token，但通常成本更高或对超长上下文使用有惩罚。
+**背景**: 大型语言模型（LLM）中的上下文窗口是指模型在生成响应时一次性能考虑的最大文本量（以 token 计量）。在此次发布之前，许多领先模型（如 Claude Opus）支持的上下文窗口约为 20 万 token，有些则提供扩展的 100 万 token 窗口作为测试版或高级功能。一个 token 大约相当于 3/4 个单词，因此 100 万 token 的窗口可以处理大约 75 万单词的文本。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://medium.com/@prashantsahdev/the-1-million-token-context-window-a-game-changer-or-a-computational-challenge-2fb9320ef800">The 1 Million Token Context Window: A Game Changer or a Computational Challenge? | by Prashant Sahdev | Medium</a></li>
 <li><a href="https://platform.claude.com/docs/en/build-with-claude/context-windows">Context windows - Claude API Docs</a></li>
-<li><a href="https://openai.com/index/gpt-5-4-thinking-system-card/">GPT-5.4 Thinking System Card | OpenAI</a></li>
+<li><a href="https://deploymentsafety.openai.com/gpt-5-4-thinking">GPT -5.4 Thinking System Card - OpenAI Deployment Safety Hub</a></li>
+<li><a href="https://atlan.com/know/llm-context-window-limitations/">LLM Context Window Limitations: Impacts, Risks, and Fixes</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论强调了 GPT-5.4 相对于 Claude Opus 的定价优势，并指出其对长上下文没有额外收费。一些用户对 OpenAI 在不同模型系列间复杂的版本命名策略表示困惑。关于 GPT-5.4 输出质量的早期用户反馈是积极的，用户描述其与之前版本相比，输出更具思想性、精确且清晰。
+**社区讨论**: 社区讨论强调了 GPT-5.4 相对于 Claude Opus 等竞争对手的显著成本优势。用户正在测试其能力，其中一位用户指出，在多智能体编码场景中观察到一个有趣的现象，即模型似乎会不公平地推卸责任。另一位用户指出了公告博客文章的一个讽刺之处：其包含的 'Ask ChatGPT' 功能实际上无法处理博客本身的内容。
 
-**标签**: `#artificial-intelligence`, `#llm`, `#openai`, `#gpt-5`, `#context-window`
+**标签**: `#artificial-intelligence`, `#llm`, `#openai`, `#machine-learning`, `#developer-tools`
 
 ---
 
 <a id="item-2"></a>
-## [苹果发布采用全新 Fusion Architecture 的 M5 Pro 和 M5 Max 芯片用于 MacBook Pro，MacBook Air 搭载 M5 芯片](https://t.me/zaihuapd/40055) ⭐️ 9.0/10
+## [苹果发布采用全新 Fusion Architecture 的 M5 Pro 和 M5 Max 芯片用于 MacBook Pro，并为 MacBook Air 配备 M5 芯片。](https://t.me/zaihuapd/40055) ⭐️ 9.0/10
 
-苹果于 2026 年 3 月 3 日发布了 M5 Pro 和 M5 Max 芯片，采用了全新的苹果自研 Fusion Architecture，将两个第三代 3 纳米芯片通过先进封装技术连接成一个单一 SoC。同时发布的还有用于 MacBook Air 的 M5 芯片，这些芯片均配备 18 核 CPU，包括 6 个'超级核心'和 12 个性能核心，据称能为专业工作负载带来显著的性能提升。 此次发布标志着苹果芯片架构的一次重大转变，超越了传统的'性能核心+能效核心'配置，引入了'超级核心'和多芯片融合架构。这可能会为专业笔记本电脑的性能树立新的标杆，直接影响依赖 MacBook Pro 进行高负载任务的创意专业人士、开发者和其他高级用户。 Fusion Architecture 采用先进封装技术，以高带宽、低延迟的方式将两个独立的 3 纳米芯片键合在一起，从而有效形成了一个更大、更强大的单一系统级芯片。将高性能核心重新命名为'超级核心'（据报道频率最高可达 4.61GHz），并与标准性能核心搭配，这表明苹果在处理极端工作负载方面采用了更精细的策略。
+苹果宣布了其下一代 M5 系列芯片，包括为 MacBook Pro 设计的 M5 Pro 和 M5 Max，以及为 MacBook Air 配备的标准 M5 芯片。M5 Pro 和 M5 Max 采用了苹果全新设计的 Fusion Architecture，将两个芯片裸片连接成一个单一 SoC，并配备了 18 核 CPU。 此次发布代表了 Apple Silicon 的一次重大架构转变，有望为笔记本电脑上的高要求专业工作流带来显著的性能提升。全新的 Fusion Architecture 和核心设计可能为专业计算市场的能效和性能树立新标杆，直接影响内容创作者、开发者和其他专业用户。 M5 Pro 和 M5 Max 的 18 核 CPU 包含 6 个‘超级核心’和 12 个性能核心，这种配置表明其设计重点在于平衡高单线程性能与多线程吞吐能力。Fusion Architecture 将两个裸片组合成一个 SoC 的设计是一项关键的技术进步，旨在实现超越传统单片芯片设计的性能扩展。
 
 telegram · zaihuapd · Mar 6, 00:10
 
-**背景**: Apple Silicon 是苹果自 2020 年 M1 芯片开始，为其 Mac 电脑设计的基于 ARM 架构的系统级芯片系列。SoC 将 CPU、GPU、内存等关键组件集成到单一硅片上，以提高能效和性能。此前的苹果芯片采用高性能核心与高能效核心混合的架构；M5 系列则针对最苛刻的任务引入了一个新的核心层级，称为'超级核心'。
+**背景**: Apple Silicon 指的是苹果自 2020 年 M1 芯片开始，为其 Mac 电脑设计的一系列基于 ARM 架构的系统级芯片（SoC）和系统级封装（SiP）处理器。这些芯片通常将 CPU（包含性能核心和能效核心）、GPU、神经网络引擎（NPU）和其他组件集成到单一硅片上，以其高能效比著称。从 M1 到 M4 的演进过程中，CPU/GPU 核心、晶体管数量以及高级矩阵扩展（AMX）等专用加速器都得到了迭代改进。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/">Apple debuts M5 Pro and M5 Max to supercharge the most ...</a></li>
-<li><a href="https://9to5mac.com/2026/03/03/apple-touts-fusion-architecture-for-m5-pro-and-m5-max-chips-with-super-cores/">Apple touts Fusion Architecture for M5 Pro and M5 Max chips ...</a></li>
-<li><a href="https://wccftech.com/apple-renames-m5-performance-cores-to-super-cores/">Apple Renames M5’s Performance Cores To ‘Super Cores ,’ Hinting...</a></li>
+<li><a href="https://www.apple.com/newsroom/2026/03/apple-debuts-m5-pro-and-m5-max-to-supercharge-the-most-demanding-pro-workflows/">Apple debuts M5 Pro and M5 Max to supercharge the most demanding ...</a></li>
+<li><a href="https://techcrunch.com/2026/03/03/apple-unveils-m5-pro-and-m5-max-chips-with-new-fusion-architecture/">Apple unveils M5 Pro and M5 Max chips with new ‘Fusion ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Apple_silicon">Apple silicon</a></li>
 
 </ul>
 </details>
 
-**标签**: `#apple-silicon`, `#hardware`, `#macbook`, `#chip-design`, `#professional-computing`
+**标签**: `#apple-silicon`, `#hardware`, `#macbook`, `#computer-architecture`, `#professional-workflow`
 
 ---
 
 <a id="item-3"></a>
-## [蠕虫攻击致管理员账户大规模泄露，维基百科被迫进入只读模式](https://www.wikimediastatus.net/) ⭐️ 8.0/10
+## [研究论文指出全球变暖已显著加速](https://www.researchgate.net/publication/389855619_Global_Warming_has_Accelerated_Significantly) ⭐️ 8.0/10
 
-2024 年 12 月 9 日，维基百科及其他维基媒体项目因管理员账户大规模泄露，被迫进入全局只读模式。该事件由一种自我传播的蠕虫引发，该蠕虫将恶意 JavaScript 脚本注入维基页面，破坏文章内容，并利用管理员权限删除内容。 此次事件影响重大，因为它直接破坏了全球最受信任的知识库之一的完整性，并攻击了负责维护该平台的高权限账户。它凸显了协作式网络平台中存在的关键安全风险，即受信任的用户脚本和管理工具可能成为广泛、持久攻击的载体。 该蠕虫将自身注入全局的 MediaWiki:Common.js 页面和用户特定的 JavaScript 页面，以实现跨平台的持久化感染。它利用被泄露的管理员账户访问如 Special:Nuke（用于批量删除）和 Special:Redirect 等强大工具，并通过数据库历史记录进一步传播感染。
+一篇发表在 ResearchGate 平台上的新研究论文（可作为开放获取的预印本获取）分析了近期的气候数据，得出结论认为全球变暖的速度已显著增加。该论文的作者是公认的、被高度引用的气候科学家，这增加了研究结果的可信度。 这一发现意义重大，因为变暖加速意味着气候变化的影响——如极端天气、海平面上升和生态系统破坏——将比先前预测的来得更快、更严重。它强调了采取更雄心勃勃的全球气候行动和政策调整以缓解这些不断升级的风险的紧迫性。 该论文是一篇预印本，意味着它尚未在科学期刊上经过正式的同行评审，但作者在该领域的公认声誉已被指出。分析基于近期的观测气候数据，但用于定义“加速”的具体指标和时间范围在提供的信息中未详细说明。
 
-hackernews · greyface- · Mar 5, 16:04
+hackernews · morsch · Mar 6, 14:10
 
-**背景**: 维基百科基于 MediaWiki 软件构建，拥有管理员权限的用户可以执行删除页面、封禁用户、编辑受保护页面等关键操作。用户脚本是用 JavaScript 编写的，用户可添加以自定义界面或增加功能，但这些脚本会以查看者的权限执行。'只读'模式是一种紧急措施，在事件被控制并调查期间，禁用所有编辑功能以防止进一步的损害。
+**背景**: 全球变暖指的是由于人类活动（主要是二氧化碳等温室气体的排放）导致的地球平均地表温度的长期上升。变暖的速度是气候模型和政策制定的关键指标，因为它决定了未来影响的时间线和严重程度。该领域的研究论文在正式发表前通常需要经过同行评审，以验证其方法和结论。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://attack.mitre.org/techniques/T1078/">Valid Accounts, Technique T1078 - Enterprise | MITRE ATT&CK® Detecting and Mitigating Active Directory Compromises - CISA Detecting and Mitigating Active Directory Compromises Admin Rights in Action: How Hackers Target Privileged Accounts How Admin and Service Accounts Create Security Risks Detecting Credential Access and Abuse of Administrator Accounts</a></li>
-<li><a href="https://www.sentinelone.com/cybersecurity-101/cybersecurity/injection-attacks/">Injection Attacks: Types, Techniques, and Prevention</a></li>
+**社区讨论**: 社区讨论包括对开放获取来源和作者可信度的核实，并提供了原始预印本的链接。讨论情绪反映了担忧和无奈，评论强调了行动面临的地缘政治挑战、由于发展需求而认为变暖持续不可避免的看法，以及对除非直接受到影响否则社会是否愿意解决问题的怀疑。
 
-</ul>
-</details>
-
-**社区讨论**: 社区讨论混合了取证分析和担忧。用户剖析了该蠕虫的复杂行为，包括其使用 jQuery 隐藏 UI 元素以及其多向量持久化机制。关于取证清理的挑战存在争论，有人指出频繁的数据库快照可能有助于恢复。据报道，此次事件是由维基媒体基金会的一名安全工程师在测试中使用高权限账户无意中加载了随机用户脚本而触发的。
-
-**标签**: `#security`, `#wikipedia`, `#incident-response`, `#web-security`, `#infrastructure`
+**标签**: `#climate-science`, `#environment`, `#research`, `#global-warming`, `#sustainability`
 
 ---
 
 <a id="item-4"></a>
-## [AI 编程代理通过快速“净室”重写开源代码引发许可协议争议](https://simonwillison.net/2026/Mar/5/chardet/#atom-everything) ⭐️ 8.0/10
+## [System76 反对要求操作系统内置监控功能的年龄验证法律](https://blog.system76.com/post/system76-on-age-verification/) ⭐️ 8.0/10
 
-流行 Python 库 `chardet` 的维护者发布了 7.0.0 版本，称其为“从头开始、采用 MIT 许可的重写”，是一个更快、更准确的直接替代品。原始作者 Mark Pilgrim 随即提交 issue，指出维护者无权重新许可该项目，认为他们长期接触原 LGPL 许可代码，不符合合法的“净室”实现条件。 这一事件突显了一个关键的新兴法律与伦理灰色地带：AI 编程代理现在能快速生成现有代码的功能等效版本，可能绕过依赖缓慢、以人为中心的净室流程的传统许可限制。其结果可能重新定义 AI 辅助开发时代何为衍生作品，并为开源项目的维护和重新许可设定先例。 维护者 Dan Blanchard 使用 JPlag 抄袭检测工具来论证新代码在结构上是独立的，显示其与上一个版本仅有 1.29% 的相似度，与 1.1 版本仅有 0.64% 的相似度，而其他连续版本之间的相似度在 80-93% 之间。他认为最终结果（代码独立性）比传统净室流程的严格分离更为重要。
+硬件制造商兼 Linux 发行商 System76 发表公开声明，反对加州和科罗拉多州提出的年龄验证法律，这些法律要求操作系统内置监控功能。该公司认为这些法律威胁用户隐私，并将育儿责任不恰当地转移给国家和科技公司。 这很重要，因为它代表了一家重要的硬件和开源软件公司公开反对政府在操作系统层面强制要求监控功能。如果此类法律成为标准，可能会从根本上改变用户、其设备与软件提供商之间的关系，并为国家加强对个人计算的控制开创先例。 System76 特别提到，加州的法律以及以其为蓝本的科罗拉多州法律，是与主要的操作系统提供商协商一致的。该公司指出，如果这种年龄证明方法成为标准，当未提供信号时，应用程序和网站将不承担责任，从而将负担转移给操作系统供应商。
 
-rss · Simon Willison · Mar 5, 16:49
+hackernews · LorenDB · Mar 6, 04:12
 
-**背景**: “净室”实现是一种合法的软件重写方法，通过严格分离分析原产品的团队（仅创建功能规格）和基于该规格编写新代码的团队，确保不复制受版权保护的材料，从而创建新的、不侵权的版本。LGPL（GNU 宽通用公共许可证）是一种具有“著佐权”性质的开源许可，要求修改版本必须以相同许可发布，但熟悉原始代码的人进行完全重写的法律地位是模糊的。AI 编程代理是能够生成、重构或调试代码的工具，其基于规格或现有代码模式快速生成功能等效代码的能力是本次辩论的核心。
+**背景**: System76 是一家设计和制造预装其自有 Linux 发行版 Pop!_OS 的计算机公司。所提及的年龄验证法律旨在限制未成年人访问某些在线内容，但通常提出诸如操作系统级监控等技术实施方案。争论的核心在于如何在保护儿童与用户隐私、数字权利之间取得平衡，以及技术公司相对于父母和国家的适当角色。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Clean-room_design">Clean-room design - Wikipedia</a></li>
-<li><a href="https://www.law.cornell.edu/wex/clean_room">clean room | Wex | US Law | LII / Legal Information Institute</a></li>
-<li><a href="https://www.qodo.ai/blog/best-ai-coding-assistant-tools/">Top 15 AI Coding Assistant Tools to Try in 2026</a></li>
+<li><a href="https://en.wikipedia.org/wiki/System76">System76 - Wikipedia</a></li>
+<li><a href="https://system76.com/about/">About Us - System76</a></li>
+<li><a href="https://www.khlaw.com/insights/ftc-issues-coppa-enforcement-policy-statement-promoting-age-verification-technology">FTC COPPA Policy on Age-Verification Tech | Keller and Heckman</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI-coding-agents`, `#open-source-licensing`, `#legal-ethics`, `#reverse-engineering`, `#software-development`
+**社区讨论**: 社区情绪强烈支持 System76 的立场，赞扬该公司在隐私问题上表明立场。主要观点包括：强烈反对将育儿责任转移给国家和公司的法律；批评一些人认为根植于文化禁欲主义的“保姆国家”越权行为；以及认为过度保护儿童可能有害，有些人主张采用更渐进的、欧洲风格的方式来赋予自主权。
+
+**标签**: `#privacy`, `#government-regulation`, `#linux`, `#digital-rights`, `#corporate-policy`
 
 ---
 
 <a id="item-5"></a>
-## [美国国防部将 Anthropic 列入黑名单，国防承包商禁用 Claude AI](https://t.me/zaihuapd/40040) ⭐️ 8.0/10
+## [安全研究员演示通过 GitHub Issue 标题的提示注入攻击，可破坏 Cline 的生产版本发布。](https://simonwillison.net/2026/Mar/6/clinejection/#atom-everything) ⭐️ 8.0/10
 
-美国国防部已将人工智能公司 Anthropic 列入黑名单，并将其技术指定为供应链风险。在此决定之后，多家国防科技公司已要求员工停止使用 Anthropic 的 Claude AI 模型，并切换至其他人工智能工具。 此举标志着美国政府评估国内先进人工智能技术相关国家安全风险的方式发生了重大转变。这可能迫使国防工业基地的 AI 采购和开发战略进行快速调整，并可能影响 AI 领域的创新周期和竞争格局。 此次列入黑名单是基于供应链风险的考量，这是一个广泛的类别，可能包括软件、数据、基础设施或恶意行为者可能利用的依赖关系中的漏洞。报告提到国防承包商正在采取积极措施以遵守规定，表明该指令被视为一项严肃的运营安全命令。
+安全研究员 Adnan Khan 演示了一种新颖的攻击链：通过在 GitHub Issue 标题中进行提示注入，诱骗 Cline 基于 AI 的 Issue 分类系统（使用 anthropics/claude-code-action）执行恶意命令。这导致了缓存污染，最终使攻击者能够向 npm 发布一个被破坏的版本（cline@2.3.0）。 这次攻击揭示了在开发工作流中使用 AI 自动化的项目面临一种新的关键供应链风险，展示了看似孤立的自动化（如 Issue 分类）如何被武器化以破坏生产版本发布。它突显了在集成了具有广泛工具访问权限的强大 AI 代理的 CI/CD 流水线中，共享缓存和沙箱隔离不足所带来的危险。 该攻击利用了 Issue 分类工作流和夜间发布工作流之间共享的 GitHub Actions 缓存密钥，从而实现了缓存污染。研究员的'cacheract'包通过用垃圾数据填充缓存来强制其被驱逐，然后植入窃取密钥的机制。尽管 Issue 分类工作流最初没有 npm 发布密钥，但缓存污染打破了这种隔离。
 
-telegram · zaihuapd · Mar 5, 03:28
+rss · Simon Willison · Mar 6, 02:39
 
-**背景**: Anthropic 是一家美国 AI 安全和研究公司，以开发 Claude 系列大语言模型（LLM）而闻名。Claude 模型是先进的人工智能系统，能够进行文本和图像理解、推理和编码，并建立在旨在确保安全性和一致性的'Constitutional AI'框架之上。AI 背景下的供应链风险指的是 AI 系统生命周期中任何环节（包括其训练数据、模型架构、软件依赖关系和部署基础设施）可能存在的漏洞，这些漏洞可能损害系统的安全性、完整性或可靠性。
+**背景**: GitHub Actions 是一个 CI/CD 平台，可直接在代码仓库内自动化软件工作流。Claude Code 是 Anthropic 推出的 AI 编码助手，在获得权限后可以执行命令并与 Bash 等工具交互。NPM 供应链攻击是指通过破坏软件依赖项（如 npm 包）来向下游项目注入恶意代码，通常利用安装脚本实现。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic - Wikipedia</a></li>
-<li><a href="https://www.anthropic.com/company">Company \ Anthropic</a></li>
-<li><a href="https://www.cyber.gov.au/business-government/secure-design/artificial-intelligence/artificial-intelligence-and-machine-learning-supply-chain-risks-and-mitigations">Artificial intelligence and machine learning: Supply chain risks and mitigations | Cyber.gov.au</a></li>
+<li><a href="https://docs.github.com/en/actions">GitHub Actions documentation - GitHub Docs</a></li>
+<li><a href="https://code.claude.com/docs/en/overview">Claude Code overview - Claude Code Docs</a></li>
+<li><a href="https://www.uprootsecurity.com/blog/npm-supply-chain-attacks-guide">NPM Supply Chain Attack: What Developers Must Know</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI Policy`, `#Geopolitics`, `#Supply Chain Security`, `#Defense Technology`, `#Anthropic`
+**标签**: `#security`, `#prompt-injection`, `#ai-automation`, `#github-actions`, `#supply-chain`
 
 ---
 
 <a id="item-6"></a>
-## [微软发布 Phi-4 多模态推理模型，采用混合推理机制，专为高效边缘 AI 设计。](https://venturebeat.com/technology/microsoft-built-phi-4-reasoning-vision-15b-to-know-when-to-think-and-when) ⭐️ 8.0/10
+## [AI 编程助手通过“净室”重写 chardet 库引发开源许可争议](https://simonwillison.net/2026/Mar/5/chardet/#atom-everything) ⭐️ 8.0/10
 
-微软发布了拥有 150 亿参数的多模态模型 Phi-4-reasoning-vision-15B。该模型引入了“混合推理”机制，能根据任务复杂度自动切换思维链状态，并且仅通过约 2000 亿 Tokens 的精选数据完成训练，数据消耗量仅为 Qwen、Kimi 等竞争对手的五分之一。 这标志着在让强大 AI 模型适用于边缘设备等资源受限环境方面迈出了重要一步，因为混合推理优化了计算成本，而高数据效率降低了训练需求。它可能使得更复杂的 AI 应用（如复杂问题解决和详细视觉分析）能够在智能手机、物联网设备等算力和连接有限的硬件上本地运行。 该模型采用了中融合（mid-fusion）架构，基于 SigLIP-2 视觉编码器和 Phi-4 推理骨干网络构建，与计算成本更高的早期融合（early-fusion）方法相比，在性能和资源使用之间取得了更实用的平衡。其混合推理机制使其能够针对复杂逻辑任务（如数学、科学）进行深度思维链推理，同时为更简单的感知任务（如图像描述或 OCR）提供快速、直接的响应。
+流行 Python 库 chardet 的维护者发布了 7.0.0 版本，声称这是一个完整的、采用 MIT 许可的重写，可作为直接替代品。原始作者 Mark Pilgrim 立即提出异议，认为维护者长期接触原 LGPL 许可的代码，因此无权重新许可，无论其是否为重写。 这一事件凸显了 AI 辅助开发与开源许可交叉领域一个关键且未解决的法律和伦理问题：AI 编程助手能否被用来有效创建法律上独立的、现有代码的“净室”实现，以绕过 LGPL 等限制性许可。其结果可能为 AI 时代如何定义衍生作品开创先例，潜在地影响无数开源项目及其治理。 维护者 Dan Blanchard 使用 JPlag 抄袭检测工具来论证新代码在结构上是独立的，与前一版本仅显示 1.29% 的相似度，与 1.1 版本仅 0.64%。这与传统的净室流程形成对比，后者依赖团队的严格隔离来避免版权污染，而 Blanchard 作为长期维护者，这种隔离并不存在。
 
-telegram · zaihuapd · Mar 5, 05:58
+rss · Simon Willison · Mar 5, 16:49
 
-**背景**: 多模态 AI 模型能够同时处理和理解来自不同模态（如文本和图像）的信息。边缘 AI（Edge AI）指的是在本地设备（如手机或传感器）上直接运行 AI 算法，而非在云端，这可以减少延迟、节省带宽并增强隐私。混合推理模型是一类新型 AI 系统，旨在根据输入查询的复杂度，在快速、直观的响应和缓慢、深思熟虑的推理之间动态切换，从而在速度和准确性上进行优化。
+**背景**: “净室”实现是一种软件开发方法，由一个团队分析系统以创建规范，再由另一个完全隔离、未接触过原始代码的团队从头开始实现。这是一种在不侵犯版权的情况下创建兼容产品的法律策略，著名的例子是 Compaq 在 1982 年克隆 IBM BIOS。LGPL（GNU 宽通用公共许可证）是一种著佐权（copyleft）许可，要求对原始库的修改必须以相同许可发布，但它允许与非 LGPL 代码链接。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/">Phi-4-reasoning-vision and the lessons of training a multimodal reasoning model - Microsoft Research</a></li>
-<li><a href="https://arxiv.org/abs/2505.14631">Think Only When You Need with Large Hybrid - Reasoning Models</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cleanroom_software_engineering">Cleanroom software engineering - Wikipedia</a></li>
+<li><a href="https://www.law.cornell.edu/wex/clean_room">clean room | Wex | US Law | LII / Legal Information Institute</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI Models`, `#Multimodal AI`, `#Edge Computing`, `#Microsoft Research`, `#Efficient AI`
+**标签**: `#AI-coding-agents`, `#open-source-licensing`, `#software-ethics`, `#clean-room-implementation`, `#legal-issues`
 
 ---
 
 <a id="item-7"></a>
-## [美国考虑将英伟达 H200 对单一中国客户的出口上限设为 75000 片](https://t.me/zaihuapd/40046) ⭐️ 8.0/10
+## [美国拟推全球 AI 芯片出口许可制度，强化对英伟达和 AMD 的管控](https://techcrunch.com/2026/03/05/us-reportedly-considering-sweeping-new-chip-export-controls/) ⭐️ 8.0/10
 
-知情人士称，美国官员正考虑将英伟达向每家中国企业出口的 H200 加速卡上限定为 75000 片，AMD 的 MI325 加速卡也将计入此额度。虽然对华总出货上限仍维持在约 100 万片，但针对单一客户的限制可能使阿里巴巴、字节跳动等公司难以获得其原计划的数量。 这一潜在政策意味着美国对关键 AI 硬件的出口管制显著收紧，将直接影响中国领先科技公司的 AI 发展路线图。它反映了美国持续限制中国获取用于 AI 模型训练和推理尖端算力的战略努力，可能重塑全球 AI 竞争格局和供应链动态。 据报道，针对单一客户的 75000 片上限是更广泛出口管制框架的一部分，而将 AMD 的 MI325 纳入同一配额则突显了美国政府监管先进 AI 加速器的全面性方法。该方案尚未最终敲定，且据称与即将进行的高层外交谈判有关，前总统特朗普计划与习近平主席会晤，以争取向中国非军事企业出口 H200 的许可。
+美国商务部已拟定新规草案，要求美国企业向境外任何地区出口 AI 芯片均须获得政府许可。据报道，拟议的法规还包括要求外国公司作为出口流程的一部分，对美国的人工智能基础设施进行投资。 这标志着美国从先前针对特定国家（如中国）的管制，升级为近乎全球性的许可制度，可能使美国政府获得对关键 AI 技术跨国流动的前所未有的监督权。此举可能重塑全球 AI 发展时间表、供应链以及英伟达和 AMD 等半导体巨头的竞争格局，同时也旨在吸引资本并加强美国国内 AI 生态系统。 草案提议根据交易规模进行分级审查，小额订单接受基础审查，大额订单则需买方政府参与。此举延续了美国对华芯片出口政策不断演变且时有反复的模式，但新规意在通过对全球 AI 芯片贸易建立持续、全面的控制来实现常态化监管。
 
-telegram · zaihuapd · Mar 5, 07:45
+telegram · zaihuapd · Mar 6, 01:27
 
-**背景**: 英伟达 H200 是一款基于 Hopper 架构的高性能 GPU 加速器，专为生成式 AI 和高性能计算工作负载设计，配备了先进的 HBM3e 内存。AMD Instinct MI325X 是一款竞争性加速器，同样配备 HBM3e 内存，被定位为 AI 硬件市场的有力替代品，尤其在推理基准测试中的性能表现受到关注。自 2022 年以来，美国一直在逐步收紧对华先进计算项目（包括 AI 加速器）的出口管制，2025 年 1 月发布的新规进一步扩大了这些限制。
+**背景**: 美国越来越多地将先进半导体出口管制作为经济治国和国家安全政策的工具，尤其针对中国的技术发展。美国商务部下属的工业和安全局（BIS）负责执行这些管制，自 2022 年以来管制措施逐步收紧。英伟达和 AMD 等公司设计的高性能图形处理器（GPU）对于训练和运行大型 AI 模型至关重要，这使得它们成为这些监管工作的核心目标。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.nvidia.com/en-us/data-center/h200/">H 200 GPU | NVIDIA</a></li>
-<li><a href="https://tensorwave.com/blog/mi325">AMD Instinct MI325X: Redefining AI Performance Benchmarking AMD MI325x vs NVIDIA H200: A Competitive ... AMD Radeon Instinct MI325X: Specifications and Benchmark ... The Rise of AMD’s MI325X: Transforming AI Performance AMD Instinct™ MI325X Accelerators DATA SHEET AMD INSTINCT™ MI325 ACCELERATOR AMD Instinct™ MI325X Accelerators AMD Instinct MI325X: Redefining AI Performance AMD Instinct MI325X: Redefining AI Performance How the MI325X Became the Ultimate AI Performance Benchmark</a></li>
-<li><a href="https://www.sidley.com/en/insights/newsupdates/2025/01/new-us-export-controls-on-advanced-computing-items-and-artificial-intelligence-model-weights">New U.S. Export Controls on Advanced Computing Items and ...</a></li>
+<li><a href="https://www.reuters.com/world/us-mulls-new-rules-ai-chip-exports-including-requiring-investments-by-foreign-2026-03-05/">US mulls new rules for AI chip exports, including requiring US ...</a></li>
+<li><a href="https://techcrunch.com/2026/03/05/us-reportedly-considering-sweeping-new-chip-export-controls/">US reportedly considering sweeping new chip export controls</a></li>
+<li><a href="https://www.bis.gov/press-release/department-commerce-revises-license-review-policy-semiconductors-exported-china">US Department of Commerce - Bureau of Industry and Security</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI Hardware`, `#Export Controls`, `#Geopolitics`, `#Nvidia`, `#Supply Chain`
+**标签**: `#AI Policy`, `#Semiconductors`, `#Export Controls`, `#Geopolitics`, `#Nvidia`
 
 ---
 
 <a id="item-8"></a>
-## [OpenAI 开源 Symphony 框架，实现 AI 智能体自主管理项目流程](https://github.com/orgs/openai/repositories) ⭐️ 8.0/10
+## [Anthropic CEO 紧急重启五角大楼谈判，试图挽回被定性为供应链风险后的 AI 供应协议](https://t.me/zaihuapd/40062) ⭐️ 8.0/10
 
-OpenAI 近日在 GitHub 上开源了 Symphony 框架，该框架通过监控 Linear 等任务看板，并生成 AI 智能体来处理编码、CI 测试和代码审查，从而实现项目工作流的自动化。该项目目前处于工程预览阶段，采用 Apache 2.0 协议发布。 此次发布意义重大，因为它代表了向完全自主的软件项目管理迈出的重要一步，可能将开发者的角色从监督具体的编码任务转变为管理更高层级的工作流。这有望显著加速开发周期，并减少 CI/CD 流程中的人工开销。 Symphony 的核心由 Elixir 语言编写，这是一种以构建并发和分布式系统著称的函数式编程语言，并且该框架提供了完整的规范以支持其他语言的实现。其目标是将项目工作转化为独立的、自主的执行流程，让团队能够专注于管理工作，而非监督编码智能体。
+Anthropic 首席执行官 Dario Amodei 正在与五角大楼进行紧急磋商，试图挽回上周破裂的 AI 供应协议，此前美国国防部长 Pete Hegseth 已初步将 Anthropic 定性为潜在的供应链风险。若此次补救性谈判失败，Anthropic 将正式被剔除出美军上下游供应链。 这一事件对 Anthropic 构成了重大的商业和战略风险，可能使其失去一个重要政府客户，并为 AI 公司的国家安全审查树立先例。它也凸显了硅谷的伦理承诺与美国政府要求在国防应用中不受限制、合法使用先进 AI 之间日益紧张的关系。 据报道，五角大楼曾提出删除特定协约段落作为妥协，换取 AI 技术可用于其他任何“合法”目的，但遭到 Anthropic 质疑。将一家美国公司定性为供应链风险是前所未有的，这种定性通常只适用于与中国等外国政府有关联的公司。
 
-telegram · zaihuapd · Mar 5, 08:44
+telegram · zaihuapd · Mar 6, 04:09
 
-**背景**: AI 智能体是能够感知环境、做出决策并采取行动以实现特定目标的软件程序，通常利用大语言模型（LLM）进行推理。在软件开发中，工作流自动化工具旨在简化编码、测试和部署等流程，而 Linear 等平台是流行的议题跟踪和项目管理工具。多智能体系统的概念涉及多个专门的 AI 智能体在一个协调层的管理下协同工作，以处理复杂场景。
+**背景**: Anthropic 是一家以开发 Claude 大语言模型而闻名的 AI 安全与研究公司。美国国防部正越来越多地将 AI 整合到其行动中，这导致了与科技公司复杂的采购协议。“供应链风险”定性是一种正式评估，认定某公司的产品或服务对国家安全构成潜在威胁，通常是由于外国所有权、控制权或影响力，并可能导致其被排除在联邦合同之外。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/openai/symphony">GitHub - openai/symphony: Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents. · GitHub</a></li>
-<li><a href="https://www.panewslab.com/en/articles/019cbd7e-a091-74ad-8ef1-ecbd1dd8d93d">OpenAI has released the Symphony framework, enabling AI agents to autonomously manage project processes. | PANews</a></li>
-<li><a href="https://coworker.ai/blog/agent-workflows">Agent Workflows Explained: All You Need to Know in 2026</a></li>
+<li><a href="https://www.nytimes.com/2026/03/05/technology/anthropic-supply-chain-risk-defense-department.html">Pentagon Officially Notifies Anthropic It Is a ‘ Supply Chain Risk’</a></li>
+<li><a href="https://news.northeastern.edu/2026/03/05/anthropic-supply-chain-risk/">What Does It Mean That Anthropic is a ‘Supply Chain’ Risk?</a></li>
+<li><a href="https://www.mayerbrown.com/en/insights/publications/2026/03/pentagon-designates-anthropic-a-supply-chain-risk-what-government-contractors-need-to-know">Pentagon Designates Anthropic a Supply Chain Risk — What ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI-agents`, `#open-source`, `#workflow-automation`, `#project-management`, `#OpenAI`
+**标签**: `#AI Ethics`, `#Geopolitics`, `#Supply Chain`, `#Anthropic`, `#Defense`
 
 ---
 
 <a id="item-9"></a>
-## [比亚迪发布第二代刀片电池，9 分钟可从 10%充至 97%](https://www.sina.cn/news/detail/5273191576764832.html) ⭐️ 8.0/10
+## [荷兰暂停《商品可得性法》干预，将安世半导体控制权归还中国母公司闻泰科技](https://t.me/zaihuapd/40069) ⭐️ 8.0/10
 
-比亚迪正式推出了第二代刀片电池及配套的闪充技术。该电池在常温下从 10%充至 97%仅需 9 分钟，在零下 20 摄氏度的极寒环境下，从 20%充至 97%也仅需 12 分钟。 这一进展直接解决了电动汽车普及中的两大痛点：充电时间长和低温性能差。它极大地提升了电动汽车的实用性和用户体验，特别是在高纬度地区，并巩固了比亚迪在全球电池技术竞争中的地位。 该技术在充电曲线中最具挑战性的最后 20%电量区间实现了量产级别的突破，将电量从 10%充至 70%的时间缩短至仅 5 分钟。这些改进归功于对电池材料和结构的深度优化。
+荷兰政府于 11 月 19 日宣布，暂停依据《商品可得性法》对中资芯片制造商安世半导体 (Nexperia) 实施的干预令，将控制权归还给其中国母公司闻泰科技。荷兰经济事务大臣卡雷曼斯表示，此举是“善意的表示”。 这是欧洲关键技术出口国一次重大的政策转向，直接影响全球半导体供应链和中美科技竞争。此举标志着荷兰在关键技术领域外资所有权问题上的立场可能出现缓和，可能影响欧盟整体对中国在敏感领域投资的监管态度。 荷兰政府最初的干预发生在 2025 年 10 月，当时以公司治理风险和欧洲经济安全为由，将闻泰科技的股份置于托管之下并剥夺了其 CEO 的控制权，据报道此举是在美国施压后进行的。此次暂停令恢复了运营控制权，但《商品可得性法》的法律框架以及未来可能再次干预的机制依然存在。
 
-telegram · zaihuapd · Mar 5, 11:48
+telegram · zaihuapd · Mar 6, 08:08
 
-**背景**: 比亚迪的刀片电池是一种磷酸铁锂（LFP）电池，以其安全性高、续航稳定和使用寿命长而闻名。快充的一个关键挑战是充电曲线，即为了保护电池，充电速度通常在电池接近满容量时会显著下降。此外，锂离子电池在低温下通常会因内阻增加而导致性能下降和充电速度变慢。
+**背景**: 安世半导体 (Nexperia) 是一家总部位于荷兰的主要半导体制造商，专注于分立器件、MOSFET 和逻辑 IC。它被中国的闻泰科技收购，由于闻泰科技部分股权由中国国有资产监督管理机构持有，这一收购引发了地缘政治担忧。荷兰《商品可得性法》(Warenwet) 是一部规范荷兰市场交易产品的框架性法律，荷兰政府于 2025 年援引该法，出于对技术转移和公司治理问题的担忧，对安世半导体的管理进行了干预。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/BYD_Auto">BYD Auto - Wikipedia</a></li>
-<li><a href="https://chargingtimecalculator.com/guide/ev-charging-curve-explained">EV Charging Curve Explained: Why Charging Speed Slows Down</a></li>
-<li><a href="https://citylabs.net/temperature-control/cold-batteries/">Low Temperature Batteries: How Does Cold Affect Power Sources? - City Labs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Nexperia">Nexperia - Wikipedia</a></li>
+<li><a href="https://apnews.com/article/nexperia-wingtech-chips-netherlands-china-f1d3c84065cb61a1d645b64a3a2a68fc">Dutch government intervenes in Chinese-owned semiconductor ...</a></li>
+<li><a href="https://business.gov.nl/regulation/commodities-act/">The Dutch Commodities Act (Warenwet) | Business.gov.nl</a></li>
 
 </ul>
 </details>
 
-**标签**: `#battery-technology`, `#electric-vehicles`, `#fast-charging`, `#energy-storage`, `#automotive-innovation`
+**标签**: `#semiconductors`, `#geopolitics`, `#supply-chain`, `#regulation`, `#china-tech`
 
 ---
 
 <a id="item-10"></a>
-## [SpaceX 披露 Starlink V2 卫星性能：数据密度提升 100 倍，拟实现“太空 5G”。](https://t.me/zaihuapd/40050) ⭐️ 8.0/10
+## [研究发现近半数第三方大语言模型中转 API 存在模型不一致问题](https://arxiv.org/abs/2603.01919) ⭐️ 7.0/10
 
-SpaceX 宣布其下一代 Starlink V2 卫星将为移动用户提供 100 倍于 V1 代的数据密度，旨在从太空直接提供 5G 速度，该服务已从“Direct to Cell”更名为“Starlink Mobile”。单颗 V2 卫星的吞吐能力约提升 20 倍，峰值速率预计可达 150 Mbps，且兼容现有的 LTE 手机。 这标志着卫星互联网基础设施的一次重大飞跃，有望为偏远和服务欠缺地区、没有传统蜂窝网络覆盖的移动设备提供无处不在的高速连接。它使 Starlink 能够直接与地面 5G 网络竞争，并通过融合卫星和蜂窝服务，可能从根本上改变全球电信格局。 SpaceX 计划部署 1.5 万颗新卫星以支撑该目标。该服务的工作原理是让智能手机使用标准的 LTE 频率直接连接卫星，这与传统 Starlink 使用专用终端在 Ku/Ka 波段通信的方式不同。
+3 月 5 日发布于 arXiv 的一篇研究论文对 17 个被 187 篇学术论文使用的第三方 API 中转服务进行了审计。结果显示，在 24 个测试端点中，45.83%未通过模型身份验证，部分接口在医学和法律等关键领域的测试表现明显低于官方版本，例如在 MedQA 测试中，Gemini-2.5-flash 的准确率从官方的 83.82%降至通过相关中转 API 调用后的平均约 36.95%。 这一发现意义重大，因为它揭示了一个可能损害已发表 AI 研究完整性和可重复性的普遍可靠性问题。依赖这些第三方服务获取模型的研究人员可能在不知情的情况下使用不一致或性能较差的模型，从而导致潜在的无效结论，尤其是在医疗和法律等高风险领域。 该研究通过性能基准测试和模型指纹识别技术来验证这些 API 是否实际调用了它们所声称的模型。审计对象是作为中介、将用户连接到谷歌（Gemini）等提供商官方大语言模型接口的 API，而非官方端点本身。
 
-telegram · zaihuapd · Mar 5, 12:28
+telegram · zaihuapd · Mar 6, 07:02
 
-**背景**: Starlink 是 SpaceX 的卫星互联网星座，旨在提供全球高速、低延迟的互联网。当前一代（V1/V1.5）卫星需要用户终端（天线）进行连接。'Direct to Cell'（现更名为 Starlink Mobile）是一项较新的技术，它允许未经修改的 LTE 智能手机直接连接卫星，以填补地面蜂窝塔缺失区域的覆盖空白。SpaceX 已与 T-Mobile 和 Deutsche Telekom 等运营商合作推出此项服务。
+**背景**: 第三方 API 中转服务是提供访问 GPT-4 或 Gemini 等大语言模型（LLM）的服务，通常提供简化的定价或访问方式。模型指纹识别是一种通过分析模型输出中的独特模式来识别特定 AI 模型的技术，类似于侦探使用指纹。MedQA 是一个用于评估 AI 模型医学问答能力的基准数据集，包含广泛的医学多项选择题。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.satelliteinternet.com/resources/starlink-direct-to-cell/">Starlink Direct to Cell & T-Satellite Guide [2026] | SatelliteInternet.com</a></li>
-<li><a href="https://militarnyi.com/en/blogs/what-is-direct-to-cell-from-starlink-and-how-does-it-work/">What is Direct-to-Cell from Starlink and how does it work</a></li>
-<li><a href="https://www.teslarati.com/starlink-v2-deutsche-telekom-europe/">Starlink V 2 to bring satellite -to-phone service to Deutsche Telekom in...</a></li>
+<li><a href="https://www.sandgarden.com/learn/model-fingerprinting">Model Fingerprinting and the Hunt for Stolen AI</a></li>
+<li><a href="https://www.vals.ai/benchmarks/medqa">MedQA</a></li>
 
 </ul>
 </details>
 
-**标签**: `#satellite-internet`, `#space-technology`, `#telecommunications`, `#5G`, `#infrastructure`
+**标签**: `#AI Research`, `#Model Reliability`, `#API Security`, `#Research Integrity`, `#LLM Evaluation`
 
 ---
 
 <a id="item-11"></a>
-## [文章主张优秀软件应懂得适时停止添加功能，转而专注于稳定性。](https://ogirardot.writizzy.com/p/good-software-knows-when-to-stop) ⭐️ 7.0/10
+## [消息称美国海关与边境保护局可利用广告定位数据进行监控](https://www.404media.co/cbp-tapped-into-the-online-advertising-ecosystem-to-track-peoples-movements/) ⭐️ 7.0/10
 
-一篇题为《优秀软件懂得何时停止》的文章发表，主张软件开发应优先考虑宣布产品“已完成”，并专注于维护、错误修复和安全更新，而非无休止地添加功能。这篇文章引发了广泛的社区讨论，收到了超过 180 条评论，分享了现实世界的案例和行业观点。 这很重要，因为“功能蔓延”是一个普遍存在的挑战，它会降低软件质量、增加复杂性并疏远核心用户，然而商业压力常常激励无休止的扩张。这场讨论凸显了软件工程和产品管理中，在创新、稳定性和可持续维护之间存在的关键性矛盾。 社区讨论提供了具体案例，例如 Sublime Text 的专注性、Java 核心库进入维护模式，以及对 Evernote 和 Dropbox 等产品在 2012 年左右“已完成”版本的怀念。一个关键见解是，理解用户背后的根本问题比盲目实现功能请求更为重要。
+根据 404 Media 获取的文件，美国海关与边境保护局承认，其在 2019 年至 2021 年的一项试点中使用了“商业可得的营销位置数据”进行监控。其中部分数据来自网络广告实时竞价系统。 这一事件揭示了政府机构如何通过从商业市场购买敏感位置数据，绕过传统的法律保护和监督。它引发了关于隐私、公民自由以及利用原本为广告目的收集的数据进行大规模监控常态化的重大担忧。 据报道，这些数据包括应用与网站在广告竞价或通过软件开发工具包（SDK）时传出的广告标识符、GPS 坐标和 IP 地址等信息。报道还指出，相关联邦机构在该试点期结束后，仍持续采购商业位置追踪工具。
 
-hackernews · ssaboum · Mar 5, 13:52
+telegram · zaihuapd · Mar 6, 13:48
 
-**背景**: 功能蔓延是指产品中持续过度地扩展或添加新功能，尤其在软件中，这可能导致臃肿、延迟和可用性下降。在软件开发中，一个常见的争论围绕着如何平衡开发新功能与维护和改进现有代码（维护）所花费的时间。软件极简主义哲学主张设计简单、最小化并使用最少必要资源的系统。
+**背景**: 实时竞价（RTB）是一种程序化广告系统，当用户加载网页或应用时，数字广告展示位会在几毫秒内被拍卖。这个过程通常涉及与多方共享用户数据，如广告标识符和位置信息，以实现广告定向。数据经纪商是从各种来源（包括 RTB 系统和应用 SDK）聚合个人信息并出售给其他企业的公司，从而为精确位置历史等敏感数据创造了一个庞大的市场。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Feature_creep">Feature creep - Wikipedia</a></li>
-<li><a href="https://medium.com/@michalrychlik/new-features-vs-maintenance-developers-perspective-b6ea110c58b9">New features vs maintenance — developer's perspective | by Michał Rychlik - Medium</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Minimalism_(computing)">Minimalism (computing) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Real-time_bidding">Real-time bidding - Wikipedia</a></li>
+<li><a href="https://www.eff.org/issues/location-data-brokers">Location Data Brokers | Electronic Frontier Foundation</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区情绪强烈支持文章的观点，评论者分享了“懂得何时停止”的软件正面案例，例如 Sublime Text 和成熟的 Java 库。社区普遍认同应使“已完成”的软件产品正常化，并认识到抵抗无休止的功能添加需要勇气。评论者引用了《魔兽世界》经典版等例子，来说明用户对稳定、核心版本的需求胜过不断演变的版本。
-
-**标签**: `#software-engineering`, `#product-management`, `#feature-creep`, `#maintenance`, `#philosophy`
-
----
-
-<a id="item-12"></a>
-## [Instacart 与 OpenAI 在 ChatGPT 内推出集成购物与结账功能](https://t.me/zaihuapd/40045) ⭐️ 7.0/10
-
-2025 年 12 月 8 日，Instacart 与 OpenAI 宣布深化合作，在 ChatGPT 中上线了首个集成即时结账功能的杂货购物应用。用户现在可以直接通过 ChatGPT 界面浏览商品、生成购物车并完成支付，无需跳转到其他页面。 此次合作标志着 AI 智能体从对话工具向能够完成复杂现实交易的功能性平台演进的重要一步。它预示着向'智能体商务'的重大迈进，即 AI 平台成为购物的主要界面，这可能会重塑消费者发现和购买商品的方式。 该应用结合了 Instacart 的实时配送网络与 OpenAI 的前沿模型，以实现无缝的购物体验。此功能很可能是基于或扩展了 ChatGPT 的插件架构，该架构允许语言模型以安全的方式访问外部工具和数据。
-
-telegram · zaihuapd · Mar 5, 07:01
-
-**背景**: Instacart 是北美最大的在线杂货与即时配送平台之一。ChatGPT 插件是一种工具，允许语言模型执行诸如检索信息或（在本例中）与外部服务交互等操作。'智能体商务'的概念指的是 AI 智能体代表用户自主处理产品发现、比较和购买等任务，这被视为零售业的下一阶段演进。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://hbr.org/2026/02/how-brands-can-adapt-when-ai-agents-do-the-shopping">How Brands Can Adapt When AI Agents Do the Shopping - Harvard Business Review</a></li>
-<li><a href="https://openai.com/index/chatgpt-plugins/">ChatGPT plugins - OpenAI</a></li>
-<li><a href="https://www.salesforce.com/commerce/ai/agentic-commerce/">What Is Agentic Commerce? (2026) - Salesforce</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI Agents`, `#E-commerce`, `#OpenAI`, `#Product Integration`, `#ChatGPT`
+**标签**: `#surveillance`, `#privacy`, `#advertising-technology`, `#government`, `#data-brokers`
 
 ---
