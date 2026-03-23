@@ -5,176 +5,149 @@ date: 2026-03-23
 lang: en
 ---
 
-> From 16 items, 7 important content pieces were selected
+> From 28 items, 6 important content pieces were selected
 
 ---
 
-1. [Bram Cohen proposes CRDT-based version control system Manyana to eliminate merge conflicts](#item-1) ⭐️ 8.0/10
-2. [AI-Generated Code Lacks Innovation, Says Swift Creator Chris Lattner](#item-2) ⭐️ 8.0/10
-3. [Flash-MoE: Running a 397B Parameter Model on a Laptop via Extreme Compression](#item-3) ⭐️ 8.0/10
-4. [Starlette 1.0 Released, Marking a Major Milestone for the Foundational ASGI Framework](#item-4) ⭐️ 8.0/10
-5. [Elon Musk plans to deploy AI computing centers in space within 30-36 months.](#item-5) ⭐️ 8.0/10
-6. [Project Nomad launches offline knowledge platform with GPU-accelerated AI capabilities](#item-6) ⭐️ 7.0/10
-7. [Unitree plans 20,000 humanoid robots by 2026, targets home market to challenge Tesla Optimus](#item-7) ⭐️ 7.0/10
+1. [Starlette 1.0 Released, Marking Stability for the ASGI Framework Powering FastAPI](#item-1) ⭐️ 8.0/10
+2. [OpenAI urges UK to include AI chatbots in Google's search choice screen](#item-2) ⭐️ 8.0/10
+3. [Guide to migrating digital services from US to EU providers for data sovereignty](#item-3) ⭐️ 7.0/10
+4. [GitHub's reliability reportedly falls to 'three nines' availability amid outages and security concerns.](#item-4) ⭐️ 7.0/10
+5. [Research compares JavaScript sandboxing techniques including isolated-vm, vm2, QuickJS, ShadowRealm, and Deno Workers](#item-5) ⭐️ 7.0/10
+6. [Interactive Visualizer Created to Demonstrate Bram Cohen's CRDT-Based Version Control Concept](#item-6) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Bram Cohen proposes CRDT-based version control system Manyana to eliminate merge conflicts](https://bramcohen.com/p/manyana) ⭐️ 8.0/10
+## [Starlette 1.0 Released, Marking Stability for the ASGI Framework Powering FastAPI](https://simonwillison.net/2026/Mar/22/starlette/#atom-everything) ⭐️ 8.0/10
 
-Bram Cohen, creator of BitTorrent, published a vision for the future of version control called 'Manyana,' which is a 470-line Python demo showcasing a CRDT-based approach. The system aims to fundamentally change how version control handles concurrent changes by eliminating traditional merge conflicts through automatic convergence. This matters because it challenges the core assumptions of dominant systems like Git, potentially enabling real-time collaboration without manual conflict resolution and reducing developer friction. If successful, it could shift the paradigm of distributed version control towards more seamless, conflict-free merging, similar to how CRDTs power collaborative editing in tools like Google Docs. Manyana is currently a proof-of-concept demo that operates on individual files and lacks features like cherry-picking and local undo, though the README outlines how these could be implemented. The approach uses Conflict-free Replicated Data Types (CRDTs) to ensure that all replicas of a file automatically converge to the same state without requiring explicit merge conflict resolution.
+Starlette, the foundational Python ASGI framework, has released version 1.0 in March 2026, marking its first major stable release. The update introduces breaking changes, most notably replacing the `on_startup` and `on_shutdown` parameters with a new `lifespan` async context manager system. This release is significant because Starlette is the underlying engine for the highly popular FastAPI framework, meaning its stability directly impacts a vast ecosystem of modern Python web applications. The 1.0 milestone provides a stable API foundation for developers and projects, like Datasette, that previously hesitated to build on it due to version instability. The project's stewardship transferred to Marcelo Trylesinski in September 2025 to facilitate sponsorship. A key technical shift is the move to the `lifespan` pattern, which uses Python's `contextlib.asynccontextmanager` for cleaner management of startup and shutdown logic compared to the old callback parameters.
 
-hackernews · c17r · Mar 22, 15:16
+rss · Simon Willison · Mar 22, 23:57
 
-**Background**: Traditional version control systems like Git use a merge strategy (often 3-way merge) that can result in conflicts when concurrent changes are made to the same part of a file, requiring manual intervention. CRDTs (Conflict-free Replicated Data Types) are data structures designed for distributed systems that guarantee eventual consistency—all replicas will converge to the same state automatically, even after concurrent, offline edits. While CRDTs are commonly used in real-time collaborative applications, applying them to version control for source code is a novel and debated approach.
+**Background**: Starlette is a lightweight, asynchronous web framework built for the ASGI (Asynchronous Server Gateway Interface) specification, which is the modern successor to WSGI for Python. It provides the core request/response handling and routing that FastAPI builds upon, adding automatic data validation and OpenAPI documentation. ASGI enables Python frameworks to handle HTTP, WebSockets, and other protocols asynchronously, improving performance for I/O-bound operations.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://bramcohen.com/p/manyana">A Coherent Vision for the Future of Version Control</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type">Conflict-free replicated data type - Wikipedia</a></li>
-<li><a href="https://git-scm.com/docs/merge-strategies">Git - merge -strategies Documentation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Asynchronous_Server_Gateway_Interface">Asynchronous Server Gateway Interface - Wikipedia</a></li>
+<li><a href="https://dev.to/ceb10n/understanding-fastapi-how-starlette-works-43i1">Understanding FastAPI: How Starlette works - DEV Community</a></li>
+<li><a href="https://leapcell.medium.com/fastapi-is-overkill-starlette-and-pydantic-are-all-you-really-need-2b2d55c53de0">FastAPI is Overkill: Starlette and Pydantic Are All You Really Need | by Leapcell | Medium</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion reveals significant skepticism about using CRDTs for version control. Key concerns are that merge conflicts often indicate important semantic disagreements between developers, and automatically resolving them could produce 'garbage code.' Some argue that better merge tooling (like 4-pane diff tools) is a more practical solution than overhauling the entire VCS. Others defend the value of explicit merge commits and question whether automatic convergence is desirable for code where semantic intent matters.
-
-**Tags**: `#version-control`, `#crdt`, `#git`, `#software-engineering`, `#merge-conflicts`
+**Tags**: `#python`, `#web-frameworks`, `#asgi`, `#backend-development`, `#fastapi`
 
 ---
 
 <a id="item-2"></a>
-## [AI-Generated Code Lacks Innovation, Says Swift Creator Chris Lattner](https://stevekrouse.com/precision) ⭐️ 8.0/10
+## [OpenAI urges UK to include AI chatbots in Google's search choice screen](https://assets.publishing.service.gov.uk/media/69b970dcc06ba9576435ab5a/OpenAI.pdf) ⭐️ 8.0/10
 
-Chris Lattner, the creator of the Swift programming language, recently analyzed a compiler entirely written by Claude AI and found nothing innovative in the generated code. This analysis has sparked a broader discussion about AI's current inability to produce genuinely novel or groundbreaking software. This matters because it highlights a fundamental limitation of current AI code generation tools: they excel at synthesizing and recombining existing patterns but struggle with genuine innovation and critical thinking. It reinforces the argument that human developers will remain essential for advancing the state of the art in software engineering and creating new paradigms. Lattner's specific finding was that the AI-written compiler merely followed conventional wisdom and existing patterns, offering no novel architectural or algorithmic insights. This observation aligns with broader concerns that AI models, trained on vast corpora of past human work, may inherently struggle with tasks requiring departure from established norms or the creation of entirely new concepts.
+On March 6, OpenAI formally submitted a recommendation to the UK's Competition and Markets Authority (CMA) that the eligibility criteria for Google's search choice screen should explicitly include AI chatbots with search capabilities. This would allow services like ChatGPT to be selectable as default search options on Android devices and Chrome browsers. This move is significant as it represents a strategic effort by a leading AI company to shape competition policy in its favor, potentially challenging Google's dominance in search. If adopted, it could accelerate the integration of conversational AI into mainstream search ecosystems and give users more choice beyond traditional search engines. OpenAI argues that services like ChatGPT, which offer conversational or multimodal information discovery, are functionally similar to Google's own AI Overviews and AI Mode features. It also recommends using transparent, dynamic popularity metrics to determine which services qualify and expanding the choice screen to include voice, visual, and AI-assisted search entry points.
 
-hackernews · stevekrouse · Mar 22, 11:09
+telegram · zaihuapd · Mar 23, 14:50
 
-**Background**: Chris Lattner is a renowned computer scientist best known for creating the LLVM compiler infrastructure and the Swift programming language. LLVM is a foundational compiler framework that enables sophisticated program analysis and transformation. An AI-written compiler refers to a software tool that translates source code into machine code, but its entire source code was generated by an AI model like Claude, rather than being manually written by human programmers.
+**Background**: The UK's Competition and Markets Authority (CMA) is a regulatory body responsible for promoting competition and preventing anti-competitive practices. Google's search choice screen is a mechanism, mandated by regulators in some regions like the EU and UK, that appears on Android devices and Chrome to let users select a default search engine from a list of options, aiming to reduce Google's default advantage. AI Overviews and AI Mode are Google's own AI-powered search features that provide summarized answers and conversational interactions, respectively, moving beyond traditional link lists.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.nondot.org/sabre/">Chris Lattner's Homepage - nondot.org</a></li>
-<li><a href="https://llvm.org/pubs/2004-01-30-CGO-LLVM.html">LLVM: A Compilation Framework for Lifelong Program Analysis ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/AI_Overviews">AI Overviews - Wikipedia</a></li>
+<li><a href="https://frankknow.com/google-ai-mode/">AI Mode 是什麼？Google 搜尋進化！教你提升被 AI 引用的機會</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments reflect a nuanced debate. Some agree with Lattner, emphasizing AI's reliance on past data and its struggle with true innovation, questioning how new technologies can emerge if AI only replicates old patterns. Others express a desire for AI to handle mundane coding tasks, freeing humans for higher-level problem-solving, akin to a "Star Trek Ship's Computer." A developer shared a personal anecdote where an AI insisted on using an outdated technique (tombstones in a CRDT), highlighting the difficulty of convincing AI to adopt a novel, correct approach.
-
-**Tags**: `#AI Programming`, `#Software Development`, `#Human vs AI`, `#Programming Philosophy`, `#Code Generation`
+**Tags**: `#AI Regulation`, `#Search Competition`, `#OpenAI`, `#UK CMA`, `#ChatGPT`
 
 ---
 
 <a id="item-3"></a>
-## [Flash-MoE: Running a 397B Parameter Model on a Laptop via Extreme Compression](https://github.com/danveloper/flash-moe) ⭐️ 8.0/10
+## [Guide to migrating digital services from US to EU providers for data sovereignty](https://rz01.org/eu-migration/) ⭐️ 7.0/10
 
-A developer released a proof-of-concept project called Flash-MoE that demonstrates running the massive 397-billion-parameter Qwen 3.5 model on a laptop. This is achieved by applying aggressive 2-bit quantization to the model's parameters and reducing the number of active Mixture-of-Experts (MoE) layers per token from 10 to 4. This project pushes the boundaries of on-device AI by showcasing how extreme compression techniques can make colossal models theoretically runnable on consumer hardware. It highlights the trade-offs and practical limits of model compression for edge deployment, sparking discussion about the feasibility versus quality loss when running frontier models locally. The implementation achieves a speed of about 5 tokens per second on a laptop but involves significant quality degradation due to the 2-bit quantization and expert reduction. The project's GitHub repository includes a complete inference engine written in Metal for Apple Silicon and tools for weight extraction and requantization from 4-bit to 2-bit.
+A comprehensive guide and discussion has been published, detailing practical strategies for migrating digital services and infrastructure away from US-based corporations to EU-based alternatives. The conversation includes specific technical implementation details, legal considerations across different jurisdictions, and comparative analysis of service providers. This matters because it addresses growing concerns about privacy, data sovereignty, and reducing dependency on US tech giants, especially in light of EU regulations like GDPR. A successful migration can help individuals and organizations better control their data, comply with regional laws, and potentially mitigate risks associated with foreign surveillance or data access laws. The discussion acknowledges that migration is complex, often reaching about 90% completion with lingering small dependencies, and that some EU-based services may still have indirect ties to US companies. It also highlights practical challenges, such as configuring email sending from custom domains with certain providers.
 
-hackernews · mft_ · Mar 22, 11:30
+hackernews · exitnode · Mar 23, 10:17
 
-**Background**: Quantization is a technique to reduce the memory footprint of large language models (LLMs) by representing their weights with fewer bits (e.g., 4 bits instead of 16), enabling them to run on hardware with limited memory. Mixture-of-Experts (MoE) is a model architecture where different specialized sub-networks ('experts') are activated for different inputs, allowing for massive parameter counts (like 397B) while keeping computational cost per token manageable. Running such models typically requires multiple high-end GPUs with vast amounts of VRAM.
+**Background**: Data sovereignty refers to the concept that data is subject to the laws and governance structures of the country where it is located. The EU has established a strong legal framework for data protection, notably the General Data Protection Regulation (GDPR), which aims to give individuals control over their personal data. Cloud migration strategies are systematic approaches for moving digital assets and infrastructure between environments, such as from on-premises or one cloud provider to another. EU-based cloud alternatives, such as OVHcloud and STACKIT, are often promoted for their compliance with EU data protection regulations.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/danveloper/flash-moe">GitHub - danveloper/flash-moe: Running a big model on a small laptop · GitHub</a></li>
-<li><a href="https://zeroshot.it.com/aggressive-quantization-how-low-can-you-go/">Aggressive Quantization: How Low Can You Go? - ZeroShot</a></li>
-<li><a href="https://mljourney.com/quantization-techniques-for-llm-inference-int8-int4-gptq-and-awq/">Quantization Techniques for LLM Inference: INT8, INT4, GPTQ ...</a></li>
+<li><a href="https://incountry.com/blog/the-eus-data-sovereignty-framework/">The EU’s data sovereignty framework - InCountry</a></li>
+<li><a href="https://www.digitalocean.com/resources/articles/cloud-migration-strategy">Complete Cloud Migration Strategy Guide: Planning and ...</a></li>
+<li><a href="https://www.softwareseni.com/comparing-european-cloud-providers-and-open-source-alternatives-to-us-platforms/">Comparing European Cloud Providers and Open Source ...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community acknowledges the technical achievement as a cool proof-of-concept but emphasizes the severe quality degradation from 2-bit quantization and expert reduction, arguing it creates a fundamentally different and lower-quality model. Some users point out alternative methods, like higher-bitrate quantization (e.g., ~2.5 bits per weight), can run the same model on high-memory consumer devices (e.g., 128GB) with better performance and preserved quality, as shown by benchmark results. Technical discussions also arose about potential optimizations, such as using huge pages to mitigate memory mapping overhead.
+**Discussion**: Community sentiment is engaged and practical, with users sharing personal migration experiences and specific provider recommendations (e.g., mailbox.org). However, the discussion also includes critical viewpoints questioning whether EU jurisdictions offer substantially better privacy protections, citing concerns about local law enforcement powers and cross-border evidence orders. Some comments promote EU-based alternatives to specific US services.
 
-**Tags**: `#model-compression`, `#quantization`, `#mixture-of-experts`, `#large-language-models`, `#edge-computing`
+**Tags**: `#privacy`, `#data-sovereignty`, `#digital-migration`, `#EU-regulation`, `#service-providers`
 
 ---
 
 <a id="item-4"></a>
-## [Starlette 1.0 Released, Marking a Major Milestone for the Foundational ASGI Framework](https://simonwillison.net/2026/Mar/22/starlette/#atom-everything) ⭐️ 8.0/10
+## [GitHub's reliability reportedly falls to 'three nines' availability amid outages and security concerns.](https://www.theregister.com/2026/02/10/github_outages/) ⭐️ 7.0/10
 
-Starlette, the lightweight asynchronous Python web framework, has released its long-awaited version 1.0. The release, managed by new maintainer Marcelo Trylesinski, introduces breaking changes including a new lifespan mechanism based on async context managers to handle application startup and shutdown. This release is significant because Starlette serves as the foundational layer for the highly popular FastAPI framework, yet it has historically had lower brand recognition. The 1.0 release signals API stability, which is crucial for projects considering it as a long-term dependency and for its broader adoption in the Python async web ecosystem. A key technical change is the replacement of the `on_startup` and `on_shutdown` parameters with a new `lifespan` async context manager. The author, Simon Willison, also explores a unique challenge: ensuring Large Language Models (LLMs) can generate code compatible with Starlette 1.0, given that their training data likely contains older 0.x syntax, and he experiments with creating a Claude AI skill to address this.
+GitHub is reportedly experiencing significant availability issues, with its overall platform reliability potentially dropping to around 99.9% (three nines), which translates to over 8 hours of downtime per year. This comes alongside recent security vulnerabilities, such as the exploitation of mutable references in GitHub Actions that led to a breach at Aqua Security and potentially infected thousands of CI/CD runs. GitHub is foundational infrastructure for the global software development ecosystem, and its declining reliability directly impacts millions of developers and businesses that depend on it for code hosting, collaboration, and CI/CD. This situation raises critical questions about the trade-offs between rapid feature expansion (like AI tools) and maintaining core platform stability and security, especially during a major infrastructure migration to Azure. The 'three nines' (99.9%) availability metric is a significant drop from the 'five nines' (99.999%) standard often expected for critical services, allowing for over 8 hours of downtime annually. Critics point to the ongoing migration of GitHub's infrastructure to Microsoft Azure, announced in 2025 with promises of improved reliability, as a potential root cause of the instability.
 
-rss · Simon Willison · Mar 22, 23:57
+hackernews · richtr · Mar 23, 10:39
 
-**Background**: Starlette is a lightweight ASGI (Asynchronous Server Gateway Interface) framework/toolkit for building async web services in Python. ASGI is a standard interface between async Python web servers and applications, supporting HTTP, HTTP/2, and WebSocket. FastAPI, a very popular modern web framework, is built on top of Starlette, leveraging its core for request handling while adding features like automatic data validation with Pydantic and OpenAPI documentation.
+**Background**: In system reliability engineering, availability is often measured in 'nines.' 'Three nines' means 99.9% uptime, equating to about 8.76 hours of permissible downtime per year. For context, 'five nines' (99.999%) allows only about 5.26 minutes of downtime annually. GitHub Actions is GitHub's CI/CD platform that automates software workflows, and 'mutable references' within it can be a security risk if not properly secured, as they allow artifacts to be changed after creation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://asgi.readthedocs.io/en/latest/specs/main.html">ASGI (Asynchronous Server Gateway Interface) Specification</a></li>
-<li><a href="https://stackshare.io/stackups/fastapi-vs-starlette">Starlette vs FastAPI | What are the differences? | StackShare</a></li>
+<li><a href="https://en.wikipedia.org/wiki/High_availability">High availability - Wikipedia</a></li>
+<li><a href="https://docs.github.com/en/actions/concepts/metrics">About GitHub Actions metrics</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#python`, `#web-frameworks`, `#asgi`, `#fastapi`, `#backend-development`
+**Discussion**: The community expresses strong frustration, highlighting a perceived focus on AI features like Copilot at the expense of core platform stability and security. Many link the reliability issues directly to the mandated migration to Azure, citing past assurances from GitHub leadership that the move would improve availability. There is also significant concern about long-standing, unaddressed security flaws in GitHub Actions being exploited in real attacks.
+
+**Tags**: `#infrastructure`, `#reliability`, `#devops`, `#cloud-services`, `#security`
 
 ---
 
 <a id="item-5"></a>
-## [Elon Musk plans to deploy AI computing centers in space within 30-36 months.](https://t.me/zaihuapd/40437) ⭐️ 8.0/10
+## [Research compares JavaScript sandboxing techniques including isolated-vm, vm2, QuickJS, ShadowRealm, and Deno Workers](https://simonwillison.net/2026/Mar/22/javascript-sandboxing-research/#atom-everything) ⭐️ 7.0/10
 
-Elon Musk announced plans to deploy AI computing centers in space within 30 to 36 months, citing Earth's stagnant power supply as a bottleneck for AI expansion. He also outlined related initiatives, including a goal to produce 100 GW of solar panels annually through Tesla and SpaceX, the construction of a massive chip factory called TeraFab, and scaling production of the Optimus Gen 3 humanoid robot to 1 million units per year. This proposal directly addresses a critical, widely recognized constraint on AI's future growth: the immense and growing energy demands of data centers. If feasible, space-based computing could unlock a new paradigm for sustainable, high-performance AI infrastructure by leveraging abundant solar energy in orbit, while the parallel push for massive solar, chip, and robot production represents a holistic strategy to dominate future technology stacks. Musk claims space offers 5 times the solar efficiency of Earth and eliminates the need for battery storage, making it potentially the most economical location for computing. The TeraFab chip factory, estimated to cost at least $20 billion, is planned to be vertically integrated and will produce two types of chips: one for terrestrial use (e.g., FSD, Optimus) and another more durable chip for space applications.
+Simon Willison conducted research comparing multiple JavaScript sandboxing techniques after being inspired by Aaron Harper's article about Node.js worker threads. The research, assisted by Claude Code, systematically evaluated isolated-vm, vm2, quickjs-emscripten, QuickJS-NG, ShadowRealm, and Deno Workers for secure code execution. This research matters because secure JavaScript sandboxing is fundamental for applications that need to execute untrusted code, such as online code editors, plugin systems, and serverless platforms. The comparison provides practical guidance for developers choosing isolation solutions in Node.js and JavaScript runtime environments. The research specifically examined isolated-vm which provides access to V8's Isolate functionality, ShadowRealm which is a Stage 2.7 ECMAScript proposal for isolated execution environments, and QuickJS implementations including both the original and NG fork. The comparison was prompted by exploring whether Node.js worker threads could enhance sandboxing security.
 
-telegram · zaihuapd · Mar 22, 02:24
+rss · Simon Willison · Mar 22, 19:53
 
-**Background**: The concept of space-based data centers is an emerging field, often referred to as Space Edge Data Centers (Space DC), with potential benefits for real-time processing of Earth observation data. However, experts highlight significant technical challenges, including cooling systems in a vacuum, high launch costs, and radiation hardening of electronics. The TeraFab project is Musk's ambitious answer to the global semiconductor shortage and aims to consolidate chip design, fabrication, and packaging under one roof. The Optimus robot is Tesla's humanoid robot project, with the Gen 3 version featuring more advanced actuators and hands with 22 degrees of freedom, designed for general-purpose tasks.
+**Background**: JavaScript sandboxing refers to techniques that isolate and execute untrusted code within a controlled environment to prevent access to sensitive system resources. isolated-vm is a Node.js library that leverages V8's Isolate API to create secure execution contexts. ShadowRealm is a TC39 proposal that aims to provide standardized synchronous isolated environments within the JavaScript language itself. QuickJS is a small, embeddable JavaScript engine that can be compiled to WebAssembly via quickjs-emscripten for browser or Node.js use.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.benzinga.com/markets/tech/26/03/51372607/nvidia-ceo-jensen-huang-explains-why-ai-data-centers-in-space-are-harder-than-they-sound-itll-take-years-its-ok-i-got-plenty-of-time">Nvidia CEO Jensen Huang Explains Why AI Data Centers In Space ...</a></li>
-<li><a href="https://electrek.co/2026/03/22/tesla-spacex-terafab-chip-factory-ai-desperation/">Tesla and SpaceX announce $25B 'Terafab' chip factory — here's why it reeks of desperation | Electrek</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Optimus_(robot)">Optimus (robot) - Wikipedia</a></li>
+<li><a href="https://github.com/laverdet/isolated-vm">GitHub - laverdet/isolated-vm: Secure & isolated JS environments for nodejs · GitHub</a></li>
+<li><a href="https://github.com/tc39/proposal-shadowrealm">GitHub - tc39/proposal-shadowrealm: ECMAScript Proposal ...</a></li>
+<li><a href="https://deepwiki.com/tc39/proposal-shadowrealm">tc39/proposal-shadowrealm | DeepWiki</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Infrastructure`, `#Space Technology`, `#Renewable Energy`, `#High-Performance Computing`, `#Robotics`
+**Tags**: `#javascript`, `#sandboxing`, `#security`, `#runtime-environments`, `#nodejs`
 
 ---
 
 <a id="item-6"></a>
-## [Project Nomad launches offline knowledge platform with GPU-accelerated AI capabilities](https://www.projectnomad.us/) ⭐️ 7.0/10
+## [Interactive Visualizer Created to Demonstrate Bram Cohen's CRDT-Based Version Control Concept](https://simonwillison.net/2026/Mar/22/manyana/#atom-everything) ⭐️ 7.0/10
 
-Project Nomad has launched as an offline knowledge platform designed to provide comprehensive content libraries and GPU-accelerated AI capabilities for scenarios with restricted or no internet access. It positions itself as a more powerful alternative to lightweight solutions like Internet in a Box, targeting users who need full AI functionality offline. This project addresses critical real-world problems of censorship and internet blackouts by preserving access to essential knowledge and AI tools when connectivity is severed. It matters for people living under authoritarian regimes, in disaster zones, or in areas with unreliable infrastructure who risk losing access to practical information and modern AI assistance. The platform is built on Kiwix and the ZIM file format, requiring more capable hardware than Raspberry Pi-based solutions to support its local GPU-accelerated AI features. Current feedback indicates the installation process is somewhat complex and tied to Ubuntu, which may present a barrier for non-technical users.
+Simon Willison created an interactive web tool called the Merge State Visualizer using Claude AI and Pyodide to demonstrate Bram Cohen's Manyana project, a 470-line Python proof-of-concept for CRDT-based version control. The tool provides a visual interface to understand how the conflict-free merge algorithms work in practice. This matters because it makes an advanced distributed systems concept accessible to developers, potentially accelerating understanding and adoption of CRDT-based approaches in version control. As AI-assisted development grows, tools that visualize complex algorithms become increasingly valuable for education and prototyping. The visualizer was built by feeding Cohen's Python code (minus comments) into Claude AI to generate an explanation, then using Pyodide to create the browser-based interactive interface. Manyana itself is described as a demo rather than a complete version control system, with features like cherry-picking and local undo not yet implemented.
 
-hackernews · jensgk · Mar 22, 12:28
+rss · Simon Willison · Mar 22, 18:57
 
-**Background**: Offline knowledge platforms aim to make information accessible without an internet connection, often for censorship resistance or use in low-connectivity areas. Kiwix is a prominent open-source project that allows users to download and browse web content (like Wikipedia) offline using the compressed ZIM file format. GPU-accelerated AI refers to using a computer's graphics processing unit to dramatically speed up artificial intelligence computations, such as running language models or image generation locally, which is a key differentiator for Project Nomad compared to simpler offline readers.
+**Background**: CRDTs (Conflict-free Replicated Data Types) are data structures that enable distributed systems to maintain consistency across multiple replicas without requiring conflict resolution. Bram Cohen, creator of the BitTorrent protocol, recently proposed Manyana as a vision for applying CRDT principles to version control systems. Pyodide is a technology that allows Python to run directly in web browsers through WebAssembly.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://awesome-selfhosted.net/tags/knowledge-management-tools.html">Knowledge Management Tools - awesome-selfhosted</a></li>
-<li><a href="https://web3.okx.com/learn/what-is-censorship-resistance">What Is censorship resistance ? | OKX Wallet</a></li>
-<li><a href="https://www.ibm.com/think/topics/ai-accelerator-vs-gpu">What's the Difference Between AI accelerators and GPUs? | IBM</a></li>
+<li><a href="https://bramcohen.com/p/manyana">Manyana - by Bram Cohen - Bram’s Thoughts</a></li>
+<li><a href="https://crdt.tech/">About CRDTs • Conflict-free Replicated Data Types</a></li>
+<li><a href="https://scribbler.live/2024/07/08/Python-in-Browser.html">Python in the Browser with Pyodide</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community shows strong interest, recognizing the project's value for censorship resistance and practical knowledge preservation. Discussions include comparisons to alternatives like Kiwix and Raspberry Pi-based Internet in a Box, technical debates about data formats and compression, and constructive criticism about the installation complexity and platform-specific dependencies. Some users shared historical perspectives on limited internet access, reinforcing the need for such tools.
-
-**Tags**: `#offline-technology`, `#knowledge-preservation`, `#censorship-resistance`, `#self-hosted`, `#open-data`
-
----
-
-<a id="item-7"></a>
-## [Unitree plans 20,000 humanoid robots by 2026, targets home market to challenge Tesla Optimus](https://www.eweek.com/news/unitree-20000-humanoid-robots-2026-china/) ⭐️ 7.0/10
-
-Chinese robotics company Unitree plans to scale its humanoid robot production to 20,000 units by 2026, a significant increase from its 2025 target of about 5,500 units. The company is also preparing for a 4.2 billion RMB IPO on the Shanghai Stock Exchange to fund platform development and plans to enter the home robot market within three years, directly competing with Tesla's Optimus. This aggressive scaling plan signals a major acceleration in the commercialization of humanoid robots, with Unitree positioning itself as a key challenger to Tesla in a market projected to be worth tens of billions. The move could intensify global competition, drive down costs, and accelerate the timeline for practical humanoid robot applications in both industrial and domestic settings. According to Morgan Stanley data, global humanoid robot shipments in 2025 are estimated at about 13,000 units, with Chinese manufacturers accounting for nearly 80% of the market share, primarily driven by Unitree and another Chinese firm, Zhiyuan Robotics. Unitree's existing humanoid models, like the G1 and R1, are known for their compact size, high flexibility, and AI-driven control, standing around 1.32 meters tall and weighing about 35 kg.
-
-telegram · zaihuapd · Mar 22, 04:15
-
-**Background**: Humanoid robots are bipedal machines designed to mimic human form and movement, with potential applications ranging from factory automation to domestic assistance. Companies like Tesla (with its Optimus project), Boston Dynamics, and several Chinese firms are racing to develop commercially viable models. Key technical challenges include stable bipedal locomotion, dexterous manipulation, and affordable production, with control methods evolving from traditional dynamics-based approaches to modern AI and reinforcement learning techniques.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.unitree.com/g1">Humanoid robot G1_Humanoid Robot Functions_Humanoid ... - unitree</a></li>
-<li><a href="https://www.aparobot.com/robots/unitree-g1">Unitree G1 - Robot Details, Use Case and Specifications ...</a></li>
-<li><a href="https://www.oaepublish.com/articles/ir.2025.32">Advancements in humanoid robot dynamics and learning-based ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#robotics`, `#humanoid-robots`, `#ipo`, `#market-competition`, `#china-tech`
+**Tags**: `#version-control`, `#crdt`, `#visualization`, `#python`, `#ai-tools`
 
 ---
