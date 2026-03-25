@@ -5,338 +5,278 @@ date: 2026-03-25
 lang: en
 ---
 
-> From 31 items, 14 important content pieces were selected
+> From 27 items, 12 important content pieces were selected
 
 ---
 
-1. [LiteLLM Python library versions 1.82.7 and 1.82.8 compromised with forkbomb malware on PyPI.](#item-1) ⭐️ 9.0/10
-2. [LiteLLM PyPI package v1.82.8 compromised with credential-stealing .pth file](#item-2) ⭐️ 9.0/10
-3. [Wine 11 introduces kernel-level rewrite with ntsync, delivering massive speed gains for Windows games on Linux.](#item-3) ⭐️ 8.0/10
-4. [Community demonstrates trillion-parameter LLMs on consumer hardware using streaming experts technique](#item-4) ⭐️ 8.0/10
-5. [Nvidia Uses Massive AI Profits to Invest in Startups, Creating Ecosystem Lock-In](#item-5) ⭐️ 8.0/10
-6. [Alibaba's DAMO Academy Launches Xuantie C950 RISC-V CPU, Claims New Global Performance Record](#item-6) ⭐️ 8.0/10
-7. [China's daily AI token usage surges over 1000x in two years, exceeding 140 trillion in March 2026](#item-7) ⭐️ 8.0/10
-8. [DarkSword iOS Exploit Chain Disclosed: Infects Devices via Safari Malicious Pages](#item-8) ⭐️ 8.0/10
-9. [Google Launches Gemini-Powered Dark Web Intelligence AI Agent in Public Preview](#item-9) ⭐️ 8.0/10
-10. [OpenAI to discontinue Sora AI video generator, ending Disney partnership](#item-10) ⭐️ 8.0/10
-11. [Apple launches Apple Business, an all-in-one platform for businesses, but faces criticism for implementation flaws.](#item-11) ⭐️ 7.0/10
-12. [Arm launches its first self-designed and sold silicon product, the AGI CPU](#item-12) ⭐️ 7.0/10
-13. [Claude Code Introduces Auto Mode with AI-Powered Safety Classifier](#item-13) ⭐️ 7.0/10
-14. [Major package managers adopt dependency cooldown features to combat supply chain attacks.](#item-14) ⭐️ 7.0/10
+1. [Arm to sell its own designed chips for the first time, with Meta as first major customer and TSMC as manufacturer](#item-1) ⭐️ 9.0/10
+2. [Swift 6.3 Released with Official Android SDK, Enabling Native Android App Development](#item-2) ⭐️ 9.0/10
+3. [Apifox Desktop Client Compromised in Supply Chain Attack, Stealing SSH Keys and Git Credentials](#item-3) ⭐️ 9.0/10
+4. [Google introduces TurboQuant for extreme KV cache compression in LLMs.](#item-4) ⭐️ 8.0/10
+5. [OpenAI to Discontinue Sora AI Video Generator, Wind Down Disney Partnership](#item-5) ⭐️ 8.0/10
+6. [Tencent Disbands AI Lab, Hires ByteDance Seed Team Leaders to Accelerate Hunyuan Model Upgrade](#item-6) ⭐️ 8.0/10
+7. [NASA shifts from Lunar Gateway to focus on 2029 lunar base, accelerates nuclear propulsion](#item-7) ⭐️ 8.0/10
+8. [China Computer Federation Opposes NeurIPS Sanctions Policy, Calls for Boycott](#item-8) ⭐️ 8.0/10
+9. [OpenAI Shuts Down Sora AI Video Generation App](#item-9) ⭐️ 7.0/10
+10. [Claude Code introduces auto mode as safer alternative to dangerous permission bypass](#item-10) ⭐️ 7.0/10
+11. [Major package managers adopt dependency cooldown features to combat supply chain attacks.](#item-11) ⭐️ 7.0/10
+12. [Claude Code Launches Auto Mode: AI Autonomous Decision-Making with Built-in Safety Review](#item-12) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [LiteLLM Python library versions 1.82.7 and 1.82.8 compromised with forkbomb malware on PyPI.](https://github.com/BerriAI/litellm/issues/24512) ⭐️ 9.0/10
+## [Arm to sell its own designed chips for the first time, with Meta as first major customer and TSMC as manufacturer](https://www.bloomberg.com/news/articles/2026-03-24/arm-to-sell-its-own-chips-for-first-time-in-bid-for-ai-revenue) ⭐️ 9.0/10
 
-Versions 1.82.7 and 1.82.8 of the LiteLLM library on the Python Package Index (PyPI) were discovered to contain malicious code that triggered forkbomb behavior, causing affected systems to rapidly run out of RAM. The packages were subsequently placed under quarantine by PyPI administrators, blocking all downloads while an investigation is underway. This incident represents a significant supply chain attack against a widely used AI/ML tool, highlighting the vulnerability of open-source ecosystems to credential compromise and automated publishing pipelines. It directly impacts developers and organizations relying on LiteLLM for AI application development, forcing immediate security reviews and dependency updates. The malicious payload was a base64-encoded blob added to the `proxy_server.py` file, which wrote and executed another file, leading to the forkbomb. The maintainers indicated the attack may have originated from a compromised `trivy` tool used in their CI/CD pipeline, and users of the pinned proxy Docker image were not affected.
+Arm Holdings announced it will for the first time sell its own designed chips, starting with a new high-core-count 'AGI CPU' targeting AI data center workloads. Meta Platforms is the first major customer for this chip, which features up to 136 cores, a 300-watt power envelope, and will be manufactured by TSMC. This marks a major strategic shift for Arm, moving from a pure intellectual property (IP) licensing model to directly competing in the chip sales market. It intensifies competition in the data center CPU space, particularly for AI workloads, and could reshape the dynamics between chip designers, foundries, and major cloud customers like Meta. The Arm AGI CPU is designed to work alongside accelerator chips from companies like Nvidia and claims superior energy efficiency compared to traditional CPU designs from Intel and AMD. Systems based on this chip are already available from OEMs like Quanta Computer and Supermicro, with volume availability expected to expand in the second half of 2026.
 
-hackernews · dot_treo · Mar 24, 12:06
+telegram · zaihuapd · Mar 25, 02:45
 
-**Background**: LiteLLM is a popular open-source library that provides a unified interface to call various large language model (LLM) APIs. A forkbomb is a denial-of-service attack where a process repeatedly replicates itself to exhaust system resources like CPU or memory. PyPI's quarantine feature is a security measure that blocks downloads of a project when credible reports of malware are received, allowing for investigation.
+**Background**: Arm Holdings is a British company primarily known for designing the CPU architecture and licensing the intellectual property (IP) to other companies like Apple, Qualcomm, and Samsung, who then manufacture their own chips. The 'AGI CPU' is built on Arm's Neoverse V3 architecture, which is specifically designed for cloud and data center applications. TSMC (Taiwan Semiconductor Manufacturing Company) is the world's largest contract semiconductor manufacturer, producing chips for companies like Apple, Nvidia, and AMD.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blog.pypi.org/posts/2024-12-30-quarantine/">Project Quarantine - The Python Package Index Blog</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Fork_bomb">Fork bomb - Wikipedia</a></li>
-<li><a href="https://evrimagaci.org/gpt/teampcp-supply-chain-attacks-escalate-across-open-source-534993">TeamPCP Supply Chain Attacks Escalate Across Open Source</a></li>
+<li><a href="https://newsroom.arm.com/blog/introducing-arm-agi-cpu">Announcing Arm AGI CPU: The silicon foundation for the agentic AI cloud era - Arm Newsroom</a></li>
+<li><a href="https://www.arm.com/products/cloud-datacenter/arm-agi-cpu">Arm AGI CPU – Arm®</a></li>
+<li><a href="https://www.cnbc.com/2026/03/24/arm-launches-its-own-cpu-with-meta-as-first-customer.html">Arm launches its own CPU, with Meta as first customer</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community discussion reveals an evolving investigation, with a maintainer linking the attack to broader 'TeamPCP' supply chain activity. Comments express deep concern over dependency security, with calls for stronger development sandboxes and the sharing of defensive tools like canary/honeypot systems. Some frustration was also noted regarding spam comments in the issue thread.
-
-**Tags**: `#security`, `#supply-chain`, `#ai-ml`, `#python`, `#incident-response`
+**Tags**: `#semiconductors`, `#artificial-intelligence`, `#data-center`, `#hardware`, `#arm-architecture`
 
 ---
 
 <a id="item-2"></a>
-## [LiteLLM PyPI package v1.82.8 compromised with credential-stealing .pth file](https://simonwillison.net/2026/Mar/24/malicious-litellm/#atom-everything) ⭐️ 9.0/10
+## [Swift 6.3 Released with Official Android SDK, Enabling Native Android App Development](https://swift.org/blog/swift-6.3-released/) ⭐️ 9.0/10
 
-The LiteLLM v1.82.8 package published to PyPI was compromised with a credential stealer hidden in a base64-encoded `litellm_init.pth` file, which executes automatically upon package installation without requiring the package to be imported. PyPI administrators quarantined the entire project within approximately three hours, limiting the exposure window. This incident represents a sophisticated supply chain attack against a major AI/ML library, demonstrating how malicious code can be triggered simply by installing a package, significantly lowering the barrier for compromise. It highlights critical vulnerabilities in the software supply chain, especially for widely-used Python dependencies in the rapidly growing AI ecosystem, and underscores the risk posed by compromised CI/CD tools. The malicious payload was double base64-encoded to evade static analysis tools and targeted a wide array of secrets including SSH keys, cloud credentials (AWS, Azure, Kubernetes, Docker), Git credentials, cryptocurrency wallets, and shell history files. The attack is linked to a prior compromise of the Trivy security scanner, which was used in LiteLLM's CI/CD pipeline, leading to stolen PyPI publishing credentials.
+Swift 6.3 was officially released on March 25, 2026, and it includes the first official release of the Swift SDK for Android. This enables developers to write native Android applications using Swift or integrate Swift code into existing Kotlin/Java applications via the Swift Java interoperability plugin. This represents a major paradigm shift, significantly expanding Swift's ecosystem beyond Apple platforms and potentially reshaping cross-platform mobile development workflows. It allows iOS developers to leverage their Swift expertise for Android development, potentially increasing code reuse and reducing the barrier to entry for building apps on both major mobile platforms. The Swift Java plugin allows Swift programs to call Java libraries by wrapping Java classes in corresponding Swift types. Developers can start experimenting with the new capability by visiting the official 'Getting Started with the Swift SDK for Android' guide and exploring the swift-android-examples repository for sample projects.
 
-rss · Simon Willison · Mar 24, 15:07
+telegram · zaihuapd · Mar 25, 03:45
 
-**Background**: LiteLLM is a popular open-source Python library that provides a unified interface to call various large language models (LLMs) from different providers. In Python, `.pth` (path) files are a mechanism that can be placed in a site-packages directory to modify Python's module search path; however, they can also contain arbitrary Python code that is executed automatically every time the Python interpreter starts, making them a potent vector for supply chain attacks. PyPI (Python Package Index) is the primary repository for Python software packages, and its 'quarantine' feature allows administrators to mark a project as potentially harmful to prevent further installations.
+**Background**: Swift is a general-purpose programming language developed by Apple, first released in 2014, and is the primary language for developing applications across Apple's platforms (iOS, macOS, watchOS, tvOS). Native Android development has traditionally been done using Java or Kotlin, with Kotlin being Google's preferred language since 2019. The concept of using Swift for Android has existed in community projects, but Swift 6.3 marks its first official, first-party support from the Swift project itself.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.xda-developers.com/popular-python-library-backdoor-machine/">A popular Python library just became a backdoor to your entire machine</a></li>
-<li><a href="https://blog.pypi.org/posts/2024-12-30-quarantine/">Project Quarantine - The Python Package Index Blog</a></li>
-<li><a href="https://github.com/BerriAI/litellm/issues/24512">[Security]: CRITICAL: Malicious litellm_init.pth in litellm 1.82.8 — credential stealer · Issue #24512 · BerriAI/litellm</a></li>
+<li><a href="https://www.swift.org/blog/swift-6.3-released/">Swift 6.3 Released | Swift .org</a></li>
+<li><a href="https://github.com/swiftlang/swift-java">GitHub - swiftlang/swift-java: Java interopability support for Swift · GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Swift_(programming_language)">Swift (programming language) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#supply-chain`, `#ai-ml`, `#python`, `#pypi`
+**Tags**: `#swift`, `#android`, `#cross-platform`, `#mobile-development`, `#programming-languages`
 
 ---
 
 <a id="item-3"></a>
-## [Wine 11 introduces kernel-level rewrite with ntsync, delivering massive speed gains for Windows games on Linux.](https://www.xda-developers.com/wine-11-rewrites-linux-runs-windows-games-speed-gains/) ⭐️ 8.0/10
+## [Apifox Desktop Client Compromised in Supply Chain Attack, Stealing SSH Keys and Git Credentials](http://apifox.it.xn--comcdn-kr3e.openroute.xn--devupgrade-eh3i.feishu.it.com/) ⭐️ 9.0/10
 
-Wine 11.0 has been released, featuring a major kernel-level rewrite that uses the new ntsync driver to emulate Windows NT synchronization primitives. This change has resulted in dramatic performance improvements, with some benchmarks showing frame rate increases of 7-8 times compared to older versions of Wine without certain optimizations. This represents a significant leap in the efficiency of the Wine compatibility layer, directly benefiting the Linux gaming ecosystem by making more Windows games playable at higher performance. It underscores a strategic shift towards deeper kernel integration for better accuracy and speed, which is crucial for the viability of Linux as a gaming platform. The extreme performance gains (e.g., 7-8x) are primarily observed when comparing against "vanilla" Wine without the fsync patch; for users already using Proton or Wine with fsync, the improvement from ntsync is more modest, typically in the single-digit percentage range. The release also completes Wine's WoW64 architecture, improving 32-bit application support on 64-bit systems.
+The Apifox desktop client was compromised in a supply chain attack where attackers modified an event-tracking script on its CDN to inject malicious code. This code harvested sensitive data including SSH keys, Git credentials, shell history, and process lists from developers' machines, and could potentially deploy backdoors for lateral movement. This incident is significant because it directly targets developers using a popular API development tool, potentially compromising the security of countless software projects and their underlying infrastructure. It highlights the severe risks posed by supply chain attacks on developer tools, which can lead to widespread credential theft and unauthorized access to source code repositories and servers. The attack was active from March 4th and affected users on Windows, macOS, and Linux. Security researcher phith0n independently reverse-engineered the malicious payload and published analysis code. Users can check for compromise by looking for traces of the domain 'apifox.it.com' in specific local files, such as the 'Network Persistent State' file or LevelDB keys.
 
-hackernews · felineflock · Mar 24, 18:34
+telegram · zaihuapd · Mar 25, 11:10
 
-**Background**: Wine is a free and open-source compatibility layer that allows Windows applications, including games, to run on Unix-like operating systems such as Linux. It translates Windows API calls into POSIX-compliant calls on-the-fly. Proton is a tool developed by Valve Software, built on top of Wine, with additional patches and components (like esync/fsync) specifically optimized for running Windows games on the Steam Deck and Linux. Synchronization primitives are low-level programming constructs used to coordinate the execution of multiple threads or processes.
+**Background**: A software supply chain attack involves injecting malicious code into a legitimate application or its update mechanism to infect all its users. SSH keys are cryptographic credentials used for secure remote access to servers and systems. Git credentials are used to authenticate with version control systems like GitHub or GitLab. LevelDB is a fast key-value storage library often used by applications to store local data, and the malicious script in this attack searched within its structure for sensitive information.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://docs.kernel.org/next/userspace-api/ntsync.html">NT synchronization primitive driver — The Linux Kernel ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Proton_(software)">Proton (software) - Wikipedia</a></li>
-<li><a href="https://www.msn.com/en-us/gaming/general/wine-11-rewrites-how-linux-runs-windows-games-at-the-kernel-level-and-the-speed-gains-are-massive/ar-AA1ZgKNB">Wine 11 rewrites how Linux runs Windows games at the kernel level ...</a></li>
+<li><a href="https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/supply-chain-attack/">What Is a Supply Chain Attack? - CrowdStrike</a></li>
+<li><a href="https://martin.kleppmann.com/2013/05/24/improving-security-of-ssh-private-keys.html">Improving the security of your SSH private key files — Martin Kleppmann’s blog</a></li>
+<li><a href="https://en.wikipedia.org/wiki/LevelDB">LevelDB - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community reaction is overwhelmingly positive, with users expressing respect for the Wine project's long-term, detailed work and amazement at the reported performance figures. A key point of discussion and clarification is that the massive gains are relative to a baseline without fsync, and that the incremental improvement from ntsync over the already-optimized fsync is more measured. There is also appreciation for Valve's financial contribution to the ecosystem through Proton.
-
-**Tags**: `#wine`, `#linux-gaming`, `#compatibility-layer`, `#performance`, `#proton`
+**Tags**: `#security`, `#supply-chain-attack`, `#api-tools`, `#developer-tools`, `#incident-response`
 
 ---
 
 <a id="item-4"></a>
-## [Community demonstrates trillion-parameter LLMs on consumer hardware using streaming experts technique](https://simonwillison.net/2026/Mar/24/streaming-experts/#atom-everything) ⭐️ 8.0/10
+## [Google introduces TurboQuant for extreme KV cache compression in LLMs.](https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/) ⭐️ 8.0/10
 
-Within days of initial experiments, developers have successfully demonstrated the 'streaming experts' technique running massive Mixture-of-Experts LLMs on consumer hardware, including a 1-trillion parameter Kimi K2.5 model on an M2 Max MacBook Pro with 96GB RAM and the Qwen3.5-397B-A17B model on an iPhone. The technique involves streaming only the necessary expert weights from SSD during token processing rather than loading the entire model into RAM. This breakthrough dramatically lowers the hardware barrier for running state-of-the-art LLMs, potentially enabling advanced AI capabilities on personal devices without requiring expensive cloud infrastructure or specialized servers. It represents a significant step toward democratizing access to cutting-edge AI models and could accelerate development of local, privacy-preserving AI applications. Performance varies significantly by hardware, with the iPhone demonstration achieving only 0.6 tokens/second while a 128GB M4 Max MacBook Pro runs the same Kimi K2.5 model at approximately 1.7 tokens/second. The technique specifically benefits Mixture-of-Experts models where only a small subset of 'experts' (like 17B out of 397B parameters in Qwen3.5) are active during any given inference step.
+Google Research has introduced TurboQuant, a new method that combines random rotation and quantization to compress the KV cache in Large Language Models (LLMs) down to 3 bits without retraining. The technique, along with related methods QJL and PolarQuant, was announced in a blog post and will be presented at ICLR 2026 and AISTATS 2026. This matters because the KV cache is a major memory bottleneck during LLM inference, especially for long-context tasks, limiting model deployment and efficiency. By drastically reducing KV cache memory usage (e.g., by 6x or more), TurboQuant can enable longer context windows, higher throughput, and lower-cost inference, making advanced LLMs more accessible. In tests, 4-bit TurboQuant achieved up to an 8x speedup in computing attention logits on H100 GPUs compared to 32-bit unquantized keys. The method also outperformed existing techniques like PQ and RabbiQ in high-dimensional vector search recall, and it maintained downstream task performance in long-context 'needle-in-a-haystack' evaluations.
 
-rss · Simon Willison · Mar 24, 05:09
+hackernews · ray__ · Mar 25, 05:00
 
-**Background**: Mixture-of-Experts (MoE) is an LLM architecture that uses multiple specialized sub-networks ('experts') with a routing mechanism that activates only relevant experts for each input, allowing models to have enormous total parameters while keeping computational costs manageable during inference. Models like GPT-4, Mistral's open-source models, and Qwen3.5 use this architecture to achieve high performance with efficient inference. The 'streaming experts' approach exploits this property by storing the full model on fast storage (SSD) and loading only the tiny fraction of weights needed for each token as it's processed.
+**Background**: During inference, LLMs store past Key (K) and Value (V) vectors from the attention mechanism in a 'KV cache' to avoid recomputation, but this cache consumes significant memory, scaling with context length. KV cache compression techniques aim to reduce this memory footprint to improve inference efficiency. Quantization is a common compression method that reduces the numerical precision (e.g., from 32 bits to 4 bits) of these stored vectors.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://developer.nvidia.com/blog/applying-mixture-of-experts-in-llm-architectures/">Applying Mixture of Experts in LLM Architectures | NVIDIA ...</a></li>
-<li><a href="https://devblogs.co/posts/streaming-experts">Streaming experts</a></li>
-<li><a href="https://qwen-ai.com/">Qwen AI — Open-Source LLMs, Vision, Audio & Coding Models (2026)</a></li>
+<li><a href="https://arxiv.org/html/2508.06297v1">KV Cache Compression for Inference Efficiency in LLMs: A Review</a></li>
+<li><a href="https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/">TurboQuant: Redefining AI efficiency with extreme compression</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#Mixture-of-Experts`, `#Model-Deployment`, `#Edge-AI`, `#Hardware-Efficiency`
+**Discussion**: The community shows active technical engagement, with one user noting a potential missing citation for a foundational rotation technique. Another user requests a simpler explanation of the random rotation concept, while others highlight rapid independent implementations in llama.cpp and PyTorch. A separate comment criticizes the blog post's explanation as unclear for a lay audience.
+
+**Tags**: `#AI Efficiency`, `#Model Compression`, `#KV Cache`, `#LLM Inference`, `#Quantization`
 
 ---
 
 <a id="item-5"></a>
-## [Nvidia Uses Massive AI Profits to Invest in Startups, Creating Ecosystem Lock-In](https://www.wsj.com/tech/nvidia-ai-market-competition-9db60e4c) ⭐️ 8.0/10
+## [OpenAI to Discontinue Sora AI Video Generator, Wind Down Disney Partnership](https://www.bloomberg.com/news/articles/2026-03-24/openai-plans-to-discontinue-support-for-sora-ai-video-generator?srnd=phx-technology) ⭐️ 8.0/10
 
-Since 2022, Nvidia has invested billions of dollars in AI startups like OpenAI, CoreWeave, and Reflection AI, acting as a supplier, investor, and creditor simultaneously. The company has also used high-value acquisitions and flexible deal structures, such as a $20 billion licensing agreement with chip startup Groq, to acquire key technology and talent while reportedly avoiding regulatory scrutiny. This strategy creates significant financial dependencies that lock customers into Nvidia's hardware and software ecosystem, making it difficult for them to switch to competitors like AMD. The practice has drawn attention from U.S. lawmakers concerned about antitrust violations and the potential stifling of competition in the critical AI infrastructure market. The investments target companies that are major consumers of Nvidia's GPUs, such as CoreWeave, a specialized AI cloud provider. The deal with Groq, known for its unique Language Processing Unit (LPU) architecture, involved licensing its technology and hiring away its core engineering team.
+OpenAI plans to discontinue its Sora AI video generator application and its developer API, roughly six months after the app's high-profile launch. The company is also winding down its partnership with Disney related to Sora, reallocating resources toward AI agents and a new model codenamed 'Spud'. This decision signals a significant strategic pivot for a leading AI company, moving away from a flagship generative video product to focus on autonomous AI agents and next-generation foundation models. It highlights the intense competition and rapid evolution in the AI industry, where even high-profile products can be short-lived as companies chase new technological frontiers. The discontinuation is part of a broader effort to streamline OpenAI's product lineup. Concurrently, the company is restructuring some safety and security teams to integrate their work more closely into the development process for its new priorities.
 
-telegram · zaihuapd · Mar 24, 03:02
+telegram · zaihuapd · Mar 25, 00:30
 
-**Background**: Nvidia's graphics processing units (GPUs) have become the de facto standard for training and running large AI models, generating enormous revenue during the AI boom. CoreWeave is a cloud computing company that specializes in providing GPU infrastructure specifically for AI workloads. Groq is a chip company that developed the LPU, a processor architecture designed for fast, low-cost inference of large language models, posing a potential alternative to GPUs for certain tasks.
+**Background**: Sora is a text-to-video model and app developed by OpenAI that generates short, realistic video clips from text prompts. AI agents, like OpenAI's Codex, are systems designed to autonomously accomplish complex tasks, such as software engineering. The new model 'Spud' represents OpenAI's next major AI initiative, with CEO Sam Altman suggesting it could have significant economic impact.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/CoreWeave">CoreWeave - Wikipedia</a></li>
-<li><a href="https://www.coreweave.com/">The Essential Cloud for AI | CoreWeave</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Groq">Groq - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sora_(text-to-video_model)">Sora (text-to- video model) - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenAI_Codex_(AI_agent)">OpenAI Codex (AI agent) - Wikipedia</a></li>
+<li><a href="https://www.theinformation.com/articles/openai-ceo-shifts-responsibilities-preps-spud-ai-model">OpenAI CEO Shifts Responsibilities, Preps ‘Spud’ AI Model</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Infrastructure`, `#Antitrust`, `#Nvidia`, `#Market Competition`, `#Venture Capital`
+**Tags**: `#OpenAI`, `#AI-Strategy`, `#Video-Generation`, `#Product-Discontinuation`, `#Industry-News`
 
 ---
 
 <a id="item-6"></a>
-## [Alibaba's DAMO Academy Launches Xuantie C950 RISC-V CPU, Claims New Global Performance Record](https://mp.weixin.qq.com/s/TTnqm8qm3Dxshj_0bxwtkw) ⭐️ 8.0/10
+## [Tencent Disbands AI Lab, Hires ByteDance Seed Team Leaders to Accelerate Hunyuan Model Upgrade](https://mp.weixin.qq.com/s/24ZWs8JFP6seQSSIhU6mOw) ⭐️ 8.0/10
 
-On March 24, at the 2026 Xuantie RISC-V Ecosystem Conference in Shanghai, Alibaba's DAMO Academy unveiled its new flagship CPU, the Xuantie C950. The company claims it achieved a score exceeding 70 points in the SPECint2006 single-core benchmark, setting a new public performance record for RISC-V processors. This announcement is significant because it demonstrates that RISC-V, an open-source architecture, can now compete in high-performance computing domains traditionally dominated by x86 and ARM. The C950's ability to natively run large AI models like Qwen3 and DeepSeek V3 positions it as a potential key player in cloud AI, edge computing, and high-end robotics, potentially reducing reliance on proprietary architectures. The Xuantie C950 is designed for cloud computing, generative AI, high-end robotics, and edge computing. It integrates DAMO's proprietary AI acceleration engine, which is specifically optimized to natively support running large-scale models with hundreds of billions of parameters.
+Tencent has officially disbanded its AI Lab and reorganized its large model R&D system, while simultaneously hiring multiple key technical leaders from ByteDance's Seed team. The company plans to release a new generation of its Hunyuan foundational model in April 2026. This move signals a major strategic pivot for Tencent, consolidating its AI research efforts towards a more product-oriented, large-model-centric approach to compete in China's intensifying generative AI race. The talent acquisition from a key competitor like ByteDance's advanced Seed team represents a direct effort to rapidly bolster its technical capabilities and infrastructure. Key hires include Xiao Xuefeng, former head of ByteDance Seed's visual AI platform team, who is now assistant head of Tencent's AI Infra department, and Huang Qi, who leads the training Infra group. The reorganization also involved transferring some former AI Lab personnel to the Large Language Model department.
 
-telegram · zaihuapd · Mar 24, 06:01
+telegram · zaihuapd · Mar 25, 03:00
 
-**Background**: RISC-V is a free and open standard Instruction Set Architecture (ISA), unlike proprietary ISAs like x86 (Intel/AMD) and ARM. Its open nature allows any company to design processors without paying licensing fees, fostering innovation and reducing vendor lock-in. SPECint2006 is a standardized benchmark suite used to measure a processor's integer compute performance, providing a common metric for comparison across different architectures. Qwen3 is a family of large language models developed by Alibaba Cloud.
+**Background**: Tencent's Hunyuan is a proprietary, trillion-parameter large language model based on the Transformer architecture, first unveiled in September 2023. ByteDance's Seed team, established in 2023, is dedicated to pushing the boundaries of general AI, with research spanning LLMs, vision, speech, and AI infrastructure. An 'AI Infra' department typically focuses on the underlying computational systems, tools, and platforms needed to develop and deploy AI models at scale.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/RISC-V_architecture">RISC-V architecture</a></li>
-<li><a href="https://en.wikipedia.org/wiki/SPECint">SPECint - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Qwen">Qwen - Wikipedia</a></li>
+<li><a href="https://www.tencent.com/en-us/articles/2201685.html">Tencent Unveils Hunyuan, its Proprietary Large Foundation ...</a></li>
+<li><a href="https://seed.bytedance.com/en/">ByteDance Seed</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#RISC-V`, `#Hardware`, `#AI Acceleration`, `#Semiconductors`, `#Alibaba`
+**Tags**: `#AI-Industry`, `#Organizational-Strategy`, `#Large-Language-Models`, `#Tencent`, `#Talent-Mobility`
 
 ---
 
 <a id="item-7"></a>
-## [China's daily AI token usage surges over 1000x in two years, exceeding 140 trillion in March 2026](http://paper.people.com.cn/rmrb/pc/content/202603/24/content_30147015.html) ⭐️ 8.0/10
+## [NASA shifts from Lunar Gateway to focus on 2029 lunar base, accelerates nuclear propulsion](https://www.nasa.gov/news-release/nasa-unveils-initiatives-to-achieve-americas-national-space-policy/) ⭐️ 8.0/10
 
-China's National Data Administration disclosed that the country's daily token usage for AI models exceeded 140 trillion in March 2026. This represents a growth of over 1000 times in two years, rising from 100 billion tokens per day in early 2024 to 100 trillion by the end of 2025. This explosive growth indicates the rapid scaling and commercialization of China's AI industry, as token usage is a direct measure of AI model activity and adoption. It also signals the formation of a new value system around token usage, distribution, and settlement, which is becoming a crucial pathway for AI commercialization. The data was officially released by China's National Data Administration, a key government body overseeing data governance. The report links this growth to the ongoing reform of market-based allocation of data elements and the formation of a high-quality data supply system for AI.
+NASA has announced a strategic shift, pausing development of the Lunar Gateway orbital station to prioritize establishing a permanent lunar surface base by 2029. The agency also plans to launch its first nuclear-powered interplanetary spacecraft, Space Reactor-1 Freedom, to Mars by 2028 to demonstrate nuclear electric propulsion technology. This represents a major reallocation of resources within NASA's Artemis program, moving from an orbital staging post to direct, sustained surface operations, which could accelerate the timeline for establishing a long-term human presence on the Moon. The parallel push for nuclear propulsion is critical for enabling faster and more capable crewed missions to Mars, marking a significant technological leap for deep space exploration. The new plan aims for at least one lunar landing per year initially, with the goal of increasing to crewed missions every six months after the Artemis V mission, leveraging more commercial partnerships and reusable hardware. NASA also expects to conduct 30 robotic lunar landings starting in 2027 through its Commercial Lunar Payload Services program.
 
-telegram · zaihuapd · Mar 24, 07:22
+telegram · zaihuapd · Mar 25, 04:30
 
-**Background**: In AI and natural language processing, a token is the smallest unit of information processed by large language models, analogous to a fragment of text or 'fuel' for AI. Tokenization is the process of splitting continuous text into a sequence of tokens, which is the first step in most NLP pipelines. In the Chinese context, 'data elements' refer to data recognized as a factor of production, and their 'market-based allocation reform' is a national policy aimed at establishing markets and mechanisms to trade and utilize data efficiently.
+**Background**: The Lunar Gateway was a planned small space station in orbit around the Moon, intended to serve as a staging point for astronauts traveling to the lunar surface under the Artemis program. The Artemis program is NASA's flagship Moon exploration initiative, formally established in 2017, with the goal of returning humans to the Moon and eventually sending crewed missions to Mars. Nuclear Electric Propulsion (NEP) is a technology that uses a nuclear reactor to generate electricity, which then powers highly efficient electric thrusters, offering much greater efficiency and mission flexibility compared to traditional chemical rockets for deep space travel.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://zh.wikipedia.org/wiki/词元_(自然语言处理)">词元 (自然语言处理) - 维基百科，自由的百科全书</a></li>
-<li><a href="https://www.runoob.com/ai-agent/token-intro.html">Token (词元) - 菜鸟教程</a></li>
-<li><a href="https://www.wuhan.gov.cn/zwgk/xxgk/zfwj/bgtwj/202304/P020230414574725502889.pdf">标题</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Lunar_Gateway">Lunar Gateway - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Artemis_program">Artemis program - Wikipedia</a></li>
+<li><a href="https://www.insightsonindia.com/2026/03/25/space-reactor-1-sr-1-freedom-spacecraft/">NASA Space Reactor 1 Freedom : Nuclear Spacecraft & Mars Mission...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Infrastructure`, `#Token Economics`, `#China Tech`, `#LLM Scaling`, `#Data Elements`
+**Tags**: `#space-exploration`, `#nasa`, `#lunar-base`, `#nuclear-propulsion`, `#artemis-program`
 
 ---
 
 <a id="item-8"></a>
-## [DarkSword iOS Exploit Chain Disclosed: Infects Devices via Safari Malicious Pages](https://t.me/zaihuapd/40482) ⭐️ 8.0/10
+## [China Computer Federation Opposes NeurIPS Sanctions Policy, Calls for Boycott](https://www.ccf.org.cn/Focus/2026-03-25/865918.shtml) ⭐️ 8.0/10
 
-A sophisticated iOS exploit chain named DarkSword has been publicly disclosed, which chains six vulnerabilities to achieve remote code execution on iPhones running iOS 18.4 through 18.7 simply by visiting a malicious webpage in Safari. The exploit, used in targeted attacks in countries including Saudi Arabia, Turkey, Malaysia, and Ukraine since November 2025, delivered payloads like the GHOSTBLADE malware. This disclosure highlights the continued threat of sophisticated, multi-stage exploit chains targeting mobile devices, demonstrating how a single malicious webpage can lead to full device compromise. It underscores the critical importance of timely software updates, as the attacks exploited vulnerabilities that were patched in later iOS releases, including iOS 26.3. The exploit chain is written almost entirely in JavaScript, simplifying deployment. One of the six vulnerabilities, CVE-2025-43529, is a use-after-free flaw in WebKit that was patched in iOS 18.7.3 and 26.2, but was exploited in attacks targeting iOS 18.6 to 18.7. The GHOSTBLADE payload is known to target cryptocurrency applications and exfiltrate sensitive data.
+The China Computer Federation (CCF) issued a formal statement on March 25, 2026, strongly opposing NeurIPS 2026's policy of prohibiting submissions from institutions on US sanctions lists. The CCF called on Chinese researchers to boycott the conference by refusing to submit papers or provide academic services, and threatened to remove NeurIPS from its prestigious Recommended Conference List if the policy is not revoked. This represents a major escalation in the politicization of global AI research, as a leading national academic body directly challenges the policies of a top-tier conference. The CCF's recommended list significantly influences Chinese researchers' publication choices and career evaluations, so its potential delisting of NeurIPS could drastically reshape participation patterns and collaboration networks in one of the world's largest AI research communities. The controversy stems from NeurIPS 2026's explicit prohibition of submissions from "certain organizations on US sanctions lists" in its official submission guidelines. The CCF's threat to delist NeurIPS is particularly consequential because its Recommended Conference List is a widely recognized benchmark in China for evaluating research impact and academic reputation.
 
-telegram · zaihuapd · Mar 24, 11:45
+telegram · zaihuapd · Mar 25, 14:07
 
-**Background**: DarkSword is a 'full-chain' exploit kit, meaning it combines multiple vulnerabilities across different software layers (like the WebKit browser engine and the iOS kernel) to achieve complete control of a device from a remote starting point, such as a webpage. A 'zero-click' or 'one-click' exploit requires little to no user interaction beyond loading the malicious content. WebKit is the browser engine that powers Safari on iOS and macOS.
+**Background**: NeurIPS (Conference on Neural Information Processing Systems) is one of the world's most prestigious annual conferences in artificial intelligence and machine learning. The CCF Recommended International Academic Conference and Journal Directory is a highly influential ranking system within China's computer science community, guiding researchers on where to publish and affecting institutional evaluations. US sanctions lists, such as the Department of Commerce's Entity List, include foreign universities and research institutions subject to export controls and restrictions, which are now being extended to academic conference participation.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.hklaw.com/en/insights/publications/2026/03/new-ios-exploit-darksword-and-a-new-era-of-mobile-security">New iOS Exploit "DarkSword" and a New Era of Mobile Security</a></li>
-<li><a href="https://labs.cloudsecurityalliance.org/wp-content/uploads/2026/03/CSA_research_note_darksword_ios_fullchain_zeroday_multiactor_20260319-csa-styled.pdf">DarkSword: Full-Chain iOS Zero-Day Exploitation by State Actors</a></li>
-<li><a href="https://nvd.nist.gov/vuln/detail/CVE-2025-43529">NVD - CVE-2025-43529</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems">Conference on Neural Information Processing Systems - Wikipedia</a></li>
+<li><a href="https://www.iconf.com/news/820">CCF Recommended Conference List and How to Understand Computer Science Conference Rankings丨ICONF</a></li>
+<li><a href="https://researchpolicy.caltech.edu/research-security/export-compliance/restricted-party-screening/foreign-universities-sanctioned-by-the-us-government">Foreign Universities Sanctioned by the U.S. Government</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#iOS Security`, `#Browser Exploit`, `#Vulnerability Disclosure`, `#Zero-Click Exploit`, `#Cyber Threat Intelligence`
+**Tags**: `#academic-policy`, `#ai-research`, `#geopolitics`, `#research-ethics`, `#conferences`
 
 ---
 
 <a id="item-9"></a>
-## [Google Launches Gemini-Powered Dark Web Intelligence AI Agent in Public Preview](https://www.theregister.com/2026/03/23/google_dark_web_ai/) ⭐️ 8.0/10
+## [OpenAI Shuts Down Sora AI Video Generation App](https://twitter.com/soraofficialapp/status/2036532795984715896) ⭐️ 7.0/10
 
-Google has launched a dark web intelligence service powered by its Gemini AI models, now available in public preview within Google Threat Intelligence. The service first builds a profile of a customer's organization and then screens 8 to 10 million daily dark web posts to identify relevant risks, such as initial access broker activity, data breaches, and insider threats, with a reported 98% accuracy in internal tests. This represents a significant advancement in applying large language models (LLMs) to automate and scale threat intelligence, a traditionally manual and resource-intensive process. By analyzing massive volumes of dark web data with high accuracy, it enables security teams to proactively discover threats targeting their specific organization before attacks are launched. The service is integrated into the existing Google Threat Intelligence platform and focuses on identifying highly specific threats like initial access broker (IAB) activity, which is a precursor to more severe attacks like ransomware. Its claimed 98% accuracy rate suggests a focus on minimizing false positives, a critical factor for operational efficiency in security teams.
+OpenAI is shutting down its Sora AI video generation app, which was launched to significant initial excitement. The decision comes after the app failed to retain users beyond a short period of novelty-driven engagement. This shutdown highlights the challenges even leading AI companies face in achieving product-market fit and sustaining user engagement beyond initial hype. It signals a potential shift in OpenAI's product strategy, moving away from standalone consumer apps that rely on novelty and towards more integrated or utility-focused offerings. The shutdown announcement came shortly after OpenAI published a primer on Sora safeguards, suggesting either a lack of internal communication or a sudden strategic pivot. The app reportedly struggled with user retention, as many users, after an initial burst of creative activity, found no compelling reason to return regularly.
 
-telegram · zaihuapd · Mar 24, 13:15
+hackernews · mikeocool · Mar 24, 20:01
 
-**Background**: The dark web is a part of the internet not indexed by traditional search engines, often used for illicit activities, including the sale of stolen data and access to compromised systems. Initial Access Brokers (IABs) are cybercriminals who specialize in breaching networks and then selling that unauthorized access to other threat actors, such as ransomware gangs. Dark web monitoring services aim to scan these hidden forums and marketplaces for information that could indicate an impending threat to an organization.
+**Background**: Sora was an AI model and app developed by OpenAI capable of generating short, realistic videos from text prompts. It was part of a wave of generative AI tools moving beyond static images into dynamic video content. The app allowed users to create and share these AI-generated videos, positioning itself as a platform for creative expression.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.theregister.com/2026/03/23/google_dark_web_ai/">Google unleashes Gemini AI agents on the dark web</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Initial_access_broker">Initial access broker - Wikipedia</a></li>
-<li><a href="https://expertinsights.com/security-operations/the-top-dark-web-monitoring-solutions">Dark Web Monitoring: The Top Dark Web Monitoring Services 2026</a></li>
+**Discussion**: Community sentiment is mixed, with users sharing personal experiences and strategic critiques. Some users, like meken, fondly recalled the initial creative joy but confirmed the novelty wore off quickly, leading to abandonment. Others, like johnfn, criticized Sora for lacking the utility and respect for user time found in OpenAI's other products like GPT. Commenters also noted the awkward timing of the shutdown relative to recent safety publications and questioned the app's core value proposition of a dedicated AI video feed.
 
-</ul>
-</details>
-
-**Tags**: `#AI-Security`, `#Gemini`, `#Threat-Intelligence`, `#Dark-Web`, `#Google-Cloud`
+**Tags**: `#AI`, `#OpenAI`, `#product-strategy`, `#video-generation`, `#startup-failure`
 
 ---
 
 <a id="item-10"></a>
-## [OpenAI to discontinue Sora AI video generator, ending Disney partnership](https://www.bloomberg.com/news/articles/2026-03-24/openai-plans-to-discontinue-support-for-sora-ai-video-generator?srnd=phx-technology) ⭐️ 8.0/10
+## [Claude Code introduces auto mode as safer alternative to dangerous permission bypass](https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything) ⭐️ 7.0/10
 
-OpenAI announced plans to shut down its Sora AI video generator product and its developer API, just about six months after the standalone app's high-profile launch. The company is also winding down its multi-year partnership with Disney related to Sora. This represents a major strategic pivot for a leading AI company, signaling a shift away from consumer-facing generative AI video tools towards what it perceives as more lucrative or strategic areas like AI agents and foundational models. The move impacts developers, partners like Disney, and the competitive landscape for AI video generation. The shutdown is part of OpenAI's effort to simplify its product portfolio and reallocate resources. The company is shifting its focus towards developing AI agents and a new foundational AI model codenamed 'Spud', while also reorganizing some safety and security teams to be more integrated into the development process.
+Anthropic has introduced auto mode for Claude Code, a new permissions mode where Claude makes permission decisions on behalf of users with safeguards monitoring actions before execution. This mode uses Claude Sonnet 4.6 as a classifier model to review conversations and block potentially harmful actions that escalate beyond task scope, target untrusted infrastructure, or appear driven by hostile content. This development is significant because it provides a safer alternative to the --dangerously-skip-permissions flag, which allowed fully unattended execution without safeguards. Auto mode represents an important advancement in AI-assisted coding security by introducing automated permission decisions with built-in safety checks, potentially reducing risks of destructive actions, supply chain attacks, and unauthorized system modifications. The auto mode includes extensive default filters covering areas like test artifacts, local operations within project scope, read-only operations, and declared dependencies, while blocking actions like force pushing to Git, pushing directly to default branches, and executing code from external sources. Users can view the complete default rules by running 'claude auto-mode defaults' and can customize these filters with their own rules for specific security requirements.
 
-telegram · zaihuapd · Mar 25, 00:30
+rss · Simon Willison · Mar 24, 23:57
 
-**Background**: Sora is an AI model developed by OpenAI that can generate realistic and imaginative video clips from text descriptions. It was launched as a standalone consumer app in late 2025 and gained significant attention for its capabilities. AI agents are software systems that use AI to autonomously pursue goals and complete tasks on behalf of users, exhibiting reasoning, planning, and memory. OpenAI's new model, internally codenamed 'Spud', represents the company's next major AI development effort.
+**Background**: Claude Code is an AI-assisted coding tool that previously included a --dangerously-skip-permissions flag enabling 'Safe YOLO mode' where the system bypassed all permission prompts for uninterrupted execution. Claude Sonnet 4.6 is Anthropic's latest Sonnet model with enhanced capabilities across coding, computer use, long-context reasoning, and agent planning, supporting a 1M token context window. AI-generated code security has become increasingly important as studies have shown vulnerabilities can emerge in both human-written and AI-generated code, necessitating better safeguards in development workflows.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.nytimes.com/2026/03/24/technology/openai-shutting-down-sora.html">OpenAI Is Shutting Down Sora, Its A.I. Video Generator OpenAI shutting down Sora video-creation app - NBC News That Was Fast. OpenAI to Shut Down Sora Video Generator App OpenAI pulls the plug on Sora video generator | AP News OpenAI shutters AI video generator Sora after six-month app ... OpenAI is shutting down its Sora video generation app - Engadget OpenAI Plans to Discontinue Support for Sora AI Video Generator</a></li>
-<li><a href="https://cloud.google.com/discover/what-are-ai-agents">What are AI agents? Definition, examples, and types | Google ...</a></li>
-<li><a href="https://www.tomsguide.com/ai/openai-just-killed-sora-as-company-readies-ipo-and-new-spud-model">OpenAI just killed Sora as company readies IPO and new 'Spud ...</a></li>
+<li><a href="https://www.anthropic.com/news/claude-sonnet-4-6">Introducing Claude Sonnet 4.6</a></li>
+<li><a href="https://blog.promptlayer.com/claude-dangerously-skip-permissions/">claude -- dangerously - skip - permissions</a></li>
+<li><a href="https://link.springer.com/article/10.1007/s10664-024-10590-1">How secure is AI-generated code: a large-scale comparison of ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#OpenAI`, `#AI-Video-Generation`, `#Product-Strategy`, `#AI-Agents`, `#Industry-News`
+**Tags**: `#AI-assisted-coding`, `#developer-tools`, `#code-security`, `#claude-ai`, `#permissions`
 
 ---
 
 <a id="item-11"></a>
-## [Apple launches Apple Business, an all-in-one platform for businesses, but faces criticism for implementation flaws.](https://www.apple.com/newsroom/2026/03/introducing-apple-business-a-new-all-in-one-platform-for-businesses-of-all-sizes/) ⭐️ 7.0/10
-
-Apple announced Apple Business, a new all-in-one platform designed for businesses of all sizes, offering integrated services like device management, business email, calendar, and directory services with custom domains. The platform is free with optional paid storage upgrades and includes features like pre-installed software management and user groups. This move represents Apple's significant push into the enterprise SaaS market, directly challenging established players like Microsoft 365 and Intune, especially for small and medium-sized businesses. A successful platform could reshape business software ecosystems and increase Apple's presence in corporate IT environments. The platform's initial implementation, particularly the 'Domain Lock/Capture' process for migrating existing Apple accounts to business management, has been reported as buggy and user-unfriendly. Key criticisms include poor 'Bring Your Own Device' (BYOD) support, complex business name change procedures, and inadequate support tools for resolving serious issues.
-
-hackernews · soheilpro · Mar 24, 15:29
-
-**Background**: Apple Business Manager is Apple's existing web-based portal for IT administrators to deploy Apple devices, manage accounts, and configure settings. All-in-one business platforms aim to consolidate multiple IT services (like device management, email, and collaboration tools) into a single, integrated offering. Implementing such platforms is notoriously challenging, often facing pitfalls related to user migration, data integration, and complex configuration processes.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://klaxoon.com/insight/implementing-an-enterprise-platform-5-pitfalls-to-avoid-to-maximize-your-savings/">Implementing an all-in-one platform: 5 pitfalls to avoid</a></li>
-<li><a href="https://www.forbes.com/councils/forbestechcouncil/2024/06/28/tech-consolidation-how-all-in-one-solutions-are-shaping-modern-business-operations/">How All-In-One Tech Solutions Are Shaping Modern Business ... Businesses are being 'locked in' to all-in-one platforms ... The Complete Guide to Software Implementation: Challenges ... Top 10 ERP Implementation Challenges & How to Solve Them</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The Hacker News discussion reveals significant criticism of the platform's current implementation, with users describing a 'buggy' and frustrating setup process, especially for domain migration. While some see strategic potential for new small businesses, others view it as a confirmation of Apple's historically poor enterprise IT experience. There's also discussion about the platform's free pricing model potentially hindering investment in necessary improvements.
-
-**Tags**: `#apple`, `#business-software`, `#enterprise`, `#saas`, `#product-launch`
-
----
-
-<a id="item-12"></a>
-## [Arm launches its first self-designed and sold silicon product, the AGI CPU](https://newsroom.arm.com/blog/introducing-arm-agi-cpu) ⭐️ 7.0/10
-
-Arm has announced its first direct silicon product, the Arm AGI CPU, marking a historic shift from its 35+ year business model of licensing intellectual property to designing, manufacturing, and selling its own chips. The 136-core CPU is designed for data centers and will be manufactured at TSMC, with Meta announced as a flagship customer for deployment later this year. This move represents a fundamental strategic pivot for Arm, potentially adding billions in annual revenue and reshaping competitive dynamics in the data center and AI hardware markets. By selling its own silicon, Arm now directly competes with its own licensees like Qualcomm and Nvidia, while also offering a new option for companies building agentic AI infrastructure. The "AGI" in the product name stands for "Agentic AI Infrastructure," referring to its target workload of supporting autonomous AI agents, not "Artificial General Intelligence." The CPU is based on Arm's Neoverse architecture and claims to offer 2x the performance of comparable x86 processors for AI data center workloads.
-
-hackernews · RealityVoid · Mar 24, 17:30
-
-**Background**: Arm Holdings is a British company primarily known for designing the CPU architecture (Arm architecture) used in most smartphones and increasingly in servers and other devices. For decades, Arm's business model has been to license its CPU designs and intellectual property to other companies (like Apple, Qualcomm, and Samsung) who then manufacture and sell the chips. Agentic AI refers to a new generation of AI systems that are semi- or fully autonomous, capable of perceiving, reasoning, and acting independently, which requires specialized and scalable computing infrastructure.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://newsroom.arm.com/blog/introducing-arm-agi-cpu">Announcing Arm AGI CPU: The silicon foundation for the ...</a></li>
-<li><a href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained">Agentic AI, explained - MIT Sloan</a></li>
-<li><a href="https://www.reuters.com/business/media-telecom/arm-unveils-new-ai-chip-expects-it-add-billions-annual-revenue-2026-03-24/">Arm unveils new AI chip, expects it to add billions in annual ...</a></li>
-
-</ul>
-</details>
-
-**Discussion**: Community discussion highlights significant skepticism about the product's naming, with users criticizing "AGI" as misleading marketing capitalizing on the hype around Artificial General Intelligence. Several comments point out that this strategic shift to selling silicon was foreshadowed in the Qualcomm vs. Arm lawsuit, where Qualcomm accused Arm of such plans, which Arm's CEO at the time denied. The sentiment is mixed, acknowledging the historic business model change but questioning the product's novelty and the marketing tactics.
-
-**Tags**: `#arm`, `#semiconductors`, `#ai-hardware`, `#business-strategy`, `#cpu`
-
----
-
-<a id="item-13"></a>
-## [Claude Code Introduces Auto Mode with AI-Powered Safety Classifier](https://simonwillison.net/2026/Mar/24/auto-mode-for-claude-code/#atom-everything) ⭐️ 7.0/10
-
-Claude Code has launched a new "auto mode" permissions system where the AI assistant makes permission decisions on behalf of the user, replacing the previous --dangerously-skip-permissions flag. This system uses Claude Sonnet 4.6 as a classifier model to review conversations and block actions that escalate beyond task scope, target untrusted infrastructure, or appear driven by hostile content. This represents a significant advancement in AI-assisted development by automating safety decisions while maintaining protection, potentially eliminating the trade-off between developer productivity and security. It addresses a major pain point where developers previously had to choose between manual permission prompts or completely bypassing safeguards with the dangerous skip flag. The system includes extensive default filters covering operations like local file management, read-only API calls, and dependency installation from declared manifests, while blocking actions like force pushing to Git, executing external code downloads, or installing arbitrary packages. Users can customize these rules further, and the classifier runs on Claude Sonnet 4.6 regardless of the main session model, providing consistent safety evaluation.
-
-rss · Simon Willison · Mar 24, 23:57
-
-**Background**: Claude Code is an AI-powered coding assistant that previously required developers to configure fine-grained permissions or use the --dangerously-skip-permissions flag to bypass prompts entirely. The skip flag was designed for containerized environments but became popular for uninterrupted workflows despite its security risks. Claude Sonnet 4.6 is Anthropic's mid-tier AI model with enhanced coding, reasoning, and a 1M token context window, making it suitable for complex classification tasks.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://code.claude.com/docs/en/permissions">Configure permissions - Claude Code Docs</a></li>
-<li><a href="https://www.anthropic.com/news/claude-sonnet-4-6">Introducing Claude Sonnet 4.6 - Anthropic</a></li>
-<li><a href="https://www.ksred.com/claude-code-dangerously-skip-permissions-when-to-use-it-and-when-you-absolutely-shouldnt/">Claude Code --dangerously-skip-permissions: Safe Usage Guide ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI-assisted-development`, `#developer-tools`, `#code-safety`, `#Claude`, `#permissions`
-
----
-
-<a id="item-14"></a>
 ## [Major package managers adopt dependency cooldown features to combat supply chain attacks.](https://simonwillison.net/2026/Mar/24/package-managers-need-to-cool-down/#atom-everything) ⭐️ 7.0/10
 
-Following the recent LiteLLM supply chain attack, an analysis reveals that multiple major package managers have rapidly implemented dependency cooldown mechanisms since late 2025. These include pnpm's `minimumReleaseAge`, npm's `min-release-age`, Bun's `minimumReleaseAge`, Deno's `--minimum-dependency-age`, uv's enhanced `--exclude-newer`, and pip's `--uploaded-prior-to` flag. This represents a significant, coordinated shift in software supply chain security, moving from reactive patching to proactive risk mitigation. By delaying the automatic installation of newly published packages, these features give the security community time to detect and respond to malicious updates before they are widely adopted, potentially preventing large-scale incidents like the LiteLLM attack. Implementation details vary: most tools allow setting a relative time delay (e.g., 1440 minutes for one day), and many include override mechanisms for trusted packages. A notable limitation is that pip 26.0 currently only supports absolute timestamps for its `--uploaded-prior-to` flag, though a workaround using a cron job exists.
+A recent analysis, prompted by the March 2026 LiteLLM supply chain attack, reveals that a majority of major package managers have now implemented dependency cooldown mechanisms. These include pnpm (10.16), Yarn (4.10.0), Bun (1.3), Deno (2.6), uv (0.9.17), pip (26.0), and npm (11.10.0), which all added features in late 2025 and early 2026 to delay the installation of newly published packages. This widespread adoption represents a significant shift in software supply chain security, moving from reactive detection to proactive delay as a defense. By giving the community time to scrutinize new releases, these cooldowns can block a high percentage of supply chain attacks, as evidenced by research suggesting a 7-day cooldown can prevent 80% of such incidents. Implementation details vary: most tools use settings like `minimumReleaseAge` or `--exclude-newer` to specify a delay period (e.g., 7 days), and many offer exemptions for trusted packages. A notable limitation is that pip 26.0 currently only supports absolute timestamps for its `--uploaded-prior-to` flag, requiring a workaround for relative durations.
 
 rss · Simon Willison · Mar 24, 21:11
 
-**Background**: A dependency cooldown is a security practice that introduces a waiting period between when a software package is published to a registry (like npm or PyPI) and when package managers will automatically install or update to that new version. This concept has gained traction as a defense against software supply chain attacks, where attackers compromise a legitimate package and publish a malicious update. The recent attack on LiteLLM, a popular AI gateway library with 95 million monthly downloads, is a prime example of such a threat, where compromised maintainer accounts were used to distribute malicious code.
+**Background**: A dependency cooldown is a security practice that intentionally delays the installation of a newly published software package version for a set period (e.g., 24 hours to 7 days). This creates a window where the package is public but not automatically adopted, allowing security researchers and automated tools time to detect if it contains malicious code introduced via a supply chain attack. Supply chain attacks target the software development and distribution process, often by compromising a legitimate package's publisher account or build system to inject malware that then spreads to all downstream users.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://blog.yossarian.net/2025/11/21/We-should-all-be-using-dependency-cooldowns">We should all be using dependency cooldowns - blog.yossarian.net</a></li>
-<li><a href="https://docs.litellm.ai/blog/security-update-march-2026">Security Update: Suspected Supply Chain Incident - liteLLM</a></li>
-<li><a href="https://pnpm.io/blog/releases/10.16">pnpm 10.16 | pnpm</a></li>
+<li><a href="https://christian-schneider.net/blog/dependency-cooldowns-supply-chain-defense/">Dependency cooldowns: a simple supply chain fix</a></li>
+<li><a href="https://securitylabs.datadoghq.com/articles/litellm-compromised-pypi-teampcp-supply-chain-campaign/">LiteLLM compromised on PyPI: Tracing the March 2026 TeamPCP...</a></li>
 
 </ul>
 </details>
 
 **Tags**: `#package-management`, `#security`, `#supply-chain`, `#devops`, `#software-engineering`
+
+---
+
+<a id="item-12"></a>
+## [Claude Code Launches Auto Mode: AI Autonomous Decision-Making with Built-in Safety Review](https://claude.com/blog/auto-mode) ⭐️ 7.0/10
+
+Anthropic has introduced 'Auto Mode' for Claude Code, a feature that allows the AI to autonomously decide permissions during task execution. This mode uses safety classifiers to review each tool call before execution, automatically approving safe actions while blocking high-risk operations like mass file deletion or sensitive data exfiltration. This represents a significant advancement in AI-assisted coding by striking a balance between workflow efficiency and safety. It enables developers to run longer, more complex tasks with fewer manual interruptions, while mitigating the severe risks associated with completely disabling permission checks, which could lead to catastrophic errors. The feature is currently available in research preview for Team plan users and will roll out to Enterprise and API users in the coming days, supporting the Claude Sonnet 4.6 and Opus 4.6 models. While safer than the `--dangerously-skip-permissions` flag, Anthropic cautions that Auto Mode is not zero-risk, recommends use in isolated environments, and notes it may slightly increase token consumption and latency.
+
+telegram · zaihuapd · Mar 25, 01:15
+
+**Background**: Claude Code is an AI-powered coding assistant developed by Anthropic. Previously, users faced a trade-off: either approve every action manually, which interrupts workflow, or use the `--dangerously-skip-permissions` flag, which grants the AI unrestricted access to the file system, shell commands, and network operations, posing significant security risks. Auto Mode introduces an intermediate, classifier-driven layer to automate safe decisions while blocking dangerous ones.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://claude.com/blog/auto-mode">Auto mode for Claude Code | Claude</a></li>
+<li><a href="https://www.zdnet.com/article/claude-code-auto-mode/">How Claude Code's new auto mode prevents AI coding disasters - without slowing you down | ZDNET</a></li>
+<li><a href="https://aiwiki.ai/wiki/Claude_--dangerously-skip-permissions">Claude --dangerously-skip-permissions - AI Wiki - Artificial Intelligence Wiki</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI-Assisted Coding`, `#Developer Tools`, `#AI Safety`, `#Claude`, `#Automation`
 
 ---
