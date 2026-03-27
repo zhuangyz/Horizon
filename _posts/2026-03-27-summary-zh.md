@@ -5,194 +5,191 @@ date: 2026-03-27
 lang: zh
 ---
 
-> From 25 items, 8 important content pieces were selected
+> From 21 items, 8 important content pieces were selected
 
 ---
 
-1. [谷歌宣布在 Android 17 中引入后量子加密](#item-1) ⭐️ 9.0/10
-2. [开发者发布实时记录，详述发现并应对 LiteLLM PyPI 恶意软件攻击的过程](#item-2) ⭐️ 8.0/10
-3. [交互式教育文章通过卓越的可视化解释大语言模型量化技术](#item-3) ⭐️ 8.0/10
-4. [Apifox 桌面端遭供应链投毒攻击，CDN 脚本被篡改](#item-4) ⭐️ 8.0/10
-5. [中科院发布“香山”开源 RISC-V 处理器和“如意”原生操作系统](#item-5) ⭐️ 8.0/10
-6. [日本团队第 58 代克隆小鼠出生次日死亡，或证明哺乳动物克隆存在极限。](#item-6) ⭐️ 8.0/10
-7. [Google 发布 Gemini 3.1 Flash Live，Gemini Live 提速，Search Live 扩至 200 多个国家和地区](#item-7) ⭐️ 8.0/10
-8. [团队用 AI 一天内将 JSONata 移植到 Go，实现每年 50 万美元成本节约](#item-8) ⭐️ 7.0/10
+1. [开发者详述发现并应对 PyPI 上 LiteLLM 软件包实时恶意软件攻击](#item-1) ⭐️ 8.0/10
+2. [交互式教育文章详解大语言模型量化与浮点数表示](#item-2) ⭐️ 8.0/10
+3. [Anthropic 泄露文档显示正测试新一代 AI 模型 Claude Mythos。](#item-3) ⭐️ 8.0/10
+4. [国际奥委会规定自 2028 年起奥运女子项目仅限生理女性参赛](#item-4) ⭐️ 8.0/10
+5. [中国计算机学会反对 NeurIPS 制裁政策，呼吁抵制其 2026 年会议](#item-5) ⭐️ 8.0/10
+6. [华为发布 Atlas 350 AI 加速卡，搭载昇腾 950PR，算力达 H20 近三倍](#item-6) ⭐️ 8.0/10
+7. [团队利用 AI 在一天内将 JSONata 从 JavaScript 移植到 Go，实现每年节省 50 万美元。](#item-7) ⭐️ 7.0/10
+8. [苹果协助 FBI 追踪使用“隐藏邮箱地址”发送威胁邮件的用户真实身份](#item-8) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [谷歌宣布在 Android 17 中引入后量子加密](https://security.googleblog.com/2026/03/post-quantum-cryptography-in-android.html) ⭐️ 9.0/10
+## [开发者详述发现并应对 PyPI 上 LiteLLM 软件包实时恶意软件攻击](https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything) ⭐️ 8.0/10
 
-谷歌宣布计划在 Android 17 中引入后量子加密（PQC）标准，具体措施包括在引导加载程序（Bootloader）中加入具备量子抗性的数字签名，并将 Android 密钥库（Keystore）迁移至符合 PQC 标准的体系。这一前瞻性升级旨在保护设备启动过程，并防范未来量子计算对身份验证和敏感信息传输的威胁。 此次集成代表了移动安全基础设施的一次范式转变，因为这是后量子加密在广泛使用的消费级操作系统中的首批重大实施之一。它主动应对了“现在收集，以后解密”的威胁（即今日被截获的加密数据未来可能被量子计算机解密），从而为数十亿 Android 设备及其通信提供了长期安全保障。 谷歌正在实施 NIST 标准化的 ML-DSA 量子抗性签名算法，并设定了在 2029 年前完成此次迁移的时间表，早于 NIST 建议的 2030 年最后期限。此次升级聚焦于两个关键层面：引导加载程序（以维持安全的启动链）和密钥库（以保护应用与服务器之间的身份验证和数据加密）。
+Callum McMahon 发现并报告了 PyPI 上 LiteLLM Python 软件包 1.82.8 版本中存在实时恶意软件攻击，通过在隔离的 Docker 容器中执行下载的软件包确认了.pth 文件中包含恶意代码。他详细记录了自己分钟级的响应过程，包括使用 Claude AI 分析威胁并确定正确的安全联系邮箱 security@pypi.org。 这一事件凸显了软件供应链持续存在的脆弱性，特别是在 PyPI 等流行软件包仓库中，恶意软件包可能在检测之前感染数千名开发者和系统。它表明即使是 LiteLLM 这样广泛使用的 AI/ML 工具，也可能成为供应链攻击的目标，从而危及敏感数据和计算资源。 恶意软件通过名为'litellm_init.pth'的.pth 文件（34,628 字节）传播，该文件包含 base64 编码的 Python 代码，会在 Python 解释器启动时执行。攻击在发现时被确认在 PyPI 上处于活跃状态，这意味着任何安装或升级都会立即感染系统。
 
-telegram · zaihuapd · Mar 26, 07:09
+rss · Simon Willison · Mar 26, 23:58
 
-**背景**: 后量子加密（PQC）指的是设计用于抵御经典计算机和未来量子计算机攻击的加密算法。2024 年 8 月，美国国家标准与技术研究院（NIST）发布了其首套最终版 PQC 标准，包括用于加密和数字签名的算法，以保护电子信息。安全的引导加载程序在设备启动期间验证软件的完整性，而 Android 密钥库是一项系统服务，用于在安全的硬件支持容器中管理和存储应用程序的加密密钥。
+**背景**: PyPI（Python 软件包索引）是 Python 软件包的主要仓库，为全球数百万开发者提供服务。针对软件包仓库的供应链攻击涉及将恶意代码上传到看似合法的软件包中，这些软件包会被不知情的用户下载并执行。.pth 文件是 Python 路径配置文件，可以包含在 Python 启动时自动运行的可执行代码，这使其成为持久性攻击的有效载体。Docker 容器隔离是一种安全实践，可在隔离环境中运行潜在危险代码，以防止主机系统受到危害。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards">NIST Releases First 3 Finalized Post-Quantum Encryption Standards</a></li>
-<li><a href="https://bootlin.com/blog/the-nists-new-plan-for-digital-signatures-impact-on-secure-boot/">The NIST’s new plan for digital signatures : impact on secure boot ...</a></li>
-<li><a href="https://winbuzzer.com/2026/03/26/google-android-17-quantum-resistant-encryption-pqc-xcxwbn/">Android 17 Gets Quantum-Safe Encryption Across Full Security ...</a></li>
+<li><a href="https://bolster.ai/blog/pypi-supply-chain-attacks">PYPI Security: How to Prevent Supply Chain Attacks in Python Projects</a></li>
+<li><a href="https://docs.docker.com/security/faqs/containers/">Container | Docker Docs</a></li>
+<li><a href="https://stackoverflow.com/questions/67493095/is-a-pth-file-a-security-risk-and-how-can-we-sanitise-it">python - Is a . pth file a security risk, and how can we... - Stack Overflow</a></li>
 
 </ul>
 </details>
 
-**标签**: `#post-quantum-cryptography`, `#android-security`, `#quantum-computing`, `#mobile-security`, `#cryptography`
+**标签**: `#security`, `#python`, `#supply-chain`, `#malware`, `#pypi`
 
 ---
 
 <a id="item-2"></a>
-## [开发者发布实时记录，详述发现并应对 LiteLLM PyPI 恶意软件攻击的过程](https://futuresearch.ai/blog/litellm-attack-transcript/) ⭐️ 8.0/10
+## [交互式教育文章详解大语言模型量化与浮点数表示](https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything) ⭐️ 8.0/10
 
-一位名叫 Callum 的开发者发布了一份未经编辑的、按分钟记录的实时文字稿，详细记录了他发现并应对针对 PyPI 上 LiteLLM Python 包 1.82.7 和 1.82.8 版本的供应链攻击的过程。这份文字稿使用了一个记录与 Claude AI 助手交互的工具创建，详细描述了识别出一个旨在窃取凭证的恶意 `.pth` 文件的实时调查过程。 这一事件凸显了 AI/ML 生态系统中供应链攻击的严重风险，因为 LiteLLM 是一个广泛使用的、用于统一调用超过 100 个大语言模型 API 的库。这份第一人称的叙述为一次复杂的攻击的检测和缓解过程提供了宝贵的、真实的见解，该攻击本可能大规模地危害 AI 流水线和云凭证。 恶意软件是通过一个 `.pth` 文件传递的，该文件在每次 Python 启动时都会执行，而不仅仅是在包导入时，这使其成为一种持久且隐蔽的威胁。受感染的版本旨在将环境变量、SSH 密钥和云凭证外泄到攻击者控制的服务器，构成了一个多阶段的凭证窃取程序。
-
-hackernews · Fibonar · Mar 26, 15:48
-
-**背景**: LiteLLM 是一个开源的 Python 库，它为调用来自 OpenAI、Anthropic 和 Google 等提供商的各种大语言模型 (LLM) API 提供了一个统一的接口。PyPI (Python 包索引) 是 Python 软件的主要仓库，这使其成为关键的基础设施，也是供应链攻击的常见目标，即恶意代码被插入到合法的软件包中。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.truesec.com/hub/blog/malicious-pypi-package-litellm-supply-chain-compromise">Malicious PyPI Package - LiteLLM Supply Chain Compromise - Truesec</a></li>
-<li><a href="https://docs.litellm.ai/docs/">Getting Started - LiteLLM Docs</a></li>
-<li><a href="https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/">Supply-chain attack analysis: Ultralytics - The Python Package Index Blog</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 社区讨论证实了此次攻击的重要性，评论者强调了 `.pth` 文件执行的隐蔽性，以及对软件包注册表进行更好的实时安全监控的必要性。此外，还讨论了在安全调查中负责任地使用 AI 助手，并警告要避免意外执行恶意代码。
-
-**标签**: `#security`, `#supply-chain`, `#python`, `#malware`, `#incident-response`
-
----
-
-<a id="item-3"></a>
-## [交互式教育文章通过卓越的可视化解释大语言模型量化技术](https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything) ⭐️ 8.0/10
-
-Sam Rose 发表了一篇名为《Quantization from the ground up》的交互式教育文章，解释了大语言模型的量化技术，其中包含被 Simon Willison 称为“我所见过的最佳视觉解释”的浮点数二进制表示法可视化。文章还通过使用 Qwen 3.5 9B 模型和 llama.cpp 工具进行了实际分析，展示了不同量化级别（从 16 位到 8 位和 4 位）如何影响模型精度。 这很重要，因为量化对于在手机和边缘设备等资源受限的设备上部署大语言模型至关重要，而清晰的教育资源有助于更多开发者有效理解和实施这些优化技术。卓越的可视化解释使浮点数表示和异常值等复杂概念变得易于理解，可以加速量化技术在实际应用中的采用。 文章强调了量化中“异常值”或“超级权重”的重要性——这些罕见的浮点数值对模型质量至关重要，移除单个此类值就可能导致模型输出乱码，因此在量化方案中需要特殊处理。实际测试表明，从 16 位量化到 8 位几乎不会造成质量损失，而从 16 位量化到 4 位则能保留大约 90% 的原始质量，具体取决于测量方法。
+Sam Rose 发表了一篇名为《Quantization from the ground up》的交互式教育文章，详细解释了大语言模型的量化技术，并提供了关于浮点数表示的出色可视化说明。文章包含实际分析，显示从 16 位量化到 8 位几乎不会造成质量损失，而从 16 位量化到 4 位则会将质量降低到原始模型的约 90%。 这很重要，因为量化对于在手机和边缘设备等资源受限的设备上部署大语言模型至关重要，理解其基本原理有助于开发人员做出明智的优化决策。出色的可视化解释使复杂概念更容易被更广泛的受众理解，可能加速量化技术在实际应用中的采用。 文章强调了量化中'异常值'或'超级权重'的重要性——这些是存在于正态分布之外的罕见浮点值，移除它们可能导致模型输出乱码，因此在现实世界的量化方案中需要特殊处理。文章还解释了困惑度和 KL 散度等关键评估指标，并演示了如何使用 llama.cpp 困惑度工具和 GPQA 基准测试在 Qwen 3.5 9B 模型上应用这些指标。
 
 rss · Simon Willison · Mar 26, 16:21
 
-**背景**: 量化是一种降低神经网络中数值精度的技术，通常将 32 位或 16 位浮点数转换为 8 位整数或 4 位值等低位表示，从而减少模型大小和计算需求。这对于大语言模型尤为重要，因为未经优化，这些模型通常太大而无法在消费级硬件上高效运行。计算机中的浮点数表示使用二进制位来存储数字，包含三个部分：符号位、指数和有效数（尾数），IEEE 754 是标准格式。困惑度和 KL 散度分别是用于评估语言模型性能和概率分布之间差异的指标，有助于量化量化对模型精度的影响。
+**背景**: 量化是一种降低机器学习模型中数值精度的技术，通常将 32 位或 16 位浮点数转换为 8 位或 4 位整数等低位表示，从而减小模型大小和计算需求。浮点数表示是一种用二进制格式编码实数的方法，它平衡了数值范围和精度，单精度浮点数使用 32 位，分为符号位、指数位和尾数位。这些技术对于在内存和处理能力有限的设备上部署大语言模型，同时保持可接受的准确性至关重要。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://arxiv.org/html/2411.02530v1">A Comprehensive Study on Quantization Techniques for Large ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Floating-point_arithmetic">Floating-point arithmetic - Wikipedia</a></li>
-<li><a href="https://github.com/pprp/Awesome-LLM-Quantization">Awesome-LLM-Quantization - GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Single-precision_floating-point_format">Single-precision floating-point format - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#quantization`, `#llm-optimization`, `#machine-learning`, `#educational-content`, `#floating-point`
+**标签**: `#quantization`, `#machine-learning`, `#llm-optimization`, `#educational-content`, `#floating-point`
+
+---
+
+<a id="item-3"></a>
+## [Anthropic 泄露文档显示正测试新一代 AI 模型 Claude Mythos。](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/) ⭐️ 8.0/10
+
+Anthropic 因内容管理系统配置错误导致内部草案泄露，随后证实正在测试名为 Claude Mythos 的新一代 AI 模型。该公司表示该模型代表了 AI 性能的“阶梯式跨越”，在软件编程、学术推理和网络安全测试中得分显著高于现有的 Claude 4.6 Opus，并引入了名为“Capybara”的更高性能层级。 这则新闻之所以重要，是因为它标志着一家以安全为导向的领先公司在 AI 能力上的一次重大飞跃，尤其对网络安全领域影响深远。该模型的高级能力可能同时加速防御性和攻击性的网络行动，促使 Anthropic 采取谨慎的有限发布策略，以减轻其被恶意行为者滥用的潜在风险。 此次泄露源于内容管理系统配置中的人为错误，导致数字资产默认设置为公开。由于该模型在网络安全领域展现出前所未有的能力，Anthropic 担心其可能被用于大规模攻击，因此目前仅向少数早期访问客户开放，旨在让安全防御人员获得先发优势。
+
+telegram · zaihuapd · Mar 27, 04:35
+
+**背景**: Anthropic 是一家以 AI 安全与研究著称的公司，以其开发的 Claude 系列大语言模型而闻名。其模型通常采用层级划分，例如 Haiku、Sonnet 和 Opus 代表了逐级提升的能力和成本；新披露的“Capybara”层级位于 Opus 之上。AI 驱动的网络攻击是指利用机器学习来自动化和增强攻击的各个阶段，例如创建复杂的钓鱼邮件或多态恶意软件，这构成了日益增长的威胁。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/">Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune</a></li>
+<li><a href="https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/ai-powered-cyberattacks/">Most Common AI-Powered Cyberattacks | CrowdStrike</a></li>
+<li><a href="https://www.world-today-news.com/anthropics-mythos-ai-model-leaked-details-cybersecurity-risks/">Anthropic’s ‘Mythos’ AI Model: Leaked Details... - World Today News</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AI Safety`, `#Large Language Models`, `#Cybersecurity`, `#Anthropic`, `#Industry News`
 
 ---
 
 <a id="item-4"></a>
-## [Apifox 桌面端遭供应链投毒攻击，CDN 脚本被篡改](https://t.me/zaihuapd/40514) ⭐️ 8.0/10
+## [国际奥委会规定自 2028 年起奥运女子项目仅限生理女性参赛](https://www.bbc.com/sport/olympics/articles/cdj7dgvlj0no?at_medium=RSS&amp;at_campaign=rss) ⭐️ 8.0/10
 
-Apifox 桌面端遭到供应链投毒攻击，攻击者篡改了其官方 CDN 上托管的一个前端事件统计脚本。自 3 月 4 日起活跃的注入恶意代码会窃取受影响 Windows、macOS 和 Linux 系统中的 SSH 密钥、Git 凭证、Shell 历史记录和进程列表。 此次攻击影响重大，因为 Apifox 是一款广泛使用的 API 开发工具，其桌面客户端被入侵直接针对了通常持有访问源代码和基础设施的高价值凭证的开发者。此类供应链攻击可能导致大规模数据泄露和在企业内部网络中的横向移动，对组织的知识产权和运营安全构成严重威胁。 安全研究员 phith0n 已独立分析并公开了恶意载荷的细节。攻击向量涉及篡改受信任的外部托管脚本（一种常见的 CDN 风险），展示了攻击者如何能够入侵团队已经信任并正在积极使用的工具。
+国际奥委会宣布，自 2028 年洛杉矶奥运会起，奥运女子项目的参赛资格将限于生理女性，并通过一次性 SRY 基因检测来认定资格。这意味着经历过男性青春期的跨性别女性以及大多数 DSD（性发育差异）运动员将不得参加女子组比赛。 这一决定标志着奥运参赛资格标准的重大转变，从基于睾酮水平的规则转向以生物学性别作为竞赛分类依据。它将深刻影响国际体育治理、运动员参与，并重塑全球范围内关于体育公平、包容性以及女子运动未来的辩论。 SRY 基因检测用于检测 Y 染色体上触发男性性发育的基因是否存在，这是一次性、永久性的资格筛查。检测结果为阴性（无 SRY 基因）的运动员将永久满足参赛标准，而检测阳性但不符合女子组资格的运动员仍可参加男子组、公开组或不按性别分组的项目。
 
-telegram · zaihuapd · Mar 26, 04:19
+telegram · zaihuapd · Mar 27, 05:15
 
-**背景**: Apifox 是一个集 API 文档、调试、Mock 和测试于一体的平台，常被比作 Postman 和 Swagger 等工具。供应链攻击是指攻击者入侵一个被许多下游应用或用户信任和使用的组件或服务（如 CDN 托管的脚本）。SSH 密钥和 Git 凭证是关键访问令牌；窃取它们可使攻击者获得对私有源代码仓库和安全服务器的未授权访问。
+**背景**: SRY（性别决定区 Y）基因是位于 Y 染色体上的一段 DNA，负责启动人类的男性性发育。在体育领域，DSD（性发育差异）指的是个体在染色体、性腺或解剖学上的性别发育非典型的先天性疾病。在此政策出台之前，包括世界田联在内的许多体育联合会使用睾酮水平阈值来确定女子类别的参赛资格，这一直是争议和法律挑战的焦点。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.binance.com/en/square/post/03-26-2026-apifox-desktop-client-faces-supply-chain-attack-with-malicious-code-injection-305605946597617">Apifox Desktop Client Faces... | Binance News on Binance Square</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Supply_chain_attacks">Supply chain attacks - Security | MDN</a></li>
-<li><a href="https://www.kodemsecurity.com/resources/when-the-scanner-becomes-the-threat-inside-the-trivy-supply-chain-attack">When the Scanner Becomes the Threat: Inside the Trivy Supply ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sex-determining_region_Y_protein">Sex-determining region Y protein - Wikipedia</a></li>
+<li><a href="https://worldathletics.org/news/press-releases/sry-gene-test-athletes-female-category">World Athletics introduces SRY gene test for athletes wishing to compete in the female category | PRESS-RELEASES | World Athletics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sex_verification_and_intersex_athletes_at_the_Olympic_Games">Sex verification and intersex athletes at the Olympic Games - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#security`, `#supply-chain-attack`, `#developer-tools`, `#credential-theft`, `#malware`
+**标签**: `#sports-policy`, `#gender-in-sports`, `#olympics`, `#transgender-athletes`, `#eligibility-criteria`
 
 ---
 
 <a id="item-5"></a>
-## [中科院发布“香山”开源 RISC-V 处理器和“如意”原生操作系统](https://h.xinhuaxmt.com/vh512/share/13024070?docid=13024070) ⭐️ 8.0/10
+## [中国计算机学会反对 NeurIPS 制裁政策，呼吁抵制其 2026 年会议](https://t.me/zaihuapd/40549) ⭐️ 8.0/10
 
-3 月 26 日，在中关村论坛年会的 RISC-V 生态科技论坛上，中国科学院正式发布了“香山”开源高性能 RISC-V 处理器和“如意”原生操作系统。同时，论坛启动了下一代“昆明湖”架构与“如意”操作系统的联合开发，中国移动、中国电信、中兴、阿里、腾讯、字节跳动等数十家单位将参与协同攻关。 此次发布是中国推动开源硬件和软件生态发展的一个重要里程碑，有助于减少对专有架构的依赖。众多头部科技公司和电信运营商的参与，表明了强大的产业投入决心，将加速其商业化进程并推动构建一个健壮的国内 RISC-V 生态。 “香山”处理器据称达到了国际先进性能水平，并同步推出了全球首个开源片上互连网络 IP。基于“香山”的高性能开源芯片已实现规模化产业落地，进迭时空、蓝芯算力、芯动科技、奕斯伟计算等企业已推出商用芯片。“如意”操作系统的特点是率先全面支持国际标准。
+中国计算机学会（CCF）于 2024 年 3 月 27 日发表正式声明，强烈反对 NeurIPS 2026 在其投稿指南中禁止受美国制裁机构投稿的新政策。CCF 呼吁中国学者抵制该会议，并要求 NeurIPS 立即纠正这一做法。 这标志着全球 AI 研究合作政治化的显著升级，可能导致国际科学界的分裂。由于 NeurIPS 是顶级 AI 会议，而 CCF 是中国主要的计算机科学专业组织，双方的冲突可能减少中国学者的参与，影响会议的全球地位，并加深中美技术领域的隔阂。 NeurIPS 2026 的政策明确禁止美国特别指定国民（SDN）名单上的机构投稿，该名单包括华为、商汤科技等中国 AI 公司。这是 NeurIPS 首次在其投稿指南中明确执行美国制裁合规要求，为其他学术会议开创了先例。
 
-telegram · zaihuapd · Mar 26, 10:08
+telegram · zaihuapd · Mar 27, 11:00
 
-**背景**: RISC-V 是一个基于精简指令集计算机原则的免费开放标准指令集架构，允许任何人在无需支付授权费的情况下设计、制造和销售 RISC-V 芯片及软件。片上互连网络是芯片多处理器内部连接核心、内存及其他模块的关键组件，决定了系统的整体性能和可扩展性。原生操作系统是指为直接在特定处理器的指令集上运行而构建的软件，无需通过翻译层，与通过抽象层在多种架构上运行的通用操作系统相比，通常能提供更高的性能和效率。
+**背景**: NeurIPS（神经信息处理系统大会）是全球最负盛名的人工智能和机器学习会议之一，通常每年吸引数千篇投稿。中国计算机学会是中国计算机科学与技术领域规模最大、最具影响力的专业组织，拥有超过 10 万名会员。美国对中国科技公司的制裁日益影响学术合作，限制范围已从商业领域扩展到研究交流。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/RISC-V">RISC - V - Wikipedia</a></li>
-<li><a href="https://www.academia.edu/4851977/On_Chip_Interconnection_Networks_Why_They_are_Different_and_How_to_Compare_Them">(PDF) On - Chip Interconnection Networks : Why They are Different...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Native_(computing)">Native (computing) - Wikipedia</a></li>
+<li><a href="https://www.scmp.com/tech/article/3348006/ai-rift-widens-china-urges-boycott-top-us-conference-over-sanctions-ban">AI rift widens as China urges boycott of top US conference ...</a></li>
+<li><a href="https://letsdatascience.com/news/china-federation-urges-neurips-boycott-over-sanctions-ae3bf5b5">China Federation Urges NeurIPS Boycott Over Sanctions</a></li>
+<li><a href="https://www.reuters.com/world/china/china-boycotts-top-ai-conference-after-ban-papers-us-sanctioned-entities-2026-03-27/">China boycotts top AI conference after ban on papers from US ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#RISC-V`, `#Open-Source Hardware`, `#Operating Systems`, `#Computer Architecture`, `#China Tech`
+**标签**: `#AI Ethics`, `#Academic Freedom`, `#Geopolitics`, `#Research Policy`, `#NeurIPS`
 
 ---
 
 <a id="item-6"></a>
-## [日本团队第 58 代克隆小鼠出生次日死亡，或证明哺乳动物克隆存在极限。](https://www.nature.com/articles/s41467-026-69765-7) ⭐️ 8.0/10
+## [华为发布 Atlas 350 AI 加速卡，搭载昇腾 950PR，算力达 H20 近三倍](https://t.me/zaihuapd/40556) ⭐️ 8.0/10
 
-日本研究团队历时 20 年，从一只雌性小鼠出发，成功克隆了 58 代、超过 1200 只克隆鼠。第 58 代克隆鼠全部在出生后第二天死亡，而到第 57 代时，小鼠的存活率已不足 1%。 这项研究首次提供了长期实验证据，表明哺乳动物的连续克隆存在根本性的生物学极限，因为遗传错误会代代累积，最终导致繁殖失败。它挑战了通过克隆无限期维持一个物种的理论可能性，并对理解遗传稳定性、生殖技术和保护生物学具有重要意义。 研究发现，克隆过程中新生突变的发生率约为自然繁殖后代的 3 倍，并且从第 25 代之后开始出现显著的染色体异常，例如整条 X 染色体的丢失。虽然前 25 代克隆鼠相对健康，但从第 27 代起，观察到繁殖力下降、产仔数减少和胎盘增大等现象。
+在华为中国合作伙伴大会 2026 上，华为正式发布并上市了搭载全新昇腾 950PR 处理器的 AI 训练推理加速卡 Atlas 350。华为宣称该产品单卡算力达到英伟达 H20 的 2.87 倍，是目前国内唯一支持 FP4 低精度推理的加速卡，并具备 112 GB 的 HBM 容量。 此次发布标志着中国本土 AI 硬件能力的重大进步，直接挑战了英伟达在高性能加速器市场的主导地位，特别是在推理工作负载方面。其宣称的性能飞跃以及对 FP4 等前沿特性的支持，有望降低部署大型 AI 模型的成本和能耗，影响依赖 AI 推理的云服务商和企业。 除了宣称的性能数据，关键的技术进步还包括相较于前代昇腾芯片，在向量算力和互联带宽方面的显著提升。该加速卡搭载的 112 GB 自研 HBM 值得关注，因为大容量 HBM 对于在推理过程中高效处理大语言模型的键值缓存至关重要。
 
-telegram · zaihuapd · Mar 26, 16:46
+telegram · zaihuapd · Mar 27, 15:30
 
-**背景**: 克隆，特指体细胞核移植技术，涉及将成年动物的体细胞核取出，移植到已去除细胞核的卵细胞中。这项因克隆羊多莉而闻名的技术，可以产生遗传上完全相同的个体。连续克隆是指反复使用一个克隆体的细胞来创造下一代克隆体的过程，这种方法用于测试这种繁殖方式的长期生存能力和遗传稳定性。
+**背景**: GPU 和专用加速卡等 AI 加速器对于训练和运行大型 AI 模型至关重要。HBM（高带宽内存）是一种堆叠在处理器附近的快速内存，为数据密集的 AI 任务提供所需的高带宽。FP4 是一种新兴的低精度数据格式（4 位浮点数），可以显著提高推理速度和能效，同时旨在保持模型精度，英伟达已于 2025 年引入了对该格式的支持。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.nature.com/articles/s41467-026-69765-7">Limitations of serial cloning in mammals - Nature</a></li>
-<li><a href="https://www.sciencealert.com/dead-end-radical-20-year-study-reveals-genetic-cloning-hits-a-limit">'Dead End': Radical 20-Year Study Reveals Genetic Cloning Hits a Limit</a></li>
+<li><a href="https://chinabizinsider.com/huawei-unveils-ascend-950pr-atlas-350-with-2-9x-nvidia-h20-performance-as-china-scales-ai-inference/">Huawei Atlas 350 Ascend 950PR Targets Nvidia H20</a></li>
+<li><a href="https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/">Introducing NVFP4 for Efficient and Accurate Low-Precision ...</a></li>
+<li><a href="https://www.kad8.com/ai/hbf-the-next-memory-layer-for-ai-accelerators/">HBF: The Next Memory Layer for AI Accelerators · KAD</a></li>
 
 </ul>
 </details>
 
-**标签**: `#cloning`, `#genetics`, `#reproductive-biology`, `#longitudinal-study`, `#mammalian-research`
+**标签**: `#AI Hardware`, `#Accelerators`, `#Huawei`, `#High-Performance Computing`, `#Machine Learning`
 
 ---
 
 <a id="item-7"></a>
-## [Google 发布 Gemini 3.1 Flash Live，Gemini Live 提速，Search Live 扩至 200 多个国家和地区](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/) ⭐️ 8.0/10
+## [团队利用 AI 在一天内将 JSONata 从 JavaScript 移植到 Go，实现每年节省 50 万美元。](https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything) ⭐️ 7.0/10
 
-Google 发布了实时音频与语音模型 Gemini 3.1 Flash Live，并将其接入 Gemini Live、Search Live、Gemini Enterprise for Customer Experience，以及在 Google AI Studio 中以预览版开放的 Gemini Live API。该模型支持 90 多种语言的实时多模态对话，并强化了复杂指令遵循、外部工具调用、声学细节识别以及在嘈杂环境中的语音处理能力。 此次发布通过使交互更快、更自然且全球可访问，显著提升了实时对话式 AI 的能力。它使得与 AI 助手的对话更加流畅持久，并将多模态搜索的覆盖范围扩展至全球广大用户，可能为语音和音频 AI 应用设定新的标准。 在 Android 和 iOS 的 Gemini Live 中，新模型带来了更快的响应、更少的停顿，并将连续对话的上下文保持时间提升至此前的两倍。Gemini Live API 专为生产环境设计，已于今日起通过 Gemini API 和 Google AI Studio 提供。
-
-telegram · zaihuapd · Mar 26, 17:01
-
-**背景**: 多模态对话系统是一种能够处理和理解来自文本、图像、音频和视频等多种信息源的 AI 模型，以进行更自然、更具上下文感知的对话。实时语音 AI 模型同时处理语音输入和输出，以最小化延迟，实现更流畅、更接近人类的交互。Google 的 Gemini 模型系列是其旗舰多模态 AI 系统套件，旨在快速发展的生成式 AI 领域参与竞争。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://deepmind.google/models/model-cards/gemini-3-1-flash-live/">Gemini 3.1 Flash Live - Model Card — Google DeepMind</a></li>
-<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/">Gemini 3.1 Flash Live: Making audio AI more natural and reliable</a></li>
-<li><a href="https://braintitan.medium.com/mini-omni-real-time-voice-ai-model-supports-thinking-while-talking-28d554cbb9f8">Mini-Omni: Real - Time Voice AI Model Supports ‘Thinking... | Medium</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI`, `#Google`, `#Multimodal AI`, `#Voice AI`, `#Real-time Systems`
-
----
-
-<a id="item-8"></a>
-## [团队用 AI 一天内将 JSONata 移植到 Go，实现每年 50 万美元成本节约](https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything) ⭐️ 7.0/10
-
-Reco 团队利用 AI 辅助开发，在 7 小时内将 JSONata JSON 查询语言从其原始的 JavaScript 实现移植到 Go，花费了约 400 美元的 AI 代币。他们通过为期一周的影子部署验证了新实现，并行运行两个版本以确保行为一致。 这个案例研究展示了'氛围移植'（vibe-porting）——利用 AI 和现有测试套件快速重写代码库——的实际和经济影响。它表明 AI 可以加速基础设施现代化，带来显著的性能提升和运营成本降低，可能影响团队处理遗留系统迁移的方式。 移植工作严重依赖 JSONata 现有的全面测试套件来指导 AI 并验证正确性。最终生成的 Go 实现预计比 JavaScript 版本带来显著的性能提升，这直接转化为预计的每年 50 万美元的成本节约。
+Reco 团队利用 AI 辅助的'氛围移植'方法，仅用 7 小时就创建了 JSONata JSON 表达式语言的新 Go 实现，花费了约 400 美元的 AI 代币。随后，他们通过为期一周的影子部署来验证新实现，让其与原版本并行运行以确保行为完全一致。 这展示了 AI 在软件开发中一个实用且高影响力的应用，能够实现快速且经济高效的跨语言代码迁移。它凸显了 AI 辅助的'氛围移植'如何为拥有遗留代码库的公司显著降低工程成本并加速项目进程。 该项目的成功在很大程度上依赖于 JSONata 现有的全面测试套件，它为 AI 生成的代码提供了必要的保障。所声称的每年 50 万美元的节省可能源于运行时成本的降低，因为 Go 二进制文件通常比 Node.js 对应物性能更高、资源效率更好。
 
 rss · Simon Willison · Mar 27, 00:35
 
-**背景**: JSONata 是一种专为 JSON 数据设计的轻量级查询和转换语言，类似于 jq，但其语法灵感来源于 XPath。它通常用于 Node-RED 等平台中进行数据操作。'氛围移植'或'氛围编码'是一种新兴的 AI 辅助开发模式，开发者使用详细的提示词和现有的测试套件来指导大语言模型移植或重写软件组件。影子部署是一种测试策略，新版本的应用程序与生产版本并行运行，处理真实流量的副本而不影响用户，以在真实条件下验证正确性和性能。
+**背景**: JSONata 是一种专为 JSON 数据设计的声明式开源查询和转换语言，其用途与'jq'类似。'氛围移植'是一个非正式术语，指通过自然语言对话使用 AI 助手来翻译或重写代码，通常无需详细的前期规划。影子部署是一种测试技术，新系统与当前生产系统并行运行，处理相同的输入但不影响面向用户的输出，从而实现安全验证。
 
 <details><summary>参考链接</summary>
 <ul>
 <li><a href="https://jsonata.org/">JSONata</a></li>
-<li><a href="https://tsjohnnychan.medium.com/vibe-coding-series-you-do-not-have-to-start-from-scratch-77c13a48853a">Vibe Coding Series — You Do Not Have To Start From Scratch</a></li>
-<li><a href="https://www.devopstraininginstitute.com/blog/what-is-shadow-deployment-and-how-is-it-used-for-risk-free-testing">What Is Shadow Deployment and How Is It Used for Risk-Free ...</a></li>
+<li><a href="https://devopstales.github.io/ai/ai-software-development-spec-vs-vibe/">AI Software Development : Spec-Driven vs. Vibe Coding</a></li>
+<li><a href="https://medium.com/@juanc.olamendy/model-deployment-strategies-discover-how-to-boost-your-ml-deployment-success-d82b320ac118">Model Deployment Strategies: Discover How to Boost your... | Medium</a></li>
 
 </ul>
 </details>
 
-**标签**: `#ai-assisted-development`, `#code-porting`, `#go`, `#jsonata`, `#cost-optimization`
+**标签**: `#AI-assisted development`, `#code migration`, `#Go`, `#JSON`, `#cost optimization`
+
+---
+
+<a id="item-8"></a>
+## [苹果协助 FBI 追踪使用“隐藏邮箱地址”发送威胁邮件的用户真实身份](https://www.404media.co/apple-gives-fbi-a-users-real-name-hidden-behind-hide-my-email-feature/) ⭐️ 7.0/10
+
+在一项威胁邮件调查中，苹果向 FBI 提供了其“隐藏邮箱地址”功能所生成的匿名地址背后对应的真实 iCloud 账户信息，包括邮箱地址。涉案用户 Alden Ruml 曾生成 134 个匿名地址，并随后承认向一名前 FBI 官员的女友发送了威胁邮件。 此案例揭示了苹果所宣传的匿名功能在现实中的一个重大局限，表明“隐藏邮箱地址”无法在执法部门拥有适当法律授权时保护用户身份。这对用户的隐私预期、数字安全讨论以及科技巨头提供的“匿名”服务的透明度都具有重要影响。 涉案用户 Alden Ruml 使用该功能创建了 134 个匿名邮箱地址。苹果的行动是基于 FBI 的合法请求，因为公司内部保存着将这些随机生成的地址与用户真实 iCloud 账户关联起来的记录。
+
+telegram · zaihuapd · Mar 27, 13:09
+
+**背景**: 苹果的“隐藏邮箱地址”是付费 iCloud+ 订阅中包含的一项隐私功能。它允许用户生成唯一的、随机的电子邮件地址，这些地址会将邮件转发到用户的个人收件箱，从而避免用户向网站或服务提供真实邮箱地址。该功能被宣传为保护用户隐私和减少垃圾邮件的一种方式，但其设计初衷并非为用户在拥有有效法律命令的执法部门面前提供匿名性。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://support.apple.com/guide/icloud/set-up-hide-my-email-mm9d9012c9e8/icloud">Set up and use Hide My Email in iCloud+ on all your devices</a></li>
+<li><a href="https://yro.slashdot.org/story/26/03/26/2146255/apple-gives-fbi-a-users-real-name-hidden-behind-hide-my-email-feature">Apple Gives FBI a User's Real Name Hidden Behind 'Hide My Email ...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#privacy`, `#security`, `#law-enforcement`, `#apple`, `#digital-rights`
 
 ---

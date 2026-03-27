@@ -5,194 +5,191 @@ date: 2026-03-27
 lang: en
 ---
 
-> From 25 items, 8 important content pieces were selected
+> From 21 items, 8 important content pieces were selected
 
 ---
 
-1. [Google Announces Post-Quantum Cryptography Integration in Android 17](#item-1) ⭐️ 9.0/10
-2. [Developer publishes real-time transcript of discovering and responding to LiteLLM PyPI malware attack](#item-2) ⭐️ 8.0/10
-3. [Interactive educational essay explains LLM quantization with exceptional visualizations](#item-3) ⭐️ 8.0/10
-4. [Apifox Desktop Client Compromised in Supply Chain Attack via CDN Script](#item-4) ⭐️ 8.0/10
-5. [Chinese Academy of Sciences Launches 'Xiangshan' Open-Source RISC-V Processor and 'Ruyi' Native OS](#item-5) ⭐️ 8.0/10
-6. [58th-generation cloned mouse dies after one day, suggesting a fundamental limit to mammalian cloning.](#item-6) ⭐️ 8.0/10
-7. [Google Launches Gemini 3.1 Flash Live, Speeds Up Gemini Live, and Expands Search Live to 200+ Countries](#item-7) ⭐️ 8.0/10
-8. [AI-Powered Port of JSONata to Go Completed in One Day, Saving $500K Annually](#item-8) ⭐️ 7.0/10
+1. [Developer details discovery and response to live malware in LiteLLM PyPI package](#item-1) ⭐️ 8.0/10
+2. [Interactive educational essay explains LLM quantization and floating-point representation](#item-2) ⭐️ 8.0/10
+3. [Anthropic confirms testing next-gen AI model Claude Mythos after data leak reveals 'step-change' capabilities.](#item-3) ⭐️ 8.0/10
+4. [IOC restricts Olympic women's events to biological females starting 2028](#item-4) ⭐️ 8.0/10
+5. [China Computer Federation calls for boycott of NeurIPS 2026 over US sanctions policy](#item-5) ⭐️ 8.0/10
+6. [Huawei Launches Atlas 350 AI Accelerator with Ascend 950PR, Claims Near Triple H20 Performance](#item-6) ⭐️ 8.0/10
+7. [Team uses AI to port JSONata from JavaScript to Go in one day, saving $500K annually.](#item-7) ⭐️ 7.0/10
+8. [Apple Provided FBI with Real User Info Behind 'Hide My Email' Address in Threat Case](#item-8) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [Google Announces Post-Quantum Cryptography Integration in Android 17](https://security.googleblog.com/2026/03/post-quantum-cryptography-in-android.html) ⭐️ 9.0/10
+## [Developer details discovery and response to live malware in LiteLLM PyPI package](https://simonwillison.net/2026/Mar/26/response-to-the-litellm-malware-attack/#atom-everything) ⭐️ 8.0/10
 
-Google has announced plans to integrate post-quantum cryptography (PQC) standards into Android 17, specifically by adding quantum-resistant digital signatures to the bootloader and migrating the Android Keystore to a PQC-compliant system. This proactive upgrade aims to secure the device boot process and protect authentication and sensitive data transmission against future quantum computing threats. This integration represents a paradigm shift in mobile security infrastructure, as it is one of the first major implementations of PQC in a widely-used consumer operating system. It proactively addresses the 'harvest now, decrypt later' threat, where encrypted data intercepted today could be decrypted by future quantum computers, thereby safeguarding billions of Android devices and their communications for the long term. Google is implementing the NIST-standardized ML-DSA quantum-resistant signature algorithm and has set a timeline to complete this migration by 2029, ahead of NIST's suggested 2030 mandate. The upgrade focuses on two critical layers: the bootloader to maintain a secure boot chain and the Keystore to protect app-to-server authentication and data encryption.
+Callum McMahon discovered and reported a live malware attack in version 1.82.8 of the LiteLLM Python package on PyPI, confirmed by executing the downloaded package in an isolated Docker container which revealed malicious code in a .pth file. He documented his minute-by-minute response process, including using Claude AI to analyze the threat and identify the correct security contact at security@pypi.org. This incident highlights the ongoing vulnerability of software supply chains, particularly in popular package repositories like PyPI, where malicious packages can infect thousands of developers and systems before detection. It demonstrates how even widely-used AI/ML tools like LiteLLM are targets for supply chain attacks that could compromise sensitive data and computing resources. The malware was delivered via a .pth file named 'litellm_init.pth' (34,628 bytes) containing base64-encoded Python code that executes upon Python interpreter startup. The attack was confirmed to be actively live on PyPI at the time of discovery, meaning any installation or upgrade would immediately infect systems.
 
-telegram · zaihuapd · Mar 26, 07:09
+rss · Simon Willison · Mar 26, 23:58
 
-**Background**: Post-quantum cryptography (PQC) refers to cryptographic algorithms designed to be secure against attacks by both classical and future quantum computers. In August 2024, NIST released its first set of finalized PQC standards, including algorithms for encryption and digital signatures, to protect electronic information. A secure bootloader verifies the integrity of software during device startup, while the Android Keystore is a system service that manages and stores cryptographic keys for apps in a secure hardware-backed container.
+**Background**: PyPI (Python Package Index) is the primary repository for Python software packages, serving millions of developers worldwide. Supply chain attacks on package repositories involve uploading malicious code to legitimate-looking packages that get downloaded and executed by unsuspecting users. .pth files are Python path configuration files that can contain executable code which runs automatically when Python starts, making them a potent vector for persistence attacks. Docker container isolation is a security practice that runs potentially dangerous code in isolated environments to prevent host system compromise.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards">NIST Releases First 3 Finalized Post-Quantum Encryption Standards</a></li>
-<li><a href="https://bootlin.com/blog/the-nists-new-plan-for-digital-signatures-impact-on-secure-boot/">The NIST’s new plan for digital signatures : impact on secure boot ...</a></li>
-<li><a href="https://winbuzzer.com/2026/03/26/google-android-17-quantum-resistant-encryption-pqc-xcxwbn/">Android 17 Gets Quantum-Safe Encryption Across Full Security ...</a></li>
+<li><a href="https://bolster.ai/blog/pypi-supply-chain-attacks">PYPI Security: How to Prevent Supply Chain Attacks in Python Projects</a></li>
+<li><a href="https://docs.docker.com/security/faqs/containers/">Container | Docker Docs</a></li>
+<li><a href="https://stackoverflow.com/questions/67493095/is-a-pth-file-a-security-risk-and-how-can-we-sanitise-it">python - Is a . pth file a security risk, and how can we... - Stack Overflow</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#post-quantum-cryptography`, `#android-security`, `#quantum-computing`, `#mobile-security`, `#cryptography`
+**Tags**: `#security`, `#python`, `#supply-chain`, `#malware`, `#pypi`
 
 ---
 
 <a id="item-2"></a>
-## [Developer publishes real-time transcript of discovering and responding to LiteLLM PyPI malware attack](https://futuresearch.ai/blog/litellm-attack-transcript/) ⭐️ 8.0/10
+## [Interactive educational essay explains LLM quantization and floating-point representation](https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything) ⭐️ 8.0/10
 
-A developer named Callum has published an unedited, minute-by-minute transcript documenting his discovery and response to a supply chain attack targeting versions 1.82.7 and 1.82.8 of the LiteLLM Python package on PyPI. The transcript, created using a tool to log interactions with the Claude AI assistant, details the real-time investigation that identified a malicious `.pth` file designed to steal credentials. This incident highlights the severe risks of supply chain attacks in the AI/ML ecosystem, as LiteLLM is a widely used library for unifying API calls to over 100 large language models. The first-person account provides invaluable, real-world insight into the detection and mitigation process for a sophisticated attack that could have compromised AI pipelines and cloud credentials on a massive scale. The malware was delivered via a `.pth` file, which executes on every Python startup, not just during package import, making it a persistent and stealthy threat. The compromised versions were designed to exfiltrate environment variables, SSH keys, and cloud credentials to an attacker-controlled server, constituting a multi-stage credential stealer.
-
-hackernews · Fibonar · Mar 26, 15:48
-
-**Background**: LiteLLM is an open-source Python library that provides a unified interface for calling various large language model (LLM) APIs from providers like OpenAI, Anthropic, and Google. PyPI (the Python Package Index) is the primary repository for Python software, making it a critical piece of infrastructure and a frequent target for supply chain attacks, where malicious code is inserted into legitimate software packages.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.truesec.com/hub/blog/malicious-pypi-package-litellm-supply-chain-compromise">Malicious PyPI Package - LiteLLM Supply Chain Compromise - Truesec</a></li>
-<li><a href="https://docs.litellm.ai/docs/">Getting Started - LiteLLM Docs</a></li>
-<li><a href="https://blog.pypi.org/posts/2024-12-11-ultralytics-attack-analysis/">Supply-chain attack analysis: Ultralytics - The Python Package Index Blog</a></li>
-
-</ul>
-</details>
-
-**Discussion**: The community discussion validated the attack's significance, with commenters highlighting the stealthy nature of `.pth` file execution and the need for better real-time security monitoring of package registries. There was also discussion about the responsible use of AI assistants in security investigations, cautioning against accidentally executing malicious code.
-
-**Tags**: `#security`, `#supply-chain`, `#python`, `#malware`, `#incident-response`
-
----
-
-<a id="item-3"></a>
-## [Interactive educational essay explains LLM quantization with exceptional visualizations](https://simonwillison.net/2026/Mar/26/quantization-from-the-ground-up/#atom-everything) ⭐️ 8.0/10
-
-Sam Rose published an interactive educational essay titled 'Quantization from the ground up' that explains quantization techniques for Large Language Models, featuring what Simon Willison calls 'the best visual explanation I've ever seen' of floating-point number representation using binary digits. The essay includes practical analysis showing how different quantization levels (16-bit to 8-bit and 4-bit) affect model accuracy using the Qwen 3.5 9B model and llama.cpp tools. This matters because quantization is essential for deploying large language models on resource-constrained devices like mobile phones and edge devices, and clear educational resources help more developers understand and implement these optimization techniques effectively. The exceptional visual explanations make complex concepts like floating-point representation and outlier values accessible, which can accelerate adoption of quantization in real-world applications. The essay highlights the importance of 'outlier values' or 'super weights' in quantization—rare float values that are critical to model quality, where removing even a single one can cause the model to output gibberish, requiring special handling in quantization schemes. Practical testing shows that 16-bit to 8-bit quantization carries almost no quality penalty, while 16-bit to 4-bit quantization retains approximately 90% of original quality depending on measurement method.
+Sam Rose published an interactive educational essay titled 'Quantization from the ground up' that explains quantization techniques for Large Language Models with exceptional visual explanations of floating-point number representation. The essay includes practical analysis showing how quantization from 16-bit to 8-bit carries almost no quality penalty, while 16-bit to 4-bit reduces quality to approximately 90% of the original. This matters because quantization is crucial for deploying LLMs on resource-constrained devices like mobile phones and edge devices, and understanding the fundamentals helps developers make informed optimization decisions. The exceptional visual explanations make complex concepts accessible to a wider audience, potentially accelerating adoption of quantization techniques in real-world applications. The essay highlights the importance of 'outlier values' or 'super weights' in quantization - rare float values that exist outside normal distributions whose removal can cause models to output gibberish, requiring special handling in real-world quantization schemes. It also explains key evaluation metrics like perplexity and KL divergence, demonstrating their use with the llama.cpp perplexity tool and GPQA benchmark on the Qwen 3.5 9B model.
 
 rss · Simon Willison · Mar 26, 16:21
 
-**Background**: Quantization is a technique that reduces the precision of numerical values in neural networks, typically from 32-bit or 16-bit floating-point numbers to lower-bit representations like 8-bit integers or 4-bit values, which decreases model size and computational requirements. This is particularly important for Large Language Models (LLMs) which are often too large to run efficiently on consumer hardware without optimization. Floating-point representation in computers uses binary digits to store numbers with three components: sign bit, exponent, and significand (mantissa), with IEEE 754 being the standard format. Perplexity and KL divergence are metrics used to evaluate language model performance and the difference between probability distributions, respectively, which help quantify the impact of quantization on model accuracy.
+**Background**: Quantization is a technique that reduces the precision of numerical values in machine learning models, typically from 32-bit or 16-bit floating-point numbers to lower-bit representations like 8-bit or 4-bit integers, which decreases model size and computational requirements. Floating-point representation is a method for encoding real numbers in binary format that balances range and precision, with single-precision (float32) using 32 bits divided into sign, exponent, and significand fields. These techniques are essential for deploying large language models on devices with limited memory and processing power while maintaining acceptable accuracy.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://arxiv.org/html/2411.02530v1">A Comprehensive Study on Quantization Techniques for Large ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Floating-point_arithmetic">Floating-point arithmetic - Wikipedia</a></li>
-<li><a href="https://github.com/pprp/Awesome-LLM-Quantization">Awesome-LLM-Quantization - GitHub</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Single-precision_floating-point_format">Single-precision floating-point format - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#quantization`, `#llm-optimization`, `#machine-learning`, `#educational-content`, `#floating-point`
+**Tags**: `#quantization`, `#machine-learning`, `#llm-optimization`, `#educational-content`, `#floating-point`
+
+---
+
+<a id="item-3"></a>
+## [Anthropic confirms testing next-gen AI model Claude Mythos after data leak reveals 'step-change' capabilities.](https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/) ⭐️ 8.0/10
+
+Anthropic confirmed it is testing a powerful new AI model called Claude Mythos after a data leak stemming from a content management system configuration error revealed its existence. The company stated the model represents a 'step-change' in AI capabilities, showing significant performance gains over Claude 4.6 Opus, especially in cybersecurity, and introduces a new, higher-performance tier called 'Capybara'. This news matters because it signals a major leap in AI capability from a leading safety-focused company, with particularly profound implications for cybersecurity. The model's advanced abilities could accelerate both defensive and offensive cyber operations, prompting Anthropic to adopt a cautious, limited release strategy to mitigate potential risks of misuse by malicious actors. The leak occurred due to a human error in CMS configuration that made digital assets public by default. Due to the model's unprecedented capabilities in cybersecurity, which Anthropic fears could be exploited for large-scale attacks, it is currently only available to a select group of early-access customers, aiming to give security defenders a head start.
+
+telegram · zaihuapd · Mar 27, 04:35
+
+**Background**: Anthropic is an AI safety and research company known for developing the Claude family of large language models (LLMs). Its models are typically tiered, with Haiku, Sonnet, and Opus representing increasing levels of capability and cost; the newly revealed 'Capybara' tier sits above Opus. AI-powered cyberattacks refer to the use of machine learning to automate and enhance phases of an attack, such as creating sophisticated phishing or polymorphic malware, posing a growing threat.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/">Exclusive: Anthropic ‘Mythos’ AI model representing ‘step change’ in power revealed in data leak | Fortune</a></li>
+<li><a href="https://www.crowdstrike.com/en-us/cybersecurity-101/cyberattacks/ai-powered-cyberattacks/">Most Common AI-Powered Cyberattacks | CrowdStrike</a></li>
+<li><a href="https://www.world-today-news.com/anthropics-mythos-ai-model-leaked-details-cybersecurity-risks/">Anthropic’s ‘Mythos’ AI Model: Leaked Details... - World Today News</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI Safety`, `#Large Language Models`, `#Cybersecurity`, `#Anthropic`, `#Industry News`
 
 ---
 
 <a id="item-4"></a>
-## [Apifox Desktop Client Compromised in Supply Chain Attack via CDN Script](https://t.me/zaihuapd/40514) ⭐️ 8.0/10
+## [IOC restricts Olympic women's events to biological females starting 2028](https://www.bbc.com/sport/olympics/articles/cdj7dgvlj0no?at_medium=RSS&amp;at_campaign=rss) ⭐️ 8.0/10
 
-The Apifox desktop client was compromised in a supply chain attack where attackers modified a front-end analytics script hosted on its official CDN. The injected malicious code, active since March 4, steals SSH keys, Git credentials, shell history, and process lists from affected Windows, macOS, and Linux systems. This attack is significant because Apifox is a widely-used API development tool, and a compromise of its desktop client directly targets developers who often possess high-value credentials for accessing source code and infrastructure. Such supply chain attacks can lead to massive data breaches and lateral movement within corporate networks, posing a severe risk to organizations' intellectual property and operational security. Security researcher phith0n independently analyzed and published details of the malicious payload. The attack vector involved tampering with a trusted, externally hosted script (a common CDN risk), demonstrating how attackers can compromise tools that teams already trust and are actively using.
+The International Olympic Committee has announced that starting with the 2028 Los Angeles Olympics, eligibility for women's events will be restricted to biological females, determined by a one-time SRY gene test. This policy will exclude transgender women who have undergone male puberty and most athletes with Differences of Sex Development (DSD) from competing in the female category. This decision represents a major shift in Olympic eligibility criteria, moving away from testosterone-based regulations toward a biological definition of sex for competition. It will have profound implications for international sports governance, athlete participation, and the ongoing global debate about fairness, inclusion, and the future of women's sports. The SRY gene test detects the presence of the Y-chromosome gene that triggers male sexual development, serving as a one-time, permanent eligibility screen. Athletes who test negative (no SRY gene) will permanently satisfy the criteria, while those who test positive but are ineligible for the women's category may still compete in men's, open, or mixed-gender events.
 
-telegram · zaihuapd · Mar 26, 04:19
+telegram · zaihuapd · Mar 27, 05:15
 
-**Background**: Apifox is an integrated platform for API documentation, debugging, mocking, and testing, often compared to tools like Postman and Swagger. A supply chain attack occurs when an attacker compromises a component or service (like a CDN-hosted script) that is trusted and used by many downstream applications or users. SSH keys and Git credentials are critical access tokens; stealing them can grant attackers unauthorized access to private source code repositories and secure servers.
+**Background**: The SRY (Sex-determining Region Y) gene is a DNA segment on the Y chromosome responsible for initiating male sex development in humans. In sports, Differences of Sex Development (DSD) refer to congenital conditions where an individual's chromosomal, gonadal, or anatomical sex development is atypical. Prior to this policy, many sports federations, including World Athletics, used testosterone level thresholds to determine eligibility for the female category, which has been a subject of ongoing controversy and legal challenges.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.binance.com/en/square/post/03-26-2026-apifox-desktop-client-faces-supply-chain-attack-with-malicious-code-injection-305605946597617">Apifox Desktop Client Faces... | Binance News on Binance Square</a></li>
-<li><a href="https://developer.mozilla.org/en-US/docs/Web/Security/Attacks/Supply_chain_attacks">Supply chain attacks - Security | MDN</a></li>
-<li><a href="https://www.kodemsecurity.com/resources/when-the-scanner-becomes-the-threat-inside-the-trivy-supply-chain-attack">When the Scanner Becomes the Threat: Inside the Trivy Supply ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sex-determining_region_Y_protein">Sex-determining region Y protein - Wikipedia</a></li>
+<li><a href="https://worldathletics.org/news/press-releases/sry-gene-test-athletes-female-category">World Athletics introduces SRY gene test for athletes wishing to compete in the female category | PRESS-RELEASES | World Athletics</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Sex_verification_and_intersex_athletes_at_the_Olympic_Games">Sex verification and intersex athletes at the Olympic Games - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#supply-chain-attack`, `#developer-tools`, `#credential-theft`, `#malware`
+**Tags**: `#sports-policy`, `#gender-in-sports`, `#olympics`, `#transgender-athletes`, `#eligibility-criteria`
 
 ---
 
 <a id="item-5"></a>
-## [Chinese Academy of Sciences Launches 'Xiangshan' Open-Source RISC-V Processor and 'Ruyi' Native OS](https://h.xinhuaxmt.com/vh512/share/13024070?docid=13024070) ⭐️ 8.0/10
+## [China Computer Federation calls for boycott of NeurIPS 2026 over US sanctions policy](https://t.me/zaihuapd/40549) ⭐️ 8.0/10
 
-On March 26, at the RISC-V Ecosystem Technology Forum of the Zhongguancun Forum Annual Conference, the Chinese Academy of Sciences (CAS) officially launched the open-source 'Xiangshan' high-performance RISC-V processor and the 'Ruyi' native operating system. The event also marked the kickoff of a joint development initiative for the next-generation 'Kunming Lake' architecture and the 'Ruyi' OS, involving dozens of major companies including China Mobile, China Telecom, ZTE, Alibaba, Tencent, and ByteDance. This launch represents a significant milestone in China's push for open-source hardware and software ecosystems, reducing reliance on proprietary architectures. The involvement of major tech firms and telecom operators signals strong industry commitment and accelerates the path towards commercial adoption and a robust domestic RISC-V ecosystem. The 'Xiangshan' processor is claimed to achieve internationally advanced performance levels and introduced the world's first open-source on-chip interconnect network IP. Commercial chips based on 'Xiangshan' are already in production by companies like InDie, Blue Core Computing, InnoSilicon, and ESWIN. The 'Ruyi' OS is noted for its comprehensive support of international standards.
+The China Computer Federation (CCF) issued a formal statement on March 27, 2024, strongly opposing NeurIPS 2026's new submission guidelines that prohibit submissions from institutions on US sanctions lists. The CCF called on Chinese scholars to boycott the conference and urged NeurIPS to immediately reverse this policy. This represents a significant escalation in the politicization of global AI research collaboration, potentially fragmenting the international scientific community. As NeurIPS is a premier AI conference and CCF is China's leading computer science professional organization, their conflict could reduce Chinese participation and impact the conference's global standing while deepening US-China technological divides. The NeurIPS 2026 policy specifically bars submissions from institutions on the US Specially Designated Nationals (SDN) list, which includes Chinese AI firms like Huawei and SenseTime. This marks the first time NeurIPS has explicitly enforced US sanctions compliance in its submission guidelines, creating a precedent for other academic conferences.
 
-telegram · zaihuapd · Mar 26, 10:08
+telegram · zaihuapd · Mar 27, 11:00
 
-**Background**: RISC-V is a free and open standard Instruction Set Architecture (ISA) based on reduced instruction set computer principles, enabling anyone to design, manufacture, and sell RISC-V chips and software without royalties. An on-chip interconnect network (OCIN or NoC) is a critical component within a chip multiprocessor that connects cores, memory, and other modules, determining overall system performance and scalability. A native operating system is software built to run directly on a specific processor's instruction set without translation layers, typically offering higher performance and efficiency compared to general-purpose OSes that run on various architectures through abstraction.
+**Background**: NeurIPS (Conference on Neural Information Processing Systems) is one of the world's most prestigious artificial intelligence and machine learning conferences, typically attracting thousands of submissions annually. The China Computer Federation is China's largest and most influential professional organization for computer science and technology, with over 100,000 members. US sanctions on Chinese technology companies have increasingly impacted academic collaboration, with restrictions extending beyond commerce to research exchanges.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/RISC-V">RISC - V - Wikipedia</a></li>
-<li><a href="https://www.academia.edu/4851977/On_Chip_Interconnection_Networks_Why_They_are_Different_and_How_to_Compare_Them">(PDF) On - Chip Interconnection Networks : Why They are Different...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Native_(computing)">Native (computing) - Wikipedia</a></li>
+<li><a href="https://www.scmp.com/tech/article/3348006/ai-rift-widens-china-urges-boycott-top-us-conference-over-sanctions-ban">AI rift widens as China urges boycott of top US conference ...</a></li>
+<li><a href="https://letsdatascience.com/news/china-federation-urges-neurips-boycott-over-sanctions-ae3bf5b5">China Federation Urges NeurIPS Boycott Over Sanctions</a></li>
+<li><a href="https://www.reuters.com/world/china/china-boycotts-top-ai-conference-after-ban-papers-us-sanctioned-entities-2026-03-27/">China boycotts top AI conference after ban on papers from US ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#RISC-V`, `#Open-Source Hardware`, `#Operating Systems`, `#Computer Architecture`, `#China Tech`
+**Tags**: `#AI Ethics`, `#Academic Freedom`, `#Geopolitics`, `#Research Policy`, `#NeurIPS`
 
 ---
 
 <a id="item-6"></a>
-## [58th-generation cloned mouse dies after one day, suggesting a fundamental limit to mammalian cloning.](https://www.nature.com/articles/s41467-026-69765-7) ⭐️ 8.0/10
+## [Huawei Launches Atlas 350 AI Accelerator with Ascend 950PR, Claims Near Triple H20 Performance](https://t.me/zaihuapd/40556) ⭐️ 8.0/10
 
-A Japanese research team, after a 20-year study, has successfully created 58 generations of cloned mice from a single female, producing over 1200 individuals. The 58th generation of cloned mice all died the day after birth, and the survival rate had already dropped below 1% by the 57th generation. This research provides the first long-term experimental evidence that serial cloning in mammals has a fundamental biological limit, as genetic errors accumulate over generations, leading to reproductive failure. It challenges the theoretical possibility of maintaining a species indefinitely through cloning and has implications for understanding genetic stability, reproductive technologies, and conservation biology. The study found that de novo mutations accumulated at a rate about three times higher than in naturally bred offspring, and significant chromosomal abnormalities, such as the loss of an entire X chromosome, became prominent after the 25th generation. While the first 25 generations were relatively healthy, reproductive decline, reduced litter sizes, and enlarged placentas were observed from the 27th generation onward.
+At the Huawei China Partners Conference 2026, Huawei officially launched and began selling the Atlas 350 AI training and inference accelerator card, which features the new Ascend 950PR processor. The company claims it delivers 2.87 times the computing power of NVIDIA's H20 accelerator, supports FP4 precision for inference, and offers 112 GB of HBM capacity. This launch represents a significant advance in China's domestic AI hardware capabilities, directly challenging NVIDIA's dominance in the high-performance accelerator market, particularly for inference workloads. The claimed performance leap and support for cutting-edge features like FP4 could lower the cost and energy consumption of deploying large AI models, impacting cloud providers and enterprises reliant on AI inference. Beyond the headline performance claim, key technical advancements include major improvements in vector compute power and interconnect bandwidth compared to previous Ascend chips. The card's 112 GB of self-developed HBM is notable, as high-capacity HBM is crucial for efficiently handling the key-value caches of large language models during inference.
 
-telegram · zaihuapd · Mar 26, 16:46
+telegram · zaihuapd · Mar 27, 15:30
 
-**Background**: Cloning, specifically somatic cell nuclear transfer (SCNT), involves taking the nucleus from a somatic (body) cell of an adult animal and transferring it into an egg cell that has had its own nucleus removed. This technique, famously used to create Dolly the sheep, can produce genetically identical copies of an individual. Serial cloning refers to the process of repeatedly using cells from one clone to create the next generation of clones, a method used to test the long-term viability and genetic stability of this form of reproduction.
+**Background**: AI accelerators like GPUs and specialized cards are essential for training and running large AI models. HBM (High-Bandwidth Memory) is a fast type of memory stacked close to the processor, providing the high bandwidth needed for data-intensive AI tasks. FP4 is an emerging low-precision data format (4-bit floating point) that can dramatically increase inference speed and energy efficiency while aiming to maintain model accuracy, with NVIDIA having introduced support for it in 2025.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.nature.com/articles/s41467-026-69765-7">Limitations of serial cloning in mammals - Nature</a></li>
-<li><a href="https://www.sciencealert.com/dead-end-radical-20-year-study-reveals-genetic-cloning-hits-a-limit">'Dead End': Radical 20-Year Study Reveals Genetic Cloning Hits a Limit</a></li>
+<li><a href="https://chinabizinsider.com/huawei-unveils-ascend-950pr-atlas-350-with-2-9x-nvidia-h20-performance-as-china-scales-ai-inference/">Huawei Atlas 350 Ascend 950PR Targets Nvidia H20</a></li>
+<li><a href="https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/">Introducing NVFP4 for Efficient and Accurate Low-Precision ...</a></li>
+<li><a href="https://www.kad8.com/ai/hbf-the-next-memory-layer-for-ai-accelerators/">HBF: The Next Memory Layer for AI Accelerators · KAD</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#cloning`, `#genetics`, `#reproductive-biology`, `#longitudinal-study`, `#mammalian-research`
+**Tags**: `#AI Hardware`, `#Accelerators`, `#Huawei`, `#High-Performance Computing`, `#Machine Learning`
 
 ---
 
 <a id="item-7"></a>
-## [Google Launches Gemini 3.1 Flash Live, Speeds Up Gemini Live, and Expands Search Live to 200+ Countries](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/) ⭐️ 8.0/10
+## [Team uses AI to port JSONata from JavaScript to Go in one day, saving $500K annually.](https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything) ⭐️ 7.0/10
 
-Google has released Gemini 3.1 Flash Live, a real-time audio and voice model, and integrated it into Gemini Live, Search Live, Gemini Enterprise for Customer Experience, and a preview version of the Gemini Live API in Google AI Studio. The model supports real-time multimodal conversations in over 90 languages, with improved instruction following, tool use, acoustic detail recognition, and noise handling. This release significantly advances the capabilities of real-time, conversational AI by making interactions faster, more natural, and globally accessible. It enables more fluid and extended conversations with AI assistants and expands the reach of multimodal search to a vast global audience, potentially setting a new standard for voice and audio AI applications. In Gemini Live on Android and iOS, the new model delivers faster responses with fewer pauses and doubles the context retention for continuous conversations. The Gemini Live API is designed for production environments and is available starting today via the Gemini API and Google AI Studio.
-
-telegram · zaihuapd · Mar 26, 17:01
-
-**Background**: Multimodal dialogue systems are AI models that can process and understand information from multiple sources, such as text, images, audio, and video, to conduct more natural and context-aware conversations. Real-time voice AI models process speech input and output simultaneously to minimize delays, enabling smoother, more human-like interactions. Google's Gemini family of models represents its flagship suite of multimodal AI systems designed to compete in the rapidly evolving generative AI landscape.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://deepmind.google/models/model-cards/gemini-3-1-flash-live/">Gemini 3.1 Flash Live - Model Card — Google DeepMind</a></li>
-<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-live/">Gemini 3.1 Flash Live: Making audio AI more natural and reliable</a></li>
-<li><a href="https://braintitan.medium.com/mini-omni-real-time-voice-ai-model-supports-thinking-while-talking-28d554cbb9f8">Mini-Omni: Real - Time Voice AI Model Supports ‘Thinking... | Medium</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI`, `#Google`, `#Multimodal AI`, `#Voice AI`, `#Real-time Systems`
-
----
-
-<a id="item-8"></a>
-## [AI-Powered Port of JSONata to Go Completed in One Day, Saving $500K Annually](https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/#atom-everything) ⭐️ 7.0/10
-
-The Reco team used AI-assisted development to port the JSONata JSON query language from its original JavaScript implementation to Go in just 7 hours, spending approximately $400 on AI tokens. They validated the new implementation through a week-long shadow deployment, running both versions in parallel to ensure behavioral equivalence. This case study demonstrates the practical and economic impact of 'vibe-porting'—using AI to rapidly rewrite codebases with existing test suites. It shows how AI can accelerate infrastructure modernization, leading to significant performance gains and operational cost reductions, potentially influencing how teams approach legacy system migrations. The porting effort relied heavily on JSONata's comprehensive existing test suite to guide the AI and verify correctness. The resulting Go implementation is expected to deliver substantial performance improvements over the JavaScript version, which directly translates to the projected $500,000 annual cost savings.
+The Reco team used AI-assisted 'vibe porting' to create a new Go implementation of the JSONata JSON expression language in just 7 hours, spending approximately $400 on AI tokens. They then validated the new implementation using a week-long shadow deployment, running it in parallel with the original to ensure behavioral equivalence. This demonstrates a practical, high-impact application of AI in software development, enabling rapid and cost-effective code migration between languages. It highlights how AI-assisted 'vibe porting' can significantly reduce engineering costs and accelerate project timelines for companies with legacy codebases. The project's success was heavily dependent on JSONata's existing comprehensive test suite, which provided the necessary guardrails for the AI-generated code. The claimed $500K/year savings likely stems from reduced runtime costs, as Go binaries are typically more performant and resource-efficient than their Node.js counterparts.
 
 rss · Simon Willison · Mar 27, 00:35
 
-**Background**: JSONata is a lightweight query and transformation language specifically designed for JSON data, similar to jq but with a syntax inspired by XPath. It is commonly used within platforms like Node-RED for data manipulation. 'Vibe-porting' or 'vibe-coding' is an emerging AI-assisted development pattern where developers use detailed prompts and existing test suites to guide LLMs in porting or rewriting software components. Shadow deployment is a testing strategy where a new version of an application runs alongside the production version, processing a copy of real traffic without affecting users, to validate correctness and performance under real-world conditions.
+**Background**: JSONata is a declarative, open-source query and transformation language specifically designed for JSON data, similar in purpose to 'jq'. 'Vibe porting' is an informal term for using AI assistants to translate or rewrite code through natural language conversation, often without detailed upfront specifications. Shadow deployment is a testing technique where a new system runs alongside the current production system, processing the same inputs but not affecting user-facing outputs, allowing for safe validation.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://jsonata.org/">JSONata</a></li>
-<li><a href="https://tsjohnnychan.medium.com/vibe-coding-series-you-do-not-have-to-start-from-scratch-77c13a48853a">Vibe Coding Series — You Do Not Have To Start From Scratch</a></li>
-<li><a href="https://www.devopstraininginstitute.com/blog/what-is-shadow-deployment-and-how-is-it-used-for-risk-free-testing">What Is Shadow Deployment and How Is It Used for Risk-Free ...</a></li>
+<li><a href="https://devopstales.github.io/ai/ai-software-development-spec-vs-vibe/">AI Software Development : Spec-Driven vs. Vibe Coding</a></li>
+<li><a href="https://medium.com/@juanc.olamendy/model-deployment-strategies-discover-how-to-boost-your-ml-deployment-success-d82b320ac118">Model Deployment Strategies: Discover How to Boost your... | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ai-assisted-development`, `#code-porting`, `#go`, `#jsonata`, `#cost-optimization`
+**Tags**: `#AI-assisted development`, `#code migration`, `#Go`, `#JSON`, `#cost optimization`
+
+---
+
+<a id="item-8"></a>
+## [Apple Provided FBI with Real User Info Behind 'Hide My Email' Address in Threat Case](https://www.404media.co/apple-gives-fbi-a-users-real-name-hidden-behind-hide-my-email-feature/) ⭐️ 7.0/10
+
+Apple provided the FBI with the real iCloud account information, including the email address, associated with anonymous addresses generated using its 'Hide My Email' feature, as part of an investigation into threatening emails. The user, Alden Ruml, who had generated 134 such addresses, later admitted to sending threats to the girlfriend of a former FBI official. This case demonstrates a significant real-world limitation of Apple's marketed anonymity feature, revealing that 'Hide My Email' does not shield users from law enforcement with proper legal authority. It has major implications for user privacy expectations, digital security discussions, and the transparency of 'anonymous' services provided by tech giants. The user involved, Alden Ruml, had created 134 anonymous email addresses using the feature. Apple's action was based on a lawful request from the FBI, as the company maintains internal records that link the randomly generated addresses back to the user's real iCloud account.
+
+telegram · zaihuapd · Mar 27, 13:09
+
+**Background**: Apple's 'Hide My Email' is a privacy feature included with paid iCloud+ subscriptions. It allows users to generate unique, random email addresses that forward messages to their personal inbox, preventing them from having to share their real email address with websites or services. The feature is marketed as a way to protect user privacy and reduce spam, but it is not designed to provide anonymity from law enforcement with a valid legal order.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://support.apple.com/guide/icloud/set-up-hide-my-email-mm9d9012c9e8/icloud">Set up and use Hide My Email in iCloud+ on all your devices</a></li>
+<li><a href="https://yro.slashdot.org/story/26/03/26/2146255/apple-gives-fbi-a-users-real-name-hidden-behind-hide-my-email-feature">Apple Gives FBI a User's Real Name Hidden Behind 'Hide My Email ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#privacy`, `#security`, `#law-enforcement`, `#apple`, `#digital-rights`
 
 ---
