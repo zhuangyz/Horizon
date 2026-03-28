@@ -5,103 +5,217 @@ date: 2026-03-28
 lang: en
 ---
 
-> From 23 items, 4 important content pieces were selected
+> From 27 items, 9 important content pieces were selected
 
 ---
 
-1. [IOC restricts Olympic women's events to biological females starting 2028](#item-1) ⭐️ 8.0/10
-2. [China Computer Federation calls for boycott of NeurIPS 2026 over sanctions-based submission ban](#item-2) ⭐️ 8.0/10
-3. [Huawei Launches Atlas 350 AI Accelerator with Ascend 950PR, Claims 2.87x H20 Performance](#item-3) ⭐️ 8.0/10
-4. [Apple Provided FBI with Real User Info Behind 'Hide My Email' Address in Threat Case](#item-4) ⭐️ 7.0/10
+1. [All 8,642 Spanish laws converted to Git repository with historical reforms as commits](#item-1) ⭐️ 8.0/10
+2. [Discussion on Securing Filesystems Against AI Agents Through Sandboxing and Permission Models](#item-2) ⭐️ 8.0/10
+3. [Chinese Academy of Sciences Documentation Center to Cease Journal Ranking Updates in 2026](#item-3) ⭐️ 8.0/10
+4. [FBI Failed to Extract Data from Reporter's iPhone 13 Due to Apple's Lockdown Mode](#item-4) ⭐️ 8.0/10
+5. [EU Parliament Rejects 'Chat Control' Surveillance Extension, Shifts Focus to Identity Verification](#item-5) ⭐️ 8.0/10
+6. [AI Deepfakes Deployed at Scale in 2026 US Midterms by Republican Campaigns](#item-6) ⭐️ 8.0/10
+7. [SGLang v0.5.10rc0 enhances inference with default CUDA graphs, fault-tolerant MoE, and sparse attention.](#item-7) ⭐️ 7.0/10
+8. [European Commission confirms AWS cloud breach with hundreds of GB of data stolen from Europa.eu platform](#item-8) ⭐️ 7.0/10
+9. [Wharton research identifies 'cognitive surrender' where people accept AI outputs without verification](#item-9) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [IOC restricts Olympic women's events to biological females starting 2028](https://www.bbc.com/sport/olympics/articles/cdj7dgvlj0no?at_medium=RSS&amp;at_campaign=rss) ⭐️ 8.0/10
+## [All 8,642 Spanish laws converted to Git repository with historical reforms as commits](https://github.com/EnriqueLop/legalize-es) ⭐️ 8.0/10
 
-The International Olympic Committee announced that starting with the 2028 Los Angeles Olympics, eligibility for women's events will be restricted to biological females, verified through a one-time SRY gene test. Transgender women who have undergone male puberty and most athletes with Differences of Sex Development (DSD) will be excluded from the female category. This represents a major paradigm shift in Olympic eligibility, prioritizing a biological definition of sex over gender identity for competitive fairness. The decision will directly impact transgender and DSD athletes' Olympic futures and sets a precedent likely to influence policies across international sports federations. The SRY gene test, which indicates the presence of a Y chromosome, will be mandatory as a one-time, lifetime requirement for female category eligibility. Athletes who do not qualify for the women's category may still compete in the men's category, open category, or in events not segregated by sex.
+Developer Enrique Lop created a pipeline that converted all Spanish state legislation into a Git repository, where each law is stored as a Markdown file and every historical reform is recorded as a commit with its actual date. The repository contains 8,642 laws and 27,866 commits, transforming legal amendments into readable diffs. This demonstrates how version control systems can bring transparency and traceability to legal systems, making it easier to track legislative changes over time. It enables AI systems and other tools to analyze legal evolution and could serve as a model for modernizing government document management worldwide. The pipeline converts legislation into machine-readable Markdown format, with each reform creating a real git commit that preserves the historical timeline. Instead of reading traditional amendment language like 'strike paragraph 3,' users can view actual diffs showing exactly what changed between versions.
 
-telegram · zaihuapd · Mar 27, 05:15
+hackernews · enriquelop · Mar 28, 12:01
 
-**Background**: The SRY gene is a reliable proxy for determining biological sex, as its presence typically indicates a Y chromosome. World Athletics has already introduced a similar mandatory SRY gene test for its female category starting September 1, 2025. DSD refers to disorders/differences of sex development, which are congenital conditions involving atypical development of chromosomal, gonadal, or anatomical sex. Some DSD conditions can result in elevated testosterone levels, which has been a central point of contention regarding fairness in women's sports.
+**Background**: Git is a distributed version control system originally developed for tracking changes in software code, but its principles apply well to any document that evolves over time. Legal documents have historically used manual version control methods like 'contract redline' and 'legal blackline,' which are early forms of revision control. The concept of applying modern version control to legislation has been explored previously, such as with the United States Legislative Markup (USLM) standard for the U.S. Code.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://worldathletics.org/news/press-releases/sry-gene-test-athletes-female-category">World Athletics introduces SRY gene test for athletes wishing to compete in the female category | PRESS-RELEASES | World Athletics</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Sex_verification_and_intersex_athletes_at_the_Olympic_Games">Sex verification and intersex athletes at the Olympic Games - Wikipedia</a></li>
-<li><a href="https://www.reddit.com/r/olympics/comments/1s471qa/olympics_ban_transgender_and_dsd_athletes_from/">r/olympics on Reddit: Olympics BAN transgender and DSD athletes from ALL women's sports</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Version_control">Version control - Wikipedia</a></li>
+<li><a href="https://datafoundation.org/news/blogs/335/335-Version-Control-for-Law-Tracking-Changes-in-the-US-Congress">Version Control for Law: Tracking Changes in the U.S. Congress | ANALYSIS | Data Foundation</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The Reddit discussion reflects polarized views, with the post title framing the policy as a 'BAN'. Some comments likely welcome the move as necessary for preserving fairness and safety in women's sports, while others criticize it as exclusionary and harmful to transgender and intersex athletes. The debate centers on the conflict between competitive integrity and inclusion.
+**Discussion**: Community members praised the project as a step toward transparent legal databases and expressed desire to see similar implementations for other countries. Several commenters noted existing versioned legal systems in France and California, while others highlighted how this approach solves inefficiencies in traditional legal workflows. The discussion emphasized that this technology should become standard practice for legislative tracking.
 
-**Tags**: `#sports-policy`, `#gender-inclusion`, `#olympics`, `#bioethics`, `#athletics`
+**Tags**: `#legal-tech`, `#git`, `#open-government`, `#data-transformation`, `#version-control`
 
 ---
 
 <a id="item-2"></a>
-## [China Computer Federation calls for boycott of NeurIPS 2026 over sanctions-based submission ban](https://t.me/zaihuapd/40549) ⭐️ 8.0/10
+## [Discussion on Securing Filesystems Against AI Agents Through Sandboxing and Permission Models](https://jai.scs.stanford.edu/) ⭐️ 8.0/10
 
-The China Computer Federation (CCF) issued a formal statement on February 5, 2026, strongly opposing NeurIPS 2026's policy that prohibits submissions from institutions on US sanctions lists and calling for Chinese researchers to boycott the conference. The statement condemns the policy as politicizing academic exchange and violating fundamental principles of open scientific collaboration. This confrontation represents a significant escalation in the geopolitical tensions affecting global AI research, potentially fragmenting one of the field's most important international forums. The CCF's call for a boycott could lead to substantially reduced Chinese participation at NeurIPS, impacting the conference's diversity, the global visibility of Chinese research, and norms of international scientific cooperation. The specific NeurIPS 2026 policy targets institutions on US government sanctions lists, which include major Chinese technology companies and research entities like Huawei. The CCF's statement urges NeurIPS to "immediately correct the relevant practices" and advocates for Chinese scholars to submit their work to other "open and inclusive" international conferences instead.
+A high-scoring community discussion (476 points, 272 comments) has emerged about implementing filesystem sandboxing and permission models to protect against AI agents that could corrupt or exfiltrate data. The conversation explores practical approaches including Claude Code's sandboxing features, Unix permission systems, and container-based isolation techniques. This matters because as AI agents gain more autonomy and system access, they introduce new attack vectors for data corruption and exfiltration that traditional security models weren't designed to handle. The discussion highlights a critical gap in current AI deployment practices where powerful agents operate with excessive permissions, potentially compromising sensitive data across personal and enterprise systems. The discussion reveals that simple Unix permission models (separate accounts for user and AI with shared group folders) can provide basic protection, while more sophisticated approaches like Claude Code's sandboxed bash tool offer filesystem and network isolation. Community members note that containers provide isolation but may have performance overhead, and some question whether existing permission systems are adequate for AI's unpredictable behavior patterns.
 
-telegram · zaihuapd · Mar 27, 11:00
+hackernews · mazieres · Mar 28, 00:39
 
-**Background**: NeurIPS (Conference on Neural Information Processing Systems) is one of the world's most prestigious annual conferences for machine learning and artificial intelligence research. The US government maintains several sanctions lists, such as the Department of Commerce's Entity List and OFAC's sanctions lists, which restrict transactions with designated foreign entities, including for reasons of national security and foreign policy. The China Computer Federation (CCF) is a major professional academic society in China representing computer scientists and researchers.
+**Background**: Filesystem sandboxing is a security technique that restricts an application's access to specific parts of the filesystem, preventing it from reading or writing to unauthorized locations. AI agent permission models define what resources an AI can access and what actions it can perform, similar to user permissions in traditional systems. Data exfiltration prevention involves techniques to stop unauthorized data transfers outside a protected environment, which becomes particularly challenging with AI agents that might inadvertently or maliciously leak information through their outputs or actions.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://letsdatascience.com/news/china-federation-urges-neurips-boycott-over-sanctions-ae3bf5b5">China Federation Urges NeurIPS Boycott Over Sanctions | Let's Data Science</a></li>
-<li><a href="https://www.scmp.com/tech/article/3348006/ai-rift-widens-china-urges-boycott-top-us-conference-over-sanctions-ban">AI rift widens as China urges boycott of top US conference over sanctions ban | South China Morning Post</a></li>
-<li><a href="https://researchpolicy.caltech.edu/research-security/export-compliance/restricted-party-screening/foreign-universities-sanctioned-by-the-us-government">Foreign Universities Sanctioned by the U.S. Government</a></li>
+<li><a href="https://code.claude.com/docs/en/sandboxing">Sandboxing - Claude Code Docs</a></li>
+<li><a href="https://dl.acm.org/doi/10.1145/3265723.3265734">A Lightweight and Fine-grained File System Sandboxing Framework</a></li>
+<li><a href="https://www.osohq.com/learn/ai-agent-permissions-delegated-access">Setting Permissions for AI Agents - Oso</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Ethics`, `#Academic Freedom`, `#Geopolitics`, `#NeurIPS`, `#Research Policy`
+**Discussion**: Community sentiment shows concern about the security risks of running AI agents with broad system access, with some expressing surprise at how readily users grant permissions to unpredictable software. Technical discussions include practical implementation details like Claude configuration settings, Unix permission setups, and comparisons between sandboxing approaches. Several commenters seek more resources on security trade-offs between different isolation methods (sandboxes, containers, VMs).
+
+**Tags**: `#AI Security`, `#Filesystem Sandboxing`, `#Agent Safety`, `#Unix Permissions`, `#System Security`
 
 ---
 
 <a id="item-3"></a>
-## [Huawei Launches Atlas 350 AI Accelerator with Ascend 950PR, Claims 2.87x H20 Performance](https://t.me/zaihuapd/40556) ⭐️ 8.0/10
+## [Chinese Academy of Sciences Documentation Center to Cease Journal Ranking Updates in 2026](https://mp.weixin.qq.com/s/_vf0g6qlG9mFbyyARa0IPQ) ⭐️ 8.0/10
 
-At the Huawei China Partners Conference 2026, Huawei officially launched and began selling the Atlas 350 AI training and inference accelerator card, which features the new Ascend 950PR processor. The company claims the card delivers 2.87 times the computing power of Nvidia's H20 accelerator and is currently the only accelerator card in China supporting FP4 low-precision inference. This launch represents a significant competitive move by Huawei in the high-performance AI accelerator market, directly challenging Nvidia's dominance, especially within China. The performance claim, if validated in real-world applications, could provide Chinese AI developers and cloud providers with a powerful domestic alternative, potentially reducing reliance on foreign hardware amid ongoing trade restrictions. The Atlas 350 boasts a substantial 112 GB of High Bandwidth Memory (HBM) and supports loading a 70-billion-parameter model onto a single card, which significantly reduces inference latency and investment costs. It's important to note that the direct performance comparison with Nvidia's H20 is based on FP4 operations, a precision format that Hopper-era cards like the H20 do not natively support, making independent verification challenging.
+On March 27, the Documentation and Information Center of the Chinese Academy of Sciences (CAS) announced that it will cease updating and publishing its Journal Partition Table starting in 2026. The center stated it will continue research on academic resource evaluation methods to serve the academic exchange and publishing ecosystem. This decision marks a significant policy shift in China's academic evaluation system, as the CAS Journal Partition Table has been a widely used reference for research assessment, paper submission, and institutional evaluations nationwide. Its discontinuation signals a potential move away from reliance on simplified journal-tier metrics towards more nuanced evaluation methodologies, which could reshape incentives for researchers, universities, and publishers across China. The center clarified that any journal partition tables published by other institutions after 2026 will have no relation to it. It also mentioned it will promptly initiate follow-up procedures regarding contracts for users who had already subscribed for the 2026 data.
 
-telegram · zaihuapd · Mar 27, 15:30
+telegram · zaihuapd · Mar 28, 02:45
 
-**Background**: AI accelerators are specialized hardware designed to speed up artificial intelligence computations, particularly for training and running large language models. The Ascend 950PR is Huawei's next-generation AI processor, reportedly using a monolithic compute die design aimed at achieving performance comparable to Nvidia's H100. FP4 (4-bit floating point) is an ultra-low precision data format used primarily for AI inference; reducing precision saves memory and bandwidth, allowing more model parameters to be processed simultaneously, though it can impact numerical accuracy.
+**Background**: The CAS Journal Partition Table is a research output of the CAS Documentation and Information Center, designed initially around the year 2000 to address the oversight of impact factor disparities across different disciplines within the Chinese research community. It categorizes international academic journals in natural sciences, engineering, medicine, management, social sciences, and humanities into different tiers (e.g., Q1-Q4 or Zone 1-4) based on citation metrics, and has been extensively used by Chinese universities and research institutes for performance evaluation, funding allocation, and promotion decisions. The table is accessible through an official online platform and WeChat official account.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.tomshardware.com/pc-components/gpus/huawei-unveils-new-atlas-350-ai-accelerator-with-1-56-pflops-of-fp4-compute-and-up-to-112gb-of-hbm-claims-2-8x-more-performance-than-nvidias-h20">Huawei unveils new Atlas 350 AI accelerator with 1.56 PFLOPS of FP4 compute and up to 112GB of HBM — claims 2.8x more performance than Nvidia's H20 | Tom's Hardware</a></li>
-<li><a href="https://www.huaweicentral.com/ascend-950pr-ai-chip-everything-you-need-to-know/">Ascend 950PR AI Chip: Everything you need to know - Huawei Central</a></li>
-<li><a href="https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/">Introducing NVFP4 for Efficient and Accurate Low-Precision Inference | NVIDIA Technical Blog</a></li>
+<li><a href="https://www.jiemian.com/article/14177382.html">中国科学院文献情报中心：将不再更新与发布期刊分区表</a></li>
+<li><a href="https://www.las.ac.cn/front/knowledgeServices/serviceDetail?entityId=26&entityType=ApplicationMart">期刊分区表 - las</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Hardware`, `#Huawei`, `#Accelerators`, `#High-Performance Computing`, `#Nvidia Competition`
+**Tags**: `#academic-publishing`, `#research-evaluation`, `#china-science-policy`, `#scholarly-communication`
 
 ---
 
 <a id="item-4"></a>
-## [Apple Provided FBI with Real User Info Behind 'Hide My Email' Address in Threat Case](https://www.404media.co/apple-gives-fbi-a-users-real-name-hidden-behind-hide-my-email-feature/) ⭐️ 7.0/10
+## [FBI Failed to Extract Data from Reporter's iPhone 13 Due to Apple's Lockdown Mode](https://t.me/zaihuapd/40569) ⭐️ 8.0/10
 
-Apple provided the FBI with the real iCloud account information linked to an anonymous email address generated using its iCloud+ 'Hide My Email' feature. This was part of an investigation into threatening emails sent to the girlfriend of a former FBI official, and the user, Alden Ruml, had generated 134 such anonymous addresses. This case demonstrates a significant real-world limitation of privacy features marketed for anonymity, revealing they are traceable by the service provider under legal compulsion. It highlights the ongoing tension between user privacy, corporate transparency, and law enforcement needs, setting a precedent for how similar 'anonymous' services might be treated in investigations. The user, Alden Ruml, reportedly admitted to sending the threats. Apple's disclosure was made in response to a lawful request from the FBI, not through a technical flaw or breach. The 'Hide My Email' feature is part of the paid iCloud+ subscription and is designed to forward emails from generated aliases to a user's personal inbox.
+The FBI's Computer Analysis Response Team (CART) disclosed that it was unable to extract data from Washington Post reporter Hannah Natanson's iPhone 13 because the device had Apple's Lockdown Mode enabled. This occurred during an investigation into alleged leaks of classified information by a government contractor. This incident provides a significant real-world demonstration of Lockdown Mode's effectiveness against sophisticated forensic extraction attempts by a major law enforcement agency. It highlights the growing capability of consumer device security features to protect sensitive information, such as journalistic sources, from state-level actors. While the FBI was able to unlock the reporter's MacBook Pro via fingerprint and access some Signal communications from it, the iPhone 13 itself remained impenetrable due to Lockdown Mode. The case is documented in court filings related to the investigation of government contractor Aurelio Perez-Lugones.
 
-telegram · zaihuapd · Mar 27, 13:09
+telegram · zaihuapd · Mar 28, 08:57
 
-**Background**: Apple's 'Hide My Email' is a privacy feature for iCloud+ subscribers that allows users to generate unique, random email aliases when signing up for services or communicating online. These aliases forward messages to the user's real email address, aiming to keep the personal address private from third parties. However, as the service provider, Apple retains the mapping between the alias and the real account, which can be accessed under a valid legal order such as a warrant.
+**Background**: Apple's Lockdown Mode is an extreme, optional protection feature for iPhone designed to defend against highly sophisticated cyberattacks, such as those by state-sponsored actors. When enabled, it severely restricts device functionality by limiting certain apps, web technologies, and connection types to reduce the attack surface. The FBI's Computer Analysis and Response Team (CART) is its primary digital forensics unit, specializing in extracting and analyzing data from electronic devices for investigations. Signal is a messaging app known for its strong end-to-end encryption, which scrambles messages so only the sender and recipient can read them.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.techspot.com/news/111851-apple-hide-email-isnt-anonymous-sounds.html">Apple's "Hide My Email" isn't as anonymous as it sounds</a></li>
-<li><a href="https://support.apple.com/en-us/105078">How to use Hide My Email with Sign in with Apple Apple's "Hide My Email" isn't as anonymous as it sounds Apple Gives FBI a User's Real Name Hidden Behind 'Hide My ... iCloud user learns ‘Hide My Email’ privacy does not apply to ... With So Many Breaches, Apple's Hide My Email Is More ... Apple Gives FBI a User's Real Name Hidden Behind 'Hide My ... How to use Hide My Email with Sign in with Apple How to use Hide My Email with Sign in with Apple With So Many Breaches, Apple's Hide My Email Is More Necessary Tha… How to use Hide My Email with Sign in with Apple</a></li>
-<li><a href="https://medium.com/@PrivateKi/can-the-police-read-my-emails-6e3fda834b6f">Can the police read my emails?. Can law enforcement read your emails… | by Private.Ki | Medium</a></li>
+<li><a href="https://support.apple.com/en-us/105120">About Lockdown Mode - Apple Support</a></li>
+<li><a href="https://www.ojp.gov/ncjrs/virtual-library/abstracts/computer-analysis-and-response-team-cart-microcomputer-evidence">Computer Analysis and Response Team (CART): The Microcomputer ...</a></li>
+<li><a href="https://signal.org/">Signal >> Home</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#privacy`, `#apple`, `#law-enforcement`, `#security`, `#digital-rights`
+**Tags**: `#cybersecurity`, `#digital-privacy`, `#apple-security`, `#law-enforcement`, `#journalism`
+
+---
+
+<a id="item-5"></a>
+## [EU Parliament Rejects 'Chat Control' Surveillance Extension, Shifts Focus to Identity Verification](https://www.patrick-breyer.de/en/end-of-chat-control-eu-parliament-stops-mass-surveillance-in-voting-thriller-paving-the-way-for-genuine-child-protection/) ⭐️ 8.0/10
+
+The European Parliament narrowly rejected, by a single vote, the extension of the 'Chat Control 1.0' temporary regulation, which will now expire on April 4, 2026. This decision forces major US tech companies like Meta, Google, and Microsoft to stop the automated scanning of European citizens' private messages, images, and text content for child abuse material. This is a significant victory for digital privacy rights in the EU, blocking a form of mass surveillance that critics argued undermined end-to-end encryption. It forces a major shift in the EU's approach to online child protection, moving the debate away from bulk scanning and towards potentially contentious measures like mandatory identity or age verification. The rejection was heavily influenced by studies showing the system's high false positive rate of 13-20%, which led to about 48% of police reports being unrelated to crime and failed to improve actual conviction rates. While this specific mass scanning regime is ending, negotiations for a permanent EU child protection law continue, with 'Chat Control 2.0' proposals that could mandate scanning all communications on social platforms still under consideration.
+
+telegram · zaihuapd · Mar 28, 13:06
+
+**Background**: Since July 2021, an EU interim regulation, often called 'Chat Control 1.0,' has provided a temporary exemption from parts of the ePrivacy Directive. This exemption allowed communication service providers to scan private messages using techniques like 'hash scanning' for known child sexual abuse material (CSAM). The regulation was set to expire but had been subject to potential extensions, creating a long-running controversy over privacy versus child protection.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://gigazine.net/gsc_news/en/20260327-end-eu-chat-control/">The EU has decided to repeal 'Chat Control 1.0,' which ...</a></li>
+<li><a href="https://edri.org/our-work/a-beginners-guide-to-eu-rules-on-scanning-private-communications-part-1/">A beginner’s guide to EU rules on scanning private communications: Part 1 - European Digital Rights (EDRi)</a></li>
+<li><a href="https://www.computerweekly.com/news/366640781/EU-Parliament-rejects-Chat-Control-message-scanning">EU Parliament rejects Chat Control message scanning | Computer Weekly</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#privacy`, `#eu-regulation`, `#surveillance`, `#tech-policy`, `#digital-rights`
+
+---
+
+<a id="item-6"></a>
+## [AI Deepfakes Deployed at Scale in 2026 US Midterms by Republican Campaigns](https://www.reuters.com/business/media-telecom/ai-deepfakes-blur-reality-2026-us-midterm-campaigns-2026-03-28/) ⭐️ 8.0/10
+
+Ahead of the 2026 US midterm elections, Republican campaigns, including the National Republican Senatorial Committee (NRSC), are deploying AI-generated deepfake political ads at scale, fabricating statements from opponents. For example, a deepfake ad falsely portrayed Texas Senate candidate James Talarico claiming 'radical whites are the biggest terror threat.' This marks a significant escalation in the weaponization of AI for political disinformation, normalizing deceptive content and directly threatening electoral integrity. The widespread use by a major party, amid fragmented regulation, risks eroding public trust in democratic institutions and could set a dangerous precedent for future elections globally. While many such ads carry small AI labels, their effectiveness in misleading voters remains high due to their realism and the limited reach of disclosure laws. Although 28 states have passed laws requiring disclosure of AI use in political ads, enforcement is weak, especially for content spread on social media platforms.
+
+telegram · zaihuapd · Mar 28, 15:42
+
+**Background**: Deepfakes are synthetic media where a person's likeness is replaced with someone else's using artificial intelligence, creating highly realistic but fake videos or audio. The National Republican Senatorial Committee (NRSC) is a major political committee dedicated to electing Republicans to the US Senate. In the US, regulation of AI in political advertising is primarily handled at the state level, leading to a patchwork of laws with varying requirements for disclosure or outright bans on certain deceptive uses.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/National_Republican_Senatorial_Committee">National Republican Senatorial Committee - Wikipedia</a></li>
+<li><a href="https://www.adexchanger.com/data-driven-thinking/ai-disclosure-requirements-navigating-state-laws-and-platform-rules/">AI Disclosure Requirements: Navigating State Laws And Platform Rules | AdExchanger</a></li>
+<li><a href="https://www.broadcastlawblog.com/2026/03/articles/ai-in-political-attack-ads-watch-state-laws-on-deep-fakes-and-synthetic-media-in-political-content/">AI in Political Attack Ads – Watch State Laws on Deep Fakes and Synthetic Media in Political Content | Broadcast Law Blog</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI Ethics`, `#Disinformation`, `#Political Technology`, `#Deepfakes`, `#Election Integrity`
+
+---
+
+<a id="item-7"></a>
+## [SGLang v0.5.10rc0 enhances inference with default CUDA graphs, fault-tolerant MoE, and sparse attention.](https://github.com/sgl-project/sglang/releases/tag/v0.5.10rc0) ⭐️ 7.0/10
+
+SGLang v0.5.10rc0 has been released, making piecewise CUDA graph capture the default execution mode for improved throughput. It also introduces Elastic EP for partial failure tolerance in MoE models, integrates the HiSparse sparse attention backend for long-context inference, and updates SGLang-Diffusion with new model support and performance gains. This release significantly improves the reliability and efficiency of large language model serving systems. The default piecewise CUDA graphs reduce memory overhead, Elastic EP ensures continuous service during GPU failures in MoE deployments, and HiSparse enables more efficient processing of long sequences, collectively advancing production-ready inference. The piecewise CUDA graph feature pre-captures graphs for a set of token counts and selects the nearest match at runtime, which is particularly beneficial for variable-length prefill/extend operations. Elastic EP specifically enables DeepSeek MoE deployments to redistribute expert weights and continue serving without a full restart when a GPU fails.
+
+github · Kangyan-Zhou · Mar 28, 05:58
+
+**Background**: SGLang is a high-performance language model serving framework designed to optimize inference. Piecewise CUDA graphs are an optimization where the model's forward pass is captured as multiple smaller graphs for different input sizes, improving performance over a single graph for variable-length inputs. Mixture-of-Experts (MoE) models use multiple specialized sub-networks (experts) to process different parts of the input, which can be distributed across multiple GPUs. Sparse attention mechanisms reduce computational cost by having tokens attend only to a subset of other tokens, which is crucial for handling long contexts.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://docs.sglang.io/advanced_features/piecewise_cuda_graph.html">Piecewise CUDA Graph — SGLang</a></li>
+<li><a href="https://deepwiki.com/kvcache-ai/Mooncake/7.6-elastic-expert-parallelism">Elastic Expert Parallelism | kvcache-ai/Mooncake | DeepWiki</a></li>
+<li><a href="https://arxiv.org/abs/2602.03560">[2602.03560] HySparse: A Hybrid Sparse Attention Architecture ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#inference-optimization`, `#gpu-computing`, `#llm-serving`, `#sparse-attention`, `#model-serving`
+
+---
+
+<a id="item-8"></a>
+## [European Commission confirms AWS cloud breach with hundreds of GB of data stolen from Europa.eu platform](http://europa.eu/) ⭐️ 7.0/10
+
+The European Commission confirmed a cyberattack on its cloud infrastructure, specifically targeting the AWS environment hosting the Europa.eu platform, resulting in the theft of hundreds of gigabytes of data. The Commission stated that immediate containment and risk mitigation measures were taken, the attack was controlled, internal systems were unaffected, and an investigation is ongoing. This breach is significant because it targets a major governmental institution's public-facing digital platform, potentially compromising sensitive information and undermining trust in EU digital services. It highlights the persistent security challenges faced by public sector entities when migrating critical infrastructure to cloud platforms like AWS, even with established providers. According to Bleeping Computer, hackers stole data including multiple databases from the Commission's AWS account and provided access screenshots as evidence. The specific types of data exfiltrated have not yet been disclosed by the Commission, leaving the full scope and sensitivity of the breach unclear.
+
+telegram · zaihuapd · Mar 28, 01:16
+
+**Background**: Amazon Web Services (AWS) is a leading on-demand cloud computing platform used by governments and enterprises worldwide. The Europa.eu platform is the official website of the European Union, serving as a critical public information and service portal. Data exfiltration refers to techniques adversaries use to steal data from a network, often involving unauthorized access and transfer of sensitive information.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Amazon_Web_Services">Amazon Web Services - Wikipedia</a></li>
+<li><a href="https://attack.mitre.org/tactics/TA0010/">Exfiltration , Tactic TA0010 - Enterprise | MITRE ATT&CK</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Cybersecurity`, `#Data Breach`, `#AWS`, `#European Commission`, `#Cloud Security`
+
+---
+
+<a id="item-9"></a>
+## [Wharton research identifies 'cognitive surrender' where people accept AI outputs without verification](https://www.forbes.com/sites/lesliekatz/2026/03/27/cognitive-surrender-we-trust-ai-over-our-own-brains-research-finds/) ⭐️ 7.0/10
+
+Researchers from the Wharton School at the University of Pennsylvania published a preprint last month on SSRN, reporting that in experiments with nearly 1,300 participants, people used ChatGPT for over half of logic and reasoning tasks. In about 80% of cases where they sought AI assistance, participants accepted incorrect answers without scrutiny, a behavior the researchers term 'adoption without verification.' This phenomenon of 'cognitive surrender' suggests generative AI is fundamentally reshaping human decision-making processes, potentially creating systemic risks where people relinquish critical thinking and epistemic agency to automated systems. It highlights the need to reconsider traditional decision-making models and design AI interfaces that encourage, rather than bypass, human cognitive engagement. The study found that participants using ChatGPT reported 10% higher confidence in their answers, despite the potential for error. The researchers propose that AI should be incorporated as a new external cognitive system within decision-making frameworks, moving beyond traditional dual-process models.
+
+telegram · zaihuapd · Mar 28, 14:23
+
+**Background**: The 'dual-process theory' of decision-making describes two interacting systems: System 1 (fast, intuitive, automatic) and System 2 (slow, deliberate, analytical). SSRN (Social Science Research Network) is an open-access repository for sharing early-stage research and preprints, which are papers that have not yet undergone formal peer review. The concept of 'cognitive surrender' extends beyond simple reliance on tools, describing a relinquishing of cognitive control where users substitute AI outputs for their own reasoning without critical evaluation.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Social_Science_Research_Network">Social Science Research Network - Wikipedia</a></li>
+<li><a href="https://www.globalcognition.org/dual-process-theory/">Dual Process Theory: Two Ways to Think and Decide</a></li>
+<li><a href="https://medkharbach.com/cognitive-surrender-how-ai-is-quietly-reshaping-the-way-we-think/">Cognitive Surrender: How AI Is Quietly Reshaping the Way We ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI Ethics`, `#Human-Computer Interaction`, `#Behavioral Science`, `#Decision Making`, `#Generative AI`
 
 ---
