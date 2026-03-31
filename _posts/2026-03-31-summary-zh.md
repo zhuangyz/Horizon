@@ -5,141 +5,177 @@ date: 2026-03-31
 lang: zh
 ---
 
-> From 29 items, 6 important content pieces were selected
+> From 24 items, 7 important content pieces were selected
 
 ---
 
-1. [白宫官方应用内含华为追踪 SDK，与美国制裁相悖](#item-1) ⭐️ 8.0/10
-2. [世界数据组织在北京完成组建并将正式投入运行](#item-2) ⭐️ 8.0/10
-3. [文章主张避免过度依赖 AI 写作，强调写作过程中的思考价值](#item-3) ⭐️ 7.0/10
-4. [企业微信开源 CLI 项目并接入主流 AI Agent](#item-4) ⭐️ 7.0/10
-5. [特朗普新科技顾问委员会首批名单公布，马斯克与头部 AI 公司负责人缺席](#item-5) ⭐️ 7.0/10
-6. [美光押注堆叠式 GDDR，最快 2027 年推出样品](#item-6) ⭐️ 7.0/10
+1. [Axios npm 包遭入侵，恶意版本投放远程访问木马](#item-1) ⭐️ 9.0/10
+2. [谷歌量子 AI 将比特币攻击需求降低 20 倍，或可在 9 分钟内提取私钥](#item-2) ⭐️ 9.0/10
+3. [Ollama 为 Apple Silicon 推出 MLX 驱动的推理预览版](#item-3) ⭐️ 8.0/10
+4. [阿尔忒弥斯二号任务面临关键隔热罩安全问题](#item-4) ⭐️ 8.0/10
+5. [Claude Code 源代码通过 NPM 源码映射文件泄露，暴露反蒸馏防御与产品路线图。](#item-5) ⭐️ 8.0/10
+6. [GitHub 出现非官方仓库，从公开 npm 包还原 Claude Code 源代码](#item-6) ⭐️ 8.0/10
+7. [美光押注堆叠式 GDDR，最快 2027 年推出样品](#item-7) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [白宫官方应用内含华为追踪 SDK，与美国制裁相悖](https://www.sambent.com/the-white-house-app-has-huawei-spyware-and-an-ice-tip-line/) ⭐️ 8.0/10
+## [Axios npm 包遭入侵，恶意版本投放远程访问木马](https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan) ⭐️ 9.0/10
 
-一项技术分析显示，白宫官方移动应用程序内含三个嵌入式追踪 SDK，其中包括来自华为移动服务核心（Huawei Mobile Services Core）的组件。这一发现与美国政府对华为实施制裁、限制其硬件和技术使用的背景相矛盾。 这突显了一个显著的矛盾：一个政府机构将受制裁实体的软件嵌入其官方应用中，引发了关于隐私、安全政策一致性以及潜在虚伪性的严重质疑。它凸显了人们对政府强制使用的原生应用与更简单、更私密的网页替代方案之间数据收集能力的广泛担忧。 华为移动服务核心 SDK 是该应用追踪基础设施的一部分，很可能用于收集用户数据进行分析。分析中的一个关键论点是，此类信息型应用本可以用网站替代，但选择原生应用正是为了获取浏览器所限制的设备 API（如后台位置、生物识别）访问权限。
+2026 年 3 月 31 日，攻击者入侵了一位 Axios 维护者的 npm 账户，并发布了两个恶意版本（v1.14.1 和 v0.30.4）。这些版本注入了一个名为 `plain-crypto-js@4.2.1` 的虚假依赖包，该包通过 postinstall 脚本部署了一个跨平台的远程访问木马。 这是一次影响 JavaScript 生态关键基础设施的重大供应链攻击。Axios 是每周下载量超过 5000 万次的流行 HTTP 客户端库。此次入侵可能导致在安装了恶意包的系统上发生即时凭证窃取，并为攻击者提供持久远程访问，影响无数下游应用和服务。 恶意代码并未直接放在 Axios 源码中，而是隐藏在 `plain-crypto-js` 依赖包的 postinstall 脚本里。攻击利用了先前已被入侵的维护者账户，恶意包于 2026 年 3 月 31 日（UTC）凌晨被快速连续发布。
 
-hackernews · speckx · Mar 30, 18:16
+hackernews · mtud · Mar 31, 02:54
 
-**背景**: 软件开发工具包（SDK）是开发者集成到应用程序中以添加特定功能（如分析或追踪）的代码包。美国政府以国家安全担忧为由对华为实施了制裁，这导致美国公司与其开展业务受到限制，并对其技术发出警告。与网络应用相比，原生移动应用可以直接访问设备的操作系统和硬件功能，这可能实现更广泛的数据收集。
+**背景**: npm 是 JavaScript/Node.js 生态默认的软件包注册中心，托管了数百万个可复用的代码库。在此语境下的供应链攻击，是指通过入侵受信任的软件包来注入恶意软件，进而传播到所有依赖该包的应用。远程访问木马是一种能让攻击者控制受感染系统的恶意软件。`postinstall` 脚本是 npm 的一个生命周期钩子，会在包安装后自动运行。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://adhoc.team/2024/06/06/native-mobile-capabilities/">Applying native mobile capabilities to government service ...</a></li>
-<li><a href="https://dy.dev/docs/implement-mobile-sdk">Implement Mobile SDKs on Your App - dy.dev</a></li>
-<li><a href="https://matomo.org/guide/tracking-data/apps-sdks/">Apps & SDKs User Guide - Tracking data - Matomo Analytics</a></li>
+<li><a href="https://www.wiz.io/blog/axios-npm-compromised-in-supply-chain-attack">Axios NPM Distribution Compromised in Supply Chain Attack | Wiz Blog</a></li>
+<li><a href="https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan">axios Compromised on npm - Malicious Versions Drop Remote Access Trojan - StepSecurity</a></li>
+<li><a href="https://www.sans.org/blog/axios-npm-supply-chain-compromise-malicious-packages-remote-access-trojan">Axios NPM Supply Chain Compromise: Malicious Packages Deliver Remote Access Trojan | SANS Institute</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区情绪表达了对美国政府嵌入受制裁公司追踪代码这一虚伪行为的震惊和批评。提出的一个关键技术点是，选择原生应用而非网页，通常正是为了获取浏览器所阻止的敏感设备 API 访问权限。一些评论也批评了源文章的呈现风格，在认可其有效技术发现的同时，对其可信度提出了质疑。
+**社区讨论**: 社区讨论强调了即时缓解策略，例如设置软件包的最小发布时间（如 7 天）以及在 npm 配置中通过 `ignore-scripts=true` 禁用脚本执行，这些措施本可阻止此次攻击。由于 Axios 的普遍使用，人们对影响的巨大规模表示担忧，并观察到一种重复出现的攻击模式，即利用窃取的凭证入侵更多软件包。部分评论者主张采用“内置电池”式的生态系统，以减少对关键第三方依赖的依赖。
 
-**标签**: `#privacy`, `#government-surveillance`, `#mobile-security`, `#political-hypocrisy`, `#tracking`
+**标签**: `#security`, `#npm`, `#supply-chain`, `#javascript`, `#malware`
 
 ---
 
 <a id="item-2"></a>
-## [世界数据组织在北京完成组建并将正式投入运行](https://www.news.cn/politics/20260330/78514399f0ac4bba9f002907079a2366/c.html) ⭐️ 8.0/10
+## [谷歌量子 AI 将比特币攻击需求降低 20 倍，或可在 9 分钟内提取私钥](https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/) ⭐️ 9.0/10
 
-3 月 30 日上午，世界数据组织在北京召开第一次会员大会，审议通过组织章程并选举产生首届理事和监事。随后，新当选的首届理事会召开第一次会议，选举产生组织负责人并审议通过重要制度和规定，这标志着该组织完成组建并正式投入运行。 一个总部设在北京的新全球数据治理机构的成立，标志着一次重大的地缘政治和科技发展，可能塑造未来的国际数据政策、人工智能开发标准以及跨境技术合作。这反映了数据治理在全球数字经济中的战略重要性日益提升，并可能影响全球范围内数据流动、安全与利用的管理方式。 根据搜索结果，该组织的公开使命是致力于推动全球数据合作与治理实践，积极探索数据在合规、安全、可信基础上的高效交流与合理利用路径。该组织的成立经过了筹备阶段，目前通过所述的选举程序已确定了其初始领导架构。
+谷歌量子 AI 团队发布白皮书，展示通过优化 Shor 算法电路，将破解比特币椭圆曲线加密所需的量子计算资源降低了 20 倍。他们的攻击电路仅需不到 1200-1450 个逻辑量子比特（由不到 50 万个物理量子比特构建），可能在交易广播后约 9 分钟内提取出私钥。 这标志着量子脆弱性评估的范式转变，表明对加密货币钱包的实际攻击可能以远低于先前估计的量子资源实现可行性。大约 690 万枚比特币（约占总供应量的三分之一）因其公钥已暴露在区块链上面临潜在风险，而 2021 年的 Taproot 升级可能进一步扩大这一脆弱钱包的范围。 该团队编译了两套攻击电路，分别需要不到 1200 个和不到 1450 个逻辑量子比特，可在拥有不到 50 万个物理量子比特的超导量子计算机上运行。攻击者可以提前完成大部分准备计算，然后在交易广播后约 9 分钟内提取私钥，这使他们有约 41%的概率在交易确认前窃取资金（考虑到比特币约 10 分钟的出块时间）。
 
-telegram · zaihuapd · Mar 30, 08:57
+telegram · zaihuapd · Mar 31, 08:03
 
-**背景**: 数据治理指的是对一个组织内部或跨境数据的可用性、可用性、完整性和安全性进行整体管理。在国际背景下，它涉及为数据共享、隐私、安全和伦理使用建立规则、标准和框架，这对人工智能发展、数字贸易和网络安全至关重要。现有的国际机构和框架，如 DAMA 和 ISO 标准，一直在数据管理的各个方面开展工作，但一个专门的“世界数据组织”的成立，表明正在努力为这些问题创建一个更集中的全球论坛。
+**背景**: 比特币和以太坊目前依赖椭圆曲线加密（ECC），特别是椭圆曲线数字签名算法（ECDSA）来保护钱包和交易安全。Shor 算法是一种量子计算算法，能高效解决 ECC（和 RSA）背后的数学难题，可能让量子计算机从公钥推导出私钥。逻辑量子比特是由许多脆弱的物理量子比特构建而成的、经过纠错的计算单元，量子纠错对于可靠执行像运行 Shor 算法这样的复杂计算至关重要。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://m.jiemian.com/article/14180066.html">m.jiemian.com/article/14180066.html</a></li>
-<li><a href="https://www.guancha.cn/internation/2026_03_30_811888.shtml">总部设在北京！ 世 界 数 据 组 织 正式投入运行</a></li>
+<li><a href="https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf">Securing Elliptic Curve Cryptocurrencies against Quantum ...</a></li>
+<li><a href="https://www.coindesk.com/tech/2026/03/31/bitcoin-bulls-scramble-for-post-quantum-protection-as-google-drops-bombshell-paper">Bitcoin bulls scramble for post-quantum protection as Google ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Physical_and_logical_qubits">Physical and logical qubits - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#data-governance`, `#international-standards`, `#geopolitics`, `#technology-policy`, `#organizational-news`
+**标签**: `#quantum-computing`, `#cryptocurrency-security`, `#cryptography`, `#quantum-cryptanalysis`, `#blockchain`
 
 ---
 
 <a id="item-3"></a>
-## [文章主张避免过度依赖 AI 写作，强调写作过程中的思考价值](https://alexhwoods.com/dont-let-ai-write-for-you/) ⭐️ 7.0/10
+## [Ollama 为 Apple Silicon 推出 MLX 驱动的推理预览版](https://ollama.com/blog/mlx) ⭐️ 8.0/10
 
-一篇题为《不要让 AI 为你写作》的文章提出，写作过程对于澄清和发展个人思维至关重要，并警告不要将这种认知工作委托给 AI。这篇文章引发了广泛的社区讨论，在 Hacker News 上获得了 335 个赞和 102 条评论。 这很重要，因为它触及了生成式 AI 时代的一个核心矛盾：效率与真实智力发展之间的权衡。随着 AI 写作工具变得无处不在，这场辩论影响着专业人士、学生和创作者如何处理知识工作，以及他们是优先考虑速度还是深度理解。 作者特别挑战了'LLM 特别擅长生成想法'这一观念，认为其输出往往是平庸且乏味的。讨论中提出的一个关键区别在于'不要让 AI 为你写作'与'不要让 AI 为你思考'之间，这突显了写作只是促进思考的一种方法。
+Ollama 宣布为 Apple Silicon 设备推出 MLX 驱动的推理预览支持，实现了更快速、更高效的本地大语言模型（LLM）执行。此次集成利用了苹果专为 Apple silicon 机器学习设计的 MLX 数组框架。 此次集成显著提升了在 Mac 上本地运行 LLM 的性能和能效，使得设备端 AI 对开发者和用户来说更加实用。它强化了私密、经济高效且不依赖云服务或互联网连接的 AI 应用生态系统。 性能提升在 M5 等新款芯片上尤为显著，基准测试图已表明这一点。该功能目前处于预览阶段，意味着这是稳定版发布前供测试和反馈的早期版本。
 
-hackernews · karimf · Mar 30, 12:39
+hackernews · redundantly · Mar 31, 03:40
 
-**背景**: 像 GPT-4 这样的大型语言模型(LLM)是在海量文本数据集上训练的 AI 系统，能够按需生成类人文本。AI 辅助写作工具的兴起引发了关于其对编程、内容创作和学术工作等多个领域的创造力、批判性思维和真实性影响的辩论。关于写作过程是否对思考具有内在价值的哲学问题在 AI 出现之前就已存在，但随着这些技术的发展获得了新的紧迫性。
+**背景**: Ollama 是一个流行的开源工具，可简化在用户计算机上本地运行开源权重大语言模型（LLM）的过程。MLX 是苹果公司创建的一个用于机器学习的数组框架，专为其 Apple silicon 芯片（M1、M2、M3、M4、M5）优化，能够在 GPU 和神经引擎上进行高效计算。使用 Ollama 等工具本地运行模型具有数据隐私、无 API 成本和离线操作等优势，但传统上受限于消费级硬件的计算能力。
 
-**社区讨论**: 社区讨论显示出对文章核心前提——写作是关键的思考工具——的强烈认同，一位评论者将其描述为'思考的最后一步'。然而，对于 LLM 是否能产生真正新颖的想法，以及写作是否是促进思考的最佳或唯一方式存在争议，有人提出了录音等替代方法。几位评论者强调了提交 AI 生成的作品供人类审查时造成的关系损害，这将动态从审查想法转变为审查 AI 输出。
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://github.com/ml-explore/mlx">GitHub - ml-explore/mlx: MLX: An array framework for Apple silicon · GitHub</a></li>
+<li><a href="https://aispaces.substack.com/p/the-ultimate-guide-to-running-llms">The Ultimate Guide to Running LLMs Locally with Ollama</a></li>
+<li><a href="https://medium.com/data-science-in-your-pocket/apple-m5-chip-apple-wins-the-ultimate-ai-race-0337b97177fa">Apple M5 Chip : Apple wins the ultimate AI race - Medium</a></li>
 
-**标签**: `#AI Ethics`, `#Writing`, `#Critical Thinking`, `#LLMs`, `#Productivity`
+</ul>
+</details>
+
+**社区讨论**: 社区强烈支持向设备端 LLM 发展的趋势，强调了增强隐私性、无需连接或令牌成本以及降低能耗等好处。评论也揭示了实际考量，例如用户寻求经济实惠的本地编码设备，并赞扬了像 OMLX 这样具有 SSD KV 缓存等功能以改善工作流程的互补工具。社区普遍认为本地推理是未来，而性能是剩余的关键障碍。
+
+**标签**: `#ollama`, `#mlx`, `#apple-silicon`, `#local-llm`, `#inference`
 
 ---
 
 <a id="item-4"></a>
-## [企业微信开源 CLI 项目并接入主流 AI Agent](https://open.work.weixin.qq.com/help2/pc/21676) ⭐️ 7.0/10
+## [阿尔忒弥斯二号任务面临关键隔热罩安全问题](https://idlewords.com/2026/03/artemis_ii_is_not_safe_to_fly.htm) ⭐️ 8.0/10
 
-3 月 29 日，企业微信（WeCom）在 GitHub 上以 MIT 许可证开源了一个 CLI 项目。该项目开放了消息、日程、文档、会议、待办、通讯录、智能表格等核心平台能力，并支持被主流 AI Agent 调用。 此举显著降低了开发者在庞大的企业微信生态内构建 AI 驱动的自动化和工作流的门槛。这代表着一个主要的企业平台拥抱 AI Agent 趋势的战略性一步，可能加速智能企业应用的发展。 该工具覆盖了 7 大业务品类，并提供了 12 个预定义的 AI Agent Skills。它通过 npm 分发，需要在终端完成配置，并采用了宽松的 MIT 许可证，允许广泛的商业和开源使用。
+一份详细分析报告指出，NASA 即将执行的阿尔忒弥斯二号载人登月任务，其猎户座飞船的隔热罩设计存在严重安全隐患，报告将此与航天飞机哥伦比亚号和挑战者号灾难相提并论。这些担忧源于无人测试任务阿尔忒弥斯一号期间观察到的材料侵蚀问题，以及后续修复措施被认为不够充分。 此事至关重要，因为阿尔忒弥斯二号是 NASA 五十多年来的首次载人重返月球任务，若隔热罩在以月球返回速度再入大气层时失效，对宇航员将是灾难性的。这场争论凸显了 NASA 安全文化中工程谨慎性与项目进度压力之间反复出现的紧张关系，对整个阿尔忒弥斯计划及未来的深空探索都有影响。 该隔热罩采用了更新的 Avcoat 烧蚀材料瓦片设计，但对阿尔忒弥斯一号任务后的分析显示，出现了意外的、局部性的炭化和侵蚀模式。尽管 NASA 和承包商洛克希德·马丁公司坚称存在足够的安全裕度，但以 NASA 前工程师兼宇航员 Tommaso P. Camarda 为代表的批评者认为，失效模式尚未被完全理解，对于载人飞行来说风险是不可接受的。
 
-telegram · zaihuapd · Mar 30, 02:02
+hackernews · idlewords · Mar 31, 02:23
 
-**背景**: 企业微信（英文常称 WeCom）是中国广泛使用的企业通讯与协作平台，类似于 Slack 或 Microsoft Teams。CLI（命令行界面）是一种基于文本的工具，允许开发者和高级用户通过命令与软件系统交互。AI Agent 是能够通过推理和使用工具来执行任务的自主程序；'Agent Skills'（智能体技能）是模块化、自包含的领域知识和程序逻辑单元，使这些智能体能够执行特定的工作流。
+**背景**: 猎户座飞船的隔热罩是一个关键部件，旨在保护乘员舱在从月球高速再入大气层时免受极端高温（超过 2760°C 或 5000°F）的影响。与航天飞机可重复使用的硅瓦系统不同，猎户座使用一种名为 Avcoat 的一次性烧蚀隔热罩，通过炭化和侵蚀将热量带走。航天飞机项目曾遭遇两次灾难性损失（1986 年的挑战者号和 2003 年的哥伦比亚号），部分原因与其热防护系统故障和组织安全文化有关。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://news.aibase.com/news/26658">WeCom CLI Officially Open Sourced: Opens Seven Core Capabilities...</a></li>
-<li><a href="https://www.datacamp.com/blog/agent-skills">What Are Agent Skills? Modular AI Agent Frameworks Explained</a></li>
-<li><a href="https://choosealicense.com/licenses/">Licenses | Choose a License</a></li>
+<li><a href="https://phys.org/news/2026-03-shield-safety-stakes-nasa-artemis.html">Heat shield safety concerns raise stakes for NASA's Artemis ...</a></li>
+<li><a href="https://arstechnica.com/space/2026/01/nasa-chief-reviews-orion-heat-shield-expresses-full-confidence-in-it-for-artemis-ii/">Is Orion’s heat shield really safe? New NASA chief conducts ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Space_Shuttle_thermal_protection_system">Space Shuttle thermal protection system - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#enterprise-wechat`, `#cli-tools`, `#ai-agents`, `#open-source`, `#automation`
+**社区讨论**: 社区讨论反映出深切的担忧和历史类比。一位评论者正在准备一场关于系统性失效的哈佛讲座，他将阿尔忒弥斯二号与挑战者号和哥伦比亚号一起列为案例研究，批评了一种持续存在的“破碎的安全文化”。其他人则对风险水平进行了辩论，有人指出一篇更平衡的外部文章显示，大多数 NASA 工程师和宇航员认为它是安全的，而一位怀疑者则质疑为何不沿用阿波罗时代的隔热罩设计，暗示了任务复杂性可能增加或过去只是运气好。
+
+**标签**: `#space-exploration`, `#safety-engineering`, `#systems-failure`, `#risk-management`, `#organizational-culture`
 
 ---
 
 <a id="item-5"></a>
-## [特朗普新科技顾问委员会首批名单公布，马斯克与头部 AI 公司负责人缺席](https://www.bloomberg.com/news/newsletters/2026-03-30/trump-s-tech-group-ignores-leaders-of-top-ai-companies) ⭐️ 7.0/10
+## [Claude Code 源代码通过 NPM 源码映射文件泄露，暴露反蒸馏防御与产品路线图。](https://twitter.com/Fried_rice/status/2038894956459290963) ⭐️ 8.0/10
 
-特朗普新一届总统科学与技术顾问委员会公布了首批 15 人名单，成员包括英伟达首席执行官黄仁勋、AMD 首席执行官苏姿丰等芯片与科技基础设施领域高管，但埃隆·马斯克、OpenAI 首席执行官萨姆·奥尔特曼以及 Anthropic 首席执行官达里奥·阿莫代伊均未入选。该委员会由戴维·萨克斯担任共同主席，负责就科技政策向总统提供建议，并为经济、劳动力和国家安全等议题提供分析。 该顾问委员会的成员构成预示着美国科技政策重点可能发生转变，即更侧重于半导体制造和硬件基础设施，而非前沿人工智能开发及其相关领军人物。这可能影响未来的政府投资、监管和战略重点，使芯片行业受益，同时让领先的 AI 公司在高层政策讨论中缺乏直接发声渠道。 委员会明确提及的专长领域包括软件、芯片、先进半导体，以及在量子计算、聚变能源和小型模块化核反应堆（SMRs）方面取得突破的人士。首批 15 人名单并非最终版本，该委员会最多可扩充至 24 人，为未来增补成员留下了可能性。
+Anthropic 的 Claude Code 工具的完整源代码在其发布的 NPM 包中包含了一个源码映射文件，导致意外暴露。此次泄露揭示了其专有的反蒸馏防御机制，以及代号为 'kairos' 的 '助手模式' 等未发布功能的细节。 这是一起重大的安全事件，暴露了专有的 AI 安全技术和产品战略，可能削弱 Anthropic 的竞争优势和安全态势。它突显了一个关键的软件供应链漏洞，可能影响任何发布 JavaScript 包的公司。 泄露的发生疑似源于 Bun（Anthropic 拥有的 JavaScript 运行时）的一个漏洞，该漏洞导致源码映射在生产构建中被暴露。暴露的代码包含一个 'ANTI_DISTILLATION_CC' 防御机制，该机制会向 API 请求中注入诱饵工具定义，以污染潜在竞争对手模型的训练数据。
 
-telegram · zaihuapd · Mar 30, 12:13
+hackernews · treexs · Mar 31, 09:00
 
-**背景**: 总统科学与技术顾问委员会（或类似咨询机构）是美国行政部门的长期传统，可追溯至富兰克林·罗斯福总统时期，其任务是就科技政策提供独立建议。Anthropic 是一家于 2021 年由 OpenAI 前员工（包括达里奥·阿莫代伊和丹妮拉·阿莫代伊兄妹）创立的 AI 安全与研究公司，以开发 Claude 大语言模型而闻名。小型模块化核反应堆（SMRs）是一类较新的核反应堆，设计上比传统大型核电站更小、更多采用工厂化建造，且可能更易于部署。
+**背景**: 源码映射是一种将压缩或打包后的 JavaScript 代码映射回其原始源代码的文件，用于辅助开发者调试，通常在生产版本中会被排除。反蒸馏是 AI 公司使用的一种防御技术，旨在防止竞争对手通过抓取 API 输出来提取模型能力用于训练数据。Claude Code 是 Anthropic 为开发者提供的 AI 驱动编码代理工具。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/President's_Council_of_Advisors_on_Science_and_Technology">President's Council of Advisors on Science and Technology</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Dario_Amodei">Dario Amodei - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Small_modular_reactor">Small modular reactor - Wikipedia</a></li>
+<li><a href="https://dev.to/gabrielanhaia/claude-codes-entire-source-code-was-just-leaked-via-npm-source-maps-heres-whats-inside-cjo">Claude Code's Entire Source Code Was Just Leaked via npm ...</a></li>
+<li><a href="https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks">Detecting and preventing distillation attacks \ Anthropic</a></li>
+<li><a href="https://claude.com/product/claude-code">Claude Code by Anthropic | AI Coding Agent, Terminal, IDE</a></li>
 
 </ul>
 </details>
 
-**标签**: `#tech-policy`, `#artificial-intelligence`, `#semiconductors`, `#government-advisory`, `#industry-leaders`
+**社区讨论**: 社区发现了一个潜在的根源，即 Bun 的一个漏洞错误地在生产构建中暴露了源码映射。评论者分析了暴露的反蒸馏防御机制，并对未发布产品功能的泄露表示担忧，认为这是一次重大的战略损失。此外，还讨论了 Anthropic 的应对措施，指出他们是将易受攻击的包版本标记为弃用，而非直接撤销发布。
+
+**标签**: `#security`, `#ai-safety`, `#source-code-leak`, `#anthropic`, `#npm`
 
 ---
 
 <a id="item-6"></a>
-## [美光押注堆叠式 GDDR，最快 2027 年推出样品](https://www.etnews.com/20260330000228) ⭐️ 7.0/10
+## [GitHub 出现非官方仓库，从公开 npm 包还原 Claude Code 源代码](https://github.com/ChinaSiro/claude-code-sourcemap) ⭐️ 8.0/10
 
-美光已启动堆叠式 GDDR 内存的研发，计划在 2026 年下半年完成设备部署并进入工艺测试，最快于 2027 年推出约 4 层堆叠的样品。该产品定位介于 HBM 与普通 GDDR 之间，旨在以低于 HBM 的成本提供更高的带宽，主要面向 AI 加速器等市场需求。 此举意义重大，因为它可能为蓬勃发展的 AI 硬件市场创造一个新的、高性价比的高带宽内存层级，为 AI 推理和高性能游戏 GPU 等应用提供昂贵的 HBM 之外的替代选择。如果美光率先实现该技术的商业化，它可能在三星和 SK 海力士尚未公布类似计划的新兴细分市场中获得竞争优势。 这项技术目前尚无量产先例，美光面临着芯片互联、功耗与散热以及堆叠工艺带来的成本控制等多重挑战。报道指出，三星电子和 SK 海力士尚未公开类似计划，这可能让美光获得先发优势。
+一个名为 'claude-code-sourcemap' 的非官方 GitHub 仓库，通过分析公开 npm 包 `@anthropic-ai/claude-code` 中包含的 `cli.js.map` 源映射文件中的 `sourcesContent` 字段，还原出了 Anthropic 公司 Claude Code 2.1.88 版本的 4756 个 TypeScript 源代码文件。 这一事件突显了一个重大的安全疏忽，即敏感的专有源代码在生产构建中被无意暴露。它罕见地提供了对一款主流 AI 编程助手内部架构的详细洞察，这些信息可能被用于安全研究、竞争分析或潜在的恶意目的。 还原的代码包含 1884 个 `.ts` 和 `.tsx` 源文件，涵盖了 CLI 入口、工具、命令、服务、插件、语音交互和 Vim 模式等模块。仓库维护者明确警告用户不要尝试让 Claude Code 连接此仓库，因为源代码中包含的远程 URL 哈希值可能导致账户安全风险。
 
-telegram · zaihuapd · Mar 31, 00:36
+telegram · zaihuapd · Mar 31, 09:33
 
-**背景**: GDDR（图形双倍数据速率）内存是一种传统上用于显卡的高速 DRAM，提供高带宽，但通常采用 2D 平面布局。HBM（高带宽内存）是一种更先进的垂直堆叠内存技术，通过堆叠多个 DRAM 芯片并使用硅通孔（TSV）连接，实现了更高的带宽和密度，但其成本和复杂性也显著更高。堆叠式 GDDR 似乎是试图弥合这一差距，将一些 3D 堆叠原理应用于 GDDR 架构，旨在提升性能的同时，将成本控制在完整的 HBM 方案之下。
+**背景**: 源映射（Source Map）是一种文件，用于将经过压缩或转译（如从 TypeScript 转译）的 JavaScript 代码映射回其原始源代码，以辅助调试。可选的 `sourcesContent` 字段可以将完整的原始源代码直接嵌入到映射文件中。虽然这为调试提供了便利，但在公开发布的生产版本包中包含 `sourcesContent` 字段存在安全风险，因为它相当于公开了原始的、未混淆的源代码。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://blog.csdn.net/2401_82551482/article/details/142868937">[DRAM Test]GDDR和HBM的基本结构原理、演化过程和对比分析_hbm显存-CSDN博客</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/547323867">【一文读懂】DDR 、GDDR、HBM区别 - 知乎</a></li>
+<li><a href="https://blog.openreplay.com/source-maps-work/">What Are Source Maps and How Do They Work - blog.openreplay.com</a></li>
+<li><a href="https://stackoverflow.com/questions/19802462/do-source-maps-include-the-source-text">Do source maps include the source text? - Stack Overflow</a></li>
+
+</ul>
+</details>
+
+**标签**: `#reverse-engineering`, `#source-code`, `#ai-tools`, `#security`, `#anthropic`
+
+---
+
+<a id="item-7"></a>
+## [美光押注堆叠式 GDDR，最快 2027 年推出样品](https://www.etnews.com/20260330000228) ⭐️ 7.0/10
+
+美光已启动堆叠式 GDDR 内存的研发，计划在 2026 年下半年完成设备部署并进入工艺测试，最快在 2027 年推出约 4 层堆叠的样品。 此举意义重大，因为它旨在打造一个介于高成本的 HBM 和标准 GDDR 之间的全新内存层级，有望为 AI 加速器和 GPU 提供更具成本效益的高带宽解决方案，从而抢占新兴细分市场。 该产品面临芯片互联、功耗、散热以及堆叠工艺带来的成本控制等重大技术挑战。值得注意的是，竞争对手三星电子和 SK 海力士尚未公开类似的计划。
+
+telegram · zaihuapd · Mar 31, 00:36
+
+**背景**: GDDR（图形双倍数据速率内存）和 HBM（高带宽内存）是用于 GPU 和加速器的两种主要高性能内存技术。传统 GDDR 采用 2D 分立芯片设计，而 HBM 则采用 3D 堆叠和硅通孔 (TSV) 技术，以实现更高的带宽和密度，但成本也显著更高。堆叠式 GDDR 旨在融合 GDDR 的成本结构和 3D 堆叠的部分性能优势。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/1936817919486034471">GDDR 和 HBM 的对比 - 知乎</a></li>
+<li><a href="https://blog.csdn.net/sinat_37574187/article/details/149797636">HBM vs GDDR有什么异同和优劣 - CSDN博客</a></li>
 <li><a href="https://ee.ofweek.com/2025-03/ART-8420-2800-30658974.html">面向高性能的3D-IC芯片堆叠技术，如何普及？——技术现状、挑战与未来前...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#semiconductors`, `#memory`, `#ai-hardware`, `#gpu`, `#micron`
+**标签**: `#semiconductors`, `#memory`, `#ai-hardware`, `#gpu`, `#manufacturing`
 
 ---
