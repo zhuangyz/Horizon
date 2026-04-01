@@ -5,48 +5,34 @@ date: 2026-04-01
 lang: en
 ---
 
-> From 26 items, 6 important content pieces were selected
+> From 28 items, 7 important content pieces were selected
 
 ---
 
-1. [OpenAI closes $122B funding round at $852B valuation](#item-1) ⭐️ 9.0/10
-2. [Supply Chain Attack Compromises Axios npm Package with Malicious Dependency](#item-2) ⭐️ 9.0/10
-3. [Axios npm maintainer account hijacked, malicious versions deliver remote access trojan](#item-3) ⭐️ 9.0/10
-4. [Google Quantum AI Reduces Bitcoin Attack Requirements 20x, Enabling Potential 9-Minute Key Extraction](#item-4) ⭐️ 9.0/10
-5. [Claude Code source leak reveals 'undercover mode' for hiding AI attribution](#item-5) ⭐️ 8.0/10
-6. [Unofficial GitHub repository reconstructs Claude Code's TypeScript source from public npm package source maps](#item-6) ⭐️ 8.0/10
+1. [Axios npm Package Compromised in Supply Chain Attack via Malicious Dependency](#item-1) ⭐️ 9.0/10
+2. [Axios npm package compromised via maintainer account hijack, delivering cross-platform RAT](#item-2) ⭐️ 9.0/10
+3. [Trump says he's strongly considering US withdrawal from NATO, calls alliance a 'paper tiger'](#item-3) ⭐️ 9.0/10
+4. [Visual Guide Analyzes Leaked Claude Code, Revealing AI Agent Architecture](#item-4) ⭐️ 8.0/10
+5. [GitHub repository reconstructs Claude Code's TypeScript source from npm package source maps](#item-5) ⭐️ 8.0/10
+6. [Paralyzed Man Creates Music Using Brain Implant and Neural Signals](#item-6) ⭐️ 8.0/10
+7. [Baidu's Apollo Go Robotaxis Stall on Wuhan Elevated Roads, Trapping Passengers for Hours](#item-7) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [OpenAI closes $122B funding round at $852B valuation](https://www.cnbc.com/2026/03/31/openai-funding-round-ipo.html) ⭐️ 9.0/10
+## [Axios npm Package Compromised in Supply Chain Attack via Malicious Dependency](https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything) ⭐️ 9.0/10
 
-OpenAI announced the closing of its latest funding round, securing $122 billion in committed capital at a post-money valuation of $852 billion. This marks a historic milestone for AI company valuations. This valuation demonstrates massive market confidence in OpenAI's potential and signals a paradigm shift in how the AI industry is valued. It provides the company with unprecedented capital to accelerate development and compete in the rapidly evolving AI landscape. The funding is described as 'committed capital,' which implies it may be contingent on future milestones rather than immediately available cash. OpenAI's reported revenue is approximately $2 billion per month, but this figure is calculated differently than competitors like Anthropic, as OpenAI takes a 20% share of revenue from Azure sales.
-
-hackernews · surprisetalk · Mar 31, 20:07
-
-**Background**: OpenAI is a leading artificial intelligence research and deployment company, known for creating models like GPT-4 and the widely used ChatGPT. A funding round is a process where a company raises capital from investors in exchange for equity, and the 'post-money valuation' is the company's estimated worth after the new investment has been added. In recent years, AI companies have seen valuations soar as the technology's commercial potential becomes clearer.
-
-**Discussion**: Community discussion reveals skepticism about the funding structure, with users noting the term 'committed capital' suggests conditional promises rather than immediate cash. There is also debate about revenue growth, with comparisons to Anthropic highlighting different revenue reporting methodologies. Some express concern about the sheer scale of the valuation and limited public investment access, while others interpret the emphasis on ChatGPT's consumer reach as a response to competitive pressure in the enterprise market.
-
-**Tags**: `#AI`, `#Venture Capital`, `#OpenAI`, `#Business`, `#Valuation`
-
----
-
-<a id="item-2"></a>
-## [Supply Chain Attack Compromises Axios npm Package with Malicious Dependency](https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything) ⭐️ 9.0/10
-
-A supply chain attack compromised versions 1.14.1 and 0.30.4 of the popular Axios HTTP client npm package by adding a malicious dependency called plain-crypto-js. This newly published malware was designed to steal credentials and install a remote access trojan (RAT). This attack is highly significant because Axios is a foundational JavaScript library with over 101 million weekly downloads, meaning the potential impact is massive across the software ecosystem. It highlights the critical vulnerability of widely-used open-source packages to supply chain attacks and underscores the urgent need for more secure publishing practices. The attack appears to have originated from a leaked, long-lived npm authentication token. A notable detection heuristic is that the malicious packages were published without an accompanying GitHub release, a pattern also seen in a recent attack on the LiteLLM package.
+On March 31, 2026, a supply chain attack compromised the widely-used Axios HTTP client npm package, which has over 101 million weekly downloads. The malicious versions 1.14.1 and 0.30.4 included a newly published dependency called `plain-crypto-js` that was designed to steal credentials and install a remote access trojan (RAT). This attack demonstrates the severe risk posed by supply chain attacks on foundational open-source packages, potentially impacting millions of applications and developers downstream. It highlights the critical need for improved publishing security measures, such as trusted publishing, to prevent unauthorized releases from compromised credentials. The attack vector was a leaked, long-lived npm token, not a direct modification of Axios source code. The malicious `plain-crypto-js` package was published as version 4.2.1, following a seemingly clean version 4.2.0 published 18 hours earlier to establish a brief history on the registry.
 
 rss · Simon Willison · Mar 31, 23:28
 
-**Background**: A software supply chain attack involves injecting malicious code into a legitimate software component, which then infects all applications that depend on it. npm is the default package manager for the Node.js JavaScript runtime and hosts millions of open-source packages. Trusted publishing is a modern security feature that replaces traditional token-based authentication, often using mechanisms like OpenID Connect (OIDC) to ensure packages are only published from authorized, automated workflows (like GitHub Actions).
+**Background**: A software supply chain attack occurs when an attacker compromises a third-party component (like a library or dependency) that is used by other software, thereby injecting malicious code into the larger ecosystem that depends on it. npm is the default package manager for the JavaScript runtime Node.js and hosts millions of reusable code packages. Trusted publishing is a security feature that allows package publishers to configure npm to only accept publishes from specific, authorized workflows (like GitHub Actions), reducing the risk from leaked traditional authentication tokens.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Supply_chain_attack">Supply chain attack - Wikipedia</a></li>
-<li><a href="https://docs.npmjs.com/about-access-tokens">About access tokens - npm Docs</a></li>
-<li><a href="https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry/">Contributing packages to the registry | npm Docs</a></li>
+<li><a href="https://docs.npmjs.com/trusted-publishers/">Trusted publishing for npm packages | npm Docs</a></li>
+<li><a href="https://snyk.io/blog/axios-npm-package-compromised-supply-chain-attack-delivers-cross-platform/">Axios npm Package Compromised: Supply Chain Attack Delivers Cross-Platform RAT | Snyk</a></li>
 
 </ul>
 </details>
@@ -55,92 +41,124 @@ rss · Simon Willison · Mar 31, 23:28
 
 ---
 
-<a id="item-3"></a>
-## [Axios npm maintainer account hijacked, malicious versions deliver remote access trojan](https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan) ⭐️ 9.0/10
+<a id="item-2"></a>
+## [Axios npm package compromised via maintainer account hijack, delivering cross-platform RAT](https://t.me/zaihuapd/40637) ⭐️ 9.0/10
 
-On March 31, 2026, the npm account of the lead axios maintainer was compromised, leading to the manual publication of two malicious package versions: axios@1.14.1 and axios@0.30.4. These versions introduced a malicious dependency, plain-crypto-js, which executed a script to deploy a cross-platform remote access trojan (RAT) that connected to a command-and-control (C2) server. This is a significant supply chain attack targeting a foundational JavaScript library with over 300 million weekly downloads, posing a massive risk to countless applications and developers. The sophistication of the attack, which bypassed automated security checks and targeted multiple operating systems, highlights the growing threat of credential compromise in open-source ecosystems. The malware was designed for stealth, automatically deleting its malicious scripts post-execution and forging clean configuration files to evade security audits. The malicious dependency `plain-crypto-js@4.2.1` was pinned to a version that was not yet uploaded at the time of the axios release, a tactic to bypass scanners that would find nothing suspicious until the malicious package was later published.
+On March 31, 2026, security firm StepSecurity discovered that the npm maintainer account for the popular JavaScript library Axios was hijacked. Attackers manually published two malicious versions (axios@1.14.1 and axios@0.30.4), bypassing the project's GitHub Actions CI/CD pipeline, which injected a dependency that deployed a remote access trojan (RAT) targeting Windows, macOS, and Linux systems. This is a critical supply chain attack affecting Axios, a library with approximately 60 million weekly downloads, giving it a massive potential impact radius across countless web applications and development pipelines. The incident demonstrates how sophisticated attackers can bypass automated security checks by compromising long-lived credentials and manually publishing malicious packages, eroding trust in the npm ecosystem. The attack added a single, never-imported dependency called `plain-crypto-js@^4.2.1`, which was pre-staged by a separate attacker account about 18 hours earlier. This dependency contained a `postinstall` hook script that executed platform-specific payloads, and all traces were designed to self-destruct after execution.
 
-telegram · zaihuapd · Mar 31, 04:10
+telegram · zaihuapd · Apr 1, 05:25
 
-**Background**: Axios is a widely used, promise-based HTTP client for JavaScript, commonly employed in both Node.js and browser environments to make network requests. A supply chain attack in software occurs when an attacker compromises a component, tool, or service that is trusted and used by many downstream projects, allowing malware to be distributed indirectly. The npm (Node Package Manager) registry is the primary repository for JavaScript packages, and account hijackings there can have cascading security impacts.
+**Background**: Axios is a widely-used promise-based HTTP client for JavaScript, commonly employed in both browser and Node.js environments. npm (Node Package Manager) is the primary registry for JavaScript packages, where supply chain attacks involve compromising legitimate packages to distribute malware. CI/CD (Continuous Integration/Continuous Deployment) pipelines like GitHub Actions are automated workflows meant to build, test, and deploy code, but they can be bypassed if an attacker gains direct publishing access.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="https://www.aikido.dev/blog/axios-npm-compromised-maintainer-hijacked-rat">axios compromised on npm: maintainer account hijacked, RAT deployed</a></li>
-<li><a href="https://www.wiz.io/blog/axios-npm-compromised-in-supply-chain-attack">Axios NPM Distribution Compromised in Supply Chain Attack | Wiz Blog</a></li>
-<li><a href="https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan">axios Compromised on npm - Malicious Versions Drop Remote Access Trojan - StepSecurity</a></li>
+<li><a href="https://anonhaven.com/en/news/axios-npm-supply-chain-attack-rat/">Axios npm package compromised after maintainer account hijack delivers cross-platform RAT</a></li>
+<li><a href="https://snyk.io/blog/axios-npm-package-compromised-supply-chain-attack-delivers-cross-platform/">Axios npm Package Compromised: Supply Chain Attack Delivers Cross-Platform RAT | Snyk</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#supply-chain-attack`, `#npm`, `#javascript`, `#malware`
+**Tags**: `#security`, `#supply-chain`, `#npm`, `#javascript`, `#malware`
+
+---
+
+<a id="item-3"></a>
+## [Trump says he's strongly considering US withdrawal from NATO, calls alliance a 'paper tiger'](https://www.telegraph.co.uk/world-news/2026/04/01/donald-trump-strongly-considering-pulling-us-out-of-nato/) ⭐️ 9.0/10
+
+In an interview with The Telegraph, former US President Donald Trump stated he is 'strongly considering' withdrawing the United States from NATO, describing the alliance as a 'paper tiger'. This consideration follows NATO allies' refusal to participate in military action against Iran and to send warships to reopen the Strait of Hormuz. A potential US withdrawal from NATO would represent the most significant shake-up of the transatlantic security architecture since the alliance's founding in 1949, fundamentally undermining collective defense in Europe and global power dynamics. It would signal a dramatic shift from decades of US foreign policy and could embolden adversaries while creating a major crisis of confidence among remaining member states. The immediate trigger was NATO's refusal to support US-led military action in the Strait of Hormuz, which Iran has effectively closed for weeks, disrupting about 20% of global oil shipments. Trump claimed that Russian President Vladimir Putin also understands the organization's weakness, framing the decision as a response to European allies being 'no longer reliable defense partners.'
+
+telegram · zaihuapd · Apr 1, 14:15
+
+**Background**: The North Atlantic Treaty Organization (NATO) is a military alliance established in 1949, with its core principle being collective defense as outlined in Article 5, which states that an attack on one member is an attack on all. The United States has been the alliance's most powerful member and primary security guarantor since its inception. The Strait of Hormuz is a critical maritime chokepoint between the Persian Gulf and the Gulf of Oman, through which a significant portion of the world's seaborne oil exports passes.
+
+**Tags**: `#geopolitics`, `#international-relations`, `#defense-policy`, `#nato`, `#us-foreign-policy`
 
 ---
 
 <a id="item-4"></a>
-## [Google Quantum AI Reduces Bitcoin Attack Requirements 20x, Enabling Potential 9-Minute Key Extraction](https://research.google/blog/safeguarding-cryptocurrency-by-disclosing-quantum-vulnerabilities-responsibly/) ⭐️ 9.0/10
+## [Visual Guide Analyzes Leaked Claude Code, Revealing AI Agent Architecture](https://ccunpacked.dev/) ⭐️ 8.0/10
 
-Google's Quantum AI team published a paper demonstrating a 20x reduction in the quantum computing resources needed to break Bitcoin's elliptic curve cryptography. They compiled two attack circuits requiring fewer than 1200 and 1450 logical qubits, which could enable private key extraction in under 9 minutes after a transaction is broadcast. This represents a paradigm shift in quantum vulnerability assessment, significantly shortening the estimated timeline for practical attacks on cryptocurrencies. It highlights an urgent need for the crypto ecosystem to transition to quantum-resistant algorithms, as approximately 6.9 million BTC (one-third of supply) are potentially at risk due to exposed public keys. The optimized Shor's algorithm circuits could run on superconducting quantum computers with fewer than 500,000 physical qubits, compared to prior estimates of ~10 million. An attacker has about a 41% chance of stealing funds before transaction confirmation (within Bitcoin's ~10-minute block time), with early network wallets (~1.7 million BTC) being particularly vulnerable.
+A developer created a visual guide (ccunpacked.dev) to analyze the leaked 500,000-line source code for Anthropic's Claude Code, an AI coding agent. The guide maps the complex architecture and reveals specific defensive programming patterns like "frustration regexes" used to manage LLM behavior. This analysis provides a rare, detailed look into the engineering challenges of making a probabilistic LLM behave reliably in an agent system. It highlights the significant code overhead required for state management, error handling, and security in production AI agents, offering valuable lessons for the broader AI agent development community. The codebase includes patterns like "frustration regexes"—regular expressions designed to detect user frustration from prompts—and extensive sanitization and retry logic for tool calls. The visual guide was created quickly by an independent developer to aid in understanding the large, complex codebase for personal learning and project adaptation.
 
-telegram · zaihuapd · Mar 31, 08:03
+hackernews · autocracy101 · Apr 1, 05:15
 
-**Background**: Bitcoin's security relies on Elliptic Curve Cryptography (ECC), where private keys generate public keys and addresses. Shor's algorithm is a quantum algorithm that can solve the mathematical problems (like the discrete logarithm problem for ECC) underlying this cryptography exponentially faster than classical computers. Logical qubits are error-corrected computational units built from many noisy physical qubits, which are the basic hardware components susceptible to decoherence and errors.
+**Background**: Claude Code is an AI-powered coding assistant developed by Anthropic that can autonomously execute tasks by calling tools (like shell commands or code editors) based on natural language instructions. LLM agents are systems where a large language model acts as a "brain," deciding when and how to use external tools to complete multi-step tasks. A key challenge is ensuring deterministic and reliable behavior from inherently probabilistic LLMs, often requiring extensive "defensive programming" to handle edge cases and errors.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Shor's_algorithm">Shor's algorithm - Wikipedia</a></li>
-<li><a href="https://quantumai.google/static/site-assets/downloads/cryptocurrency-whitepaper.pdf">Securing Elliptic Curve Cryptocurrencies against Quantum ...</a></li>
-<li><a href="https://www.forbes.com/sites/digital-assets/2026/03/31/google-finds-quantum-computers-could-break-bitcoin-sooner-than-expected/">Google Finds Quantum Computers Could Break Bitcoin Sooner ...</a></li>
+<li><a href="https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/">The Claude Code Source Leak: fake tools, frustration regexes, undercover mode, and more | Alex Kim's blog</a></li>
+<li><a href="https://www.datacamp.com/blog/llm-agents">LLM Agents Explained: Architecture, Frameworks, and Use Cases | DataCamp</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#quantum-computing`, `#cryptocurrency-security`, `#cryptography`, `#blockchain`, `#quantum-cryptanalysis`
+**Discussion**: The discussion reveals mixed reactions. Some commenters are surprised by the 500k-line codebase's size for a CLI agent, seeing it as evidence of the "state-management nightmare" involved in making LLMs deterministic. Others argue the real value lies in Anthropic's proprietary models, not the agent framework, which they see as a solvable engineering problem. The guide's author stated they built it to adapt ideas into their own projects.
+
+**Tags**: `#ai-agents`, `#reverse-engineering`, `#llm-engineering`, `#software-architecture`, `#anthropic`
 
 ---
 
 <a id="item-5"></a>
-## [Claude Code source leak reveals 'undercover mode' for hiding AI attribution](https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/) ⭐️ 8.0/10
+## [GitHub repository reconstructs Claude Code's TypeScript source from npm package source maps](https://t.me/zaihuapd/40632) ⭐️ 8.0/10
 
-The entire 512,000-line TypeScript source code for Anthropic's Claude Code tool was accidentally leaked via a source map file included in its public npm package. The leaked code reveals internal practices including an 'undercover mode' designed to prevent the AI from revealing its identity in commit messages and PR descriptions. This leak exposes the internal mechanics and strategic practices of a major AI company's development tool, raising significant questions about AI transparency, attribution ethics in software development, and corporate security practices. It also highlights the tension between using AI to assist in open-source contributions and the desire to conceal that assistance. The leak occurred because a 59.8 MB `.map` source map file for debugging was included in version 2.1.88 of the `@anthropic-ai/claude-code` npm package. The 'undercover mode' explicitly instructs the AI to never include phrases like 'Claude Code' or 'Co-Authored-By: Claude' in commits, effectively hiding AI-generated code attribution.
+An unofficial GitHub repository named 'claude-code-sourcemap' has reconstructed the TypeScript source code of Claude Code version 2.1.88 by extracting data from the `sourcesContent` field within the `cli.js.map` source map file included in the public npm package @anthropic-ai/claude-code. The reconstruction yielded 4,756 files, including 1,884 .ts and .tsx files. This incident highlights a significant security and intellectual property risk for software publishers, demonstrating how source maps in publicly distributed packages can inadvertently expose proprietary source code. It provides a rare, detailed look into the internal structure of a proprietary AI coding assistant and underscores the importance of secure build and deployment practices for all software, especially in the competitive AI sector. The reconstruction specifically leveraged the optional `sourcesContent` field within the source map, which can embed the original source code directly, eliminating the need for separate source files. The exposed code pertains to version 2.1.88 of Claude Code, and the repository's existence demonstrates the practical application of reverse-engineering tools designed to work with source maps.
 
-hackernews · alex000kim · Mar 31, 13:04
+telegram · zaihuapd · Apr 1, 02:36
 
-**Background**: Claude Code is an AI-powered coding assistant tool developed by Anthropic. A source map file is a debugging aid that maps minified/transpiled code back to its original source code; if included in a public release, it can expose the original source. The leak follows another recent incident where Anthropic's 'Mythos' model details were accidentally exposed.
+**Background**: Source maps are files that create a mapping between minified/transpiled code (like JavaScript) and the original source code (like TypeScript), aiding in debugging. The optional `sourcesContent` field within a source map can contain the full text of the original sources, embedding them directly into the map file. When such source maps are included in publicly distributed npm packages, they can potentially expose the complete original source code if not properly stripped, a known issue discussed in developer security circles.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.ibtimes.co.uk/claude-code-leak-advanced-ai-secrets-1789623">Anthropic Claude Code Leak Reveals Secrets—Self-Healing ...</a></li>
-<li><a href="https://dev.to/gabrielanhaia/claude-codes-entire-source-code-was-just-leaked-via-npm-source-maps-heres-whats-inside-cjo">Claude Code's Entire Source Code Was Just Leaked via npm ...</a></li>
-<li><a href="https://venturebeat.com/technology/claude-codes-source-code-appears-to-have-leaked-heres-what-we-know">Claude Code's source code appears to have leaked: here's what ...</a></li>
+<li><a href="https://dev.to/alanwest/your-npm-package-is-leaking-source-code-and-you-probably-dont-know-it-4kf5">Your npm Package Is Leaking Source Code (And You Probably Don't Know It) - DEV Community</a></li>
+<li><a href="https://blog.openreplay.com/source-maps-work/">What Are Source Maps and How Do They Work - blog.openreplay.com</a></li>
+<li><a href="https://stackoverflow.com/questions/19802462/do-source-maps-include-the-source-text">Do source maps include the source text? - Stack Overflow</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussion reveals high engagement, with debates centering on the ethics of the 'undercover mode,' Anthropic's aggressive DMCA takedown of related GitHub forks, and concerns about a pattern of security lapses. Some commenters are amazed at the level of internal 'trade secrets' and business context openly commented in the code, while others question the impact on user trust.
-
-**Tags**: `#ai-ethics`, `#source-code-leak`, `#software-development`, `#anthropic`, `#security`
+**Tags**: `#reverse-engineering`, `#ai-systems`, `#source-code-analysis`, `#npm-security`, `#anthropic`
 
 ---
 
 <a id="item-6"></a>
-## [Unofficial GitHub repository reconstructs Claude Code's TypeScript source from public npm package source maps](https://github.com/ChinaSiro/claude-code-sourcemap) ⭐️ 8.0/10
+## [Paralyzed Man Creates Music Using Brain Implant and Neural Signals](https://www.wired.com/story/meet-the-man-making-music-with-his-brain-implant/) ⭐️ 8.0/10
 
-An unofficial GitHub repository named 'claude-code-sourcemap' has reconstructed 4,756 TypeScript source files from Anthropic's Claude Code version 2.1.88 by extracting the original source code from the `sourcesContent` field within a publicly accessible source map file (`cli.js.map`) included in the npm package `@anthropic-ai/claude-code`. The repository includes 1,884 `.ts` and `.tsx` files covering modules like CLI entry points, tools, commands, services, plugins, voice interaction, and Vim mode. This incident highlights a significant security oversight where sensitive proprietary source code can be inadvertently exposed through debugging artifacts like source maps included in production npm packages. It serves as a critical reminder for engineering teams to audit their build and deployment pipelines to prevent unintentional source code disclosure, which could aid competitors or malicious actors in understanding and potentially exploiting the software's architecture. The repository maintainer explicitly states that the reconstructed code is derived from publicly released packages and source map analysis, does not represent the official internal development repository structure, and is for research purposes only. A prominent warning in the repository advises users not to link Claude Code to this repo, as the remote URL hash included in reported information could lead to account risks.
+A 69-year-old tetraplegic man, Galen Buckwalter, who received six Blackrock Neurotech brain implant chips in 2024 as part of a Caltech study, can now generate musical tones directly from his neural signals using a custom algorithm. He used the brain-generated track in a song for his band Siggy's album, released on March 15. This represents a significant expansion of brain-computer interface (BCI) applications beyond basic medical restoration, demonstrating its potential to enhance quality of life and enable creative expression for people with severe disabilities. It highlights a human-centered direction for neurotechnology, focusing on personal agency and long-term user engagement, which is crucial for broader adoption. The system allows Buckwalter to simultaneously control two audio streams with his thoughts. Beyond music creation, the implant also enables him to operate a computer and has restored some sensation in his fingers, showcasing the multi-functional potential of the technology.
 
-telegram · zaihuapd · Mar 31, 09:33
+telegram · zaihuapd · Apr 1, 07:34
 
-**Background**: Source maps are files that map minified or transpiled code (like JavaScript) back to its original source code (like TypeScript), primarily to aid debugging in browser developer tools. They often contain a `sourcesContent` field which can embed the full original source code. When such source map files are included in publicly distributed npm packages, they can be used to reverse-engineer and reconstruct the original, readable source code, effectively leaking the codebase if not properly stripped during the production build process.
+**Background**: Brain-Computer Interfaces (BCIs) are systems that decode neural signals to allow direct communication between the brain and external devices, often used to restore function for individuals with paralysis. Blackrock Neurotech is a leading company in implantable BCI technology, with devices used in over 1000 research labs. Converting neural signals to music involves complex algorithms that interpret brain activity patterns to generate or control musical parameters, a field sometimes referred to as Brain-Computer Music Interfaces (BCMI).
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://dev.to/gabrielanhaia/claude-codes-entire-source-code-was-just-leaked-via-npm-source-maps-heres-whats-inside-cjo">Claude Code's Entire Source Code Was Just Leaked via npm ...</a></li>
-<li><a href="https://stackoverflow.com/questions/32383865/how-to-use-sourcemaps-to-restore-the-original-file">javascript - How to use sourcemaps to restore the... - Stack Overflow</a></li>
-<li><a href="https://wellstsai.com/en/post/restoring-source-code-from-sourcemaps/">Restoring Frontend Source Code Using Sourcemaps: Practical ...</a></li>
+<li><a href="https://blackrockneurotech.com/">Blackrock Neurotech | Empowered by Thought</a></li>
+<li><a href="https://link.springer.com/article/10.1007/s12559-024-10280-6">NeuralPMG: A Neural Polyphonic Music Generation System Based on Machine Learning Algorithms | Cognitive Computation | Springer Nature Link</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#reverse-engineering`, `#source-maps`, `#anthropic`, `#claude`, `#security`
+**Tags**: `#Brain-Computer Interface`, `#Neurotechnology`, `#Human-Computer Interaction`, `#Assistive Technology`, `#Creative AI`
+
+---
+
+<a id="item-7"></a>
+## [Baidu's Apollo Go Robotaxis Stall on Wuhan Elevated Roads, Trapping Passengers for Hours](https://www.sznews.com/news/content/2026-03/31/content_32000110.htm) ⭐️ 7.0/10
+
+On the evening of March 31, Baidu's Apollo Go (Luobo Kuaipao) robotaxi service in Wuhan experienced a widespread system failure, causing multiple vehicles to stop suddenly on elevated highways and major roads, trapping passengers inside. The in-car system displayed a "driving system abnormal" alert, and passengers reported extreme difficulty reaching emergency contacts or customer service via the app, with some waiting nearly two hours before being assisted off the highway by traffic police and staff. This incident represents a significant real-world failure of a commercial robotaxi service, highlighting critical vulnerabilities in safety protocols, emergency response, and system resilience. It directly impacts public trust in autonomous vehicle technology and raises urgent questions about the operational readiness and fail-safe mechanisms required for large-scale deployment, especially in complex urban environments like elevated roads. The service provider's customer service initially attributed the failure to "network reasons," but later official客服 representatives claimed to have no knowledge of the Wuhan incident when contacted by press, requesting a vehicle number for inquiry. Notably, the official Apollo Go platform had not released any information about the failure or response measures by the time of reporting.
+
+telegram · zaihuapd · Apr 1, 01:06
+
+**Background**: Baidu's Apollo Go is a commercial robotaxi (autonomous ride-hailing) service operating in several Chinese cities, utilizing the company's Apollo autonomous driving platform. These vehicles rely on a combination of AI, sensors (LiDAR, radar, cameras), and GPS for navigation, and typically require robust network connectivity for certain cloud-based functions and remote monitoring. The term "robotaxi" specifically refers to self-driving cars operated for a ridesharing service, which are designed to function without a human driver in the vehicle.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Apollo_Go">Apollo Go - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Self-driving_car">Self-driving car - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#autonomous-vehicles`, `#safety`, `#reliability`, `#robotaxi`, `#incident-report`
 
 ---
