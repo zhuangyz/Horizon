@@ -5,174 +5,244 @@ date: 2026-04-02
 lang: en
 ---
 
-> From 25 items, 7 important content pieces were selected
+> From 24 items, 10 important content pieces were selected
 
 ---
 
-1. [NASA's Artemis II crew mission successfully launches to the Moon.](#item-1) ⭐️ 9.0/10
-2. [Axios npm maintainer account hijacked, malicious versions inject cross-platform RAT](#item-2) ⭐️ 9.0/10
-3. [Paralyzed Man Composes Music Using Brain Implant, Releases Album Track](#item-3) ⭐️ 8.0/10
-4. [GitHub repository reverse-engineers Anthropic's Claude Code from source maps in public npm package](#item-4) ⭐️ 8.0/10
-5. [NASA's Artemis 2 Crewed Lunar Mission Enters Final Countdown for Historic Launch](#item-5) ⭐️ 8.0/10
-6. [Rising DRAM Prices Threaten Hobbyist Single-Board Computer Market](#item-6) ⭐️ 7.0/10
-7. [Cloudflare announces EmDash, a TypeScript-based CMS with sandboxed plugin security](#item-7) ⭐️ 7.0/10
+1. [NASA's Artemis 2 Crewed Lunar Mission Enters Final Countdown for Launch](#item-1) ⭐️ 9.0/10
+2. [IBM and Arm announce collaboration to develop dual-architecture hardware for enterprise AI and data workloads.](#item-2) ⭐️ 8.0/10
+3. [Zhipu AI releases GLM-5V-Turbo, its first multimodal programming foundation model with native visual encoding and Agent collaboration.](#item-3) ⭐️ 8.0/10
+4. [Alibaba Releases New Qwen3.6-Plus Model, Claims Near-Claude Performance in Agent Coding](#item-4) ⭐️ 8.0/10
+5. [Nvidia's AI Chip Market Share in China Drops to 55%, Domestic Makers Hold 41%](#item-5) ⭐️ 8.0/10
+6. [Microsoft launches three proprietary AI models for transcription, speech, and image generation.](#item-6) ⭐️ 8.0/10
+7. [Nekogram 12.5.2 Exposed for Containing a Backdoor That Steals User Phone Numbers](#item-7) ⭐️ 8.0/10
+8. [LinkedIn's JavaScript silently scans installed browser extensions without user consent](#item-8) ⭐️ 7.0/10
+9. [AMD releases Lemonade, an open-source local LLM server with unified GPU, NPU, and CPU inference.](#item-9) ⭐️ 7.0/10
+10. [Sweden reverses digital classroom policies, prioritizing books and handwriting over screens.](#item-10) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [NASA's Artemis II crew mission successfully launches to the Moon.](https://www.nasa.gov/blogs/missions/2026/04/01/live-artemis-ii-launch-day-updates/) ⭐️ 9.0/10
+## [NASA's Artemis 2 Crewed Lunar Mission Enters Final Countdown for Launch](https://www.nasa.gov/) ⭐️ 9.0/10
 
-NASA's Artemis II mission, carrying a crew of astronauts, successfully launched on April 1, 2026, marking humanity's first crewed lunar mission in over 50 years. The mission will perform a lunar flyby before returning to Earth for a splashdown on April 10. This launch is a critical milestone for NASA's Artemis program, paving the way for a sustained human presence on the Moon and serving as a stepping stone for future Mars exploration. It demonstrates the operational readiness of key systems like the Space Launch System (SLS) rocket and Orion spacecraft for deep space crewed missions. The mission will test Orion's life support, navigation, and crew systems in deep space, including critical functions like oxygen regulation and carbon dioxide removal. Following this mission, the focus shifts to developing capabilities like propellant transfer (via SpaceX's Starship) and lunar landers (like Blue Origin's Blue Moon) to enable the subsequent Artemis III lunar landing mission.
+NASA's Artemis 2 mission, the first crewed lunar mission in over 50 years, is scheduled for launch on April 1, 2024, at 6:24 PM EDT from Kennedy Space Center. The mission will use the Space Launch System (SLS) rocket to send the Orion spacecraft with four astronauts on a 10-day journey around the Moon. This mission marks a pivotal return to human deep space exploration and serves as a critical test flight for the systems needed to land astronauts on the Moon later this decade. Its success is essential for validating the SLS rocket and Orion spacecraft's crew support systems in deep space, paving the way for the planned Artemis 3 lunar landing. The launch follows two previous delays due to technical issues, including a liquid hydrogen leak and a helium flow interruption during testing. The core objective of this mission is to test the Orion spacecraft's life support and other systems in a deep space environment with a crew aboard.
 
-hackernews · apitman · Apr 1, 17:11
+telegram · zaihuapd · Apr 1, 22:01
 
-**Background**: The Artemis program is NASA's initiative to return humans to the Moon and establish a sustainable presence there. Its core architecture relies on the Space Launch System (SLS), a super heavy-lift rocket, to launch the crewed Orion spacecraft. Orion is designed for deep space missions, featuring advanced life support systems to keep astronauts safe during long-duration flights beyond Earth orbit.
+**Background**: The Artemis program is NASA's initiative to return humans to the Moon and establish a sustainable presence there. The Space Launch System (SLS) is NASA's super heavy-lift launch vehicle built for deep space missions, and the Orion spacecraft is designed to carry crew beyond low Earth orbit. Artemis I was an uncrewed test flight around the Moon in 2022, and Artemis II is its crewed successor.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Artemis_program">Artemis program - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Space_Launch_System">Space Launch System - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Orion_(spacecraft)">Orion (spacecraft) - Wikipedia</a></li>
+<li><a href="https://zh.wikipedia.org/zh-tw/太空發射系統">太 空 發 射 系 統 - 維基百科，自由的百科全書</a></li>
+<li><a href="https://www.kennedyspacecenter.com/zh/event/nasa-space-launch-system-sls-artemis-ii/">NASA Space Launch System ( SLS ) Artemis II - Kennedy Space Center...</a></li>
+<li><a href="https://www.guancha.cn/internation/2026_04_02_812302.shtml">美国发射“阿尔忒弥斯二号”载人绕月，首次上天的卫 生 间坏了</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community expressed awe at the mission's technological achievements, such as the incredible launch speed mentioned by one user. A key discussion point centered on the mission's broader value, with some defending space exploration as a noble endeavor that drives progress and inspires humanity, while others referenced concerns about technical risks like the heat shield. There was also forward-looking discussion about the next steps in the Artemis program, including the development of Starship and lunar landers.
-
-**Tags**: `#space-exploration`, `#nasa`, `#artemis-program`, `#space-technology`, `#human-spaceflight`
+**Tags**: `#space-exploration`, `#nasa`, `#artemis-program`, `#aerospace`, `#moon-mission`
 
 ---
 
 <a id="item-2"></a>
-## [Axios npm maintainer account hijacked, malicious versions inject cross-platform RAT](https://t.me/zaihuapd/40637) ⭐️ 9.0/10
+## [IBM and Arm announce collaboration to develop dual-architecture hardware for enterprise AI and data workloads.](https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing) ⭐️ 8.0/10
 
-On March 30-31, 2026, security firm StepSecurity discovered that the npm account of a lead maintainer of the axios JavaScript library was hijacked. The attacker manually published two malicious versions, axios@1.14.1 and axios@0.30.4, which injected a dependency on a malicious package called plain-crypto-js to deploy a cross-platform remote access trojan (RAT). This is a significant software supply chain attack targeting axios, a foundational HTTP client library with approximately 100 million weekly downloads. The attack's sophistication—bypassing CI/CD, targeting multiple OSes, and using a pre-staged dependency—highlights a critical threat to the entire JavaScript/Node.js ecosystem and the security of countless applications that depend on it. The attacker bypassed the project's GitHub Actions CI/CD pipeline by using a stolen, long-lived npm access token to publish directly via the npm CLI. The malicious dependency `plain-crypto-js` was staged 18 hours prior to the attack and its sole purpose was to execute a `postinstall` script that delivered OS-specific RAT payloads, with all traces designed to self-destruct.
+IBM announced a strategic collaboration with Arm to develop new dual-architecture hardware designed to run future AI and data-intensive enterprise workloads. This partnership could lead to the integration of ARM silicon into IBM's System Z platforms, as evidenced by recent Linux kernel patches enabling ARM CPU virtualization on the s390 architecture. This collaboration is significant because it bridges the gap between IBM's high-availability mainframe ecosystem and Arm's power-efficient, scalable architecture that dominates mobile and is growing in the data center. It could give enterprises running on IBM Z a new, flexible path to deploy AI and modern data workloads while maintaining the platform's legendary reliability and security. The collaboration is explicitly focused on "dual-architecture hardware," suggesting a single system capable of running both IBM's traditional s390/x and Arm architectures. A key technical indicator is a recently submitted Linux kernel patch series titled "KVM: s390: Introduce arm64 KVM," which lays the groundwork for KVM-accelerated ARM CPU virtualization on the s390 platform.
 
-telegram · zaihuapd · Apr 1, 05:25
+hackernews · bonzini · Apr 2, 08:48
 
-**Background**: Axios is a popular promise-based HTTP client for JavaScript, widely used in both Node.js and browser environments. npm (Node Package Manager) is the default package registry for the JavaScript ecosystem, where libraries like axios are published and installed by developers. A supply chain attack occurs when an attacker compromises a trusted component (like a library) to distribute malware to its users. A Remote Access Trojan (RAT) is malware that provides an attacker with remote control over an infected system.
+**Background**: IBM Z (formerly System z) is a family of mainframe computers known for extreme reliability, security, and availability, often summarized as "zero downtime." They traditionally run the z/OS operating system or Linux on IBM's proprietary s390/x architecture. Arm is a dominant RISC instruction set architecture (ISA) known for power efficiency, widely used in mobile devices and increasingly in data centers and AI infrastructure through products like the newly announced Arm AGI CPU.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan">axios Compromised on npm - Malicious Versions Drop Remote Access Trojan - StepSecurity</a></li>
-<li><a href="https://snyk.io/blog/axios-npm-package-compromised-supply-chain-attack-delivers-cross-platform/">Axios npm Package Compromised: Supply Chain Attack Delivers Cross-Platform RAT | Snyk</a></li>
-<li><a href="https://www.elastic.co/security-labs/axios-one-rat-to-rule-them-all">Inside the Axios supply chain compromise - one RAT to rule them all — Elastic Security Labs</a></li>
+<li><a href="https://en.wikipedia.org/wiki/ARM_architecture_family">ARM architecture family - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/IBM_Z">IBM Z - Wikipedia</a></li>
+<li><a href="https://newsroom.arm.com/blog/introducing-arm-agi-cpu">Announcing Arm AGI CPU: The silicon foundation for the agentic AI cloud era - Arm Newsroom</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#supply-chain`, `#npm`, `#javascript`, `#malware`
+**Discussion**: The community discussion connected the announcement to specific technical developments, notably a Linux kernel patch enabling ARM on s390. Sentiment was analytical, with questions raised about IBM's current business model and the strategic rationale for adding ARM to its mainframe platform. Some users parsed the marketing language, speculating that IBM aims to integrate ARM into LinuxONE while maintaining its high-availability support model, and questioned why customers wouldn't just choose other ARM server providers.
+
+**Tags**: `#enterprise-computing`, `#hardware-architecture`, `#virtualization`, `#linux-kernel`, `#ibm`
 
 ---
 
 <a id="item-3"></a>
-## [Paralyzed Man Composes Music Using Brain Implant, Releases Album Track](https://www.wired.com/story/meet-the-man-making-music-with-his-brain-implant/) ⭐️ 8.0/10
+## [Zhipu AI releases GLM-5V-Turbo, its first multimodal programming foundation model with native visual encoding and Agent collaboration.](https://docs.bigmodel.cn/cn/update/new-releases) ⭐️ 8.0/10
 
-Galen Buckwalter, a 69-year-old quadriplegic, can now compose music using neural signals after receiving six Blackrock Neurotech brain implant chips in 2024. The algorithm-assisted tones he generated were used in a song for his band Siggy's album, released on March 15. This represents a significant expansion of brain-computer interface (BCI) applications beyond restoring basic motor or communication functions, demonstrating their potential for creative expression and personal fulfillment. It highlights a shift towards designing neurotechnology that aligns with users' personal interests and quality of life, which is crucial for long-term adoption. The system uses algorithms developed by the research team to translate neural signals into musical tones, allowing Buckwalter to control two audio streams simultaneously. Beyond music, the implant also enables him to operate a computer and has restored some sensation in his fingers.
+Zhipu AI has released GLM-5V-Turbo, its first multimodal coding foundation model designed for vision-based tasks. The model natively processes images, video, and text, and is deeply optimized to work with agents like Claude Code and OpenClaw to complete complex tasks such as GUI exploration and code debugging. This release represents a significant step towards more capable and autonomous AI agents that can perceive, reason, and act on complex real-world tasks involving visual information. By natively fusing vision and language for coding, it could accelerate the development of AI systems capable of automating software interaction, debugging, and other intricate workflows that require visual understanding. A core technical distinction is its Native Multimodal Fusion, which processes vision and language in a unified pipeline rather than treating them as separate steps. The model also expands its multimodal toolchain with capabilities like drawing bounding boxes, taking screenshots, and reading web pages with image recognition.
 
-telegram · zaihuapd · Apr 1, 07:34
+telegram · zaihuapd · Apr 2, 01:48
 
-**Background**: Brain-computer interfaces (BCIs) are systems that create a direct communication pathway between the brain and an external device, often to restore function for people with paralysis or neurological disorders. Companies like Blackrock Neurotech develop implantable microelectrode arrays that record neural activity; this data is then decoded by algorithms to control computers or prosthetics. Research into Brain-Computer Music Interfacing (BCMI) explores how to extract control information from brain signals and design generative music techniques that respond to it.
+**Background**: Multimodal models are AI systems that can process and understand information from different modalities, such as text, images, and video. Agentic AI refers to a new breed of AI systems that are semi- or fully autonomous, capable of perceiving their environment, planning actions, and executing tasks to achieve goals. Native visual encoding is a training approach that allows models to handle images of varying resolutions and aspect ratios more effectively within a unified architecture.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://blackrockneurotech.com/">Blackrock Neurotech | Empowered by Thought</a></li>
-<li><a href="https://www.researchgate.net/publication/321619139_Guide_to_Brain-Computer_Music_Interfacing">Guide to Brain - Computer Music Interfacing | Request PDF</a></li>
+<li><a href="https://docs.z.ai/guides/vlm/glm-5v-turbo">GLM-5V-Turbo - Overview - Z.AI DEVELOPER DOCUMENT</a></li>
+<li><a href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained">Agentic AI, explained - MIT Sloan</a></li>
+<li><a href="https://arxiv.org/html/2506.12776">Native Visual Understanding: Resolving Resolution Dilemmas in Vision-Language Models</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#brain-computer-interface`, `#neurotechnology`, `#human-computer-interaction`, `#assistive-technology`, `#neuroscience`
+**Tags**: `#AI`, `#Multimodal Models`, `#Code Generation`, `#Agent Systems`, `#Computer Vision`
 
 ---
 
 <a id="item-4"></a>
-## [GitHub repository reverse-engineers Anthropic's Claude Code from source maps in public npm package](https://t.me/zaihuapd/40641) ⭐️ 8.0/10
+## [Alibaba Releases New Qwen3.6-Plus Model, Claims Near-Claude Performance in Agent Coding](https://qwen.ai/blog?id=qwen3.6) ⭐️ 8.0/10
 
-A GitHub repository named 'claude-code-sourcemap' has reverse-engineered the TypeScript source code for Anthropic's Claude Code version 2.1.88 by extracting content from the `sourcesContent` field within a source map file (`cli.js.map`) bundled in the public npm package `@anthropic-ai/claude-code`. The process successfully reconstructed 4,756 files, including 1,884 TypeScript (.ts/.tsx) files. This incident highlights a critical software supply chain vulnerability where proprietary code from a major AI company was inadvertently exposed through a common development artifact. It underscores significant risks for intellectual property protection and raises questions about the security practices of AI tooling, potentially impacting trust in commercial AI products and their deployment pipelines. The exposure occurred because the production npm package included a source map file containing the `sourcesContent` field, which embeds the original source code. The repository was created on March 31, 2026, following a discovery by security researcher Chaofan Shou, and the leaked code was rapidly forked by tens of thousands of users on GitHub.
+Alibaba has released its new Qwen3.6-Plus large language model, which features native multimodal understanding and reasoning. The company claims its programming performance on benchmarks like SWE-bench and Claw-Eval approaches that of top models like Claude, and it demonstrates autonomous task decomposition and execution in real-world scenarios like front-end web development. This release signifies a major Chinese contender closing the performance gap with leading Western models in the critical domain of AI-powered software engineering. If its claims hold, it could accelerate the adoption of 'atmosphere programming'—where a simple instruction drives complex code generation—and intensify competition in the global AI assistant market for developers. The model is now available on Alibaba Cloud's Bailian platform, with pricing starting at 2 RMB per million input tokens. The promotional content highlights its ability in 'atmosphere programming' for complex, repository-level tasks but lacks independent third-party verification of the benchmark results.
 
-telegram · zaihuapd · Apr 1, 08:07
+telegram · zaihuapd · Apr 2, 05:00
 
-**Background**: Source maps are files generated during the build process of web applications (like those using TypeScript or minified JavaScript) to map the transformed, minified code back to the original source code for debugging purposes. The `sourcesContent` field is an optional part of a source map that can contain the full text of the original source files, making them self-contained but also a security risk if included in production bundles. NPM (Node Package Manager) is the primary registry for JavaScript packages, and publishing packages with source maps is a common but often overlooked practice that can lead to source code leakage.
+**Background**: SWE-bench is a benchmark that tests AI models on solving real-world software engineering issues from GitHub, requiring them to generate correct code patches within isolated environments. Claw-Eval is a newer benchmark focused on evaluating LLMs as agents in end-to-end, real-world operational tasks, measuring their ability to use tools and execute multi-step operations, with all tasks human-verified. 'Atmosphere programming' in this context appears to refer to a seamless, intuitive coding experience where the AI handles complex implementation from a high-level user instruction.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://insiderllm.com/guides/claude-code-source-leak-what-we-learned/">Claude Code's Source Just Leaked: What 500K Lines of... | InsiderLLM</a></li>
-<li><a href="https://web.dev/articles/source-maps">What are source maps? | Articles | web.dev</a></li>
-<li><a href="https://dev.to/alanwest/your-npm-package-is-leaking-source-code-and-you-probably-dont-know-it-4kf5">Your npm Package Is Leaking Source Code... - DEV Community</a></li>
+<li><a href="https://www.vals.ai/benchmarks/swebench">SWE-bench</a></li>
+<li><a href="https://dev.to/sky_05/new-benchmark-for-open-source-agents-what-is-claw-eval-how-step-35-flash-secured-the-2-spot-592d">New Benchmark for Open-Source Agents: What is Claw-Eval? How Step 3.5 Flash Secured the #2 Spot - DEV Community</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#reverse-engineering`, `#source-maps`, `#anthropic`, `#intellectual-property`, `#npm-security`
+**Tags**: `#AI/ML`, `#Large Language Models`, `#Programming Assistants`, `#Multimodal AI`, `#Alibaba`
 
 ---
 
 <a id="item-5"></a>
-## [NASA's Artemis 2 Crewed Lunar Mission Enters Final Countdown for Historic Launch](https://www.nasa.gov/) ⭐️ 8.0/10
+## [Nvidia's AI Chip Market Share in China Drops to 55%, Domestic Makers Hold 41%](https://www.tomshardware.com/tech-industry/nvidia-market-share-in-china-falls-to-less-than-60-percent-chinese-chip-makers-deliver-1-65-million-ai-gpus-as-the-government-pushes-data-centers-to-use-domestic-chips) ⭐️ 8.0/10
 
-NASA's Artemis 2 mission, the first crewed lunar flight since 1972, is on the launch pad at Kennedy Space Center and preparing for liftoff as early as April 1, 6:24 PM ET. The mission will send four astronauts on a 10-day journey around the Moon aboard the Orion spacecraft, launched by the Space Launch System (SLS) rocket. This mission marks humanity's return to lunar space after more than half a century, representing a critical step in NASA's Artemis program to establish a sustainable human presence on the Moon and serve as a proving ground for future Mars missions. Its success is pivotal for restoring U.S. leadership in deep space exploration and advancing international collaboration in lunar science and exploration. The launch follows multiple technical delays, including a liquid hydrogen leak during fueling tests and an interruption in helium flow to the rocket's upper stage, which forced the vehicle back to the assembly building for repairs in February and March. The mission is a crewed lunar flyby and will not involve a lunar landing; it is designed to test the Orion spacecraft's systems in deep space with astronauts on board.
+Nvidia's share of the AI chip market in China has fallen dramatically from 95% before sanctions to 55% in 2025, shipping approximately 2.2 million units. Chinese domestic manufacturers, led by Huawei and Alibaba's T-Head, collectively captured 41% of the market, delivering 1.65 million AI GPUs. This shift signals a major structural realignment in the global AI chip supply chain, driven by U.S. export controls and Chinese government policies promoting domestic alternatives. It reduces China's reliance on foreign technology and accelerates the development of a parallel, competing AI hardware ecosystem. Huawei was the most prominent domestic player, shipping about 812,000 units for nearly 20% market share, and recently claimed its new Atlas 350 accelerator offers 2.8x the performance of Nvidia's China-specific H20 GPU. Alibaba's T-Head shipped 256,000 units, followed by AMD, Baidu's Kunlunxin, and Cambricon.
 
-telegram · zaihuapd · Apr 1, 22:01
+telegram · zaihuapd · Apr 2, 06:08
 
-**Background**: NASA's Artemis program is a series of missions aimed at returning humans to the Moon and eventually sending astronauts to Mars. The Space Launch System (SLS) is NASA's new super-heavy-lift rocket designed for these deep space missions, while the Orion spacecraft is the crew vehicle. The last human mission to lunar orbit was Apollo 17 in December 1972. The uncrewed Artemis 1 test flight successfully orbited the Moon in late 2022.
+**Background**: Advanced AI chips, like Nvidia's GPUs, are critical for training and running large language models and other AI workloads. In late 2023 and 2024, the U.S. government imposed escalating export controls restricting the sale of Nvidia's most powerful AI chips (like the A800 and H800) to China. In response, Nvidia created a downgraded chip, the H20, specifically for the Chinese market to comply with these rules, while Chinese companies accelerated development of domestic alternatives.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://zh.wikipedia.org/zh-hans/太空發射系統">太空发射系统 - 维基百科，自由的百科全书</a></li>
-<li><a href="https://www.voachinese.com/a/artemis-ii-march-launch-window-out-of-consideration-after-helium-pressure-system-fault-20260225/8117595.html">由于 氦 气 压力系统 故 障 ，“阿尔忒弥斯二号”3月发射计划推迟 | 美国之音</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hopper_(microarchitecture)">Hopper (microarchitecture) - Wikipedia</a></li>
+<li><a href="https://www.csis.org/analysis/understanding-biden-administrations-updated-export-controls">Understanding the Biden Administration’s Updated Export Controls</a></li>
+<li><a href="https://www.tomshardware.com/pc-components/gpus/huawei-unveils-new-atlas-350-ai-accelerator-with-1-56-pflops-of-fp4-compute-and-up-to-112gb-of-hbm-claims-2-8x-more-performance-than-nvidias-h20">Huawei unveils new Atlas 350 AI accelerator with 1.56 PFLOPS of FP4 compute and up to 112GB of HBM — claims 2.8x more performance than Nvidia's H20 | Tom's Hardware</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#space-exploration`, `#nasa`, `#artemis-program`, `#aerospace-engineering`, `#science-news`
+**Tags**: `#AI Chips`, `#Geopolitics`, `#Market Analysis`, `#Semiconductors`, `#China Tech`
 
 ---
 
 <a id="item-6"></a>
-## [Rising DRAM Prices Threaten Hobbyist Single-Board Computer Market](https://www.jeffgeerling.com/blog/2026/dram-pricing-is-killing-the-hobbyist-sbc-market/) ⭐️ 7.0/10
+## [Microsoft launches three proprietary AI models for transcription, speech, and image generation.](https://venturebeat.com/technology/microsoft-launches-3-new-ai-models-in-direct-shot-at-openai-and-google) ⭐️ 8.0/10
 
-A blog post by Jeff Geerling highlights that significant increases in DRAM (Dynamic Random-Access Memory) prices are making hobbyist single-board computers (SBCs) like Raspberry Pi less affordable and available. Market analysis from TrendForce forecasts DRAM contract prices could rise 58% to 63% quarter-over-quarter in Q2 2026. This matters because SBCs are crucial for education, prototyping, and DIY projects, and their rising cost could stifle innovation and learning in these areas. Furthermore, the DRAM price surge is a broader supply chain issue that is also forecast to significantly impact the smartphone market and other consumer electronics sectors. The price pressure is not limited to SBCs; comments note vendor quotes for other machines increasing by 50% due to memory and supply chain issues. Some community members also point out that high DRAM costs may push simpler computing tasks back to more cost-effective microcontrollers, representing a potential shift in design philosophy.
+On April 2nd, Microsoft launched three fully proprietary foundation AI models: the speech-to-text model MAI-Transcribe-1, the text-to-speech model MAI-Voice-1, and the image generation model MAI-Image-2. These models are now available through the Microsoft Foundry platform and a new MAI Playground environment. This launch represents a significant strategic move by Microsoft to compete directly with leading AI providers like OpenAI and Google in core, commercially valuable enterprise AI applications. By offering proprietary models with claimed performance advantages, Microsoft aims to strengthen its AI ecosystem and provide integrated solutions for businesses through its Azure and Copilot services. Microsoft claims MAI-Transcribe-1 achieves a 3.8% average word error rate across 25 major languages on the FLEURS benchmark, outperforming OpenAI's Whisper-large-v3. MAI-Voice-1 can generate 60 seconds of speech in one second and supports voice customization with just a few seconds of audio. MAI-Image-2 is reported to be at least twice as fast as its predecessor within Foundry and Copilot and is beginning to roll out to Bing and PowerPoint.
 
-hackernews · ingve · Apr 1, 21:36
+telegram · zaihuapd · Apr 2, 11:31
 
-**Background**: DRAM is a type of volatile memory used as the main working memory in most computers and electronic devices, including SBCs. Single-board computers, like the Raspberry Pi, are complete computers built on a single circuit board, popular for hobbyist projects, education, and embedded applications. The DRAM market is highly concentrated among a few major manufacturers and is sensitive to supply-demand dynamics, manufacturing advancements, and demand from sectors like AI and data centers.
+**Background**: Microsoft Foundry, formerly known as Azure AI Studio, is Microsoft's unified, interoperable AI platform designed for developers to build AI applications with security and governance. The FLEURS (Few-shot Learning Evaluation of Universal Representations of Speech) benchmark is a widely recognized standard for evaluating multilingual speech recognition models across 102 languages. MAI Playground is Microsoft's public testing environment where users can experiment with new AI models.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.tomshardware.com/pc-components/dram/dram-and-nand-contract-prices-to-climb-again-in-q2">DRAM prices predicted to jump 63% in Q2, NAND up to 75% ...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Dynamic_random-access_memory">Dynamic random - access memory - Wikipedia</a></li>
+<li><a href="https://arxiv.org/abs/2205.12446">[2205.12446] FLEURS: Few-shot Learning Evaluation of ...</a></li>
+<li><a href="https://learn.microsoft.com/en-us/azure/foundry/what-is-foundry">What is Microsoft Foundry? - Microsoft Foundry | Microsoft Learn</a></li>
+<li><a href="https://microsoft.ai/news/today-were-announcing-3-new-world-class-mai-models-available-in-foundry/">Today we're announcing 3 new world class MAI models... | Microsoft AI</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community sentiment is mixed, with some users noting that current prices are still far from historical highs, while others emphasize the widespread impact beyond SBCs. Key viewpoints include forecasts of a shrinking smartphone market due to RAM costs, concerns about helium supply issues exacerbating the problem, and observations that cost pressures are forcing a re-evaluation of which tasks truly need SBC-level computing power versus microcontrollers.
-
-**Tags**: `#hardware`, `#supply-chain`, `#single-board-computers`, `#dram`, `#market-trends`
+**Tags**: `#artificial-intelligence`, `#microsoft`, `#speech-recognition`, `#generative-ai`, `#enterprise-ai`
 
 ---
 
 <a id="item-7"></a>
-## [Cloudflare announces EmDash, a TypeScript-based CMS with sandboxed plugin security](https://blog.cloudflare.com/emdash-wordpress/) ⭐️ 7.0/10
+## [Nekogram 12.5.2 Exposed for Containing a Backdoor That Steals User Phone Numbers](https://thebadinteger.github.io/nekogram-phone-exfiltration/) ⭐️ 8.0/10
 
-Cloudflare has announced EmDash, a new content management system (CMS) written entirely in TypeScript and built on a serverless architecture. Its key innovation is a sandboxed plugin system using Cloudflare's Dynamic Workers, which isolates plugins to address the fundamental security vulnerabilities inherent in WordPress's plugin architecture. This matters because WordPress powers over 40% of the web, and its plugin ecosystem is a major source of security breaches due to plugins having unrestricted system access. EmDash's architectural approach could set a new standard for CMS security, potentially reducing widespread website compromises and appealing to developers seeking modern, secure, and scalable alternatives. EmDash is built on top of Astro, a fast web framework for content-driven sites, and its plugins are standard TypeScript modules. While it addresses security and modern development workflows, its success will depend on overcoming WordPress's massive network effect and established ecosystem.
+Security researchers discovered that the Google Play version of the third-party Telegram client Nekogram 12.5.2 contains a backdoor that silently collects the phone numbers of all logged-in accounts and exfiltrates them via an inline query to a developer-controlled bot (@nekonotificationbot). The backdoor code is present only in the compiled APK, not in the publicly available source code on GitHub. This is a severe breach of trust for users of third-party Telegram clients, demonstrating how a seemingly open-source project can be compromised in its distributed binary. It directly threatens user privacy by exfiltrating sensitive personal identifiers (phone numbers) without consent, potentially enabling targeted attacks or surveillance. The backdoor logic, located in a file named Extra.java (obfuscated as 'uo5'), iterates through up to 8 account slots, extracts UserIDs and phone numbers, concatenates them with a key, and sends the data via an inline query. All key strings are encrypted and obfuscated using a custom method. The developer's claim that the bot was only for 'parsing usernames' contradicts the code which explicitly extracts the 'phone' field.
 
-hackernews · elithrar · Apr 1, 16:14
+telegram · zaihuapd · Apr 2, 12:58
 
-**Background**: WordPress is a dominant, PHP-based CMS known for its extensive plugin ecosystem, but this architecture grants plugins full access to the server, creating significant security risks. A sandboxed plugin architecture isolates plugin code, limiting its access to the host system's resources and data to prevent malicious or buggy code from causing harm. TypeScript is a superset of JavaScript that adds static typing, helping catch errors during development and making large codebases more maintainable.
+**Background**: Nekogram is an open-source, third-party client for the Telegram messaging app, offering modified features. Inline queries are a Telegram Bot API feature that allows users to interact with bots by typing '@botusername' in any chat; bots can receive these queries and return results. APK decompilation is a reverse-engineering process to retrieve source code from a compiled Android application package, often used for security analysis.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.codecentric.de/en/knowledge-hub/blog/plug-in-architectures-webassembly">Plug - in architectures with server-side WebAssembly</a></li>
-<li><a href="https://en.wikipedia.org/wiki/TypeScript">TypeScript - Wikipedia</a></li>
-<li><a href="https://www.unicon.net/insights/articles/contrasting-system-architectures-an-overview-of-serverless-and-traditional-approaches">System Architecture : Traditional and Serverless CMS Approaches</a></li>
+<li><a href="https://nekogram.app/">Nekogram | Open-source third-party Telegram client with few but...</a></li>
+<li><a href="https://core.telegram.org/api/bots/inline">Inline - Telegram APIs Inline Queries and Results | python-telegram-bot/python ... Inline Mode - A guide to Telegram.Bot .NET library Inline Query handling in Telegram bots - Search-as-you-type ... Inline Queries | TelegramBot/Api | DeepWiki Telegram.Bot Inline Queries Example - GitHub</a></li>
+<li><a href="https://hackernoon.com/apk-decompilation-a-beginners-guide-for-reverse-engineers">APK Decompilation : A Beginner's Guide for Reverse... | HackerNoon</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussion highlights both technical approval and skepticism about adoption. Developers praise the focus on TypeScript and sandboxed Workers as a correct solution to WordPress's security and plugin management woes. However, others argue that WordPress's dominance stems from its ease of use and vast network effect, suggesting that technical superiority alone may not be enough to drive a large-scale migration from the established platform.
+**Tags**: `#security`, `#telegram`, `#backdoor`, `#privacy`, `#mobile-security`
 
-**Tags**: `#cms`, `#security`, `#cloudflare`, `#typescript`, `#serverless`
+---
+
+<a id="item-8"></a>
+## [LinkedIn's JavaScript silently scans installed browser extensions without user consent](https://browsergate.eu/) ⭐️ 7.0/10
+
+A report reveals that LinkedIn's website JavaScript, when loaded in Chrome-based browsers, automatically executes a scan that probes for thousands of specific browser extensions by their unique IDs, collects the results, encrypts them, and transmits this data to LinkedIn's servers. This scanning occurs without user notification or explicit consent and is not mentioned in LinkedIn's privacy policy. This practice represents a significant privacy intrusion by a major professional networking platform, potentially enabling detailed browser fingerprinting that can track users across the web. It raises serious legal questions about informed consent and compliance with data protection regulations like GDPR, as it collects sensitive personal data about user habits, beliefs, and accessibility needs without transparency. The scan is not limited to professional or LinkedIn-related tools; it reportedly detects extensions related to religious content filtering (e.g., PordaAI for Islamic values), political tagging (e.g., Anti-Zionist Tag), and tools for neurodivergent users (e.g., simplify). The data transmission is encrypted, and the practice appears to be part of modern browser fingerprinting techniques, which aggregate many weak signals to create a unique user identifier.
+
+hackernews · digitalWestie · Apr 2, 13:09
+
+**Background**: Browser fingerprinting is a tracking technique that collects information about a user's browser configuration, such as installed fonts, screen resolution, and installed extensions, to create a unique identifier for that device. Unlike cookies, fingerprinting is harder to block or clear because it relies on inherent browser characteristics. JavaScript running on websites can access certain browser APIs to detect installed extensions, which is one method used in fingerprinting. Major data privacy regulations, such as the EU's General Data Protection Regulation (GDPR), require clear user consent for collecting personal data.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://fingerprint.com/blog/browser-fingerprinting-techniques/">Browser Fingerprinting Techniques: 6 Top Methods Explained</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community sentiment is largely critical and concerned. Some users find the headline potentially misleading but acknowledge the invasive nature of the scanning, comparing it to expected modern fingerprinting. Others express frustration over the perceived violation of trust and the lack of user power to opt-out, especially given LinkedIn's perceived necessity for job seeking. Specific concerns were raised about the scan detecting sensitive extensions related to religion, politics, and neurodiversity, highlighting the depth of the privacy intrusion.
+
+**Tags**: `#privacy`, `#browser-fingerprinting`, `#linkedin`, `#web-security`, `#ethics`
+
+---
+
+<a id="item-9"></a>
+## [AMD releases Lemonade, an open-source local LLM server with unified GPU, NPU, and CPU inference.](https://lemonade-server.ai/) ⭐️ 7.0/10
+
+AMD has released Lemonade, an open-source local LLM server that provides unified inference for text, image, and audio models. It supports execution across GPU (via ROCm or Vulkan), NPU, and CPU, aiming to simplify the deployment of multimodal AI models on local hardware. This matters because it directly addresses a significant pain point for users of AMD hardware, who have historically faced a fragmented and complex ecosystem for running local AI models. By offering an officially-backed, unified server, AMD is lowering the barrier to entry for local AI inference and promoting its hardware as a viable platform for developers and enthusiasts. A key technical detail is that the NPU models and kernels used by Lemonade are proprietary and not open-source, which could limit community-driven optimization for that hardware. The server is positioned as more than just a model server, aiming to handle orchestration across multiple AI modalities (text, image, audio), which is often a complex challenge in local deployments.
+
+hackernews · AbuAssar · Apr 2, 11:04
+
+**Background**: Running large language models (LLMs) locally requires specialized software servers like Ollama or LM Studio to manage model loading, inference, and hardware acceleration. NPUs (Neural Processing Units) are specialized processors designed for efficient AI inference, often consuming far less power than GPUs for repetitive tasks like LLM inference, though they may be less flexible for diverse workloads. Unified inference refers to a system that can handle multiple types of AI models (text, vision, audio) through a single interface, reducing system complexity.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://contabo.com/blog/npu-vs-gpu/">NPU vs GPU : Differences in AI Processing | Contabo Blog</a></li>
+<li><a href="https://www.sitepoint.com/local-llms-complete-guide/">The Complete Developer's Guide to Running LLMs Locally</a></li>
+<li><a href="https://www.gocodeo.com/post/what-is-multimodal-ai-bridging-text-vision-and-sound-in-one-model">What Is Multimodal AI ? Bridging Text, Vision, and Sound in One Model</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community sentiment is positive, with experienced users validating its utility for AMD hardware and praising its development pace. Key discussions revolve around its positioning between tools like Ollama and LM Studio, with a focus on its unified runtime approach. There are also technical questions about the practical performance of AMD's NPU versus its dGPU for inference, and a note that the NPU support relies on proprietary components.
+
+**Tags**: `#llm-inference`, `#amd-gpu`, `#local-ai`, `#open-source`, `#machine-learning`
+
+---
+
+<a id="item-10"></a>
+## [Sweden reverses digital classroom policies, prioritizing books and handwriting over screens.](https://undark.org/2026/04/01/sweden-schools-books/) ⭐️ 7.0/10
+
+Sweden is implementing a significant policy shift, moving away from digital tools like laptops and tablets in classrooms and back towards traditional books and handwriting. This reversal involves substantial investment, reportedly around Rs 1000 crore, to replace screens with physical learning materials. This move challenges the global trend of digital-first education and sparks a crucial debate about the evidence-based role of technology in pedagogy. It signals a growing concern among policymakers and parents about the potential negative impacts of excessive screen time on children's focus, cognitive development, and learning outcomes. The policy shift questions whether the original push for digitalization was evidence-based, and critics note the current reversal may also lack a strong evidence foundation, representing a potential 'vibe shift'. Similar trends are being observed in neighboring Finland, where schools are also returning to paper books based on parental consensus about their superiority over screens for learning.
+
+hackernews · novaRom · Apr 2, 10:50
+
+**Background**: Beginning in the late 2000s, Swedish classrooms underwent significant digitalization, with traditional textbooks gradually being replaced by laptops and tablets. Digital tools became a natural part of elementary education, shifting learning from paper-based to screen-based formats. Research indicates potential downsides to this shift, such as the "video deficit" where young children learn less from screens than from real-life interactions, and evidence that handwriting offers unique cognitive benefits for memory and learning not matched by typing.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://trak.in/stories/sweden-spending-rs-1000-crore-to-replace-screens-with-books-at-schools/">Sweden Spending Rs 1000 Crore To Replace Screens With Books At...</a></li>
+<li><a href="https://www.structural-learning.com/post/screen-time-child-development-teachers-guide">Screen Time and Child Development: A Teacher's Guide</a></li>
+<li><a href="https://medium.com/illumination/the-cognitive-benefits-of-handwriting-why-pen-and-paper-still-matter-3b3fcf50afe6">Handwriting vs . Typing : Cognitive Benefits You Need to Know</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community sentiment is mixed, with some commenters, including former EdTech professionals, supporting the move based on concerns about long-term consequences and the importance of handwriting for cognitive development. Others are skeptical, viewing the policy shift as a non-evidence-based "vibe shift" that may reverse again in a decade. Additional perspectives highlight practical issues like student distraction on computers and note that tech industry leaders often restrict their own children's use of the very products they promote.
+
+**Tags**: `#education-technology`, `#pedagogy`, `#digital-divide`, `#cognitive-development`, `#policy`
 
 ---
