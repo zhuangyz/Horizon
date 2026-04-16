@@ -5,233 +5,262 @@ date: 2026-04-16
 lang: en
 ---
 
-> From 30 items, 13 important content pieces were selected
+> From 24 items, 12 important content pieces were selected
 
 ---
 
-1. [EFF alleges Google shared user data with ICE despite privacy promises](#item-1) ⭐️ 8.0/10
-2. [Jury finds Live Nation illegally monopolized ticketing market](#item-2) ⭐️ 8.0/10
-3. [OpenAI launches GPT-5.4-Cyber, a cybersecurity-focused model with tiered access for certified defenders.](#item-3) ⭐️ 8.0/10
-4. [Regulators and Wall Street CEOs hold emergency meeting on cybersecurity risks from Anthropic's new AI model Mythos.](#item-4) ⭐️ 8.0/10
-5. [Baidu Open-Sources ERNIE-Image: An 8B Parameter Text-to-Image Model with SOTA Text Rendering](#item-5) ⭐️ 8.0/10
-6. [California audit finds Google, Microsoft, Meta ignore cookie rejections, treat fines as business costs](#item-6) ⭐️ 8.0/10
-7. [Anna's Archive Completes 300TB Spotify Backup, Launches World's First Open Music Archive](#item-7) ⭐️ 8.0/10
-8. [Google launches native Swift-built Gemini app for macOS with quick-access shortcuts and announces multi-year Apple partnership.](#item-8) ⭐️ 8.0/10
-9. [Cal.com transitions from open source to closed source, citing security and business challenges.](#item-9) ⭐️ 7.0/10
-10. [Google releases Gemini 3.1 Flash TTS, a prompt-controlled text-to-speech model](#item-10) ⭐️ 7.0/10
-11. [Zig 0.16.0 introduces 'Juicy Main', a dependency injection system for main() functions.](#item-11) ⭐️ 7.0/10
-12. [Cloudflare Launches Mesh Private Networking Service with AI Agent Support](#item-12) ⭐️ 7.0/10
-13. [Global scientists propose five-step plan to combat drug-resistant fungi and influence WHO policy](#item-13) ⭐️ 7.0/10
+1. [IETF Publishes IPv8 Draft Protocol with 64-bit Addressing and Full IPv4 Backward Compatibility](#item-1) ⭐️ 9.0/10
+2. [DeepSeek releases major DeepGEMM update with Mega MoE fused operators and FP4 precision support](#item-2) ⭐️ 9.0/10
+3. [Anthropic releases Claude Opus 4.7 with adaptive thinking and updated tokenizer.](#item-3) ⭐️ 8.0/10
+4. [Qwen releases open-weight 35B coding model Qwen3.6-35B-A3B for agentic applications](#item-4) ⭐️ 8.0/10
+5. [Google launches native Swift macOS Gemini app with hotkey support and announces multi-year Apple partnership](#item-5) ⭐️ 8.0/10
+6. [OpenAI, Anthropic, and Google collaborate to counter adversarial distillation by Chinese competitors.](#item-6) ⭐️ 8.0/10
+7. [Apple reportedly plans to license Google's 1.2 trillion parameter Gemini AI model to overhaul Siri.](#item-7) ⭐️ 8.0/10
+8. [Alibaba and Tencent Simultaneously Release New 3D Content Generation AI Models](#item-8) ⭐️ 8.0/10
+9. [Qwen3.6-35B-A3B Released: A Sparse MoE Model with 3B Active Parameters for Agentic Programming](#item-9) ⭐️ 8.0/10
+10. [Anthropic releases Claude Opus 4.6 with 200K context window and adaptive thinking mode.](#item-10) ⭐️ 8.0/10
+11. [Google Releases Gemini 3.1 Flash TTS with Scene-Setting Prompt Control](#item-11) ⭐️ 7.0/10
+12. [Popular Russian Android apps detect VPN usage and scan for foreign apps, aligning with government restrictions](#item-12) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [EFF alleges Google shared user data with ICE despite privacy promises](https://www.eff.org/deeplinks/2026/04/google-broke-its-promise-me-now-ice-has-my-data) ⭐️ 8.0/10
+## [IETF Publishes IPv8 Draft Protocol with 64-bit Addressing and Full IPv4 Backward Compatibility](https://www.ietf.org/archive/id/draft-thain-ipv8-00.html) ⭐️ 9.0/10
 
-The Electronic Frontier Foundation (EFF) published an article alleging that Google provided user data to U.S. Immigration and Customs Enforcement (ICE) in response to a legal request, despite the company's stated privacy policies. The article claims this action broke Google's promise to users about protecting their information. This incident highlights the tension between corporate privacy commitments and government surveillance demands, particularly in the sensitive context of immigration enforcement. It raises critical questions about accountability when tech companies comply with requests that may enable government overreach against vulnerable populations. A key point of contention is whether Google's action violated its own policy, which states it won't provide notice to users when legally prohibited by the request terms. The article mentions the user's lawyer reviewed the subpoena but doesn't specify if it contained a non-disclosure order, which is crucial for evaluating compliance with Google's policy.
+The Internet Engineering Task Force (IETF) has published the initial draft for Internet Protocol Version 8 (IPv8), which introduces a 64-bit address space and treats IPv4 as a proper subset, achieving 100% backward compatibility. The draft proposes integrating services like DHCP, DNS, and authentication into a unified 'Zone Server' architecture and introduces new mechanisms for security and routing efficiency. This proposal represents a potential paradigm shift by directly addressing the long-standing address exhaustion problem of IPv4 while avoiding the complex dual-stack deployment challenges of IPv6. If adopted, it could simplify internet infrastructure management, enhance routing security, and enable a smoother transition from legacy IPv4 networks. The draft specifies that each Autonomous System Number (ASN) would be allocated over 4.2 billion host addresses, and it proposes mandatory OAuth2-based authorization and a 'Cost Factor' algorithm for optimal path selection. It also includes mechanisms like 8to4 tunneling for interoperability during migration and rules like a /16 minimum injection prefix to prevent BGP hijacking and global routing table bloat.
 
-hackernews · Brajeshwar · Apr 15, 17:44
+telegram · zaihuapd · Apr 16, 08:43
 
-**Background**: The Electronic Frontier Foundation (EFF) is a non-profit digital rights organization founded in 1990 that defends free speech, fights illegal surveillance, and advocates for user privacy online. U.S. Immigration and Customs Enforcement (ICE) is a federal law enforcement agency created in 2002 under the Department of Homeland Security, responsible for immigration enforcement and investigations. Tech companies like Google often receive legal requests for user data from government agencies, and their compliance is governed by their own privacy policies, terms of service, and applicable laws.
+**Background**: The current Internet primarily runs on two protocols: IPv4, which uses 32-bit addresses and has exhausted its available space, and IPv6, which uses 128-bit addresses to provide vast capacity but requires a dual-stack approach for compatibility, complicating deployment. The IETF is the standards body responsible for defining core internet protocols, and its drafts represent early-stage proposals for community review and discussion. Transition mechanisms like 6to4 have been used to bridge IPv4 and IPv6 networks.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Electronic_Frontier_Foundation">Electronic Frontier Foundation - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/United_States_Immigration_and_Customs_Enforcement">United States Immigration and Customs Enforcement - Wikipedia</a></li>
+<li><a href="https://www.ietf.org/archive/id/draft-thain-ipv8-00.html">Internet Protocol Version 8 (IPv8)</a></li>
+<li><a href="https://cybernews.com/tech/ipv8-proposal-slammed-by-tech-professionals/">Tech pros slam new IPv8 proposal as AI slop | Cybernews</a></li>
+<li><a href="https://lowendtalk.com/discussion/216334/internet-protocol-version-8-ipv8-proposal">Internet Protocol Version 8 (IPv8) proposal — LowEndTalk</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussion reveals diverse viewpoints, including anger at Google leading some users to migrate to alternative services like Proton Mail, concern that the focus on privacy distracts from the core issue of government overreach against legally present individuals, and technical debate about whether Google's actions actually violated its policy depending on the presence of a non-disclosure order in the subpoena.
+**Discussion**: The proposal has sparked significant controversy and criticism from technical professionals shortly after its publication. Many in the community are skeptical, labeling the draft as impractical 'AI slop' and questioning the need for a new protocol given the ongoing, albeit slow, deployment of IPv6.
 
-**Tags**: `#privacy`, `#government-surveillance`, `#corporate-accountability`, `#immigration`, `#data-rights`
+**Tags**: `#networking`, `#protocols`, `#ietf`, `#ipv8`, `#internet-infrastructure`
 
 ---
 
 <a id="item-2"></a>
-## [Jury finds Live Nation illegally monopolized ticketing market](https://www.bloomberg.com/news/articles/2026-04-15/live-nation-illegally-monopolized-ticketing-market-jury-finds) ⭐️ 8.0/10
+## [DeepSeek releases major DeepGEMM update with Mega MoE fused operators and FP4 precision support](https://github.com/deepseek-ai/DeepGEMM/tree/public-release-260416) ⭐️ 9.0/10
 
-On April 15, 2026, a jury found Live Nation Entertainment, the parent company of Ticketmaster, guilty of illegally monopolizing the live event ticketing market in a major antitrust case. The verdict followed a trial brought by a coalition of 30 states, which argued the company's practices harmed competition and consumers. This verdict is a landmark decision that could reshape the entire concert and live event industry by challenging the dominance of the world's largest ticketing company. It sets a legal precedent for holding vertically integrated entertainment giants accountable and may lead to increased competition, lower fees, and more choices for venues, artists, and fans. The jury determined that Ticketmaster had overcharged consumers by $1.72 per ticket on average, a figure that could form the basis for future restitution. Notably, the case was kept alive by a coalition of 30 states after a federal administration change, highlighting the role of state-level enforcement in antitrust matters.
+On April 16, 2026, DeepSeek released a major update to its DeepGEMM high-performance operator library, introducing the Mega MoE fused operator that overlaps dispatch, SwiGLU computation, and NVLink communication. The update also adds FP8xFP4 GEMM operators, FP4 Indexer, Programmatic Dependency Launch (PDL) support, and significantly improves JIT compilation speed. This update addresses critical bottlenecks in training and inference for large mixture-of-experts (MoE) models by optimizing both computation and communication patterns. The introduction of FP4 precision support enables more memory-efficient model deployment, potentially allowing larger models to run on existing hardware or reducing infrastructure costs for AI companies. The DeepGEMM library is designed for modern large models and supports NVIDIA SM90 and SM100 architectures, featuring lightweight design and runtime just-in-time compilation without complex installation builds. The Mega MoE operator specifically uses symmetric memory technology to optimize performance for multi-expert models during both inference and training.
 
-hackernews · Alex_Bond · Apr 15, 19:06
+telegram · zaihuapd · Apr 16, 09:57
 
-**Background**: Live Nation Entertainment is a global entertainment giant formed by the 2010 merger of Live Nation (a major concert promoter) and Ticketmaster (the dominant ticketing platform). This vertical integration gave the company control over event promotion, venue operation, and ticket sales, leading to long-standing accusations of anti-competitive practices that stifle rivals and inflate prices for fans. Antitrust laws, like the Sherman Act, are designed to prevent such monopolies and promote market competition.
+**Background**: Mixture-of-Experts (MoE) models are a type of neural network architecture where different specialized sub-networks (experts) handle different inputs, allowing for larger model capacity without proportional increases in computation. Fused operators combine multiple computational steps into a single GPU kernel to reduce memory transfers and improve efficiency. NVLink is NVIDIA's high-speed GPU interconnect technology that enables faster data transfer between GPUs compared to traditional PCIe connections. FP4 (4-bit floating point) quantization reduces the numerical precision of model weights to save memory, though it can impact model accuracy if not implemented carefully.
 
-**Discussion**: Community discussion highlighted the issue of vertical integration, noting that Ticketmaster benefits from fees on both primary sales and resales, creating little incentive to combat scalpers. Commenters also praised the role of state attorneys general in pursuing the case after a federal administration change, and some pointed to the historical context, referencing Pearl Jam's fight against Ticketmaster in the 1990s. There was also sarcastic commentary regarding the small estimated overcharge per ticket.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://medium.com/@datenlord/from-loops-to-fusion-understanding-the-principles-of-the-fused-moe-operato-part2-1ff65a17cd56">From Loops to Fusion: Understanding the Principles of the Fused MoE ...</a></li>
+<li><a href="https://stevenfoerster.com/tutorials/efficient-fine-tuning-with-lora-and-quantization/">Efficient Fine-Tuning with LoRA and Quantization · Steven Foerster</a></li>
+<li><a href="https://uvation.com/articles/unlocking-ultra-fast-gpu-communication-with-nvidia-nvlink-nvlink-switch">NVIDIA NVLink and NVLink Switch: Redefining GPU Interconnects</a></li>
 
-**Tags**: `#antitrust`, `#business`, `#policy`, `#music-industry`, `#market-regulation`
+</ul>
+</details>
+
+**Tags**: `#AI-Infrastructure`, `#High-Performance-Computing`, `#CUDA-Optimization`, `#Mixture-of-Experts`, `#Quantization`
 
 ---
 
 <a id="item-3"></a>
-## [OpenAI launches GPT-5.4-Cyber, a cybersecurity-focused model with tiered access for certified defenders.](https://x.com/OpenAI/status/2044161906936791179) ⭐️ 8.0/10
+## [Anthropic releases Claude Opus 4.7 with adaptive thinking and updated tokenizer.](https://www.anthropic.com/news/claude-opus-4-7) ⭐️ 8.0/10
 
-OpenAI has expanded its Trusted Access for Cyber program and launched GPT-5.4-Cyber, a variant of GPT-5.4 fine-tuned specifically for defensive cybersecurity tasks. The model is available through a tiered access program, with the highest tier granting access to qualified, certified defense professionals. This move signifies a strategic push by OpenAI into the high-stakes cybersecurity market, directly competing with specialized offerings like Anthropic's Project Glasswing. It aims to empower legitimate security professionals with advanced AI tools for complex defensive workflows, potentially accelerating threat analysis and vulnerability research while raising important questions about the controlled distribution of powerful security AI. GPT-5.4-Cyber is designed for tasks where standard ChatGPT performs poorly or refuses, such as binary reverse engineering, vulnerability analysis, and malware triage, with lowered refusal boundaries for sensitive security work. Access is strictly controlled through a vetting process, and the model was released on April 14, 2026, as part of the expanded Trusted Access for Cyber program.
+Anthropic has released Claude Opus 4.7, which introduces a new 'adaptive thinking' capability and an updated tokenizer. The release also deprecates the previous manual thinking budget mode and changes the default output to no longer include a human-readable reasoning summary. This is a major update to a leading AI model that fundamentally changes how developers interact with its reasoning capabilities, potentially improving performance on complex tasks. The tokenizer update, while increasing token counts for the same input, aims to improve text processing efficiency, which is a core technical change affecting all API users. The new adaptive thinking mode replaces the previous `budget_tokens` configuration and is controlled via `thinking.type: "adaptive"` with an `effort` parameter. The updated tokenizer increases token counts for the same input by roughly 1.0 to 1.35 times, depending on content type, which can impact API pricing and context window usage.
 
-telegram · zaihuapd · Apr 15, 04:30
+hackernews · meetpateltech · Apr 16, 14:23
 
-**Background**: OpenAI's Trusted Access for Cyber program is an initiative to provide verified cybersecurity professionals with controlled access to advanced AI models for defensive purposes. Fine-tuning is a process where a pre-trained base model (like GPT-5.4) is further trained on a specialized dataset to excel at specific tasks, in this case, defensive cybersecurity. The cybersecurity industry is increasingly leveraging AI for tasks like threat detection and analysis, but powerful models also pose dual-use risks if accessed by malicious actors.
+**Background**: Claude is a large language model (LLM) developed by Anthropic. 'Thinking' or 'chain-of-thought' capabilities allow the model to perform internal, step-by-step reasoning before producing a final answer, which is crucial for complex problem-solving. A tokenizer is a core component of an LLM that breaks down text into smaller units (tokens) for processing; its efficiency directly impacts the model's performance and cost.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://openai.com/index/scaling-trusted-access-for-cyber-defense/">Trusted access for the next era of cyber defense - OpenAI</a></li>
-<li><a href="https://cyberscoop.com/openai-expands-trusted-access-for-cyber-to-thousands-for-cybersecurity/">OpenAI expands Trusted Access for Cyber program with new GPT ...</a></li>
-<li><a href="https://datanorth.ai/news/openai-releases-gpt-5-4-cyber">OpenAI releases GPT - 5 . 4 - Cyber for security defenders</a></li>
+<li><a href="https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking">Adaptive thinking - Claude API Docs</a></li>
+<li><a href="https://seantrott.substack.com/p/tokenization-in-large-language-models">Tokenization in large language models, explained</a></li>
+<li><a href="https://www.anthropic.com/news/claude-opus-4-7">Introducing Claude Opus 4.7 \ Anthropic</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Security`, `#GPT-5`, `#Cybersecurity`, `#Enterprise AI`
+**Discussion**: Developer sentiment is mixed, with some expressing confusion over the API changes and reporting issues like the model refusing tasks from its own documentation. Others note performance inconsistencies compared to the previous version and highlight the practical impact of the tokenizer change on costs. There is also a mention of a brief window for 'un-nerfed' agentic coding before potential adjustments.
+
+**Tags**: `#llm`, `#anthropic`, `#api`, `#ai-models`, `#developer-tools`
 
 ---
 
 <a id="item-4"></a>
-## [Regulators and Wall Street CEOs hold emergency meeting on cybersecurity risks from Anthropic's new AI model Mythos.](https://t.me/zaihuapd/40869) ⭐️ 8.0/10
+## [Qwen releases open-weight 35B coding model Qwen3.6-35B-A3B for agentic applications](https://qwen.ai/blog?id=qwen3.6-35b-a3b) ⭐️ 8.0/10
 
-U.S. regulators, including the Federal Reserve, reportedly convened an emergency meeting with CEOs of systemically important banks like Citigroup, Goldman Sachs, and Bank of America to discuss the cybersecurity threats posed by Anthropic's new AI model, Claude Mythos Preview. Anthropic claims this model can identify and exploit vulnerabilities in all major operating systems and browsers, leading regulators to view it as a major risk to the financial industry. This matters because the potential for a powerful AI model to autonomously find and exploit software vulnerabilities poses an unprecedented threat to the stability of critical financial infrastructure. The involvement of systemically important banks, whose failure could trigger a broader financial crisis, underscores the high-stakes nature of this emerging AI safety and cybersecurity challenge. Anthropic has stated that due to the model's powerful capabilities, it currently has no plans to release it to the public, limiting access to a select group of institutions like Amazon, Apple, and JPMorgan Chase. Independent evaluations, such as one by the UK's AI Safety Institute, have confirmed Mythos's significant improvement in multi-step cyber-attack simulations and capture-the-flag challenges.
+The Qwen team from Alibaba has publicly released Qwen3.6-35B-A3B, a 35-billion-parameter open-weight coding model specifically designed for agentic applications. The model is now available for download and use by the public. This release provides a powerful, specialized tool for developers building autonomous AI coding agents, particularly valuable for industries like banking and healthcare that have data privacy restrictions and cannot use public cloud models. It represents a continued commitment to open-weight AI from the Qwen team despite recent organizational challenges. The model features a hybrid attention architecture, supports a 256K context window, and is available in quantized formats like GGUF for easier local deployment. It is part of the larger Qwen3.6 family of models, which are natively multimodal and support over 200 languages.
 
-telegram · zaihuapd · Apr 15, 05:15
+hackernews · cmitsakis · Apr 16, 13:36
 
-**Background**: Anthropic is an AI safety and research company known for developing the Claude family of large language models. A 'systemically important financial institution' (SIFI) is a bank or other entity whose failure is deemed to pose a serious risk to the broader economy, often referred to as 'too big to fail.' The new model in question, Claude Mythos Preview, is described by Anthropic as a 'frontier model' with advanced capabilities in finding software vulnerabilities.
+**Background**: Qwen is a family of AI models developed by Alibaba. 'Open-weight' models provide the trained model parameters (weights) for public use but may not include the full training code, data, or specifications required for complete reproducibility, unlike 'open-source' models. Agentic coding refers to an AI paradigm where large language models autonomously plan and execute multi-step software development tasks by interacting with tools like compilers and debuggers.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2kzMWZMbEVCRkZmaFROUUQxZll5Z0FQAQ?hl=en-US&gl=US&ceid=US:en">Amazon, Apple, Microsoft test new powerful Anthropic Mythos AI ...</a></li>
-<li><a href="https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities">Our evaluation of Claude Mythos Preview’s cyber capabilities</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Systemically_important_financial_institution">Systemically important financial institution - Wikipedia</a></li>
+<li><a href="https://unsloth.ai/docs/models/qwen3.6">Run the new Qwen 3 . 6 - 35 - A 3 B model locally! | Unsloth Documentation</a></li>
+<li><a href="https://hellofuture.orange.com/en/a-typology-of-artificial-intelligence-models/">AI models explained: open source vs. open weight vs. closed</a></li>
+<li><a href="https://arxiv.org/html/2508.11126v1">AI Agentic Programming: A Survey of Techniques, Challenges, and Opportunities</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Safety`, `#Cybersecurity`, `#Financial Systems`, `#Regulation`, `#Anthropic`
+**Discussion**: Community sentiment is positive, highlighting practical accessibility through quantized formats and the model's relevance for restricted sectors. There is also appreciation for Qwen's continued open-weight releases despite internal challenges, alongside some curiosity about why a different model variant was chosen over a more popular one indicated by a public poll.
+
+**Tags**: `#open-source-ai`, `#coding-agents`, `#llm`, `#model-release`, `#qwen`
 
 ---
 
 <a id="item-5"></a>
-## [Baidu Open-Sources ERNIE-Image: An 8B Parameter Text-to-Image Model with SOTA Text Rendering](https://mp.weixin.qq.com/s/EtG4iDbft495wD3fTKd1ig) ⭐️ 8.0/10
+## [Google launches native Swift macOS Gemini app with hotkey support and announces multi-year Apple partnership](https://9to5mac.com/2026/04/15/google-launches-gemini-mac-app-heres-what-it-offers/) ⭐️ 8.0/10
 
-Baidu has open-sourced ERNIE-Image, an 8-billion-parameter text-to-image model based on a single-stream Diffusion Transformer (DiT) architecture. The model achieves state-of-the-art (SOTA) performance in text rendering and instruction following on benchmarks like GenEval and LongText-Bench, and it can run on consumer-grade GPUs with 24GB of VRAM. This release significantly lowers the hardware barrier for high-quality text-to-image generation, making advanced capabilities accessible to a wider developer community and researchers without access to enterprise-grade computing resources. Its strong performance in multilingual text rendering and complex scene composition could accelerate innovation in applications requiring precise visual-text alignment, such as design, advertising, and content creation. The model's 8B parameter DiT architecture is designed for efficiency, specifically requiring only 24GB of VRAM, which aligns with high-end consumer GPUs like the NVIDIA RTX 4090. Its standout capabilities include handling complex multi-language typography (Chinese, English, Japanese, Korean), multi-subject relationships, and structured layouts.
-
-telegram · zaihuapd · Apr 15, 07:15
-
-**Background**: Text-to-image models generate pictures from textual descriptions. Diffusion models are a leading approach for this task, which work by gradually adding and then removing noise to create an image. The Diffusion Transformer (DiT) is a specific architecture that combines the power of transformers—the technology behind large language models—with the diffusion process, often leading to more scalable and higher-quality image generation. Benchmarks like GenEval are used to systematically evaluate how well these models follow complex instructions involving object counts, colors, and spatial relationships.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://medium.com/@threehappyer/understanding-dit-diffusion-transformer-in-one-article-2f7c330ad0ea">Understanding DiT ( Diffusion Transformer ) in One Article | Medium</a></li>
-<li><a href="https://github.com/djghosh13/geneval">GenEval: An Object-Focused Framework for Evaluating Text-to ...</a></li>
-<li><a href="https://arxiv.org/abs/2212.09748">[2212.09748] Scalable Diffusion Models with Transformers</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#text-to-image`, `#diffusion-models`, `#computer-vision`, `#open-source`, `#multimodal-ai`
-
----
-
-<a id="item-6"></a>
-## [California audit finds Google, Microsoft, Meta ignore cookie rejections, treat fines as business costs](https://www.techspot.com/news/112073-clicking-reject-cookies-might-not-actually-do-anything.html) ⭐️ 8.0/10
-
-A March 2026 audit report by webXray, a California audit agency, found that Google, Microsoft, and Meta continue tracking users via cookies even after users explicitly reject tracking. The audit revealed that 55% of sampled websites placed cookies post-rejection, 78% of consent banners failed to execute user choices, and the companies may face up to $5.8 billion in total fines. This reveals a systemic corporate strategy where major tech companies treat privacy fines as a calculable operational expense rather than a compliance requirement, undermining the enforcement of regulations like the CCPA/CPRA. It highlights a fundamental failure of the current 'opt-out' consent model and raises serious questions about the effectiveness of digital privacy laws. The audit used the webXray tool to directly track network traffic and found Google ignored 86% of opt-out requests, Microsoft ignored about half, and Meta's code allegedly did not check for opt-out signals at all. While the companies disputed the findings, claiming technical misunderstandings or that some cookies were functionally necessary, the audit was based on direct observation of public web traffic.
-
-telegram · zaihuapd · Apr 15, 08:35
-
-**Background**: Cookies are small pieces of data stored by websites on a user's browser, often used for tracking browsing behavior for advertising purposes. Regulations like the California Consumer Privacy Act (CCPA) and its extension, the CPRA, require companies to provide a clear opt-out mechanism for the sale or sharing of personal data, which includes many forms of cookie-based tracking. The webXray tool, developed by a former Google privacy engineer, is designed to audit websites for specific, legally actionable privacy violations by analyzing webpage traffic and identifying data collection companies.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://webxray.ai/">webXray | Be the First to Know</a></li>
-<li><a href="https://github.com/digitalist-se/webXray-1">GitHub - digitalist-se/webXray-1: webXray is a tool for ... WebXRay Audit Finds Opt-Out Tracking Requests Are Not ... Meet WebXray, a Search Engine That Tells You How ... - Gizmodo Unveiling Online Privacy Violations With WebXray Open source solution WebXray to help protecting public ...</a></li>
-<li><a href="https://secureprivacy.ai/blog/understanding-cookie-compliance">secureprivacy.ai/blog/understanding- cookie - compliance</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#privacy`, `#tech-regulation`, `#cookies`, `#digital-advertising`, `#compliance`
-
----
-
-<a id="item-7"></a>
-## [Anna's Archive Completes 300TB Spotify Backup, Launches World's First Open Music Archive](https://t.me/zaihuapd/40881) ⭐️ 8.0/10
-
-On December 20, the shadow library Anna's Archive announced it has completed a massive 300TB backup of Spotify's catalog and launched the world's first fully open music preservation archive. The dataset contains metadata for 256 million tracks and 86 million music files, covering 99.6% of user plays on the platform. This represents a significant technical achievement in digital preservation and could shift paradigms for open access to cultural heritage. It addresses the critical issue of preserving non-mainstream musical works that are often neglected by existing archives, ensuring long-term survival of musical heritage independent of corporate platforms. The metadata is published in SQLite format, while the music files are being distributed in batches based on popularity. The organization states this approach aims to ensure long-term preservation of human musical heritage and address the deficiency of existing archives in focusing on non-popular works.
-
-telegram · zaihuapd · Apr 15, 14:25
-
-**Background**: Anna's Archive is an open-source search engine for shadow libraries, launched by the pseudonymous 'Anna' shortly after law enforcement actions against Z-Library in 2022. It serves as a meta-search engine and preservation project for various shadow libraries like Library Genesis, Sci-Hub, and Z-Library, aiming to preserve knowledge and make it accessible. Shadow libraries are online collections of copyrighted materials that operate outside traditional publishing and distribution channels, often raising complex copyright and access issues. SQLite is a lightweight, serverless, self-contained SQL database engine widely used for embedded database applications due to its simplicity and reliability.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Anna's_Archive">Anna's Archive - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/SQLite">SQLite - Wikipedia</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#digital-preservation`, `#open-access`, `#data-archiving`, `#copyright`, `#shadow-library`
-
----
-
-<a id="item-8"></a>
-## [Google launches native Swift-built Gemini app for macOS with quick-access shortcuts and announces multi-year Apple partnership.](https://9to5mac.com/2026/04/15/google-launches-gemini-mac-app-heres-what-it-offers/) ⭐️ 8.0/10
-
-On April 15, Google officially launched a native macOS application for its Gemini AI, built using Apple's Swift programming language and featuring a quick-access shortcut (Option + Space). Furthermore, Google and Apple announced a multi-year partnership where Gemini will power AI features, including an upgraded Siri, in the upcoming iOS 27 and macOS 27, with more details to be revealed at WWDC on June 8, 2026. This marks a significant strategic move, bringing Google's flagship AI directly into the Apple ecosystem via a high-performance native app, which could enhance user adoption and workflow integration. The announced partnership signals a major shift in industry dynamics, with two tech giants collaborating to deeply integrate advanced AI into core operating system features, potentially setting a new standard for AI-powered user experiences. The macOS Gemini app supports tasks like quick Q&A, content drafting, summarization, code writing, and image analysis, and it includes screen sharing to provide richer context for AI assistance. The application is built natively with Swift, which typically offers better performance, deeper system integration, and a more responsive user interface compared to cross-platform frameworks.
+On April 15, Google officially launched a native macOS application for its Gemini AI assistant, built using Apple's Swift programming language and featuring a hotkey (Option + Space) for quick summoning. Furthermore, Google and Apple announced a multi-year partnership where Gemini will power AI features in the upcoming iOS 27 and macOS 27, with more details to be revealed at WWDC on June 8, 2026. This marks a significant strategic move by Google to deeply integrate its AI assistant into the Apple ecosystem through native development, potentially offering a superior user experience on macOS. The announced partnership signals a major shift in the competitive landscape, where two tech giants are collaborating to enhance Apple's AI capabilities (like Siri and Apple Intelligence) with Google's Gemini technology, which could reshape the future of AI assistants on Apple devices. The native Swift app supports core Gemini functionalities like quick Q&A, content drafting, summarization, code writing, and image analysis, and it also allows screen sharing to provide richer context for queries. The partnership specifically aims to power an upgraded Siri and Apple Intelligence features in the next major OS versions, indicating a deep technical integration beyond a simple API call.
 
 telegram · zaihuapd · Apr 16, 00:33
 
-**Background**: Google Gemini is a family of large language models (LLMs) developed by Google, known for its multimodal capabilities (processing text, images, etc.) and use of transformer-based or mixture-of-experts (MoE) architectures. Swift is Apple's modern, powerful programming language designed specifically for building applications across its platforms (iOS, macOS, etc.), prioritizing performance and safety. Apple Intelligence is Apple's umbrella term for its suite of on-device and cloud-based AI features integrated into its operating systems, aimed at enhancing productivity and user experience.
+**Background**: Gemini is Google's flagship family of multimodal large language models (LLMs) and AI assistants, competing with offerings like OpenAI's ChatGPT. Native app development, using a platform's preferred language like Swift for macOS, typically offers better performance, smoother integration with system features, and a more responsive user interface compared to cross-platform frameworks. Apple Intelligence is Apple's own generative AI system announced in 2024, designed to work across its devices with a mix of on-device and cloud processing.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Gemini_(language_model)">Gemini (language model) - Wikipedia</a></li>
-<li><a href="https://developer.apple.com/swift/">Swift - Apple Developer</a></li>
+<li><a href="https://learningswift.brightdigit.com/articles/native-app-development-advantages/">Native App Development and Its Advantages | BrightDigit</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Apple_Intelligence">Apple Intelligence - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI Applications`, `#macOS`, `#Google`, `#Apple`, `#Swift`
+**Tags**: `#AI-Assistants`, `#macOS`, `#Google-Gemini`, `#Apple-Google-Partnership`, `#Native-Development`
 
 ---
 
-<a id="item-9"></a>
-## [Cal.com transitions from open source to closed source, citing security and business challenges.](https://cal.com/blog/cal-com-goes-closed-source-why) ⭐️ 7.0/10
+<a id="item-6"></a>
+## [OpenAI, Anthropic, and Google collaborate to counter adversarial distillation by Chinese competitors.](https://t.me/zaihuapd/40889) ⭐️ 8.0/10
 
-Cal.com, a popular open-source scheduling platform, announced it is transitioning its core software from an open-source to a closed-source model. The company cited security concerns and challenges in sustaining its business model as the primary reasons for this shift. This move is significant as it represents a high-profile reversal of the open-source ethos by a major project, potentially influencing other commercial open-source companies facing similar pressures. It reignites the long-standing debate about the viability of open-source business models, especially concerning security and monetization in the SaaS era. The decision directly challenges the traditional 'Linus's Law' that 'given enough eyeballs, all bugs are shallow,' suggesting that in the age of AI-powered vulnerability discovery, open source may expose more risks. Notably, competitors like Thunderbird's Appointment project have already publicly committed to remaining open source, positioning themselves as alternatives.
+OpenAI, Anthropic, and Google (via Alphabet) have initiated a rare collaboration through the Frontier Model Forum to share information specifically about "adversarial distillation" attempts. Their goal is to counter unauthorized efforts, primarily attributed to Chinese competitors, to extract outputs from and replicate the capabilities of leading U.S. AI models. This collaboration signifies a major shift where leading AI competitors are aligning to protect their core intellectual property and address what they perceive as both a commercial threat and a potential national security risk. It highlights the intensifying geopolitical dimension of AI development, where model security is becoming as critical as model capability. OpenAI has confirmed its participation and referenced a recent memo submitted to the U.S. Congress on this issue. The collaboration is framed within the Frontier Model Forum, an industry body originally focused on AI safety, now expanding its scope to include security against model extraction.
 
-hackernews · Benjamin_Dobell · Apr 15, 15:26
+telegram · zaihuapd · Apr 16, 04:06
 
-**Background**: Cal.com is a modern, customizable scheduling platform used by individuals and businesses to manage meetings. Open-source software allows anyone to view, modify, and distribute its source code, while closed-source (or proprietary) software keeps the code secret and is typically controlled by a single company. Many SaaS (Software-as-a-Service) companies start as open-source projects to build a community but later face pressure to generate sustainable revenue, sometimes leading to licensing changes.
+**Background**: Adversarial distillation is a type of model extraction attack where a secondary model is trained to mimic a proprietary, originator model (like GPT-4 or Claude) by using its outputs, often obtained through API queries. The Frontier Model Forum is an industry body founded in July 2023 by Anthropic, Google, Microsoft, and OpenAI with the initial stated mission of ensuring the safe and responsible development of frontier AI models. Model extraction attacks target the intellectual property embedded within trained models, representing a sophisticated threat in AI security.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Comparison_of_open-source_and_closed-source_software">Comparison of open-source and closed-source software - Wikipedia</a></li>
-<li><a href="https://www.tysoolen.com/story/open-source-exodus-companies-that-switched">Open Source Exodus: Companies That Switched.</a></li>
-<li><a href="https://cal.com/">Cal . com | Open Scheduling Infrastructure</a></li>
+<li><a href="https://www.frontiermodelforum.org/issue-briefs/issue-brief-adversarial-distillation/">Adversarial Distillation - Frontier Model Forum</a></li>
+<li><a href="https://www.frontiermodelforum.org/">Frontier Model Forum</a></li>
+<li><a href="https://snyk.io/articles/ai-model-theft/">AI Model Theft: Understanding the Threat Landscape and ... - Snyk</a></li>
 
 </ul>
 </details>
 
-**Discussion**: The community reaction is mixed, with skepticism about the security rationale being a primary theme. Some commenters argue that AI tools make open-source security auditing more powerful, not less, and view the move as a business decision disguised as a security one. Competitors like Thunderbird seized the moment to reaffirm their open-source commitment and invite displaced users, while potential customers expressed loss of trust in Cal.com's new closed-source model.
+**Tags**: `#AI Safety`, `#Geopolitics`, `#Intellectual Property`, `#Industry Collaboration`, `#Model Security`
 
-**Tags**: `#open-source`, `#business-models`, `#security`, `#saas`, `#developer-tools`
+---
+
+<a id="item-7"></a>
+## [Apple reportedly plans to license Google's 1.2 trillion parameter Gemini AI model to overhaul Siri.](https://t.me/zaihuapd/40891) ⭐️ 8.0/10
+
+According to reports, Apple is finalizing a deal to license Google's 1.2 trillion parameter Gemini AI model to power a major upgrade for its Siri voice assistant. The agreement involves an annual payment of approximately $1 billion from Apple to Google, with the new Siri, codenamed 'Linwood,' planned for release in iOS 26.4 next spring. This potential partnership represents a significant strategic shift for Apple, which has historically developed its own AI technology, and could dramatically reshape the competitive landscape for AI assistants. A deal of this scale, integrating Google's cutting-edge large language model into Apple's ecosystem, would be an unprecedented cross-company collaboration with major implications for user experience and market dynamics. The reported 1.2 trillion parameter Gemini model would be a massive leap from Apple's current cloud-based AI model, which reportedly uses only 1.5 billion parameters. The new Siri is expected to leverage Google's model for tasks like summarization and planning, and queries will be processed through Apple's Private Cloud Compute infrastructure.
+
+telegram · zaihuapd · Apr 16, 05:18
+
+**Background**: Large Language Models (LLMs) like Gemini are AI systems trained on vast amounts of text and multimodal data to understand and generate human-like language. The number of parameters in a model is a key indicator of its scale and potential capability, with higher counts generally associated with more sophisticated performance. Google's Gemini family of models, including versions like Gemini 1.5, utilizes advanced architectures such as the Mixture of Experts (MoE) to improve efficiency and capability. Siri is Apple's long-standing voice-activated virtual assistant integrated into its devices.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://udit.co/blog/apple-siri-google-gemini-trillion-parameter-ai-overhaul">Apple Redesigns Siri with Google's Trillion - Parameter Gemin</a></li>
+<li><a href="https://biggo.com/news/202511052052_Apple_Siri_Google_Gemini_AI_Model">Apple's Siri Revamp to Run on Google's 1 . 2 Trillion - Parameter AI ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gemini_(language_model)">Gemini (language model) - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#artificial-intelligence`, `#voice-assistants`, `#tech-industry`, `#large-language-models`, `#mobile-operating-systems`
+
+---
+
+<a id="item-8"></a>
+## [Alibaba and Tencent Simultaneously Release New 3D Content Generation AI Models](https://www.bloomberg.com/news/articles/2026-04-16/alibaba-releases-new-ai-model-for-gaming-development) ⭐️ 8.0/10
+
+On April 16, 2026, Alibaba released its 'Happy Oyster' AI model capable of generating interactive 3D video content for game development and film production. Simultaneously, Tencent open-sourced its Hunyuan 3D World Model 2.0, which can generate, reconstruct, and simulate 3D worlds from text, images, or videos, and export assets like Mesh and 3D Gaussian Splatting (3DGS) for integration into existing game workflows. This marks a significant escalation in the race for advanced multimodal AI and world modeling capabilities between China's tech giants, directly targeting the high-value gaming and digital twin industries. The simultaneous release signals a strategic push to democratize and accelerate 3D content creation, potentially lowering production barriers and reshaping workflows for game developers, filmmakers, and digital twin creators. Tencent's model specifically supports exporting content to industry-standard engines like Unity and Unreal Engine for further editing and can build digital twin scenes from real spatial videos or multi-view images. Alibaba's Happy Oyster focuses on generating interactive 3D video, indicating a slightly different application emphasis within the broader 3D content generation domain.
+
+telegram · zaihuapd · Apr 16, 07:58
+
+**Background**: 3D Gaussian Splatting (3DGS) is a technique for real-time radiance field rendering that gained prominence in 2023, enabling high-quality 3D scene reconstruction from videos. AI world models are neural networks that understand real-world dynamics, including physics and spatial properties, and can generate realistic simulations of physical environments from various inputs like text or video. These technologies represent the frontier of AI's move from 2D image generation to understanding and creating complex, interactive 3D spaces.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Gaussian_splatting">Gaussian splatting - Wikipedia</a></li>
+<li><a href="https://www.nvidia.com/en-us/glossary/world-models/">What Is a World Model? | NVIDIA Glossary</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#3D Generation`, `#AI Models`, `#Game Development`, `#Multimodal AI`, `#Digital Twins`
+
+---
+
+<a id="item-9"></a>
+## [Qwen3.6-35B-A3B Released: A Sparse MoE Model with 3B Active Parameters for Agentic Programming](https://qwenlm.github.io/blog/qwen3.6-35b-a3b/) ⭐️ 8.0/10
+
+The Qwen team has open-sourced Qwen3.6-35B-A3B, a sparse Mixture-of-Experts (MoE) model with 35 billion total parameters but only 3 billion active parameters during inference. It claims to outperform its predecessors and compete with some larger dense models on coding and tool-use benchmarks like SWE-bench and MCPMark, while retaining multimodal reasoning capabilities. This release represents a significant step towards more efficient and capable AI agents for software engineering. By achieving strong performance on complex, real-world coding tasks with a fraction of the typical computational cost, it makes powerful agentic programming more accessible to developers and researchers, potentially accelerating the integration of AI into software development workflows. The model is specifically designed for 'agentic programming,' excelling at benchmarks that test real-world software issue resolution (SWE-bench) and comprehensive agent capabilities (MCPMark). It is released with open weights, supports self-hosting, and provides API compatibility with OpenAI/Anthropic-style interfaces for easy integration into existing developer tools like OpenClaw or Qwen Code.
+
+telegram · zaihuapd · Apr 16, 13:59
+
+**Background**: A sparse Mixture-of-Experts (MoE) model is an architecture that increases a model's total parameter count (capacity) without proportionally increasing the computational cost for each input. Instead of using all parameters for every computation, a routing network selects only a small subset of 'experts' to be active, leading to faster and more efficient inference. Benchmarks like SWE-bench evaluate a model's ability to solve real-world software engineering issues from GitHub, while MCPMark is a newer, comprehensive benchmark designed to stress-test model and agent capabilities across diverse, realistic tasks.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/2308.00951">[2308.00951] From Sparse to Soft Mixtures of Experts</a></li>
+<li><a href="https://www.swebench.com/">SWE - bench Leaderboards</a></li>
+<li><a href="https://mcpmark.ai/">MCPMark - Stress-Testing Comprehensive MCP Benchmark</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI`, `#Large Language Models`, `#Open Source`, `#Mixture of Experts`, `#Code Generation`
 
 ---
 
 <a id="item-10"></a>
-## [Google releases Gemini 3.1 Flash TTS, a prompt-controlled text-to-speech model](https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything) ⭐️ 7.0/10
+## [Anthropic releases Claude Opus 4.6 with 200K context window and adaptive thinking mode.](https://t.me/zaihuapd/40903) ⭐️ 8.0/10
 
-Google released Gemini 3.1 Flash TTS, a new text-to-speech model accessible via the Gemini API that allows users to direct speech generation using detailed, structured prompts. The model, identified as `gemini-3.1-flash-tts-preview`, can only output audio files and features a surprisingly complex prompting system that specifies audio profiles, scenes, director's notes, and transcripts. This represents a significant leap in controllable AI speech synthesis, moving beyond simple voice selection to fine-grained, prompt-based control over accent, pacing, tone, and emotional delivery. It empowers creators, developers, and media professionals to generate highly specific and context-aware audio content programmatically, potentially transforming audio production for podcasts, ads, games, and accessibility tools. The prompting system uses a structured format resembling a script, with sections for AUDIO PROFILE, SCENE, DIRECTOR'S NOTES (specifying style, pace, accent), and TRANSCRIPT. The model demonstrates an ability to adapt to different regional accents (e.g., London, Newcastle, Devon) based solely on textual prompts, without requiring separate voice models. It is currently available as a preview via the Gemini API.
+Anthropic has released the Claude Opus 4.6 model, which doubles the context window to 200K tokens (with a 1M token beta) and doubles the maximum output tokens to 128K. The model introduces an adaptive thinking mode that dynamically adjusts reasoning depth based on problem complexity and adds a new 'max effort' parameter. This update significantly enhances Claude's ability to handle long, complex documents and extended conversations, making it more competitive against other leading models like GPT. The adaptive thinking feature represents a shift towards more autonomous and efficient AI reasoning, potentially reducing developer guesswork and improving performance on nuanced tasks. The model also includes a context compression feature that automatically summarizes early parts of a conversation as it approaches the window limit, enabling near-infinite length dialogues. The 1M token context window is currently in beta, indicating it's an experimental feature with potential limitations.
 
-rss · Simon Willison · Apr 15, 17:13
+telegram · zaihuapd · Apr 16, 14:28
 
-**Background**: Text-to-speech (TTS) technology converts written text into spoken audio. Traditional and early neural TTS models offered limited control, often restricted to selecting predefined voices or adjusting basic parameters like speed and pitch. Recent research, such as PromptTTS and EmoVoice, has explored using natural language descriptions to control speech style and emotion, moving towards more flexible and intuitive prompting. Google's Gemini API is a platform for accessing its family of large language and multimodal AI models.
+**Background**: A context window in a large language model (LLM) is the amount of text, measured in tokens, that the model can process and remember in a single interaction, analogous to a human's short-term memory. Adaptive thinking is an evolution in AI reasoning where the model itself decides when and how much to engage in deeper, extended reasoning based on the complexity of the request, moving away from developers manually setting a fixed thinking budget. Context compression is an engineering technique used to manage ballooning conversation histories in AI agents by summarizing or trimming information to stay within model limits.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://ai.google.dev/gemini-api/docs/speech-generation">Text -to- speech generation ( TTS ) | Gemini API | Google AI for...</a></li>
-<li><a href="https://speechresearch.github.io/prompttts/">PromptTTS: controllable text-to-speech with text descriptions - Speech Research</a></li>
-<li><a href="https://arxiv.org/html/2504.12867">EmoVoice: LLM-based Emotional Text-To-Speech Model with Freestyle Text Prompting</a></li>
+<li><a href="https://www.mckinsey.com/featured-insights/mckinsey-explainers/what-is-a-context-window">What is a context window for Large Language Models? | McKinsey</a></li>
+<li><a href="https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking">Adaptive thinking - Claude API Docs</a></li>
+<li><a href="https://medium.com/the-ai-forum/automatic-context-compression-in-llm-agents-why-agents-need-to-forget-and-how-to-help-them-do-it-43bff14c341d">Automatic Context Compression in LLM Agents: Why ... - Medium</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AI`, `#LLM`, `#Anthropic`, `#Claude`, `#Natural Language Processing`
+
+---
+
+<a id="item-11"></a>
+## [Google Releases Gemini 3.1 Flash TTS with Scene-Setting Prompt Control](https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything) ⭐️ 7.0/10
+
+Google released Gemini 3.1 Flash TTS, a new text-to-speech model accessible via the Gemini API under the model ID `gemini-3.1-flash-tts-preview`. The model's key innovation is that it can be directed using detailed, scene-setting prompts that describe the speaker's environment, vocal style, accent, and emotional state, as demonstrated in its official prompting guide. This represents a significant shift in AI speech synthesis, moving from simple voice selection to directable, context-aware audio generation. It enables creators, developers, and media producers to generate highly nuanced and specific vocal performances for applications like audiobooks, game dialogue, and dynamic media content without requiring manual audio editing. The model currently only outputs audio files and is in a preview state. According to Google's documentation, Gemini 3.1 Flash TTS supports over 70 languages and uses SynthID watermarking to identify AI-generated audio, addressing concerns about audio authenticity and misuse.
+
+rss · Simon Willison · Apr 15, 17:13
+
+**Background**: Text-to-speech (TTS) technology converts written text into spoken audio. Traditional TTS models often offer limited control, such as selecting from predefined voices or adjusting basic parameters like speed and pitch. The Gemini API is Google's platform for accessing its family of large language and multimodal models, which now includes this specialized TTS model. The concept of using detailed, descriptive prompts for generation is inspired by techniques used in AI image and video generation.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://ai.google.dev/gemini-api/docs/speech-generation">Text-to-speech generation (TTS) | Gemini API | Google AI for ...</a></li>
+<li><a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/">Gemini 3.1 Flash TTS: New text-to-speech AI model - The Keyword</a></li>
 
 </ul>
 </details>
@@ -240,68 +269,23 @@ rss · Simon Willison · Apr 15, 17:13
 
 ---
 
-<a id="item-11"></a>
-## [Zig 0.16.0 introduces 'Juicy Main', a dependency injection system for main() functions.](https://simonwillison.net/2026/Apr/15/juicy-main/#atom-everything) ⭐️ 7.0/10
-
-Zig 0.16.0 was released, featuring a new capability called 'Juicy Main' where a program's main() function can accept a `std.process.Init` parameter. This parameter provides structured access to process initialization resources like the general-purpose allocator, default I/O implementation, environment variables, and command-line arguments. This feature standardizes and simplifies access to common runtime resources, reducing boilerplate code for handling process initialization across different platforms. It represents a move towards more structured and ergonomic systems programming in Zig, potentially influencing how other low-level languages approach application startup. The `std.process.Init` struct provides fields such as `.gpa` (general-purpose allocator), `.io` (default I/O), `.environ_map` (environment variables), and `.minimal.args` (CLI arguments). This feature is part of a broader release that also debuts 'I/O as an Interface' and includes numerous compiler, build system, and toolchain enhancements.
-
-rss · Simon Willison · Apr 15, 01:59
-
-**Background**: Zig is a general-purpose systems programming language designed as an improvement over C, emphasizing performance, safety, and clarity. Dependency injection is a design pattern where an object receives its dependencies from an external source rather than creating them itself, which promotes modularity and testability. In systems programming, accessing process-level resources like arguments and environment variables often requires platform-specific code, which Zig aims to abstract.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Zig_(programming_language)">Zig (programming language) - Wikipedia</a></li>
-<li><a href="https://ziglang.org/download/0.16.0/release-notes.html">0.16.0 Release Notes ⚡ The Zig Programming Language</a></li>
-<li><a href="https://simonwillison.net/2026/Apr/15/juicy-main/">Zig 0.16.0 release notes: "Juicy Main" - simonwillison.net</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#programming-languages`, `#zig`, `#dependency-injection`, `#systems-programming`, `#release-notes`
-
----
-
 <a id="item-12"></a>
-## [Cloudflare Launches Mesh Private Networking Service with AI Agent Support](https://blog.cloudflare.com/mesh/) ⭐️ 7.0/10
+## [Popular Russian Android apps detect VPN usage and scan for foreign apps, aligning with government restrictions](https://files.rks.global/russian_apps_search_for_vpn_en.pdf) ⭐️ 7.0/10
 
-Cloudflare has launched a new private networking service called Mesh, which enables secure, bidirectional multi-point connections for AI agents, developers, and remote devices to access internal resources. The service is built on Cloudflare One, offers a free tier for up to 50 nodes and 50 users, and integrates with Workers VPC to allow agents deployed on Cloudflare Workers to directly access private databases and internal APIs. This move represents Cloudflare's strategic entry into the mesh networking space, directly addressing the growing need for secure, scalable connectivity for AI agents and distributed workforces. It could reshape how organizations deploy and manage AI applications by providing a unified, zero-trust framework for accessing private infrastructure from anywhere, potentially simplifying complex remote access and AI integration patterns. Unlike traditional tunnel solutions that often provide one-way proxying, Mesh supports direct communication between devices and nodes within the network using private IP addresses. Cloudflare also announced plans to add features like hostname routing, Mesh DNS, and identity-aware routing later this year to enable more granular access control for agents, devices, and users.
+A study by RKS Global found that 22 out of Russia's 30 most popular Android apps can detect VPN usage, with 19 sending this data to their servers. Furthermore, the Avito app was found to scan devices for the presence of over 200 foreign applications, including banking, cryptocurrency wallets, and messaging tools. This systematic, large-scale surveillance by popular apps directly supports government directives to restrict services for VPN users, significantly eroding digital privacy for millions of Russian citizens. It represents a concrete step towards enforcing Russia's 'digital sovereignty' doctrine, effectively isolating users from the global internet and enabling state control over online access. The detection and data collection are linked to a mandate from Russia's Ministry of Digital Development, which has instructed major companies to restrict service access for users with active VPNs starting April 15, 2026. The Avito app's scan specifically targets a wide range of foreign financial and communication tools, which are often used to bypass domestic restrictions.
 
-telegram · zaihuapd · Apr 15, 03:46
+telegram · zaihuapd · Apr 16, 04:38
 
-**Background**: Cloudflare One is Cloudflare's Secure Access Service Edge (SASE) platform, designed to unify networking and security services for an organization's workforce and infrastructure. Workers VPC is a feature that allows Cloudflare Workers (serverless functions) to securely connect to private resources in external clouds or on-premises networks. A bidirectional multi-point network connection allows data to flow in both directions between multiple endpoints, enabling direct peer-to-peer communication within a defined network.
+**Background**: A Virtual Private Network (VPN) encrypts a user's internet traffic and routes it through a server in another location, masking their real IP address. This is commonly used to enhance privacy, access geo-blocked content, or bypass censorship. In recent years, the Russian government has pursued a 'digital sovereignty' policy, seeking greater control over the internet within its borders, which includes restricting tools like VPNs that can circumvent state-imposed blocks. Android apps can detect VPN usage through system APIs, such as checking the active network's capabilities via the ConnectivityManager.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.cloudflare.com/sase/">Cloudflare One | The agile SASE platform | Cloudflare</a></li>
-<li><a href="https://developers.cloudflare.com/workers-vpc/">Overview · Cloudflare Workers VPC</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Point-to-multipoint_communication">Point-to-multipoint communication - Wikipedia</a></li>
+<li><a href="https://rks.global/en/research/">RKS Global Researches</a></li>
+<li><a href="https://blog.tarkalabs.com/the-ultimate-vpn-detection-guide-for-ios-and-android-313b521186cb">How to detect VPN usage on iOS and Android | Tarka Labs Blogs GitHub - s1mb1o/vpn-detector-android: Android app that ... Implementing VPN Detection in Mobile Applications: Client vs ... How to Detect VPNs Used With Android & iOS Apps Using AI How I Bypassed VPN Detection, Broke Client-Side ... - Medium VPNDroid: Malicious Android VPN Detection Using a CNN-RF ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#cloudflare`, `#networking`, `#ai-agents`, `#zero-trust`, `#remote-access`
-
----
-
-<a id="item-13"></a>
-## [Global scientists propose five-step plan to combat drug-resistant fungi and influence WHO policy](https://medicalxpress.com/news/2026-04-drug-resistant-fungi-prompt-global.html) ⭐️ 7.0/10
-
-Fifty scientists from 16 institutions have published a five-step global action plan in Nature Medicine to address the threat of drug-resistant fungi. The plan specifically aims to provide a core framework for the World Health Organization's upcoming 2026 update to its Global Action Plan on Antimicrobial Resistance. This matters because antifungal resistance is a growing and often overlooked global health threat that disproportionately affects immunocompromised individuals. The coordinated expert advocacy seeks to elevate fungal infections within global health policy, potentially unlocking funding and coordinated action across human, animal, and agricultural sectors. The five steps are: raising awareness, strengthening surveillance, improving infection prevention and control, optimizing antifungal use, and increasing investment. The scientists identify the widespread use of agricultural fungicides as a primary driver of resistance and emphasize the need for a "One Health" approach that coordinates agricultural and health policies.
-
-telegram · zaihuapd · Apr 15, 16:00
-
-**Background**: Antimicrobial Resistance (AMR) occurs when microbes like bacteria, viruses, parasites, and fungi evolve to resist the drugs designed to kill them. The "One Health" approach recognizes that the health of humans, animals, plants, and the environment are interconnected, and is crucial for tackling AMR which spreads across these sectors. Antifungal drug development is particularly challenging because fungal cells are structurally similar to human cells, making it difficult to find drugs that kill the fungus without harming the patient; only five major classes of antifungal drugs have been developed in the past 75 years.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.oecd.org/en/publications/embracing-a-one-health-framework-to-fight-antimicrobial-resistance_ce44c755-en.html">Embracing a One Health Framework to Fight Antimicrobial Resistance</a></li>
-<li><a href="https://www.researchgate.net/publication/376851862_Antimicrobial_Resistance_Impact_in_Global_Health_A_One_Health_Approach">(PDF) Antimicrobial Resistance Impact in Global Health : A One ...</a></li>
-<li><a href="https://www.paijournal.com/index.php/paijournal/article/view/656/667">View of Time to Think Antifungal Resistance | Pathogens and Immunity</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#global-health`, `#antimicrobial-resistance`, `#public-policy`, `#medical-research`, `#infectious-diseases`
+**Tags**: `#privacy`, `#surveillance`, `#android-security`, `#vpn`, `#digital-rights`
 
 ---
