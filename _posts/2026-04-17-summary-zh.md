@@ -5,264 +5,260 @@ date: 2026-04-17
 lang: zh
 ---
 
-> From 21 items, 11 important content pieces were selected
+> From 24 items, 11 important content pieces were selected
 
 ---
 
-1. [IETF 发布 IPv8 草案协议，采用 64 位地址并完全向后兼容 IPv4](#item-1) ⭐️ 9.0/10
-2. [Anthropic 发布 Claude Opus 4.7，引入自适应思考能力并更新分词器。](#item-2) ⭐️ 8.0/10
-3. [OpenAI 发布 Codex 重大更新，支持自动操作电脑与长期任务自动化](#item-3) ⭐️ 8.0/10
-4. [通义千问发布专为智能体编码任务优化的开源 35B 参数模型。](#item-4) ⭐️ 8.0/10
-5. [OpenAI、Anthropic 和 Google 罕见联手，遏制中国竞争对手未经授权蒸馏美国 AI 模型。](#item-5) ⭐️ 8.0/10
-6. [苹果据传计划每年支付 10 亿美元，授权谷歌 1.2 万亿参数 Gemini AI，用于在 iOS 26.4 中对 Siri 进行重大重构](#item-6) ⭐️ 8.0/10
-7. [阿里腾讯同日发布 3D 内容生成 AI 模型](#item-7) ⭐️ 8.0/10
-8. [DeepSeek 发布 DeepGEMM 重大更新：推出 Mega MoE 融合算子并支持 FP4 精度](#item-8) ⭐️ 8.0/10
-9. [Qwen3.6-35B-A3B 开源发布：一款仅激活 3B 参数的稀疏 MoE 代理式编程模型](#item-9) ⭐️ 8.0/10
-10. [Anthropic 发布 Claude Opus 4.6，支持 200K 上下文窗口和自适应思考模式](#item-10) ⭐️ 8.0/10
-11. [俄罗斯多款流行安卓应用被曝检测 VPN 使用并扫描外国应用](#item-11) ⭐️ 7.0/10
+1. [我国科学家首次人工制造出球状闪电，证实其本质为电磁孤子。](#item-1) ⭐️ 9.0/10
+2. [360 漏洞挖掘智能体发现两项全球高危漏洞，影响逾 10 亿用户](#item-2) ⭐️ 8.0/10
+3. [硅谷精英被指通过削减公共科研经费，将科学家转化为 AI 零工。](#item-3) ⭐️ 8.0/10
+4. [中国半导体设备厂商 2025 年营收创纪录，美系设备经东南亚转运进口量激增](#item-4) ⭐️ 8.0/10
+5. [谷歌拟向五角大楼机密环境部署 TPU 芯片，加速 Gemini 落地国防领域](#item-5) ⭐️ 8.0/10
+6. [DeepSeek 拟以 100 亿美元估值融资至少 3 亿美元，用于开发先进 AI 推理模型](#item-6) ⭐️ 8.0/10
+7. [翻译巨头 DeepL 进军语音领域，推出实时语音翻译套件与 API](#item-7) ⭐️ 7.0/10
+8. [Perplexity 发布 'Personal Computer' 软件，将 Mac 转化为自主 AI 智能体](#item-8) ⭐️ 7.0/10
+9. [星链故障中断美海军无人艇测试，暴露五角大楼单点故障风险](#item-9) ⭐️ 7.0/10
+10. [SpaceX 猎鹰重型火箭将于 2028 年发射欧空局罗莎琳德·富兰克林号火星车，NASA 提供关键硬件支持。](#item-10) ⭐️ 7.0/10
+11. [三星电子终止 LPDDR4/4X 订单接收，加速向先进制程迁移](#item-11) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [IETF 发布 IPv8 草案协议，采用 64 位地址并完全向后兼容 IPv4](https://www.ietf.org/archive/id/draft-thain-ipv8-00.html) ⭐️ 9.0/10
+## [我国科学家首次人工制造出球状闪电，证实其本质为电磁孤子。](https://www.news.cn/tech/20260416/b487a8967b70495f8fc00364844225d6/c.html) ⭐️ 9.0/10
 
-互联网工程任务组（IETF）发布了互联网协议第 8 版（IPv8）的初始草案，该协议采用 64 位地址空间，并将 IPv4 视为其子集，实现了 100% 的向后兼容性。草案还引入了“区域服务器”架构来统一管理服务，并提出了基于 OAuth2 的强制授权和“成本因子”路由算法等新机制。 这代表了互联网基础设施一次潜在的范式转变，它从根本上解决了 IPv4 地址枯竭问题，同时避免了 IPv6 复杂的迁移挑战。如果被采纳，IPv8 可以简化网络管理，增强路由安全，并为未来的互联网提供一个更具可扩展性和安全性的基础。 该协议为每个自治系统号（ASN）分配超过 42.9 亿个主机地址，从结构上将全局 BGP8 路由表的大小限制为 ASN 的数量而非前缀数量。它强制要求 WHOIS8 路由验证和 /16 最小注入前缀规则以防止 BGP 劫持，并使用基于 HTTPS 封装的 8to4 隧道技术进行分阶段迁移。
+中国科学院上海光学精密机械研究所的研究团队首次在世界上以人工方式成功激发并捕获了与自然界球状闪电高度相似的球形发光体，相关成果于 4 月 16 日发表在《自然·光子学》上。该实验证实了球状闪电的本质为“电磁孤子”，为这一长期缺乏实验验证的科学悬案提供了关键证据。 这一突破是等离子体物理学领域的范式转变，解决了一个困扰科学界数百年的自然现象之谜。通过揭示极端电磁能量约束的基础物理机制，它为聚变能源及高能量密度物理等领域的研究提供了新的实验参考。 研究团队利用强激光驱动太赫兹波，在局域实现相对论级场强，将氩气电离为等离子体。通过光波辐射压与热压的力学平衡将能量囚禁，形成了直径约百微米、寿命达百纳秒的能量球。经物理标度变换，该能量球可对应自然界中直径数十厘米、持续数秒的球状闪电。
 
-telegram · zaihuapd · Apr 16, 08:43
+telegram · zaihuapd · Apr 17, 09:00
 
-**背景**: 当前的互联网主要依赖 IPv4，其 32 位地址空间有限，导致了地址枯竭。IPv6 拥有 128 位地址空间，是作为继任者开发的，但由于缺乏向后兼容性和复杂的过渡机制，其采用速度缓慢。IETF 是负责制定构成互联网协议套件（包括 TCP/IP）技术标准的标准组织。
+**背景**: 球状闪电是一种罕见且难以理解的大气电学现象，被描述为雷暴期间出现的持久、发光、球形的物体。电磁孤子是一种自增强的波包，在介质中传播时能保持其形状不变，这是介质中非线性和色散效应平衡的结果。等离子体常被称为物质的第四态，是一种由离子和自由电子组成的电离气体，具有高导电性并对电磁场有强烈响应。太赫兹辐射指的是频率介于微波和红外光之间的电磁波。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.ietf.org/archive/id/draft-thain-ipv8-00.html">Internet Protocol Version 8 (IPv8) - ietf.org</a></li>
-<li><a href="https://datatracker.ietf.org/doc/draft-thain-ipv8/">draft-thain-ipv8-01 - Internet Protocol Version 8 (IPv8)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/IPv6">IPv6 - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Terahertz_radiation">Terahertz radiation - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Plasma_(physics)">Plasma ( physics ) - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#networking`, `#protocols`, `#ietf`, `#ipv8`, `#internet-infrastructure`
+**标签**: `#plasma-physics`, `#ball-lightning`, `#electromagnetic-soliton`, `#scientific-breakthrough`, `#high-energy-physics`
 
 ---
 
 <a id="item-2"></a>
-## [Anthropic 发布 Claude Opus 4.7，引入自适应思考能力并更新分词器。](https://www.anthropic.com/news/claude-opus-4-7) ⭐️ 8.0/10
+## [360 漏洞挖掘智能体发现两项全球高危漏洞，影响逾 10 亿用户](https://finance.sina.com.cn/tech/2026-04-17/doc-inhuupth6598363.shtml) ⭐️ 8.0/10
 
-Anthropic 发布了 Claude Opus 4.7，这是一个重要更新，引入了自适应思考能力并更新了分词器。该模型现已在其所有产品和 API 中上线，定价与 4.6 版本保持一致。 此次发布标志着大语言模型向更高效、更具上下文感知的推理方式转变，有望在不进行手动调优的情况下提升复杂任务的处理性能。分词器的更新虽然增加了相同输入的 token 数量，但其目标是改进文本处理能力，这是影响模型理解和效率的基础组件。 自适应思考功能取代了手动设置思考 token 预算的模式，允许模型根据请求的复杂度动态决定推理力度。一个关键的注意事项是，新的分词器会使相同输入的 token 数量增加约 1.0 到 1.35 倍（取决于内容类型），这可能影响基于 token 计费的 API 成本。
+360 集团自主研发的漏洞挖掘智能体近日发现两项潜伏多年的重大安全漏洞，分别为 Windows 内核提权漏洞和 Office 远程代码执行漏洞，目前已上报国家漏洞库并完成修复。这是我国首次公开披露智能体规模化发现基础软件核心漏洞的能力成果。 这标志着 AI 在自动化安全研究应用上的重大飞跃，将网络安全范式从以人为中心转向机器规模的漏洞发现。在 Windows 和 Office 等普及软件中发现影响超 10 亿用户的漏洞，突显了其巨大的潜在影响，以及迫切需要 AI 驱动的防御系统来应对不断演变的威胁。 该智能体体系目前已累计挖掘近千个漏洞，其中高危漏洞超过 50 项。所涉及的具体漏洞包括 Windows 内核的权限提升和 Office 的远程代码执行，两者都是可能危及整个系统的严重攻击途径。
 
-hackernews · meetpateltech · Apr 16, 14:23
+telegram · zaihuapd · Apr 17, 05:06
 
-**背景**: Claude 是由 Anthropic 开发的大语言模型系列。'思考'或'思维链'能力允许模型在生成最终答案前，在内部逐步推理问题，这通常能带来更好的推理结果。分词器是大语言模型的核心组件，它将文本分解成更小的单元进行处理；其设计直接影响模型对语言的理解和计算效率。
+**背景**: 漏洞挖掘智能体是一种旨在自主发现软件安全漏洞的 AI 系统，通常以机器的速度和规模系统地测试攻击面。Windows 内核提权漏洞允许攻击者获得更高级别的系统权限，而 Office 的远程代码执行漏洞则使攻击者能够通过恶意文档在受害者机器上运行任意代码。网络安全行业正越来越多地探索模拟人类安全团队分工协作的多智能体 AI 架构，以实现漏洞发现过程的自动化。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://platform.claude.com/docs/en/build-with-claude/adaptive-thinking">Adaptive thinking - Claude API Docs</a></li>
-<li><a href="https://www.anthropic.com/news/claude-opus-4-7">Introducing Claude Opus 4.7 \ Anthropic</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Large_language_model">Large language model - Wikipedia</a></li>
+<li><a href="https://thenewstack.io/ai-agents-appsec-strategy/">AI agents are accelerating vulnerability discovery. Here's how AppSec teams must adapt. - The New Stack</a></li>
+<li><a href="https://cybersecuritynews.com/windows-kernel-0‑day-vulnerability/">Windows Kernel 0‑day Vulnerability Actively Exploited in the ...</a></li>
+<li><a href="https://www.rapid7.com/db/vulnerabilities/office-for-mac-cve-2018-0792/">Rapid7 Vulnerability Database</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区讨论显示，用户对此次 API 变更感到困惑和沮丧，特别是转向自适应思考以及默认不再输出可读的推理摘要。部分用户对前一个版本（4.6）的性能表示不满，并指出 4.7 版本增强了网络安全过滤器，可能会阻止一些合法的技术请求。分词器更新及其对成本的影响也是技术讨论的焦点。
-
-**标签**: `#llm`, `#anthropic`, `#claude`, `#ai-models`, `#api`
+**标签**: `#cybersecurity`, `#AI-agents`, `#vulnerability-discovery`, `#windows-security`, `#automated-security`
 
 ---
 
 <a id="item-3"></a>
-## [OpenAI 发布 Codex 重大更新，支持自动操作电脑与长期任务自动化](https://openai.com/index/codex-for-almost-everything/) ⭐️ 8.0/10
+## [硅谷精英被指通过削减公共科研经费，将科学家转化为 AI 零工。](https://www.thenation.com/article/society/ai-silicon-valley-andreesen-thiel-stem/) ⭐️ 8.0/10
 
-OpenAI 宣布为其开发者工具 Codex 推出重大更新，使其能够像人类一样通过视觉、点击和输入来操作电脑应用程序。此次更新引入了在 macOS 上并行工作的后台模式，新增了内置浏览器、图像生成、SSH 支持，并整合了包括 GitHub 和 Slack 在内的 90 多个新插件。 此次更新将 Codex 从一个代码助手转变为一个能够自动化复杂、多步骤工作流的通用 AI 智能体，覆盖了完整的软件开发周期及其他领域。这标志着 AI 在直接理解并执行用户对电脑的高级意图方面迈出了一大步，可能重塑人机交互和生产力工具的未来。 电脑操作功能目前仅面向登录 ChatGPT 桌面端的 macOS 用户开放。新版 Codex 增强了记忆和上下文感知能力，支持调度并自动执行跨越数日或数周的长期任务，并且它在任务执行期间运行在一个安全的、隔离的云容器中，并禁用互联网访问以确保安全。
+一份调查报告指控，在彼得·蒂尔和马克·安德里森等硅谷人物的推动下，美国国家科学基金会（NSF）和国立卫生研究院（NIH）等机构的公共科研经费被削减，导致去年超过 1 万名拥有 STEM 博士学位的联邦雇员离职。这些失业的研究人员正涌向由硅谷风投支持的 Mercor 和 Scale AI 等平台，从事时薪制的 AI 模型训练工作。 这标志着 AI 人才生态系统的重大结构性转变：公共科研经费的削减将高技能研究人员导向了为私营科技公司服务的不稳定、低薪酬的零工经济。这种趋势可能损害服务于公共利益的长期科学发现与创新，同时将专业知识和利益集中在少数商业实体手中。 报告批评了 Mercor（以提供高技能 AI 职位的'灵活用工'为卖点）和 Scale AI（通过其专注于计算机视觉的 Remotasks 和专注于大语言模型数据标注的 Outlier 等子公司）等平台，认为它们是科技巨头获取廉价博士级专业知识的机制。据报道，NIH 的预算削减幅度高达近 40%，导致研究资助项目减少了数千个。
 
-hackernews · mikeevans · Apr 16, 17:12
+telegram · zaihuapd · Apr 17, 05:51
 
-**背景**: OpenAI Codex 是一系列专门为编程和编码任务微调的大型语言模型。在此次更新之前，它的主要功能是基于自然语言提示，通过生成、解释或重构代码来协助开发人员。'AI 智能体'的概念指的是一个能够感知环境、做出决策并采取行动以实现特定目标的系统，这标志着从纯粹的对话或代码生成模型的重要演进。
+**背景**: 美国国家科学基金会（NSF）和国立卫生研究院（NIH）是美国主要的联邦机构，负责资助大学和科研机构的基础科学研究与医学研究。像 Mercor 这样的平台代表了零工经济的新浪潮，将短期工作模式应用于高技能的知识型工作，例如通过人类反馈强化学习（RLHF）和数据标注等任务来训练 AI 模型。Scale AI 是一家知名的 AI 训练数据服务公司，提供数据标注等服务，这对开发机器学习模型至关重要。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://openai.com/index/introducing-codex/">Introducing Codex | OpenAI</a></li>
-<li><a href="https://openai.com/codex/">Codex | AI Coding Partner from OpenAI | OpenAI</a></li>
+<li><a href="https://gadallon.substack.com/p/is-mercor-the-future-of-the-white">Is Mercor the Future of the (White Collar) Gig Economy?</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Scale_AI">Scale AI - Wikipedia</a></li>
+<li><a href="https://www.science.org/content/article/trump-s-proposed-budget-would-mean-disastrous-cuts-science">science .org/content/article/trump-s-proposed- budget -would-mean...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区情绪复杂，部分用户对安全性表示怀疑，并指出类似功能已存在于 Claude Desktop 等竞争对手的产品中。另一些用户则对开发出强大的图形界面版本以彻底改变非专家用户使用电脑方式的潜力感到兴奋。反复出现的讨论主题包括：这究竟是真正的创新还是对现有工具的追赶，以及对 AI 直接控制个人电脑的担忧。
-
-**标签**: `#AI`, `#automation`, `#OpenAI`, `#productivity`, `#human-computer-interaction`
+**标签**: `#AI Ethics`, `#Science Policy`, `#Labor Economics`, `#Silicon Valley`, `#Academic Research`
 
 ---
 
 <a id="item-4"></a>
-## [通义千问发布专为智能体编码任务优化的开源 35B 参数模型。](https://qwen.ai/blog?id=qwen3.6-35b-a3b) ⭐️ 8.0/10
+## [中国半导体设备厂商 2025 年营收创纪录，美系设备经东南亚转运进口量激增](https://www.tomshardware.com/tech-industry/chinese-chip-tool-makers-booked-record-2025-revenues) ⭐️ 8.0/10
 
-通义千问团队发布了 Qwen3.6-35B-A3B，这是一个拥有 350 亿参数的开源模型，专门针对智能体编码任务进行了优化。该模型的权重已在宽松许可下公开，并迅速被量化成 GGUF 格式，便于本地部署。 此次发布意义重大，它为开发者构建自主编码智能体提供了一个强大的开源选择，尤其是在金融和医疗等因数据隐私和监管合规而限制使用云端闭源模型的行业。这彰显了在行业整合趋势下，对开源权重 AI 模型的持续投入。 该模型基于 Qwen3.6 系列的混合架构，结合了线性注意力与稀疏专家混合路由机制，以实现高效扩展。它支持 256K 上下文长度和 201 种语言，早期社区反馈显示其在文本描述生成图像等创意任务上表现优异。
+北方华创、中微公司、盛美上海和拓荆科技等中国半导体设备厂商在 2025 年均创下营收纪录，其中拓荆科技营收较 2020 年增长约 13 倍。与此同时，中国晶圆厂正通过新加坡和马来西亚大量进口美系品牌设备，这促使美国立法者提出《MATCH 法案》，意图堵塞东南亚转运路径。 这一事态凸显了全球半导体供应链中的关键矛盾：中国本土设备产业在快速成长，而其晶圆厂则通过战略性地规避美国出口管制来获取国外先进设备。美国提出的新法案标志着科技竞争的升级，其目标是通过迫使盟友统一出口标准来构建一个全球性的封锁网络。 2025 年中国直接从美国进口的相关设备额降至 20 亿美元，为 2017 年以来最低，但从新加坡和马来西亚的进口额分别激增至 57 亿和 34 亿美元。尽管营收增长强劲，但受国内市场激烈竞争和价格战影响，本土供应商的利润率正面临下滑压力。
 
-hackernews · cmitsakis · Apr 16, 13:36
+telegram · zaihuapd · Apr 17, 10:37
 
-**背景**: 智能体编码指的是超越简单代码补全的 AI 系统，它能够通过推理、选择工具和观察结果，自主规划和执行多步骤的软件开发任务。开源权重模型是指训练好的参数在宽松许可下公开发布的模型，允许检查、修改和本地部署，这与仅提供 API 访问的闭源模型不同。通义千问模型系列由阿里巴巴开发，以其在各种基准测试中的强劲表现而闻名。
+**背景**: 美国为遏制中国技术发展，对华实施了不断升级的先进半导体制造设备出口管制。新加坡和马来西亚作为全球主要的物流枢纽和半导体封测中心，已成为全球供应链的关键节点。美国提出的《多边硬件技术管制协调法案》（MATCH 法案）旨在迫使荷兰、日本等盟友在 150 天内将其出口管制标准与美国对齐，以构建一个协调一致的全球技术壁垒。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://cloud.google.com/discover/what-is-agentic-coding">What is agentic coding? How it works and use cases</a></li>
-<li><a href="https://help.openai.com/en/articles/11870455-openai-open-weight-models-gpt-oss">OpenAI open - weight models (gpt-oss) | OpenAI Help Center</a></li>
-<li><a href="https://unsloth.ai/docs/models/qwen3.6">Run the new Qwen 3 . 6 -35-A3B model locally! | Unsloth Documentation</a></li>
+<li><a href="https://sputniknews.cn/20260408/1070673126.html">美议员提《MATCH法案》：从对华“卡脖子”到“锁全身”的博弈升级 - 2026年4月8日, 俄罗斯卫星通讯社</a></li>
+<li><a href="https://www.tmtpost.com/agent/ai-article/14610">MATCH法案：美国强制盟友构建全球半导体封锁网的战略野心</a></li>
+<li><a href="https://www.icsmart.cn/88725/">立足半导体封测，马来西亚发力芯片设计 – 芯智讯</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区反响非常积极，通过 GGUF 量化实现本地使用的即时实践已被注意到。评论者对通义千问在面临内部挑战时仍坚持开源权重的承诺表示欣慰和赞赏。此外，社区还讨论了该模型在受监管行业的特殊价值，并观察了它与其他基础模型相比的独特性能特征。
-
-**标签**: `#open-source-ai`, `#coding-assistants`, `#llm`, `#model-release`, `#agentic-ai`
+**标签**: `#semiconductors`, `#geopolitics`, `#supply-chain`, `#export-controls`, `#industrial-policy`
 
 ---
 
 <a id="item-5"></a>
-## [OpenAI、Anthropic 和 Google 罕见联手，遏制中国竞争对手未经授权蒸馏美国 AI 模型。](https://t.me/zaihuapd/40889) ⭐️ 8.0/10
+## [谷歌拟向五角大楼机密环境部署 TPU 芯片，加速 Gemini 落地国防领域](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-and-pentagon-in-talks-to-run-tpus-inside-classified-environments) ⭐️ 8.0/10
 
-OpenAI、Anthropic 和 Google（Alphabet）已开始通过 Frontier Model Forum 进行罕见协作，共享有关“对抗性蒸馏”的信息，旨在遏制中国竞争对手未经授权提取其前沿 AI 模型的输出并复制其能力。OpenAI 已确认参与这一信息共享行动，并提到了其近期提交给美国国会的相关备忘录。 此次合作意义重大，它代表了美国主要 AI 公司在应对其视为经济威胁和潜在国家安全风险的行为上达成了战略一致。这凸显了全球 AI 竞争的加剧，以及保护知识产权和模型安全作为核心资产的关注度日益提升。 此次合作是在 Frontier Model Forum 的框架内进行的，这是一个关注 AI 安全与安全风险的行业支持的非营利组织。具体的担忧在于“对抗性蒸馏”，即未经授权使用模型的输出来训练竞争模型，这可能绕过原始模型的安全护栏并导致重大的经济损失。
+谷歌正与美国国防部谈判，计划首次在获准的机密环境中部署其自研的张量处理单元（TPU）芯片及 GPU 机架，以支持 Gemini 人工智能模型在大规模机密任务中运行。拟议的合同条款将允许五角大楼将 Gemini 用于“所有合法用途”，但谷歌要求加入禁止用于国内大规模监控及全自动武器的限制条款。 此举标志着谷歌向利润丰厚的国防 AI 市场迈出了重要的战略一步，旨在缩小其与 AWS 和微软在机密云市场的差距。将自研的 TPU 硬件部署在安全的政府环境中，可能加速先进 AI 在国家安全应用中的落地，同时也引发了关于 AI 军事化应用的伦理问题。 谷歌分布式云已于 2025 年 5 月获得处理秘密级数据的 IL6 授权并拥有最高机密授权，但目前机密边界内仍缺乏支撑大规模工作负载的基础设施。根据内部战略计划，谷歌公职部门目标在 2025 至 2027 年间实现约 60 亿美元的预订额，其中 20 亿美元预计将来自国防领域。
 
-telegram · zaihuapd · Apr 16, 04:06
+telegram · zaihuapd · Apr 17, 15:03
 
-**背景**: 模型蒸馏是一种合法的机器学习技术，较小的“学生”模型学习模仿较大、较复杂的“教师”模型的行为，通常是为了提高效率。Frontier Model Forum 由 OpenAI、Anthropic、Google 和 Microsoft 于 2023 年创立，旨在协调先进“前沿”AI 模型的安全最佳实践。“对抗性蒸馏”指的是竞争对手未经授权使用该技术来复制专有模型能力，引发了关于知识产权盗窃和创建缺乏适当安全控制模型的担忧。
+**背景**: 张量处理单元（TPU）是谷歌专门设计的专用集成电路（ASIC），旨在加速机器学习工作负载，其中 TPU v4 的性能比前代产品提升了一倍以上。Gemini 是谷歌的旗舰大语言模型，采用仅解码器的 Transformer 架构，针对在 TPU 上进行高效训练和推理进行了优化。IL6（影响级别 6）授权是美国政府的安全分类，允许云服务提供商在受控环境中处理和存储秘密级分类数据。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.frontiermodelforum.org/">Frontier Model Forum</a></li>
-<li><a href="https://www.frontiermodelforum.org/issue-briefs/issue-brief-adversarial-distillation/">Adversarial Distillation - Frontier Model Forum</a></li>
-<li><a href="https://oecd.ai/en/incidents/2026-04-06-1282">US AI Firms Collaborate to Counter Unauthorized Model Distillation ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tensor_Processing_Unit">Tensor Processing Unit - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Gemini_(language_model)">Gemini (language model ) - Wikipedia</a></li>
+<li><a href="https://ragaboutit.com/how-ai-startups-are-locking-down-pentagon-data-with-rag-systems/">How AI Startups Are Locking Down Pentagon Data with RAG Systems...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI Ethics & Safety`, `#AI Competition`, `#Model Security`, `#Geopolitics`
+**标签**: `#AI Hardware`, `#Defense Technology`, `#Cloud Computing`, `#Business Strategy`, `#Ethical AI`
 
 ---
 
 <a id="item-6"></a>
-## [苹果据传计划每年支付 10 亿美元，授权谷歌 1.2 万亿参数 Gemini AI，用于在 iOS 26.4 中对 Siri 进行重大重构](https://t.me/zaihuapd/40891) ⭐️ 8.0/10
+## [DeepSeek 拟以 100 亿美元估值融资至少 3 亿美元，用于开发先进 AI 推理模型](https://www.reuters.com/world/china/chinas-deepseek-is-raising-funds-10-billion-valuation-information-reports-2026-04-17/) ⭐️ 8.0/10
 
-据报道，苹果正在敲定一项协议，授权使用谷歌开发的 1.2 万亿参数 Gemini AI 模型，以支持对 Siri 语音助手进行全面升级，年授权费约为 10 亿美元。新版 Siri 代号为 Linwood，计划于 2026 年春季作为 iOS 26.4 的一部分发布。 这笔潜在交易对苹果而言是一次重大的战略转变（苹果历来开发自己的 AI 模型），通过将苹果庞大的设备生态系统与谷歌尖端的大语言模型相结合，可能极大地重塑 AI 助手领域的竞争格局。成功的整合将使 Siri 成为对抗其他先进 AI 助手时能力强大得多的竞争者。 据报道，1.2 万亿参数的 Gemini 模型将远超苹果目前使用的 1500 亿参数模型，预计将处理 Siri 的摘要和规划任务。然而，有报道称此次重构在内部测试中遇到了障碍，且 iOS 26.4 中的 Siri 将不具备完整的聊天机器人功能，苹果计划保留部分设备端处理，并使用 Private Cloud Compute 来维护隐私。
+据路透社报道，中国人工智能初创公司 DeepSeek 正在以 100 亿美元的估值进行新一轮融资，计划筹集至少 3 亿美元。该公司此前曾多次拒绝中国顶级风投和科技巨头的入股邀约，此次融资旨在支持其开发先进推理模型，并应对日益增长的算力与研发资本需求。 此轮融资标志着市场对 DeepSeek 低成本、开源 AI 战略的强烈认可，并将其定位为全球 AI 领域，特别是在开发先进推理能力方面的重要竞争者。此举意义重大，因为它表明中国 AI 公司有能力吸引大量资本，并在美国限制高性能硬件出口的管制下，继续推动创新。 DeepSeek 此前曾依赖英伟达的高性能芯片完成模型训练，而此次融资正值美国对先进半导体持续实施出口管制之际。该公司的战略一直是通过高性价比的模型开发来维持竞争力，这可能是其在当前限制下持续增长的关键。
 
-telegram · zaihuapd · Apr 16, 05:18
+telegram · zaihuapd · Apr 17, 15:14
 
-**背景**: 像 Gemini 这样的大语言模型（LLM）是拥有数十亿或数万亿参数的机器学习模型，在海量数据集上训练，用于自然语言处理。谷歌的 Gemini 是一个多模态 AI 模型系列，采用 Transformer 架构，并在其 1.5 版本中使用了混合专家（Mixture of Experts, MoE）方法以提高效率。Siri 是苹果的语音助手，其表现被认为落后于谷歌助手等竞争对手，这一直是批评的焦点，也促使苹果努力进行由 AI 驱动的大规模重构。
+**背景**: DeepSeek 是一家中国 AI 初创公司，由梁文锋于 2023 年 7 月创立，梁文锋同时也是 High-Flyer 的联合创始人兼 CEO。该公司因登顶应用下载榜而获得全球关注，并以其低成本提供先进能力的开源 AI 模型而闻名。先进推理模型是 AI 领域的前沿，旨在使系统能够执行复杂的逻辑思考和问题解决，类似于谷歌 Gemini 等模型所描述的能力。美国的芯片出口管制旨在限制中国获得用于训练和部署大型 AI 模型所必需的尖端半导体。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/List_of_large_language_models">List of large language models - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Gemini_(language_model)">Gemini (language model) - Wikipedia</a></li>
-<li><a href="https://theoutpost.ai/news-story/apple-s-i-os-26-4-siri-overhaul-powered-by-google-gemini-promises-bigger-upgrade-than-expected-23609/">Apple Siri Delay: AI Assistant Pushed to Late 2026</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DeepSeek">DeepSeek - Wikipedia</a></li>
+<li><a href="https://www.techtarget.com/whatis/feature/DeepSeek-explained-Everything-you-need-to-know">DeepSeek explained: Everything you need to know</a></li>
+<li><a href="https://ai-frontiers.org/articles/us-chip-export-controls-china-ai">How US Export Controls Have (and Haven't) Curbed Chinese AI | AI Frontiers</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI-Models`, `#Apple`, `#Google`, `#Voice-Assistants`, `#Industry-News`
+**标签**: `#AI`, `#Funding`, `#Startups`, `#China-Tech`, `#Machine-Learning`
 
 ---
 
 <a id="item-7"></a>
-## [阿里腾讯同日发布 3D 内容生成 AI 模型](https://www.bloomberg.com/news/articles/2026-04-16/alibaba-releases-new-ai-model-for-gaming-development) ⭐️ 8.0/10
+## [翻译巨头 DeepL 进军语音领域，推出实时语音翻译套件与 API](https://techcrunch.com/2026/04/16/deepl-known-for-text-translation-now-wants-to-translate-your-voice/) ⭐️ 7.0/10
 
-阿里巴巴发布了名为“Happy Oyster”的 AI 模型，可生成三维、可交互的视频内容，主要面向游戏开发及影视制作。腾讯同日发布并开源了“混元 3D 世界模型 2.0”，支持根据文字、图片、视频生成、重建和模拟 3D 世界，并可导出 Mesh、3DGS、点云等资产，接入现有游戏工作流。 两家中国科技巨头同日发布相关模型，标志着 AI 驱动的 3D 内容创作正加速走向工业化，有望极大提升游戏、影视及数字孪生应用的生产效率。模型强调与 Unity、UE 等行业标准工具的集成，表明其目标已超越技术演示，旨在提供可直接用于生产流程的实用解决方案。 腾讯的开源模型特别支持导出 Mesh 和 3D 高斯泼溅（3DGS）等格式的资产，这对于在游戏引擎中进行实时渲染和编辑至关重要。两款模型都强调了从真实空间视频或多视角图片构建数字孪生场景的能力，拓展了其在纯内容生成之外的实用性。
+4 月 16 日，DeepL 正式推出了 DeepL Voice 语音实时翻译套件，标志着其核心业务从文本翻译拓展至实时语音领域。该套件目前已支持 Zoom 和 Microsoft Teams 等会议平台，同时发布的 API 允许企业将该技术集成至呼叫中心等自定义场景。 此举是翻译行业主要参与者的重要产品多元化，直接应对了商业和远程协作中对无缝、实时多语言沟通日益增长的需求。通过提供 API，DeepL 使各类企业能够将语音翻译技术集成到自身工作流中，这可能会彻底改变客户服务、销售和国际团队协作的模式。 当前系统采用“语音-文本-语音”的转换架构，并计划未来开发端到端的直接语音翻译模型。其关键特性是能够学习行业术语及专有名词，以提升专业场景下的翻译质量。目前该产品已开启早期访问，并开放了企业候补名单申请。
 
-telegram · zaihuapd · Apr 16, 07:58
+telegram · zaihuapd · Apr 17, 03:04
 
-**背景**: 3D 内容生成是 AI 的前沿领域，旨在从文本或图像等简单输入中创建三维模型和场景。Mesh（由顶点和多边形定义的表面）和 3D 高斯泼溅（3DGS，一种从图像生成高质量、实时新视角合成的技术）是游戏和模拟中常用的 3D 资产表示格式。数字孪生是物理对象、系统或空间的虚拟复制品，常用于分析、监控或模拟。
+**背景**: DeepL 是一家德国人工智能公司，以其基于 Transformer 架构的高质量神经机器翻译服务而闻名。实时语音翻译通常涉及一系列技术组合：自动语音识别将语音转为文本，机器翻译对文本进行翻译，文本转语音再合成翻译后的音频。一种新兴的替代方案是端到端直接语音翻译，旨在通过单一模型将语音直接翻译成另一种语言的语音，但与级联系统相比，它通常需要更多数据才能表现良好。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Gaussian_splatting">Gaussian splatting - Wikipedia</a></li>
-<li><a href="https://imerit.net/resources/blog/3d-point-cloud-vs-mesh/">3 D Point Cloud vs Mesh : What’s the Difference?</a></li>
-<li><a href="https://arxiv.org/html/2509.17647">VideoArtGS: Building Digital Twins of Articulated Objects from Monocular Video</a></li>
+<li><a href="https://en.wikipedia.org/wiki/DeepL_Translator">DeepL Translator - Wikipedia</a></li>
+<li><a href="https://www.deepl.com/en/products/voice">DeepL Voice: instant, secure voice translation for global teams</a></li>
+<li><a href="https://arxiv.org/abs/1904.07209">[1904.07209] Attention-Passing Models for Robust and Data-Efficient...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#3D-Generation`, `#AI-Models`, `#Game-Development`, `#Multimodal-AI`, `#Computer-Vision`
+**标签**: `#machine-translation`, `#speech-recognition`, `#real-time-systems`, `#api`, `#nlp`
 
 ---
 
 <a id="item-8"></a>
-## [DeepSeek 发布 DeepGEMM 重大更新：推出 Mega MoE 融合算子并支持 FP4 精度](https://github.com/deepseek-ai/DeepGEMM/tree/public-release-260416) ⭐️ 8.0/10
+## [Perplexity 发布 'Personal Computer' 软件，将 Mac 转化为自主 AI 智能体](https://www.cultofmac.com/news/perplexity-personal-computer) ⭐️ 7.0/10
 
-2026 年 4 月 16 日，DeepSeek 对其高性能算子库 DeepGEMM 发布了重大更新，正式推出了名为 Mega MoE 的融合算子，该算子通过将 dispatch、SwiGLU 等多个计算步骤与 NVLink 通信重叠，实现了计算与通信的高效融合。此外，本次更新还新增了 FP8xFP4 GEMM 算子、FP4 Indexer 以及程序化依赖启动（PDL）支持，并显著提升了即时编译（JIT）速度。 此次更新对于大型语言模型的推理和训练，尤其是日益流行的混合专家（MoE）架构，是一次重大的性能优化。通过融合算子操作并实现计算与通信的重叠，该技术可以显著提升硬件利用率和降低延迟，使得运行大规模 AI 模型变得更加高效。 DeepGEMM 库专为现代大模型设计，支持 NVIDIA SM90 和 SM100 GPU 架构，其核心优势在于轻量化设计与运行时即时编译，无需在安装阶段进行复杂编译。Mega MoE 算子通过对称内存技术，进一步优化了多专家模型在推理和训练中的性能表现。
+AI 搜索引擎公司 Perplexity 正式发布名为 'Personal Computer' 的软件层，现已面向 Perplexity Max 订阅者及候补名单用户开放。该软件旨在将 Mac（尤其是搭载 M4 芯片的 Mac mini）转化为一个全天候运行的 AI 员工，能够自动将复杂目标分解为子任务，并协调各类 AI 工具自主完成工作。 这标志着个人电脑上实用化、目标导向的 AI 自动化迈出了重要一步，超越了简单的指令执行，实现了自主任务管理。它可能通过允许用户将复杂的多步骤目标委托给一个能在其应用程序间工作的 AI 智能体，从而重新定义生产力工作流。 该软件深度集成于 Mac 应用，可访问本地文件、原生程序及浏览器，并支持在 Gmail、Slack 和 Salesforce 等多个平台间执行跨系统协作。针对企业用户，Perplexity 同步推出了具备 SOC 2 合规性、审计日志和沙盒执行功能的版本，但由于其数据处理依赖云端服务器而非纯本地运行，隐私安全仍是外界关注的焦点。
 
-telegram · zaihuapd · Apr 16, 09:57
+telegram · zaihuapd · Apr 17, 03:34
 
-**背景**: DeepGEMM 是 DeepSeek-AI 发布的高性能 CUDA 内核库，最初以支持 FP8 精度的通用矩阵乘法（GEMM）运算来加速模型训练而闻名。融合 MoE 算子解决了混合专家模型中的一个关键瓶颈，它将多个小型独立操作（如将令牌路由到专家、计算专家输出）合并为一个大规模的内核。这种融合能更好地利用 GPU 为大型连续数据块设计的并行处理能力，从而减少开销并提升性能。
+**背景**: Perplexity 主要以其 AI 驱动的搜索引擎而闻名，但现已扩展提供订阅层级，例如 'Perplexity Max'，这是一项面向高级用户的每月 200 美元的高级服务，提供无限制的工具和前沿模型。SOC 2 是一项安全合规框架，规定了组织应如何保护客户数据，重点关注安全性、可用性、处理完整性、保密性和隐私性。沙盒执行是指在隔离环境中运行代码或智能体，以防止其影响主机系统，这对于安全执行 AI 生成的任务至关重要。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://github.com/deepseek-ai/DeepGEMM">GitHub - deepseek-ai/ DeepGEMM : DeepGEMM : clean and efficient...</a></li>
-<li><a href="https://medium.com/@datenlord/from-loops-to-fusion-understanding-the-principles-of-the-fused-moe-operator-part1-203767168166">From Loops to Fusion: Understanding the Principles of the Fused MoE Operator (Part1) | by DatenLord | Nov, 2025 | Medium</a></li>
+<li><a href="https://www.perplexity.ai/max">Perplexity Max</a></li>
+<li><a href="https://secureframe.com/hub/soc-2/what-is-soc-2">What is SOC 2? A Beginners Guide to Compliance | Secureframe</a></li>
+<li><a href="https://agent-sandbox.sigs.k8s.io/">Agent Sandbox</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI-Infrastructure`, `#GPU-Computing`, `#Model-Optimization`, `#CUDA`, `#Mixture-of-Experts`
+**标签**: `#AI Agents`, `#Automation`, `#Perplexity`, `#Mac`, `#Productivity`
 
 ---
 
 <a id="item-9"></a>
-## [Qwen3.6-35B-A3B 开源发布：一款仅激活 3B 参数的稀疏 MoE 代理式编程模型](https://qwenlm.github.io/blog/qwen3.6-35b-a3b/) ⭐️ 8.0/10
+## [星链故障中断美海军无人艇测试，暴露五角大楼单点故障风险](https://www.reuters.com/business/media-telecom/starlink-outage-hit-drone-tests-exposing-pentagons-growing-reliance-spacex-2026-04-16/) ⭐️ 7.0/10
 
-Qwen 团队开源了 Qwen3.6-35B-A3B，这是一款稀疏专家混合模型，总参数量为 350 亿，但每次推理仅激活 30 亿参数。该模型专为代理式编程和多模态推理设计，官方称其在 SWE-bench、MCPMark 等编码与工具使用基准上的表现显著优于前代模型，并可媲美部分规模更大的稠密模型。 此次发布是迈向更高效、更强大 AI 智能体（Agent）的重要一步。该模型仅用少量激活参数就实现了强大的性能，降低了开发能够理解代码、使用工具和处理多模态输入的复杂智能体系统的计算成本和门槛，有望加速现实世界 AI 应用的开发进程。 该模型保留了多模态理解能力，在多项视觉语言评测中表现接近甚至超过部分闭源强模型。它已提供开放权重供自托管，并提供了兼容 OpenAI/Anthropic 风格接口的 API，便于接入 OpenClaw、Qwen Code 等开发者工作流。
+内部文件显示，SpaceX 的星链卫星网络故障曾多次导致美国海军无人水面艇（USV）测试中断。在 2025 年 8 月的一次全球性星链断网中，加州海岸的 24 艘无人艇失去通信并滞留近一小时；而 2025 年 4 月的测试也暴露了星链在多设备高负载环境下的连接瓶颈问题。 这一事件暴露了一个关键的国家安全漏洞，因为五角大楼对 SpaceX 等单一商业卫星供应商日益增长的操作依赖，为军事通信、无人机控制和导弹追踪创造了潜在的单点故障。这引发了关于严重依赖商业系统的国防基础设施的韧性和冗余性的紧迫问题。 具体的故障发生在海军无人水面艇第一中队（USVRON-1）进行的测试中，该中队的任务是将中型无人艇整合到舰队中。报告强调，星链的架构虽然成本效益高且覆盖范围广，但在压力下可靠地支持复杂、同步的无人系统操作方面面临挑战。
 
-telegram · zaihuapd · Apr 16, 13:59
+telegram · zaihuapd · Apr 17, 04:19
 
-**背景**: 稀疏专家混合模型是一种神经网络架构，旨在不按比例增加计算成本的前提下提升模型容量。其原理是拥有多个“专家”子网络，但对于每个输入，只激活和使用一小部分专家进行计算。SWE-bench 是一个用于评估大语言模型解决现实世界软件工程问题能力的基准，其中的问题收集自 GitHub，要求模型生成能解决所述问题的代码补丁。MCPMark 则是一个综合性基准，旨在压力测试模型和智能体在真实 Model Context Protocol 使用场景下的能力。
+**背景**: 星链是由 SpaceX 运营的近地轨道（LEO）卫星星座，提供全球宽带互联网服务。其规模（近 1 万颗卫星）和较低延迟使其对军事应用具有吸引力。美国海军正在积极扩大无人水面艇（USV）在各种任务中的使用，这些任务需要持久、有韧性的通信链路，通常由卫星网络提供。单点故障是指一个组件的故障可能导致整个系统瘫痪。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://arxiv.org/abs/2604.13761">Design and Behavior of Sparse Mixture-of-Experts Layers in ...</a></li>
-<li><a href="https://github.com/swe-bench/SWE-bench">GitHub - SWE-bench/SWE-bench: SWE-bench: Can Language Models ...</a></li>
-<li><a href="https://arxiv.org/abs/2509.24002">[2509.24002] MCPMark : A Benchmark for Stress-Testing Realistic...</a></li>
+<li><a href="https://www.reuters.com/business/media-telecom/starlink-outage-hit-drone-tests-exposing-pentagons-growing-reliance-spacex-2026-04-16/">Exclusive: Starlink outage hit drone tests, exposing Pentagon ...</a></li>
+<li><a href="https://www.surfpac.navy.mil/usvron1/">Unmanned Surface Vessel Squadron 1 (USVRON-1)</a></li>
+<li><a href="https://files.gao.gov/reports/GAO-25-107034/index.html">GAO-25-107034, DOD SATELLITE COMMUNICATIONS: Reporting on ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#Large Language Models`, `#Mixture-of-Experts`, `#Code Generation`, `#Open Source`
+**标签**: `#satellite-communications`, `#military-technology`, `#infrastructure-risk`, `#spacex`, `#defense-systems`
 
 ---
 
 <a id="item-10"></a>
-## [Anthropic 发布 Claude Opus 4.6，支持 200K 上下文窗口和自适应思考模式](https://t.me/zaihuapd/40903) ⭐️ 8.0/10
+## [SpaceX 猎鹰重型火箭将于 2028 年发射欧空局罗莎琳德·富兰克林号火星车，NASA 提供关键硬件支持。](https://arstechnica.com/space/2026/04/after-a-saga-of-broken-promises-a-european-rover-finally-has-a-ride-to-mars/) ⭐️ 7.0/10
 
-Anthropic 发布了新一代 Claude Opus 4.6 模型，将上下文窗口提升至 200K token（测试版提供 100 万 token），并将最大输出 token 数翻倍至 128K。该模型引入了自适应思考模式，可根据问题复杂度动态调整思考深度，并新增最高级别的 'max effort' 参数，同时还推出了上下文压缩功能以实现近乎无限长度的对话。 此次发布标志着 AI 模型能力的一次重大飞跃，通过提供更大的上下文窗口和更复杂的推理机制，直接与其他领先模型展开竞争。自适应思考模式和上下文压缩功能有望实现更高效、更自然的长时间交互，可能彻底改变用户在处理复杂任务和进行长时间对话时与 AI 助手互动的方式。 200K 上下文窗口在测试版中提供实验性的 100 万 token 容量，而标准版本则为 200K。上下文压缩功能会在对话接近窗口限制时自动总结早期内容，形成一个滚动的记忆系统，在保持对话连续性的同时不丢失关键上下文。
+NASA 已正式选定 SpaceX 的猎鹰重型火箭，于 2028 年底从肯尼迪航天中心发射欧洲航天局（ESA）的罗莎琳德·富兰克林号火星车。NASA 的 ROSA 项目将为该任务提供关键硬件支持，包括发射服务、着陆平台推进系统、放射性同位素加热装置以及用于分析有机分子的先进质谱仪。 此次宣布为一项已推迟二十多年的重大国际火星任务提供了具体的发射计划，标志着在寻找地外生命方面取得了重要进展。NASA、ESA 和 SpaceX 之间的合作展现了行星科学领域坚韧的国际伙伴关系，确保了一台精密的火星车最终能够抵达一个极具科学价值的火星地点。 火星车的目的地是奥克西亚高原，该区域以暴露大片古老的含水粘土岩而闻名，是寻找过去生命迹象的主要目标。该任务因技术、预算和地缘政治挑战而多次推迟，此次最新协议最终为其确定了发射路径。
 
-telegram · zaihuapd · Apr 16, 14:28
+telegram · zaihuapd · Apr 17, 06:36
 
-**背景**: Claude 是 Anthropic 的旗舰大型语言模型，直接与 OpenAI 的 GPT 系列和 Google 的 Gemini 等模型竞争。上下文窗口指的是模型在处理时一次性能考虑的文本量（以 token 计量），本质上相当于其工作记忆。上下文压缩是一种通过总结或有选择地保留信息来优化对话历史的技术，使模型能够处理更长的对话而不超出 token 限制，同时保持对话状态和连贯性。
+**背景**: 罗莎琳德·富兰克林号火星车是欧空局 ExoMars 计划的一部分，专门设计用于通过钻探和分析样本，在火星地表下寻找生物特征——即过去或现在生命的证据。SpaceX 的猎鹰重型火箭是一种强大的、部分可重复使用的运载火箭，能够将重型有效载荷送往火星等行星际目的地。NASA 的 ROSA（罗莎琳德·富兰克林支持与增强）项目是一项专门工作，旨在为这项欧洲主导的任务提供必要的硬件和服务。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://blog.mycal.net/infinite-ai-chat-windows/">Make Your Chat Context Feel Infinite: Rolling Compression for GPT...</a></li>
-<li><a href="https://particula.tech/blog/prompt-compression-context-window-optimization">Prompt Compression : Making Context Windows Work for You</a></li>
+<li><a href="https://science.nasa.gov/blogs/mars-rosa/2026/04/16/nasa-begins-implementation-for-esas-rosalind-franklin-mission-to-mars/">NASA Begins Implementation for ESA’s Rosalind Franklin ...</a></li>
+<li><a href="https://www.space.com/39779-falcon-heavy-facts.html">Facts About SpaceX's Falcon Heavy Rocket | Space</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Oxia_Planum">Oxia Planum - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#LLM`, `#Anthropic`, `#Claude`, `#Natural Language Processing`
+**标签**: `#space-exploration`, `#spacex`, `#nasa`, `#mars-mission`, `#international-collaboration`
 
 ---
 
 <a id="item-11"></a>
-## [俄罗斯多款流行安卓应用被曝检测 VPN 使用并扫描外国应用](https://files.rks.global/russian_apps_search_for_vpn_en.pdf) ⭐️ 7.0/10
+## [三星电子终止 LPDDR4/4X 订单接收，加速向先进制程迁移](https://wallstreetcn.com/articles/3770258) ⭐️ 7.0/10
 
-RKS Global 的一项研究发现，30 款流行的俄罗斯安卓应用中有 22 款具备 VPN 检测功能，其中 19 款会将 VPN 状态数据发送至其服务器。此外，Avito 应用还被发现会扫描设备上是否安装了超过 200 种外国应用，包括银行、加密货币钱包和即时通讯应用。 主流应用这种系统性的、侵犯隐私的数据收集行为，标志着用户监控的显著升级，很可能是为了遵守即将到来的政府限制而实施的。它直接影响数百万用户的数字隐私和自由，可能基于用户使用规避工具而阻止其访问基本服务。 该研究特别指出 Avito 市场应用会扫描大量外国软件。这种广泛的检测和上报行为与俄罗斯数字发展部的一项指令直接相关，该部已指示大型企业从 2026 年 4 月 15 日起，对启用 VPN 的用户限制相关服务。
+三星电子已正式将 LPDDR4 及 LPDDR4X 移动 DRAM 列为 EOL（产品寿命终止）产品并停止接收新增订单。现有生产将延续至 2026 年底，相关产线预计于 2027 年第一季度启动转换。 此举标志着移动内存技术一次重大的行业性转变，迫使高通等主要下游客户加速采用更新、更快的标准。这代表了三星对其制造资源的战略性重新分配，将资源集中到更先进、利润更高的制程节点上，这将塑造未来智能手机和移动设备的性能与能效。 这一转变是更广泛产能优化计划的一部分，该计划包括将三星华城 12 号线从 2D NAND 生产改造为 1c DRAM 设施，旨在缓解核心制程的产能瓶颈。下游客户正被推动转向 LPDDR5，据报道其性能比旧一代产品提升 50%。
 
-telegram · zaihuapd · Apr 16, 04:38
+telegram · zaihuapd · Apr 17, 14:18
 
-**背景**: 虚拟专用网络（VPN）会加密用户的互联网流量，并通过位于另一地点的服务器进行路由，可用于绕过地理限制或增强隐私。近年来，俄罗斯政府日益寻求控制互联网访问并封锁 Telegram 等服务，导致对 VPN 这一常见规避工具的打击。数字发展部已公开声明其目标是减少俄罗斯人使用 VPN。
+**背景**: LPDDR（低功耗双倍数据速率）是一种专为移动和功耗敏感设备设计的 DRAM 类型。LPDDR4 和 LPDDR4X 是前几代产品，而 LPDDR5 则提供了显著更快的数据传输速率和更低的功耗。文中提到的“1c”指的是第六代 10 纳米级 DRAM 工艺节点，代表了目前内存芯片开发中最先进的制造技术之一。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.themoscowtimes.com/2026/03/31/russias-digital-ministry-declares-war-on-vpns-a92384">Russia’s Digital Ministry Declares War on VPNs</a></li>
-<li><a href="https://tarkalabs.com/blogs/vpn-detection-guide-ios-android/">The ultimate VPN detection guide for iOS and Android ... - Tarka Labs</a></li>
+<li><a href="https://differencess.com/ddr4-vs-lpddr4-vs-lpddr4x-vs-lpddr5/">DDR4 Vs LPDDR4 Vs LPDDR4x Vs LPDDR5 RAM Comparison » Differencess</a></li>
+<li><a href="https://wccftech.com/sk-hynix-develops-lpddr6-memory-1c-node-16gb-density-10-7-gbps/">SK hynix Develops LPDDR6 Memory Based on 1C Node: 16Gb ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#privacy`, `#android-security`, `#vpn`, `#government-surveillance`, `#app-analysis`
+**标签**: `#semiconductors`, `#memory-technology`, `#manufacturing`, `#supply-chain`, `#mobile-hardware`
 
 ---
