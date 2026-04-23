@@ -5,290 +5,474 @@ date: 2026-04-23
 lang: zh
 ---
 
-> From 24 items, 12 important content pieces were selected
+> From 26 items, 20 important content pieces were selected
 
 ---
 
-1. [谷歌发布第八代 TPU 与 Gemini Enterprise 平台，构建 AI 智能体全栈基础设施](#item-1) ⭐️ 9.0/10
-2. [苹果修复 iOS 漏洞，该漏洞曾允许警方从通知缓存中恢复已删除的聊天信息](#item-2) ⭐️ 8.0/10
-3. [Firefox 和 Tor 浏览器漏洞暴露跨隐私会话的稳定标识符](#item-3) ⭐️ 8.0/10
-4. [Qwen3.6-27B：270 亿参数稠密模型实现旗舰级编程性能](#item-4) ⭐️ 8.0/10
-5. [Mozilla 使用 Claude Mythos Preview 发现并修复了 Firefox 150 中的 271 个漏洞。](#item-5) ⭐️ 8.0/10
-6. [腾讯与阿里巴巴洽谈投资 DeepSeek，估值超 200 亿美元](#item-6) ⭐️ 8.0/10
-7. [AI 编程助手'过度编辑'问题分析及提示策略探讨](#item-7) ⭐️ 7.0/10
-8. [GitHub Copilot 个人版计划调整：限制收紧、暂停注册、Claude Opus 分级访问。](#item-8) ⭐️ 7.0/10
-9. [长江存储一季度收入超 200 亿元，加速扩产拟实现产能翻番](#item-9) ⭐️ 7.0/10
-10. [特斯拉中国车机语音服务将接入字节跳动豆包大模型](#item-10) ⭐️ 7.0/10
-11. [FBI 从 iPhone 通知数据库提取已删除 Signal 消息，案件发生在得州](#item-11) ⭐️ 7.0/10
-12. [法国国家安全证件署（ANTS）确认发生数据泄露，或影响 1900 万公民。](#item-12) ⭐️ 7.0/10
+1. [Qwen3.6-27B：27B 密集模型在编码上超越 397B MoE](#item-1) ⭐️ 9.0/10
+2. [Anthropic 的 Mythos AI 模型发布当天即遭入侵](#item-2) ⭐️ 9.0/10
+3. [Bitwarden CLI npm 包遭 Checkmarx 供应链攻击](#item-3) ⭐️ 9.0/10
+4. [Tailscale 联合创始人提议从第一性原理构建更简单的云](#item-4) ⭐️ 8.0/10
+5. [阿尔伯塔初创公司半价销售无科技拖拉机](#item-5) ⭐️ 8.0/10
+6. [苹果修复警方用于提取 iPhone 已删除聊天记录的漏洞](#item-6) ⭐️ 8.0/10
+7. [公民实验室揭露两起电信监控活动](#item-7) ⭐️ 8.0/10
+8. [法国 ANTS 确认数据泄露，1900 万公民信息或遭窃](#item-8) ⭐️ 8.0/10
+9. [吹风机操控巴黎天气传感器，Polymarket 获利超 3.4 万美元](#item-9) ⭐️ 8.0/10
+10. [Google Cloud 默认安全缺陷导致用户产生巨额账单](#item-10) ⭐️ 8.0/10
+11. [字节跳动发布 Seed3D 2.0，3D 生成达到生产可用水平](#item-11) ⭐️ 8.0/10
+12. [DeepSeek 开源 TileKernels 算子库，支持 Blackwell](#item-12) ⭐️ 8.0/10
+13. [腾讯开源混元 Hy3 preview：295B MoE 模型](#item-13) ⭐️ 8.0/10
+14. [香港证监会与普华永道就恒大造假达成 10 亿港元和解](#item-14) ⭐️ 8.0/10
+15. [中国三大运营商报告国际网络故障](#item-15) ⭐️ 8.0/10
+16. [苹果 CEO 蒂姆·库克将卸任，约翰·特努斯 2026 年接任](#item-16) ⭐️ 8.0/10
+17. [英国 NCSC 正式将通行密钥列为首选身份验证方式](#item-17) ⭐️ 8.0/10
+18. [欧盟施压谷歌开放安卓 AI 助手权限](#item-18) ⭐️ 8.0/10
+19. [OpenAI macOS 版 Chronicle 功能引发隐私与安全争议](#item-19) ⭐️ 7.0/10
+20. [台积电因成本过高推迟导入 ASML 高数值孔径 EUV 至 2029 年](#item-20) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [谷歌发布第八代 TPU 与 Gemini Enterprise 平台，构建 AI 智能体全栈基础设施](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/) ⭐️ 9.0/10
+## [Qwen3.6-27B：27B 密集模型在编码上超越 397B MoE](https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything) ⭐️ 9.0/10
 
-在 Google Cloud Next 大会上，谷歌发布了采用训练（TPU 8t）与推理（TPU 8i）双架构设计的第八代定制张量处理器（TPU），并将 Gemini Enterprise 升级为端到端的智能体系统。TPU 8t 的单集群算力提升至 3 倍，TPU 8i 的性价比和能效比分别提升 80%和 2 倍，两款芯片均搭载谷歌自研的 Axion 处理器，预计于今年晚些时候正式商用。 此次发布标志着 AI 基础设施的范式转变，为新兴的'智能体时代'提供了软硬件全栈支持，旨在让 AI 智能体执行复杂的多步骤任务。通过为 AI 生命周期的不同阶段提供专用芯片，以及一个具备智能体身份、测试和长期记忆功能的统一平台，谷歌正致力于引领下一代企业级 AI 的大规模开发与部署。 TPU 8t 专为前沿模型训练设计，可构建由 9600 个芯片组成的超级集群；TPU 8i 则针对大规模推理和强化学习优化，以实现快速的智能体推理。升级后的 Gemini Enterprise 平台（现称为 Agent Platform）引入了智能体治理、模拟测试功能，并集成了长期记忆系统，使智能体能够在不同会话间保留信息。
+阿里巴巴 Qwen 团队发布了 Qwen3.6-27B，这是一个 270 亿参数的密集开源权重模型，在所有主要编码基准测试上超越了前代旗舰模型 Qwen3.5-397B-A17B（总参数 397B/激活参数 17B 的 MoE 模型）。该模型仅 55.6GB，而前代模型为 807GB，量化后的 16.8GB 版本可在消费级硬件上本地运行。 这代表了巨大的效率飞跃，表明一个训练有素的密集模型可以匹配甚至超越大得多的混合专家模型的编码性能，大幅降低最先进智能编码的硬件需求。它使开发者能够在单个 GPU 甚至高端笔记本电脑上本地运行旗舰级编码助手，使高级 AI 编码工具的获取更加民主化。 在 QwenWebBench 等内部基准测试中，Qwen3.6-27B 得分 1487，较前代模型的 1068 有显著提升。该模型已在 Hugging Face 上发布，16.8GB 的 GGUF 量化版本（Q4_K_M）可使用 llama.cpp 在本地运行，在典型消费级机器上达到约每秒 25 个 token 的生成速度。
 
-telegram · zaihuapd · Apr 22, 14:38
+rss · Simon Willison · Apr 22, 16:45
 
-**背景**: 张量处理器（TPU）是谷歌定制开发的专用集成电路（ASIC），用于加速机器学习工作负载。AI 智能体是能够自主推理、规划并执行多步骤工作流以实现复杂目标的高级 AI 系统，超越了简单的问答功能。AI 智能体的长期记忆是一项关键能力，使其能够持久保存信息、从过去的交互中学习并维持上下文，通常通过向量嵌入和知识图谱等技术实现。
+**背景**: 密集模型每次推理使用所有参数，而混合专家（MoE）模型每个 token 仅激活部分参数，从而在相似计算成本下实现更大的总参数量。GGUF 量化通过压缩权重来减小模型大小和内存需求，同时保持最小质量损失，使大型模型能在消费级硬件上运行。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://cloud.google.com/blog/products/compute/tpu-8t-and-tpu-8i-technical-deep-dive">TPU 8t and TPU 8i technical deep dive | Google Cloud Blog</a></li>
-<li><a href="https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/tpus-8t-8i-cloud-next/">Google introduces new TPUs at Cloud Next ‘26 - The Keyword</a></li>
-<li><a href="https://mem0.ai/blog/long-term-memory-ai-agents">Long-Term Memory for AI Agents: The What, Why and How</a></li>
+<li><a href="https://www.marktechpost.com/2026/04/22/alibaba-qwen-team-releases-qwen3-6-27b-a-dense-open-weight-model-outperforming-397b-moe-on-agentic-coding-benchmarks/">Alibaba Qwen Team Releases Qwen3.6-27B: A Dense Open-Weight Model Outperforming 397B MoE on Agentic Coding Benchmarks - MarkTechPost</a></li>
+<li><a href="https://simonwillison.net/2026/Apr/22/qwen36-27b/">Qwen3.6-27B: Flagship-Level Coding in a 27B Dense Model</a></li>
+<li><a href="https://www.buildfastwithai.com/blogs/qwen3-6-27b-review-2026">Qwen3.6-27B: 27B Model Beats 397B on Coding (2026)</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI Infrastructure`, `#TPU`, `#AI Agents`, `#Google Cloud`, `#Hardware Acceleration`
+**社区讨论**: Hacker News 上的讨论（文章中提及）参与度很高，用户分享了本地运行该模型的实操测试结果和配方。总体情绪积极，许多人对模型在如此小尺寸下展现的编码性能印象深刻，但有人指出其数学推理能力可能落后于 Gemma 4 等其他模型。
+
+**标签**: `#AI/ML`, `#open-source`, `#coding`, `#model efficiency`, `#Qwen`
 
 ---
 
 <a id="item-2"></a>
-## [苹果修复 iOS 漏洞，该漏洞曾允许警方从通知缓存中恢复已删除的聊天信息](https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/) ⭐️ 8.0/10
+## [Anthropic 的 Mythos AI 模型发布当天即遭入侵](https://www.bloomberg.com/news/articles/2026-04-21/anthropic-s-mythos-model-is-being-accessed-by-unauthorized-users) ⭐️ 9.0/10
 
-苹果公司已修复 iOS 中的一个安全漏洞，该漏洞曾允许执法机构从 iPhone 中提取已删除的聊天信息。该漏洞涉及操作系统的通知系统将消息内容缓存在本地数据库中，即使在 Signal 等应用内删除消息后，这些缓存内容仍然存在。 此次修复意义重大，因为它堵住了一个破坏端到端加密承诺的后门，用户原本相信已删除的信息会永久消失。它影响了数百万 iPhone 用户的隐私，并改变了执法部门调查的数字取证环境。 缓存数据存在于一个由 iOS 管理的 SQLite 数据库中，不受单个应用删除协议的控制。值得注意的是，仅仅删除像 Signal 这样的应用可能并未清除其缓存的通知，这正是本次补丁要解决的具体行为。用户可以通过在系统通知设置中禁用消息预览来降低类似风险。
+Anthropic 高度受限的网络安全 AI 模型 Mythos（专为零日漏洞发现而设计）在发布当天即被一个小型 Discord 社群绕过限制获取访问权限，并在未触发告警的情况下持续使用近两周，直至彭博社报道后才被外界知晓。 这一事件凸显了强大 AI 模型的严重安全风险：能够发现关键基础设施软件漏洞的 Mythos 被未授权用户利用，可能助长恶意网络攻击，并削弱对 AI 治理的信任。 Mythos 最初仅通过名为 Project Glasswing 的封闭测试向 Apple、Amazon、Cisco 等特定企业开放，Anthropic 已就未授权访问的指控展开调查。
 
-hackernews · cdrnsf · Apr 22, 20:27
+telegram · zaihuapd · Apr 23, 01:49
 
-**背景**: iOS 上的推送通知通常会经过苹果的服务器，并且操作系统会在本地缓存通知内容（如消息预览）以在锁屏上显示。执法部门使用的取证工具，如 Cellebrite 的 UFED，可以进行完整的文件系统提取以访问这些缓存数据，即使在应用内原始内容已被删除之后。像 Signal 这样的端到端加密消息应用会对消息内容进行加密，但由操作系统生成的通知预览可能会创建一个持久的、未加密的记录。
+**背景**: Mythos 是 Anthropic 开发的高级 AI 模型，能够自动发现零日漏洞（即此前未知的软件缺陷），涉及银行、电网和政府等系统。Anthropic 称其过于危险而不向公众发布，仅与少数可信合作伙伴及英国政府共享。该模型的能力已引起全球领导人和网络安全专家的警惕，因为它既可用于防御也可用于攻击。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://spacedaily.com/sd-n-the-push-notification-backdoor-how-ios-architecture-undermines-end-to-end-encryption-by-design/">The Push Notification Backdoor: How iOS Architecture Undermines End-to-End Encryption by Design</a></li>
-<li><a href="https://blog.elcomsoft.com/2021/11/the-five-ways-to-recover-iphone-deleted-data/">The Five Ways to Recover iPhone Deleted Data | ElcomSoft blog</a></li>
-<li><a href="https://cellebrite.com/en/products/ufed/">Cellebrite UFED | Mobile Device Extraction Tool for iOS</a></li>
+<li><a href="https://www.bbc.com/news/articles/cy41zejp9pko">Anthropic investigating claim of unauthorised access to Mythos AI tool</a></li>
+<li><a href="https://www.theguardian.com/technology/2026/apr/22/what-is-anthropic-mythos-ai-threat-global-cybersecurity">What is Mythos AI and why could it be a threat to global cybersecurity? | AI (artificial intelligence) | The Guardian</a></li>
+<li><a href="https://www.nytimes.com/2026/04/22/technology/anthropics-mythos-ai.html">Anthropic’s New Mythos A.I. Model Sets Off Global Alarms - The New York Times</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 评论者指出，核心问题在于 iOS 架构默认缓存通知内容，且不受应用控制。他们提到 Signal 提供了“通用通知”设置来隐藏内容，一些人对苹果整体的安全叙事表示怀疑。讨论强调，“已删除”并不总是意味着从所有系统缓存中擦除。
-
-**标签**: `#privacy`, `#security`, `#apple`, `#law-enforcement`, `#encryption`
+**标签**: `#AI security`, `#cybersecurity`, `#Anthropic`, `#Mythos`, `#data breach`
 
 ---
 
 <a id="item-3"></a>
-## [Firefox 和 Tor 浏览器漏洞暴露跨隐私会话的稳定标识符](https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/) ⭐️ 8.0/10
+## [Bitwarden CLI npm 包遭 Checkmarx 供应链攻击](https://socket.dev/blog/bitwarden-cli-compromised) ⭐️ 9.0/10
 
-Fingerprint.com 的研究人员发现，基于 Firefox 的浏览器（包括 Firefox 隐私浏览模式和 Tor 浏览器）存在一个隐私漏洞。该漏洞允许网站通过 IndexedDB `databases()` API 返回条目的顺序，推导出一个稳定的、进程作用域的标识符。只要 Firefox 进程保持运行，该标识符就会持续存在，从而将单个浏览器会话内的所有隐私浏览窗口和 Tor 身份链接起来。 该漏洞从根本上破坏了 Firefox 隐私浏览和 Tor 浏览器“新建身份”功能的隐私保证，使得那些自认为匿名的用户面临跨域追踪和指纹识别的风险。这标志着隐私关键应用程序在进程隔离方面存在重大缺陷，可能影响数百万依赖这些工具获取安全和匿名性的用户。 该漏洞是进程作用域的，而非源作用域，这意味着只要浏览器进程未重启，该标识符在不同的源（网站）和隐私窗口之间保持稳定。在 Tor 浏览器中，这破坏了“新建身份”功能在单个运行进程内预期的隔离性，使得网站能够链接本应完全分离的会话。
+Socket 研究人员发现 Bitwarden CLI 的 npm 包 @bitwarden/cli@2026.4.0 遭遇供应链攻击，攻击者通过篡改 Bitwarden CI/CD 管道中的 GitHub Action 在 bw1.js 文件中植入了恶意代码。 此次攻击针对广泛使用的密码管理器 CLI 工具，可能导致数千用户的凭证、加密货币钱包密钥和开发者机密泄露，凸显了针对流行开源包的供应链攻击威胁日益严重。 该恶意程序会窃取 GitHub 令牌、云服务凭证、SSH 密钥、npm 配置和加密货币钱包数据，并通过创建带有特定主题的公开 GitHub 仓库来泄露数据；它还包含针对俄语系统的自毁机制。
 
-hackernews · danpinto · Apr 22, 17:35
+telegram · zaihuapd · Apr 23, 16:02
 
-**背景**: 浏览器指纹识别是一种追踪技术，通过收集浏览器和设备属性的组合（如屏幕分辨率、已安装字体和 API 行为）来为用户创建唯一标识符。IndexedDB 是一种 Web API，用于在用户浏览器中存储大量结构化数据。Tor 浏览器是一款注重隐私的网络浏览器，它通过 Tor 网络路由流量以匿名化用户的位置和使用情况，其“新建身份”功能旨在创建一个全新的、无法关联的浏览会话。
+**背景**: 供应链攻击是指攻击者破坏软件开发管道中的可信组件（如 CI/CD 工具或第三方包），从而向下游用户分发恶意软件。Bitwarden 是一款流行的开源密码管理器，其 CLI 被开发者广泛用于自动化和凭证管理。Checkmarx 攻击活动此前已针对 Trivy 和 LiteLLM 等其他工具，表明这是一场更广泛的持续威胁。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://fingerprint.com/blog/firefox-tor-indexeddb-privacy-vulnerability/">We Found a Stable Firefox Identifier Linking All Your Private Tor ...</a></li>
-<li><a href="https://support.mozilla.org/en-US/kb/firefox-protection-against-fingerprinting">Firefox's protection against fingerprinting | Firefox Help Firefox is blocking more fingerprinting methods to improve ... We found a stable Firefox identifier linking all your private ... We found a stable Firefox identifier linking all your... Mozilla Firefox gets new anti-fingerprinting defenses Firefox 145 Brings Major Privacy Upgrade to Defend Against ...</a></li>
-<li><a href="https://support.torproject.org/tor-browser/features/managing-identities/">Managing identities - Features - Tor Browser — Tor</a></li>
+<li><a href="https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html">Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign</a></li>
+<li><a href="https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html">Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain</a></li>
+<li><a href="https://tech.yahoo.com/cybersecurity/articles/bitwarden-cli-supply-chain-attack-142710104.html">Bitwarden CLI Supply Chain Attack Puts Crypto Wallet Keys at Risk</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 讨论围绕该漏洞的进程作用域性质展开了技术辩论，一位用户提到了 Mozilla 之前关于“每站点一进程”架构的工作，并质疑其为何未能防止此问题。另一位用户指出，该标识符在浏览器重启后不会持续存在，他们认为这降低了其对攻击者的实用性。此外，还讨论了指纹识别公司披露此漏洞的伦理问题，一些人对其动机表示惊讶和好奇。
-
-**标签**: `#privacy`, `#security-vulnerability`, `#firefox`, `#tor`, `#fingerprinting`
+**标签**: `#supply chain attack`, `#security`, `#Bitwarden`, `#npm`, `#credential theft`
 
 ---
 
 <a id="item-4"></a>
-## [Qwen3.6-27B：270 亿参数稠密模型实现旗舰级编程性能](https://qwen.ai/blog?id=qwen3.6-27b) ⭐️ 8.0/10
+## [Tailscale 联合创始人提议从第一性原理构建更简单的云](https://crawshaw.io/blog/building-a-cloud) ⭐️ 8.0/10
 
-阿里通义千问团队开源了 Qwen3.6-27B 模型，这是一个拥有 270 亿参数的稠密语言模型，在 SWE-bench Verified 等核心编程基准测试中超越了其前代 3970 亿参数的 MoE 旗舰模型 Qwen3.5-397B-A17B，实现了旗舰级的编程性能。 这具有重要意义，因为它证明了一个相对小巧、高效的稠密模型可以匹配甚至超越更庞大、更复杂模型的编程能力，使得高性能的 AI 编程助手能够在消费级硬件上进行本地部署。它显著缩小了开源/本地模型与 Claude Opus 等顶级专有模型在实际编程任务上的性能差距。 该模型采用稠密架构，避免了混合专家模型的路由复杂性，从而简化了部署。据报道，经过量化后，它可以在拥有约 20-32GB 内存的硬件上高效运行，这使得许多使用现代消费级机器的开发者能够实际使用它。
+Tailscale 联合创始人 David Crawshaw 发表博文，指出现代云基础设施过于复杂和昂贵，并提出从第一性原理出发，构建更简单、更以用户为中心的云。 来自业界知名人士的批评挑战了云计算现状，尤其是 Kubernetes 的主导地位，可能影响初创公司和工程师重新思考基础设施设计与成本效益。 Crawshaw 认为虚拟机形态错误，因为其成本与 CPU 和内存挂钩而非实际完成的工作，并且让 Kubernetes 变得好用本质上是不可能的。该博文引发了社区强烈反响，获得 755 分和 393 条评论。
 
-hackernews · mfiguiere · Apr 22, 13:19
+hackernews · bumbledraven · Apr 23, 04:44
 
-**背景**: 大语言模型主要有两种架构类型：稠密模型和混合专家模型。稠密模型对每个输入都使用其全部参数，而 MoE 模型对每个 token 只激活一部分专门的“专家”子集，旨在实现超大规模下的更高效率。一个 270 亿参数的模型被认为是中等规模，通常旨在为本地或高性价比的云端部署寻求性能与效率的平衡。旗舰级编程性能指的是在 SWE-bench 等基准测试中取得与现有最佳专有模型相竞争的结果。
+**背景**: Tailscale 由前 Google 工程师创立，提供以简洁易用著称的网状 VPN 服务。该博文反映了开发者对现代云栈（尤其是 Kubernetes）复杂性和成本日益增长的不满，许多人认为 Kubernetes 为中小规模部署增加了不必要的负担。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://maximilian-schwarzmueller.com/articles/understanding-mixture-of-experts-moe-llms/">Mixture of Experts (MoE) vs Dense LLMs</a></li>
-<li><a href="https://epoch.ai/gradient-updates/moe-vs-dense-models-inference">MoE vs AI dense models: How do they compare in inference? | Epoch AI</a></li>
-<li><a href="https://www.morphllm.com/best-ai-model-for-coding">Best AI for Coding (2026): Every Model Ranked by Real Benchmarks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tailscale">Tailscale - Wikipedia</a></li>
+<li><a href="https://councils.forbes.com/profile/Avery-Pennarun-CEO-Founder-Tailscale/0031c5ae-0eef-4a54-8298-cacfd34ee08d">Avery Pennarun | CEO/Founder - Tailscale | Forbes Technology Council</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区参与度很高，注意到了该模型令人印象深刻的性能和实际效率。用户分享了在 M5 Pro Mac（32GB 内存）等硬件上本地运行的良好体验，认为对于大多数编程需求它都很有竞争力，同时也承认像 Opus 这样的顶级专有模型在可靠性上仍有优势。讨论还强调了开源模型与专有模型之间成本效益差距的缩小，一些人质疑闭源模型的长期竞争优势。
+**社区讨论**: 评论者大多认同 Crawshaw 的批评，分享了个人经历中的 Kubernetes 事故以及虚拟机定价与实际工作不匹配的问题。一些人怀疑更简单的云能否在规模化后保持盈利，另一些人则指出像 Firecracker 这样的自托管替代方案是有前途的方向。
 
-**标签**: `#llm`, `#open-source`, `#coding-assistant`, `#model-efficiency`, `#ai-hardware`
+**标签**: `#cloud computing`, `#kubernetes`, `#infrastructure`, `#devops`, `#startup`
 
 ---
 
 <a id="item-5"></a>
-## [Mozilla 使用 Claude Mythos Preview 发现并修复了 Firefox 150 中的 271 个漏洞。](https://simonwillison.net/2026/Apr/22/bobby-holley/#atom-everything) ⭐️ 8.0/10
+## [阿尔伯塔初创公司半价销售无科技拖拉机](https://wheelfront.com/this-alberta-startup-sells-no-tech-tractors-for-half-price/) ⭐️ 8.0/10
 
-Mozilla 与 Anthropic 合作，将 Claude Mythos Preview AI 模型的早期版本应用于 Firefox 代码库，从而识别出 271 个漏洞。这些漏洞已在本周发布的 Firefox 150 中得到修复。 这展示了前沿 AI 模型在主动网络安全防御方面的重要实际应用，可能将平衡转向防御者一方。这表明 AI 可以成为组织在安全漏洞被利用之前，系统性地发现并修补它们的强大工具。 此次合作是 Mozilla 与 Anthropic 持续合作伙伴关系的一部分；之前使用 Claude Opus 4.6 的努力发现了 22 个漏洞。已修复的漏洞详情载于 Mozilla 安全公告 MFSA2026-30 中，且这项工作需要团队以 "不懈且专注" 的精神重新调整工作优先级。
+一家位于阿尔伯塔省的初创公司以传统高科技型号一半的价格，提供简单、低技术的拖拉机，目标客户是对锁定且昂贵的农业机械感到沮丧的农民。 这反映了农业领域对过度工程化、软件锁定设备日益增长的抵制情绪，契合了维修权运动以及科技行业关于简洁性和开放生态系统的更广泛讨论。 这些拖拉机没有 GPS 跟踪、触摸屏和软件锁定等现代数字功能，因此独立机械师或农民自己维修起来更简单、更便宜。
 
-rss · Simon Willison · Apr 22, 05:40
+hackernews · Kaibeezy · Apr 22, 16:29
 
-**背景**: Claude Mythos Preview 是 Anthropic 迄今为止能力最强的 AI 模型，旨在阅读、编写代码和进行研究。零日漏洞是攻击者可在开发者提供补丁之前利用的、先前未知的软件缺陷，因此特别危险。AI 辅助漏洞检测涉及使用大语言模型分析代码以寻找潜在的安全弱点，这种方法正变得越来越复杂。
+**背景**: 像约翰迪尔这样的主要拖拉机制造商越来越多地为其机器配备专有软件和数字锁，限制农民自行维修设备，迫使他们使用授权经销商。这引发了长期的维修权斗争，美国联邦贸易委员会于 2025 年就这些做法起诉了约翰迪尔。这家初创公司的方法直接对抗了这一趋势，提供了一种更简单、更易维修的替代方案。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www-cdn.anthropic.com/8b8380204f74670be75e81c820ca8dda846ab289.pdf">Claude Mythos Preview System Card - www-cdn.anthropic.com</a></li>
-<li><a href="https://www.anthropic.com/news/mozilla-firefox-security">Partnering with Mozilla to improve Firefox’s security \ Anthropic</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Zero-day_vulnerability">Zero-day vulnerability - Wikipedia</a></li>
+<li><a href="https://www.bbc.com/news/business-64206913">US farmers win right to repair John Deere equipment</a></li>
+<li><a href="https://www.npr.org/2025/01/15/nx-s1-5260895/john-deere-ftc-lawsuit-right-to-repair-tractors">FTC sues John Deere over farmers' right to repair tractors : NPR</a></li>
+<li><a href="https://thecounter.org/right-to-repair-elizabeth-warren-john-deere/">As farmers fight for the right to repair their tractors , an antitrust...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI Security`, `#Vulnerability Detection`, `#Firefox`, `#Mozilla`, `#Anthropic`
+**社区讨论**: 社区评论普遍积极，许多人表达了对更简单、可维修机器的怀旧之情，以及对锁定生态系统的沮丧。一些评论者希望在汽车和电动汽车中也有类似选择，而另一些人则指出，由于监管障碍，这类产品在美国历史上难以销售。
+
+**标签**: `#agriculture`, `#startups`, `#technology backlash`, `#open ecosystems`, `#simplicity`
 
 ---
 
 <a id="item-6"></a>
-## [腾讯与阿里巴巴洽谈投资 DeepSeek，估值超 200 亿美元](https://www.cls.cn/detail/2352468) ⭐️ 8.0/10
+## [苹果修复警方用于提取 iPhone 已删除聊天记录的漏洞](https://techcrunch.com/2026/04/22/apple-fixes-bug-that-cops-used-to-extract-deleted-chat-messages-from-iphones/) ⭐️ 8.0/10
 
-据报道，中国科技巨头腾讯控股和阿里巴巴集团正在洽谈投资人工智能初创公司 DeepSeek，该公司正寻求以超过 200 亿美元的估值进行融资。这是 DeepSeek 成立以来的首次重大融资活动。 这笔潜在投资标志着中国最大的科技公司为确保在快速演变的人工智能格局中的地位而采取的重大战略举措，可能加速与 OpenAI 等全球领先者的竞争。超过 200 亿美元的估值将立即使 DeepSeek 成为全球最有价值的人工智能初创公司之一，重塑全球人工智能投资格局。 此次洽谈涉及 DeepSeek 的首次融资轮，据报道该公司正寻求以超过 200 亿美元的估值筹集资金。DeepSeek 由中国对冲基金幻方量化所有，因其高效的模型训练方法而受到关注，据报道其训练成本仅为同类模型的十分之一。
+苹果发布了紧急更新（iOS 26.4.2 和 iPadOS 26.4.2），修复了编号为 CVE-2026-28950 的 Notification Services 漏洞。该漏洞导致已删除的通知仍保留在设备上，使执法机构能够恢复来自 Signal 等应用的已删除聊天消息。 该漏洞暴露了依赖阅后即焚消息应用的用户面临的重大隐私风险——已删除的消息仍可被取证工具恢复。此次修复解决了特定的缓存问题，但通知内容在设备上存储的广泛问题仍然是跨平台的安全隐患。 该漏洞编号为 CVE-2026-28950，已在 iOS 26.4.2 和 iPadOS 26.4.2 中修复，同时为旧版支持系统发布了补丁。问题在于操作系统在本地数据库中缓存了通知内容，即使源应用已被删除，该漏洞也未能在删除应用时清除这些缓存通知。
 
-telegram · zaihuapd · Apr 22, 12:23
+hackernews · cdrnsf · Apr 22, 20:27
 
-**背景**: DeepSeek 是一家开发大型语言模型的中国人工智能公司。该公司在其应用程序登上下载排行榜榜首并于 2024 年 1 月发布最新模型 DeepSeek R1 后，在全球范围内成为头条新闻。DeepSeek 的旗舰 V3 模型采用混合专家架构，该架构通过仅为每个任务咨询相关的专家而非整个模型，从而实现更高效的处理。
+**背景**: 现代消息应用（如 Signal）对消息内容进行端到端加密，但推送通知通常包含消息预览，这些预览由操作系统解密并显示。这些通知预览存储在设备的本地数据库中，即使用户删除了原始消息或应用本身，数字取证工具仍可访问。苹果和谷歌的推送通知服务充当中间人，意味着通知内容会经过它们的服务器，并可能受到法律请求的约束。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/DeepSeek">DeepSeek - Wikipedia</a></li>
-<li><a href="https://www.bbc.com/news/articles/c5yv5976z9po">What is DeepSeek - and why is everyone talking about it?</a></li>
-<li><a href="https://medium.com/@ahdustechnology/technical-comparison-between-deepseek-chatgpt-llm-models-how-a-young-chinese-firm-developed-5c34aeb35089">Technical Comparison between DeepSeek & ChatGPT LLM Models ...</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/apple-fixes-ios-bug-that-retained-deleted-notification-data/">Apple fixes iOS bug that retained deleted notification data</a></li>
+<li><a href="https://www.macobserver.com/news/fbi-finds-deleted-signal-messages-on-iphone-via-notification-storage-heres-how-to-protect-your-privacy/">FBI Finds Deleted Signal Messages on iPhone via Notification ...</a></li>
+<li><a href="https://www.infosecurity-magazine.com/news/apple-ios-notification-bug-deleted/">Apple Fixes iOS Notification Bug Exposing Deleted Messages</a></li>
 
 </ul>
 </details>
 
-**标签**: `#artificial-intelligence`, `#venture-capital`, `#chinese-tech`, `#startups`, `#investment`
+**社区讨论**: 评论者指出，该漏洞只是问题的一部分；主要问题在于通知文本存储在应用控制之外的系统数据库中。用户建议在 Signal 设置中启用通用通知（例如“您收到了一条消息”），以防止消息内容被缓存，并指出这通常是一种良好的隐私保护做法。
+
+**标签**: `#security`, `#privacy`, `#iOS`, `#digital forensics`, `#notifications`
 
 ---
 
 <a id="item-7"></a>
-## [AI 编程助手'过度编辑'问题分析及提示策略探讨](https://nrehiew.github.io/blog/minimal_editing/) ⭐️ 7.0/10
+## [公民实验室揭露两起电信监控活动](https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/) ⭐️ 8.0/10
 
-一篇详细分析探讨了 AI 编程助手中的'过度编辑'现象，即模型对现有代码进行了超出请求所需的不必要修改。讨论包含了社区分享的用于缓解此问题的提示策略，并探讨了进行最小化更改与改进代码质量之间的权衡。 这很重要，因为过度编辑会引入不必要的复杂性、破坏现有功能并降低开发人员对 AI 工具的信任，直接影响生产力和代码库的稳定性。由于编码被广泛认为是生成式 AI 的关键应用场景，理解并控制这种行为对于这些助手在实际软件开发中的有效采用至关重要。 讨论中提到的一个关键提示策略是明确指示模型进行'最小化更改'，并精确指定要添加或修改的内容，同时声明哪些部分应保持不变。分析表明，过度编辑的倾向可能与模型被训练来生成'完整'或'改进'解决方案的方式有关，这可能与在成熟代码库中进行精准、保持上下文的编辑需求相冲突。
+公民实验室的研究人员揭露了两起复杂的监控活动，其中供应商滥用其对电信网络的访问权限，追踪全球受害者的手机位置。 这一发现凸显了电信基础设施中可被利用进行大规模监控的系统性漏洞，对全球个人和组织的隐私与安全构成严重威胁。 这些活动涉及两家独立的监控供应商，线索指向一家以色列的商业地理情报提供商，但具体供应商未被点名。滥用行为利用了 SS7 等核心电信协议的弱点，实现实时位置追踪。
 
-hackernews · pella · Apr 22, 17:51
+hackernews · mentalgear · Apr 23, 12:12
 
-**背景**: AI 编程助手，如 Claude Code 和 Gemini Code Assist，是集成到开发环境中的生成式 AI 工具，用于帮助完成代码生成、解释和修改等任务。提示工程涉及设计具体的指令来引导这些 AI 模型产生期望的输出，是有效使用的关键技能。讨论的核心挑战在于平衡 AI 重构和改进代码的能力与它对现有工作代码进行不稳定、不必要修改的风险。
+**背景**: 电信网络依赖 SS7（七号信令系统）等协议在运营商之间路由呼叫和共享位置数据。这些协议设计于数十年前，基于信任假设，缺乏现代安全防护，因此容易被拥有网络访问权限的行为者滥用。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://hackr.io/blog/ai-coding-assistants">7 Best AI Coding Assistants In 2026 [Free + Paid]</a></li>
-<li><a href="https://www.promptingguide.ai/applications/coding">Generating Code | Prompt Engineering Guide</a></li>
-<li><a href="https://medium.com/no-time/antigravity-vs-claude-code-which-ai-coding-assistant-should-you-actually-use-8337d9233582">Antigravity vs Claude Code : Which AI Coding Assistant ... | Medium</a></li>
+<li><a href="https://techcrunch.com/2026/04/23/surveillance-vendors-caught-abusing-access-to-telcos-to-track-peoples-phone-locations-researchers-say/">Surveillance vendors caught abusing access to telcos to... | TechCrunch</a></li>
+<li><a href="https://securityaffairs.com/46473/hacking/ss7-protocol-surveillance.html">Hackers spy on Congressman abusing the SS 7 protocol</a></li>
+<li><a href="https://arstechnica.com/information-technology/2019/09/hackers-are-exploiting-a-platform-agnostic-flaw-to-track-mobile-phone-locations/">Hackers are exploiting a platform-agnostic flaw to track mobile phone ...</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 开发者的情绪是复杂的，反映了不同的工作流程和项目背景。一些用户（如 hathawsh）表示高度满意，他们将过度编辑视为可纠正的错误，并使用项目特定的'技能'文件供 AI 学习。另一些用户（如 jstanley）则认为助手可能过于保守，有时更需要积极的改进，尤其是在新项目中。包括 rcvassallo83 在内的几位评论者分享了实用的提示技巧，例如指定"添加一个函数……其他保持不变"，以成功限制修改范围。
+**社区讨论**: 社区评论表达了深深的担忧和沮丧，用户分享了跟踪者利用电信访问权限的个人经历，并指出监控工具常被滥用于个人利益，例如 LOVEINT 事件。一些评论者还指出，在俄罗斯等国家，这种追踪是常态，数据最终会流入黑市。
 
-**标签**: `#AI-coding-assistants`, `#software-engineering`, `#prompt-engineering`, `#developer-tools`
+**标签**: `#surveillance`, `#telecom security`, `#privacy`, `#citizen lab`, `#security research`
 
 ---
 
 <a id="item-8"></a>
-## [GitHub Copilot 个人版计划调整：限制收紧、暂停注册、Claude Opus 分级访问。](https://simonwillison.net/2026/Apr/22/changes-to-github-copilot/#atom-everything) ⭐️ 7.0/10
+## [法国 ANTS 确认数据泄露，1900 万公民信息或遭窃](https://techcrunch.com/2026/04/22/france-confirms-data-breach-at-government-agency-that-manages-citizens-ids/) ⭐️ 8.0/10
 
-GitHub 宣布对其 Copilot 个人版计划进行重大调整，包括收紧使用限制、暂停个人版新用户注册，并将最新的 Claude Opus 4.7 模型访问权限限制在更昂贵的 39 美元/月的 "Pro+" 套餐中，同时取消了旧版 Opus 模型。这些调整是由于智能体工作流带来的计算需求激增，并且计费模式从按请求计费转向了基于令牌的使用限制系统。 此次公告标志着 AI 辅助开发经济模式的一次重大转变，高级编码智能体的高昂计算成本正迫使平台提供商重构定价策略。这将影响数百万依赖 Copilot 进行日常编码的开发者，并可能影响其他 AI 编码工具供应商设计其定价和资源分配模式。 此次调整具体涉及包含 CLI、云端智能体、GitHub.com 上的代码审查功能以及 VS Code、Zed 和 JetBrains 等 IDE 集成的 GitHub Copilot 产品。新的基于令牌的限制同时适用于单次会话和每周总量，旨在解决消耗大量令牌的单个智能体请求所带来的利润压力。
+法国国家安全证件署（ANTS）确认于 2026 年 4 月 15 日监测到数据泄露，黑客声称持有包含 1900 万条公民个人信息的数据库。 此次泄露涉及数百万法国公民的高度敏感个人信息，大幅增加了身份盗窃、欺诈和隐私侵犯的风险，也暴露了政府数字基础设施的脆弱性。 被盗数据包括姓名、出生日期、出生地、地址和电话号码；ANTS 正在调查攻击原因并已开始通知受影响公民，但具体受害人数尚未官方确认。
 
-rss · Simon Willison · Apr 22, 03:30
+telegram · zaihuapd · Apr 23, 00:08
 
-**背景**: GitHub Copilot 是由 GitHub 开发、基于 OpenAI 模型的广泛使用的 AI 代码补全和辅助工具。智能体工作流指的是能够自主执行复杂、多步骤开发任务（如代码审查或依赖管理）以响应事件的 AI 系统，而不仅仅是响应用户提示。Claude Opus 是 Anthropic 最先进的大语言模型，Opus 4.7 是其最新版本，具有 100 万令牌的上下文窗口和高分辨率图像支持功能。
+**背景**: ANTS（法国国家安全证件署）是负责签发身份证、护照及其他安全证件的政府机构。其在线门户 ants.gouv.fr 允许公民申请和更新这些证件，因此成为网络攻击的重点目标。此次泄露于 2026 年 4 月 15 日首次被发现，随后黑客在论坛上声称持有被盗数据。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.deployhq.com/blog/agentic-workflows-explained-ai-agents-cicd-pipelines">Agentic Workflows Explained: How AI Agents Are Changing CI/CD ...</a></li>
-<li><a href="https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-7">What's new in Claude Opus 4.7 - Claude API Docs</a></li>
+<li><a href="https://www.xinouzhou.com/wenzhang/145213-tu-fa-fa-guo-ants-ping-tai-zao-wang-luo-gong-ji-bu-fen-zheng-jian-shen-qing-ren-xin-xi-xie-lu">突发：法国ANTS平台遭网络攻击，部分证件申请人信息泄露</a></li>
+<li><a href="https://www.investgo.cn/article/gb/gbdt/202604/843239.html">法国国家权证中心网站遭骇 大量个人数据泄露-“走出去”导航网</a></li>
 
 </ul>
 </details>
 
-**标签**: `#github-copilot`, `#ai-coding-assistants`, `#pricing-changes`, `#developer-tools`, `#anthropic-claude`
+**标签**: `#data breach`, `#cybersecurity`, `#privacy`, `#government`, `#France`
 
 ---
 
 <a id="item-9"></a>
-## [长江存储一季度收入超 200 亿元，加速扩产拟实现产能翻番](https://www.guancha.cn/economy/2026_04_20_814211.shtml) ⭐️ 7.0/10
+## [吹风机操控巴黎天气传感器，Polymarket 获利超 3.4 万美元](https://fibo-crypto.fr/en/blog/polymarket-weather-sensor-manipulation-paris-meteo-france-2026/) ⭐️ 8.0/10
 
-长江存储（YMTC）2026 年第一季度收入突破 200 亿元人民币，同比翻倍，其全球 NAND 闪存市场份额已超过 10%。公司正加速产能扩张，武汉三期晶圆厂预计年内投产，并计划新建两座晶圆厂，目标是将总产能提升一倍以上，单厂月产能达 10 万片。 这一快速增长和雄心勃勃的扩张计划标志着 YMTC 在全球存储市场的地位正在加强，可能对美光等现有厂商构成挑战。其新产线国产设备占比首次突破 50%，也标志着中国在推动半导体供应链自主化、减少对外国技术依赖方面取得了显著进展。 长江存储三期产线的国产设备占比首次突破 50%，这一供应链自主化程度显著优于行业平均水平。与此同时，国产 DRAM 主要生产商长鑫存储（CXMT）2025 年前三季度收入也接近翻倍，并拟募资 295 亿元用于扩产。
+2026 年 4 月 6 日和 15 日，有人涉嫌使用吹风机加热巴黎戴高乐机场的法国气象局温度传感器，导致读数异常，从而在 Polymarket 的巴黎天气预测市场上触发超过 3.4 万美元的赔付。 这一事件揭示了一种新型攻击方式：通过物理操控物联网传感器来从预测市场中获利，引发了对去中心化预测平台数据完整性和安全性的严重担忧。 4 月 6 日，传感器读数在数分钟内从接近 18°C 跃升至超过 21°C；4 月 15 日，22°C 区间的概率在 30 分钟内从 0.1% 飙升至 95%。法国气象局已向航空运输宪兵队提起刑事控告，并在现场检查中发现篡改痕迹。
 
-telegram · zaihuapd · Apr 22, 06:18
+telegram · zaihuapd · Apr 23, 04:36
 
-**背景**: 长江存储（YMTC）是一家中国半导体制造商，2016 年成立于武汉，专注于 NAND 闪存芯片的制造，这是固态硬盘（SSD）和智能手机等设备中用于数据存储的关键部件。NAND 闪存是一种断电后仍能保留数据的非易失性存储器，全球市场主要由三星、铠侠、西部数据和 SK 海力士等公司主导。中国一直通过政策和投资积极追求半导体自主化，近期有政策要求芯片制造商新增产能中至少使用 50%的国产设备。
+**背景**: Polymarket 是一个去中心化预测市场平台，用户根据真实世界事件的结果进行交易，赔付由经过验证的数据源决定。物联网传感器（如气象站）远程收集和传输数据，如果安全措施不足，可能成为物理操控的目标。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Yangtze_Memory_Technologies">Yangtze Memory Technologies - Wikipedia</a></li>
-<li><a href="https://www.astutegroup.com/news/general/china-accelerates-semiconductor-self-sufficiency-with-mandatory-local-equipment-use/">China accelerates semiconductor self-sufficiency with mandatory local equipment use - Astute Group</a></li>
+<li><a href="https://nftenex.com/paris-weather-sensor-polymarket-bet-hair-dryer-manipulation/">Paris Weather Sensor in $34K Polymarket Bet Manipulated by Hair ...</a></li>
+<li><a href="https://news.google.com/stories/CAAqNggKIjBDQklTSGpvSmMzUnZjbmt0TXpZd1NoRUtEd2pZZ3VYN0VCRndRREhCc0U1VjBDZ0FQAQ?hl=en-KE&gl=KE&ceid=KE:en">Report: Hair dryer used to manipulate Paris weather sensor - Overview</a></li>
 
 </ul>
 </details>
 
-**标签**: `#semiconductors`, `#supply-chain`, `#china-tech`, `#manufacturing`, `#memory`
+**标签**: `#prediction markets`, `#IoT security`, `#sensor manipulation`, `#Polymarket`, `#cybersecurity`
 
 ---
 
 <a id="item-10"></a>
-## [特斯拉中国车机语音服务将接入字节跳动豆包大模型](https://www.chinastarmarket.cn/detail/2351905) ⭐️ 7.0/10
+## [Google Cloud 默认安全缺陷导致用户产生巨额账单](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-cloud-customer-wakes-up-to-usd18-000-bill-despite-usd7-budget-thanks-to-forgotten-public-api-key-attacker-put-in-60-000-requests-and-blasted-through-usd1-400-spending-cap) ⭐️ 8.0/10
 
-特斯拉中国的车载语音大模型服务于 4 月 20 日完成备案，其车机语音服务将接入字节跳动的豆包大模型。此前特斯拉中国官网披露，Model Y L 车型将搭载豆包大模型和 DeepSeek 模型，两者均通过火山引擎平台接入。 这标志着特斯拉在中国市场的重要本土化战略，通过与国内领先的 AI 提供商合作，在遵守本地法规的同时提升车辆智能化水平。这种集成展示了汽车制造商如何越来越多地为不同的车内功能采用专门的 AI 模型，可能为其他在中国运营的国际汽车制造商树立趋势。 豆包大模型将专门负责语音命令，包括导航设置、媒体播放控制、空调调节和车主手册查询，而 DeepSeek 模型则提供更广泛的 AI 互动服务。两个模型都通过字节跳动的火山引擎平台接入，该平台作为云和 AI 服务平台，将特斯拉车辆与这些中国 AI 系统连接起来。
+澳大利亚 AI 顾问 Jesse Davies 尽管设置了 7 美元的预算上限，却因攻击者利用历史项目泄露的 API 密钥发起 6 万次请求，收到了 Google Cloud 高达 18,000 美元的账单。Google Cloud 在未通知的情况下自动上调信用额度，加剧了财务损失，不过 Google 最终免除了相关费用。 此事件揭示了 Google Cloud 默认配置中的系统性安全风险——原本作为公开标识符的 API 密钥，现在可能静默地授予对 Gemini 等付费 AI 服务的访问权限。它凸显了云服务提供商亟需采用安全默认设置和透明的账单控制机制，以保护客户免受意外财务灾难。 Truffle Security 指出，Gemini API 密钥格式单一且安全设置默认关闭，导致遗留的公开密钥容易遭受权限提升攻击。攻击者通过公开 URL 调用容器环境变量中的明文密钥，绕过了多项安全防护措施。
 
-telegram · zaihuapd · Apr 22, 06:53
+telegram · zaihuapd · Apr 23, 05:21
 
-**背景**: 豆包是字节跳动自主研发的大语言模型，已通过 50 多个内部业务场景验证，每日处理千亿级 tokens。DeepSeek 是一家专注于大语言模型开发的中国 AI 公司，以其深度分析能力而闻名。火山引擎是字节跳动旗下的云与 AI 服务平台，为企业提供 AI 转型服务，包括模型部署和智能体开发。
+**背景**: Google Cloud API 密钥最初被设计为用于跟踪使用情况的公开标识符，而非秘密凭证。但随着 Gemini AI 的推出，这些相同的密钥现在可以访问付费的 AI 端点，实际上变成了秘密，却没有警告开发者。这种不安全的默认状态（CWE-1188）和错误的权限分配（CWE-269）意味着，泄露在代码仓库或公开 URL 中的密钥可能被利用进行未经授权的 AI 使用，从而导致巨额账单。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.volcengine.com/product/doubao-dy">豆包大模型-火山引擎</a></li>
-<li><a href="https://en.wikipedia.org/wiki/DeepSeek">DeepSeek - Wikipedia</a></li>
-<li><a href="https://www.volcengine.com/">volcengine.com - 火山引擎-你的AI云</a></li>
+<li><a href="https://trufflesecurity.com/blog/google-api-keys-werent-secrets-but-then-gemini-changed-the-rules">Google API Keys Weren't Secrets. But then Gemini Changed the ...</a></li>
+<li><a href="https://cybersecuritynews.com/google-api-keys-gemini/">Google API Keys Expose Private Data Silently Through Gemini</a></li>
+<li><a href="https://www.techradar.com/pro/security/usd15k-bill-destroyed-a-solo-developers-startup-how-hackers-are-using-leaked-google-api-keys-to-go-wild-with-gemini-ai-for-free">Google API keys give attackers unauthorized Gemini AI access</a></li>
 
 </ul>
 </details>
 
-**标签**: `#automotive-ai`, `#voice-assistants`, `#china-tech`, `#tesla`, `#llm-integration`
+**标签**: `#Google Cloud`, `#security`, `#cloud computing`, `#API keys`, `#financial risk`
 
 ---
 
 <a id="item-11"></a>
-## [FBI 从 iPhone 通知数据库提取已删除 Signal 消息，案件发生在得州](https://t.me/zaihuapd/41013) ⭐️ 7.0/10
+## [字节跳动发布 Seed3D 2.0，3D 生成达到生产可用水平](https://paipancon.com/fc2daily/detail/FC2-PPV-1700423) ⭐️ 8.0/10
 
-在得克萨斯州 Prairieland 拘留中心的一起案件庭审中，FBI 通过访问嫌疑人 iPhone 的系统通知数据库，提取出了已从 Signal 应用中删除的传入消息。证词和庭审记录显示，只恢复了传入消息，没有传出消息。 这揭示了一个重大的隐私漏洞：被认为已消失或删除的加密消息，可能持久保存在一个系统级数据库中，并可被取证工具访问。它影响了用户对安全通讯应用的隐私期望，并突显了一种适用于任何开启了锁屏预览功能应用的取证技术。 之所以能够恢复，是因为 iOS 系统（而非 Signal 应用本身）会生成锁屏通知预览并将其存储在一个内部数据库中。据报道，即使 Signal 应用被卸载，该技术仍然有效，但仅限于已显示过预览的传入消息。
+字节跳动发布了新一代 3D 生成大模型 Seed3D 2.0，在几何精度和材质质量两项核心指标上取得 SOTA 结果，纹理生成的人类评测中相对主流模型的偏好率超过 69%。 这一进展将 3D 内容生成从演示级推进到生产可用，大幅降低了为游戏、仿真和机器人领域创建高质量 3D 资产的门槛，并且扩展到了部件级生成和物理仿真兼容性。 Seed3D 2.0 支持部件级生成和场景组合，可先拆分 3D 内容部件再补全形状，并输出带完整关节信息的 URDF 等标准格式内容，适配 NVIDIA Isaac Sim 等物理仿真引擎。
 
-telegram · zaihuapd · Apr 22, 23:10
+telegram · zaihuapd · Apr 23, 08:15
 
-**背景**: Signal 是一款流行的端到端加密通讯应用，以用户隐私为首要考虑。在 iPhone 上，当通知到达时，iOS 操作系统会生成消息内容的预览以显示在锁屏上。这些预览存储在一个由系统管理的通知数据库中，该数据库与应用自身的加密存储是分开的，这正是本次取证发现的焦点。
+**背景**: 传统的 3D 模型生成往往在演示中看起来不错，但由于几何精度不足或材质不真实而难以用于生产。URDF（统一机器人描述格式）是一种基于 XML 的标准，用于在机器人领域描述带有连杆和关节的机器人结构；Isaac Sim 是 NVIDIA 的 GPU 加速物理仿真平台，用于训练和验证基于 AI 的机器人。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://9to5mac.com/2026/04/09/fbi-used-iphone-notification-data-to-retrieve-deleted-signal-messages/">FBI used iPhone notification data to retrieve deleted Signal ...</a></li>
-<li><a href="https://cybernews.ae/fbi-recovers-deleted-signal-messages-via-iphone-notifications/">FBI recovers deleted Signal messages via iPhone notifications</a></li>
-<li><a href="https://www.macobserver.com/news/fbi-finds-deleted-signal-messages-on-iphone-via-notification-storage-heres-how-to-protect-your-privacy/">FBI Finds Deleted Signal Messages on iPhone via Notification ...</a></li>
+<li><a href="https://wiki.ros.org/urdf/XML/model">XML Robot Description Format (URDF) - ROS Wiki</a></li>
+<li><a href="https://docs.isaacsim.omniverse.nvidia.com/4.5.0/physics/simulation_fundamentals.html">Physics Simulation Fundamentals — Isaac Sim Documentation</a></li>
+<li><a href="https://github.com/isaac-sim">NVIDIA Isaac Sim - GitHub</a></li>
 
 </ul>
 </details>
 
-**标签**: `#digital-forensics`, `#privacy`, `#encryption`, `#iOS`, `#Signal`
+**标签**: `#3D generation`, `#ByteDance`, `#AI`, `#computer graphics`, `#physics simulation`
 
 ---
 
 <a id="item-12"></a>
-## [法国国家安全证件署（ANTS）确认发生数据泄露，或影响 1900 万公民。](https://techcrunch.com/2026/04/22/france-confirms-data-breach-at-government-agency-that-manages-citizens-ids/) ⭐️ 7.0/10
+## [DeepSeek 开源 TileKernels 算子库，支持 Blackwell](https://github.com/deepseek-ai/TileKernels) ⭐️ 8.0/10
 
-法国负责管理身份证、护照及移民文件的国家安全证件署（ANTS）确认发生数据泄露，该机构于 4 月 15 日监测到攻击。已有黑客在论坛声称持有包含 1900 万条记录的数据库，被盗数据涵盖公民姓名、出生日期、出生地、联系地址及电话等个人隐私信息。 此次泄露事件影响重大，因为 ANTS 是核心的政府身份管理系统，被暴露的个人信息高度敏感，对数百万公民构成身份盗窃和欺诈的重大风险。这也对负责公民身份识别的关键国家基础设施的安全态势提出了严重质疑。 官方尚未公布受影响的具体人数，对攻击原因及影响范围的调查仍在进行中。作为应对程序的一部分，ANTS 已开始通知可能受影响的公民。
+DeepSeek 开源了基于 TileLang 的高性能 GPU 算子库 TileKernels，该库针对大语言模型（LLM）的训练与推理进行了深度优化。它支持 NVIDIA SM90 及最新的 SM100（Blackwell）架构，运行环境要求 CUDA 13.1 及以上版本。 此次开源为 AI 社区提供了在最新 Blackwell GPU 上运行 LLM 工作负载的、接近硬件极限的生产级算子，有望加速训练和推理性能。这也体现了 DeepSeek 对开源 AI 基础设施的承诺，惠及构建大规模模型的开发者和研究人员。 TileKernels 涵盖了 MoE 路由、FP8/FP4 量化及多种融合算子，并已在 DeepSeek 内部环境投入使用。该库基于 TileLang 构建，TileLang 是一种使用张量分块抽象的 GPU 内核开发领域特定语言。
 
-telegram · zaihuapd · Apr 23, 00:08
+telegram · zaihuapd · Apr 23, 09:36
 
-**背景**: 法国国家安全证件署（ANTS）是一个政府机构，负责管理车辆注册、驾驶执照以及护照和国民身份证等安全身份证件的在线申请流程。像 ANTS 运营的这类身份和访问管理（IAM）系统是关键基础设施，它们集中管理大量人口的身份数据，因此成为网络攻击的高价值目标。
+**背景**: 像 TileKernels 这样的 GPU 算子库为常见的深度学习操作（如矩阵乘法和注意力机制）提供了底层优化的内核。TileLang 是一种领域特定语言，通过使用张量分块抽象来简化高性能 GPU 内核的编写，从而降低代码复杂度。NVIDIA 的 Blackwell 架构（SM100）引入了新的张量核心指令，其速度是上一代 Hopper 架构的 2 到 4 倍，因此优化的算子对于充分发挥其潜力至关重要。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://ants.gouv.fr/">Accueil - France Titres (ANTS)</a></li>
-<li><a href="https://www.bleepingcomputer.com/news/security/french-govt-agency-confirms-breach-as-hacker-offers-to-sell-data/">French govt agency confirms breach as hacker offers to sell data</a></li>
+<li><a href="https://tilelang.com/">TileLang 0.1.8 documentation</a></li>
+<li><a href="https://docs.nvidia.com/cutlass/4.3.3/media/docs/cpp/blackwell_functionality.html">Blackwell SM 100 GEMMs — NVIDIA CUTLASS Documentation</a></li>
 
 </ul>
 </details>
 
-**标签**: `#cybersecurity`, `#data-breach`, `#privacy`, `#government`, `#identity-management`
+**标签**: `#DeepSeek`, `#GPU算子库`, `#LLM`, `#NVIDIA Blackwell`, `#开源`
+
+---
+
+<a id="item-13"></a>
+## [腾讯开源混元 Hy3 preview：295B MoE 模型](https://mp.weixin.qq.com/s/5_nUI2mDchlwoedinFUMeA) ⭐️ 8.0/10
+
+腾讯正式发布并开源了混元 Hy3 preview，这是一个总参数量达 295B、激活参数为 21B 的混合专家模型（MoE），支持 256K 上下文长度，专为复杂推理与智能体（Agent）应用优化。 此次发布标志着中国科技巨头在开源领域的重要贡献，提供了一个具备强大推理能力的大规模 MoE 模型，可与其它领先开源模型竞争；同时，该模型已集成到元宝、QQ 等腾讯内部产品中，展示了实际的企业级部署能力。 得益于模型架构与推理框架的深度协同优化，CodeBuddy 等产品的首 token 延迟降低了 54%；该模型已在 GitHub、HuggingFace 等平台开源，并通过腾讯云 API 提供服务，个人版定价最低 28 元/月。
+
+telegram · zaihuapd · Apr 23, 10:07
+
+**背景**: 混合专家模型（MoE）是一种将模型拆分为多个专门子模型（专家）的架构，每次推理仅激活其中一部分专家，从而在保持总参数量庞大的同时实现高效推理。总参数 295B、激活参数 21B 意味着该模型虽然规模巨大，但推理速度可与小得多的稠密模型媲美，便于实际部署。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.geeksforgeeks.org/nlp/what-is-mixture-of-experts-moe/">What is Mixture of Experts (MoE)? - GeeksforGeeks</a></li>
+<li><a href="https://newsletter.maartengrootendorst.com/p/a-visual-guide-to-mixture-of-experts">A Visual Guide to Mixture of Experts (MoE) Images Mixture of Experts Explained - Hugging Face Understanding Mixture of Experts (MoE): The Architecture ... What is mixture of experts? - IBM What Is Mixture of Experts (MoE)? How It Works (2026) MoE LLM Architecture: How It Works, Benefits And Key Models ...</a></li>
+<li><a href="https://medium.com/@sharanharsoor/understanding-mixture-of-experts-moe-the-architecture-powering-next-generation-language-models-49c1d1d467c9">Understanding Mixture of Experts (MoE): The Architecture ...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#large language model`, `#open source`, `#MoE`, `#Tencent`, `#AI`
+
+---
+
+<a id="item-14"></a>
+## [香港证监会与普华永道就恒大造假达成 10 亿港元和解](https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/doc?refNo=26PR62) ⭐️ 8.0/10
+
+2026 年 4 月 23 日，香港证券及期货事务监察委员会（证监会）宣布与普华永道香港达成和解协议，普华永道将预留 10 亿港元，用于赔偿中国恒大集团合资格独立少数股东，因其在恒大 2019 及 2020 财年虚增收入 5641 亿元人民币的财务造假中扮演了角色。 这是香港首次有已倒闭公司的核数师直接向股东作出赔偿，为核数师责任和市场廉洁树立了里程碑式的先例。这凸显了审计独立性的关键作用，并可能重塑主要金融市场对核数师的监管预期。 香港证监会认定，普华永道严重违反专业责任，包括丧失审计独立性、缺乏专业怀疑态度及默许管理层操纵审计样本。根据协议，普华永道在不承认法律责任的前提下解决此事，证监会将不再采取进一步行动。
+
+telegram · zaihuapd · Apr 23, 12:07
+
+**背景**: 中国恒大集团曾是中国最大的房地产开发商之一，在多年财务不当行为后因巨额债务崩溃。2024 年，中国监管机构因恒大在 2019 年和 2020 年虚增收入 5641 亿元人民币（将报告盈利转为巨额亏损）对其处以 417.5 亿元人民币罚款。普华永道在此期间担任恒大的核数师，被指控未能发现该欺诈行为。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://xueqiu.com/3338215700/385417746">突发！香港证监会与普华永道就恒大财务造假达成赔偿协议，10亿港元赔...</a></li>
+<li><a href="https://www.thepaper.cn/newsDetail_forward_33037031">香港证监会、会财局同日出手 普华永道同意预留10亿港元赔偿恒大股东_...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#financial regulation`, `#audit failure`, `#corporate fraud`, `#market integrity`, `#regulatory tech`
+
+---
+
+<a id="item-15"></a>
+## [中国三大运营商报告国际网络故障](https://t.me/zaihuapd/41029) ⭐️ 8.0/10
+
+未经证实的消息称，中国电信、中国联通和中国移动的国际路由出现大范围网络故障，通往香港、日本和美国方向的连接出现严重丢包和中断。 此次事件影响依赖跨境连接进行工作、教育和通信的广泛用户群体，如果中断是人为所致，可能具有地缘政治影响。三大运营商同时出现故障，表明问题具有系统性而非孤立故障。 故障影响包括中国电信 CN2 和中国联通 9929 在内的高级路由，以及 163 和 4837 等标准路由。报告主要集中在北京移动用户，前往美国方向的路由样本较少。
+
+telegram · zaihuapd · Apr 23, 12:45
+
+**背景**: 中国电信运营商运营多级国际路由：高级路由如中国电信 CN2 和中国联通 9929 提供更高优先级和更低延迟，标准路由如 163 和 4837 处理普通流量。这些路由对跨境数据传输至关重要，中断可能源于海底光缆断裂、路由配置错误或人为策略调整。此次事件的原因尚不清楚。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://x.com/yeahwu404/status/2047301068175065487">风闻消息，部分地区受影响，受影响的可以底下留言，也别说谣言不谣言...</a></li>
+<li><a href="https://www.deepflood.com/post-37587-1">风闻消息：中国联通、移动、电信运营商对海外方向均报告网络故障</a></li>
+<li><a href="https://tbbbk.com/vps-route-guide-tcping-as9929-cn2-explained/">VPS 路由完全指南（2026）：Tcping 测速、AS9929、CN2 线路怎么看？</a></li>
+
+</ul>
+</details>
+
+**社区讨论**: 社交媒体和论坛上的社区评论大多证实了中断情况，用户分享本地化体验和路由追踪结果。部分用户猜测中断是技术故障还是人为策略调整，但尚未达成共识。
+
+**标签**: `#network outage`, `#China telecom`, `#internet infrastructure`, `#routing`, `#geopolitics`
+
+---
+
+<a id="item-16"></a>
+## [苹果 CEO 蒂姆·库克将卸任，约翰·特努斯 2026 年接任](https://t.me/zaihuapd/41030) ⭐️ 8.0/10
+
+苹果公司宣布，现任 CEO 蒂姆·库克将于 2026 年 9 月 1 日卸任，由硬件工程高级副总裁约翰·特努斯接任 CEO。库克将转任董事会执行董事长。 此次领导层变动是苹果自 2011 年库克接任以来的首次 CEO 交接，标志着公司产品战略和企业方向进入新时代。硬件工程资深人士约翰·特努斯将领导这家全球最具价值的科技公司之一。 特努斯于 2001 年加入苹果，2013 年升任硬件工程副总裁，负责 iPhone、iPad、Mac、Apple Watch、AirPods 和 Apple Vision Pro 等产品的工程工作。现任董事长 Arthur Levinson 将于 2026 年 9 月 1 日转任首席独立董事，特努斯同日加入董事会。
+
+telegram · zaihuapd · Apr 23, 13:46
+
+**背景**: 蒂姆·库克自 2011 年接替史蒂夫·乔布斯担任苹果 CEO 以来，带领公司在收入、服务和产品线方面实现了巨大增长。约翰·特努斯在苹果硬件工程领域工作了二十多年，领导了公司许多最具标志性产品的开发。执行董事长一职使库克能够继续参与长期战略和公共事务，同时将日常运营交给特努斯。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/John_Ternus">John Ternus - Wikipedia</a></li>
+<li><a href="https://www.apple.com/leadership/john-ternus/">Apple Leadership - John Ternus - Apple</a></li>
+<li><a href="https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/">Tim Cook to become Apple Executive Chairman John Ternus to ...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#Apple`, `#leadership change`, `#CEO transition`, `#tech industry`
+
+---
+
+<a id="item-17"></a>
+## [英国 NCSC 正式将通行密钥列为首选身份验证方式](https://www.techradar.com/pro/security/uk-security-agency-officially-declares-passkeys-superior-to-passwords-passkeys-should-be-the-first-choice-for-authentication) ⭐️ 8.0/10
+
+英国国家网络安全中心（NCSC）正式宣布，通行密钥（Passkeys）优于传统密码和两步验证，并建议将其作为数字服务的首选登录方式。这标志着 NCSC 此前因实施挑战而持有的观望态度发生了转变。 作为英国国家网络安全技术权威机构，NCSC 的背书为通行密钥提供了重要的行业认可，可能加速其在公共和私营部门的普及。此举有望重塑全球身份验证标准，减少对易受攻击密码的依赖，并提升整体网络韧性。 在英国，超过 50%的 Google 活跃用户已注册通行密钥，eBay 和 PayPal 等主流平台也已完全适配。NCSC 指出，过去 12 个月内的技术进步解决了核心实施难题，使通行密钥比基于密码的系统更安全且更易用。
+
+telegram · zaihuapd · Apr 23, 14:47
+
+**背景**: NCSC 是英国网络安全技术权威机构，隶属于 GCHQ，于 2016 年成立，旨在提供统一的国家级网络威胁应对方案。通行密钥是一种无密码身份验证方法，使用设备存储的加密密钥和生物识别验证（如指纹或面部识别）替代传统密码，旨在消除网络钓鱼和凭证窃取等常见安全风险。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/National_Cyber_Security_Centre_(United_Kingdom)">National Cyber Security Centre (United Kingdom) - Wikipedia</a></li>
+<li><a href="https://ico.org.uk/for-organisations/the-guide-to-nis/the-role-of-the-national-cyber-security-centre-ncsc/">The role of the National Cyber Security Centre (NCSC) | ICO</a></li>
+<li><a href="https://www.gov.uk/government/organisations/national-cyber-security-centre">National Cyber Security Centre - GOV.UK Top Stories Cyber Security - GCHQ Understanding the Role of the NCSC - ukcybersecurity.co.uk National Cyber Security Centre (United Kingdom) - Wikipedia UK Faces a Cyber ‘Perfect Storm’ - Infosecurity Magazine The role of the National Cyber Security Centre ( NCSC ) | ICO Cyber Security | GCHQ - GCHQ.GOV. UK Understanding the Role of the NCSC - ukcybersecurity.co. uk The role of the National Cyber Security Centre ( NCSC ) | ICO</a></li>
+
+</ul>
+</details>
+
+**标签**: `#cybersecurity`, `#authentication`, `#passkeys`, `#NCSC`, `#identity`
+
+---
+
+<a id="item-18"></a>
+## [欧盟施压谷歌开放安卓 AI 助手权限](https://www.bloomberg.com/news/articles/2026-04-23/google-faces-eu-pressure-to-open-up-android-to-gemini-rivals) ⭐️ 8.0/10
+
+欧盟正在起草要求，迫使谷歌在安卓系统上给予 ChatGPT、Claude 等竞争对手的 AI 助手与其自家 Gemini 相同的系统级权限。 这可能通过降低竞争对手在主导安卓平台上的门槛来重塑 AI 助手市场的竞争格局，但谷歌警告称这可能损害用户安全和隐私。 这些要求仍处于草案阶段，发布时间可能推迟；谷歌担心这种开放可能对用户安全和隐私产生负面影响。
+
+telegram · zaihuapd · Apr 23, 15:31
+
+**背景**: 欧盟的《数字市场法案》（DMA）将谷歌等大型平台指定为“守门人”，并制定规则确保公平竞争。安卓是全球使用最广泛的移动操作系统，谷歌的 Gemini 是许多安卓设备上的默认 AI 助手，这使其相对于第三方助手拥有显著优势。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://digital-markets-act.ec.europa.eu/index_en">Digital Markets Act</a></li>
+<li><a href="https://www.android.com/intl/en_us/ai/gemini/">Try Gemini, your personal AI assistant | Android</a></li>
+
+</ul>
+</details>
+
+**标签**: `#EU regulation`, `#Android`, `#AI assistants`, `#Google`, `#antitrust`
+
+---
+
+<a id="item-19"></a>
+## [OpenAI macOS 版 Chronicle 功能引发隐私与安全争议](https://www.theregister.com/2026/04/22/openai_chronicle_no_privacy_screenshot/) ⭐️ 7.0/10
+
+OpenAI 为其 macOS 版 Codex 应用推出了一项名为 Chronicle 的选择性加入研究预览功能，该功能通过截取屏幕图像为 AI 代理提供上下文信息。安全研究人员批评该功能是微软 Recall 功能的翻版，指出其存在 OCR 文本未加密本地存储以及易受提示注入攻击等风险。 该功能引发了重大的隐私和安全担忧，可能削弱用户对 AI 工具的信任并减缓其采用，尤其是在安全敏感的环境中。此次争议与微软 Recall 此前遭遇的抵制如出一辙，凸显了 AI 便利性与数据保护之间的持续紧张关系。 截屏数据仅在本地存储 6 小时，但通过 OCR 提取的文本“记忆”会以未加密形式长期保存在本地，并可被设备上其他程序访问。此外，这些记忆可能在后续对话中被重新发送至 OpenAI 服务器，且该功能会加速消耗 Codex 的速率限制，降低了其在安全环境下的实用性。
+
+telegram · zaihuapd · Apr 23, 03:06
+
+**背景**: 提示注入是一种通过恶意提示攻击机器学习模型的网络安全攻击方式，可能导致 AI 忽略其预期指令。微软的 Recall 功能同样通过截取屏幕为 AI 提供上下文，在 2024 年遭遇了类似的隐私抵制。OpenAI 的 Chronicle 以类似方式运行，将 OCR 文本存储在本地，使其容易受到此类攻击和未授权访问。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Prompt_injection_attack">Prompt injection attack</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Prompt_injection">Prompt injection - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**标签**: `#OpenAI`, `#privacy`, `#security`, `#AI`, `#macOS`
+
+---
+
+<a id="item-20"></a>
+## [台积电因成本过高推迟导入 ASML 高数值孔径 EUV 至 2029 年](https://money.udn.com/money/story/5599/9458925?from=edn_newestlist_rank) ⭐️ 7.0/10
+
+台积电在北美技术论坛上宣布，至少到 2029 年底前不会将 ASML 的高数值孔径 EUV 光刻机用于晶圆量产，原因是单台售价已超过 3.5 亿欧元。 这一决定标志着半导体制造路线图的重大转变——全球领先的代工厂台积电选择优化现有 EUV 设备而非采用下一代光刻技术，可能放缓摩尔定律的推进速度，并影响 ASML 的营收预期。 台积电还披露，A13 制程计划于 2029 年投产，并计划在同年于亚利桑那州建立 CoWoS 和 3D-IC 封装产能，当地首座晶圆厂良率已接近台湾工厂。
+
+telegram · zaihuapd · Apr 23, 11:22
+
+**背景**: 高数值孔径 EUV 光刻是 ASML 最新的极紫外光刻机，用于制造更小晶体管的先进芯片。CoWoS（Chip-on-Wafer-on-Substrate）是台积电的先进封装技术，通过垂直堆叠芯片来提升性能并降低功耗，对 AI 和高性能计算应用至关重要。
+
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://zhuanlan.zhihu.com/p/1890075894934132607">半导体芯片封装“CoWoS工艺技术”的详解； - 知乎</a></li>
+<li><a href="https://blog.csdn.net/u013669912/article/details/143434272">CoWoS 封装 | CoWoS-S / CoWoS-R / CoWoS-L-CSDN博客</a></li>
+<li><a href="https://finance.sina.com.cn/cj/2026-02-27/doc-inhpfxrh6696864.shtml">台积电先进封装科普：CoWoS、CoPoS、CoWoP 到底是个啥？谁才是下一代...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#semiconductor`, `#TSMC`, `#ASML`, `#EUV`, `#manufacturing`
 
 ---
