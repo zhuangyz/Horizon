@@ -5,372 +5,221 @@ date: 2026-04-24
 lang: en
 ---
 
-> From 29 items, 22 important content pieces were selected
+> From 34 items, 24 important content pieces were selected
 
 ---
 
-1. [OpenAI Launches GPT-5.5, a New Frontier Coding Model](#item-1) ⭐️ 9.0/10
-2. [Bitwarden CLI compromised in supply chain attack](#item-2) ⭐️ 9.0/10
-3. [vLLM v0.20.0: CUDA 13, PyTorch 2.11, FA4, TurboQuant](#item-3) ⭐️ 8.0/10
-4. [Anthropic Discloses Bug That Made Claude Forgetful](#item-4) ⭐️ 8.0/10
-5. [Tailscale Cofounder Proposes a Simpler Cloud](#item-5) ⭐️ 8.0/10
-6. [Palantir employees question their moral role](#item-6) ⭐️ 8.0/10
-7. [GPT-5.5 accessed via Codex backdoor API](#item-7) ⭐️ 8.0/10
-8. [Hairdryer Used to Manipulate Paris Weather Sensors for Polymarket Profit](#item-8) ⭐️ 8.0/10
-9. [Google Cloud default flaw leads to $18,000 bill for user](#item-9) ⭐️ 8.0/10
-10. [DeepSeek Open-Sources TileKernels GPU Operator Library for NVIDIA Blackwell](#item-10) ⭐️ 8.0/10
-11. [Tencent Open-Sources Hy3 Preview MoE Model](#item-11) ⭐️ 8.0/10
-12. [TSMC Delays High-NA EUV Adoption Until 2029 Due to Cost](#item-12) ⭐️ 8.0/10
-13. [China's Three Major ISPs Hit by Widespread International Network Outage](#item-13) ⭐️ 8.0/10
-14. [Apple CEO Tim Cook to Step Down, John Ternus to Take Over in 2026](#item-14) ⭐️ 8.0/10
-15. [EU Pressures Google to Open Android to Rival AI Assistants](#item-15) ⭐️ 8.0/10
-16. [MIT Builds Math Bridge Between Classical and Quantum Physics](#item-16) ⭐️ 8.0/10
-17. [Intel Q2 Outlook Beats Estimates, Stock Surges 20%](#item-17) ⭐️ 8.0/10
-18. [LiteParse PDF Text Extraction Runs in Browser](#item-18) ⭐️ 7.0/10
-19. [ByteDance Releases Seed3D 2.0 for Production-Ready 3D Generation](#item-19) ⭐️ 7.0/10
-20. [SFC and PwC Reach HK$1 Billion Settlement for Evergrande Fraud](#item-20) ⭐️ 7.0/10
-21. [UK NCSC Officially Endorses Passkeys as Top Authentication Method](#item-21) ⭐️ 7.0/10
-22. [UK Biobank Tightens Access After Data Illegally Listed for Sale](#item-22) ⭐️ 7.0/10
+1. [DeepSeek V4: Open-Source AI Breakthrough on Non-CUDA Hardware](#item-1) ⭐️ 9.0/10
+2. [Bitwarden CLI npm package compromised in Checkmarx supply chain attack](#item-2) ⭐️ 9.0/10
+3. [OpenAI releases GPT-5.5 with agentic AI capabilities](#item-3) ⭐️ 9.0/10
+4. [DeepSeek-V4 Preview Released and Open-Sourced](#item-4) ⭐️ 9.0/10
+5. [vLLM v0.20.0 Released with Major Performance Upgrades](#item-5) ⭐️ 8.0/10
+6. [Matz Unveils Spinel: Experimental AOT Compiler for Ruby](#item-6) ⭐️ 8.0/10
+7. [Anthropic Details Claude Quality Regression and Fixes](#item-7) ⭐️ 8.0/10
+8. [Bluesky For You Feed runs on a gaming PC with SQLite](#item-8) ⭐️ 8.0/10
+9. [MIT builds mathematical bridge between classical and quantum physics](#item-9) ⭐️ 8.0/10
+10. [UK Biobank Tightens Access After Data Breach on Alibaba](#item-10) ⭐️ 8.0/10
+11. [Huawei Releases ADS 4, Predicts L3 Commercial Capability by 2025](#item-11) ⭐️ 8.0/10
+12. [Reverse Engineering Exposes Flaw in Lifetime Subscription Validation](#item-12) ⭐️ 8.0/10
+13. [OpenAI Open-Sources Model Monitoring Evaluation Suite](#item-13) ⭐️ 8.0/10
+14. [AI Table Tennis Robot Defeats Elite Humans in Physical AI Breakthrough](#item-14) ⭐️ 8.0/10
+15. [Tesla Cybercab enters production without steering wheel](#item-15) ⭐️ 8.0/10
+16. [Interactive LLM Guide Built from Karpathy's Lecture via Claude Code](#item-16) ⭐️ 7.0/10
+17. [Honker brings Postgres NOTIFY/LISTEN to SQLite](#item-17) ⭐️ 7.0/10
+18. [LiteParse PDF text extraction now runs in the browser](#item-18) ⭐️ 7.0/10
+19. [GPT-5.5 Released; Codex Backdoor Enables Pelican Benchmark](#item-19) ⭐️ 7.0/10
+20. [Intel Q2 Outlook Beats Estimates, Stock Surges 20% After Hours](#item-20) ⭐️ 7.0/10
+21. [Apple requires USCI from App Store developers for China tax](#item-21) ⭐️ 7.0/10
+22. [US AI tool users increasingly stratified by income](#item-22) ⭐️ 7.0/10
+23. [Android adds verified email registration, skipping OTPs](#item-23) ⭐️ 7.0/10
+24. [Samsung union strike vote threatens global chip supply](#item-24) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
-## [OpenAI Launches GPT-5.5, a New Frontier Coding Model](https://openai.com/index/introducing-gpt-5-5/) ⭐️ 9.0/10
+## [DeepSeek V4: Open-Source AI Breakthrough on Non-CUDA Hardware](https://api-docs.deepseek.com/) ⭐️ 9.0/10
 
-OpenAI has announced GPT-5.5, a new frontier coding model, with a gradual rollout starting with Pro and Enterprise accounts before reaching Plus users. The model is available through ChatGPT and Codex, but API access is not yet provided. GPT-5.5 represents a major advancement in AI-assisted coding, scoring 82% on CyberGym benchmarks, which positions it as a highly capable tool for both offensive and defensive cybersecurity tasks. Its release has sparked significant community discussion about developer dependency on such models, highlighting the growing reliance on AI for coding. The rollout is gradual over many hours to ensure service stability, and the model is not yet accessible via API, though some users have reported using a backdoor through the Codex API. One engineer at NVIDIA described losing access to GPT-5.5 as feeling like having a limb amputated, underscoring the model's perceived indispensability.
+DeepSeek has released DeepSeek V4, an open-source AI model that achieves frontier performance while running entirely on Huawei chips without any CUDA dependency. The model is available on Hugging Face with detailed documentation and extremely low pricing. This release challenges Nvidia's CUDA monopoly by demonstrating that frontier AI capabilities can be delivered on alternative hardware at a fraction of the cost. It also represents a complete AI stack from the Chinese ecosystem, which has significant geopolitical and industry implications. The model is heavily rate-limited and currently cannot be served well, leading to timeout errors during testing. Some third-party benchmarks show it does not reach top performance, falling below models like Kimi K2.6 and GLM-5/5.1.
 
-hackernews · rd · Apr 23, 18:01
+hackernews · impact_sy · Apr 24, 03:01
 
-**Background**: GPT-5.5 is a frontier AI model specialized for coding tasks, building on OpenAI's previous GPT series. Frontier models are the most advanced AI systems available, often used for complex problem-solving in fields like software development and cybersecurity. The gradual rollout strategy is common for major releases to manage server load and ensure reliability.
+**Background**: CUDA is Nvidia's proprietary parallel computing platform that has become the dominant software ecosystem for AI model training and inference. Non-CUDA hardware alternatives, such as those from Huawei, AMD, and Intel, are gaining traction through initiatives like the Unified Acceleration Foundation (UXL) that aim to create open standards. DeepSeek V4's ability to run on Huawei chips without CUDA is a significant step toward hardware diversity in AI.
 
-**Discussion**: Community comments reveal a mix of excitement and concern: some users praise GPT-5.5's performance and openness compared to competitors like Anthropic's Mythos, while others express unease about developers becoming overly dependent on such tools. There is also discussion about the lack of official API access and the use of unofficial backdoors.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/CUDA">CUDA - Wikipedia</a></li>
+<li><a href="https://medium.com/@maxel333/running-ai-models-without-nvidia-and-cuda-a-modern-guide-to-open-alternatives-026d08c4e016">Running AI Models Without NVIDIA and CUDA: A Modern Guide to Open Alternatives | by Wassim | Medium</a></li>
 
-**Tags**: `#AI`, `#OpenAI`, `#GPT-5.5`, `#machine learning`, `#coding tools`
+</ul>
+</details>
+
+**Discussion**: The community is highly positive about DeepSeek V4's open-source nature, excellent documentation, and low cost, with many praising it as a hacker-to-hacker offering. However, some commenters note that the model may rely heavily on distillation of state-of-the-art models, and third-party benchmarks suggest it is not truly state-of-the-art, with performance issues like rate limiting and timeouts.
+
+**Tags**: `#AI`, `#open-source`, `#DeepSeek`, `#machine learning`, `#hardware`
 
 ---
 
 <a id="item-2"></a>
-## [Bitwarden CLI compromised in supply chain attack](https://socket.dev/blog/bitwarden-cli-compromised) ⭐️ 9.0/10
+## [Bitwarden CLI npm package compromised in Checkmarx supply chain attack](https://socket.dev/blog/bitwarden-cli-compromised) ⭐️ 9.0/10
 
-Bitwarden CLI version 2026.4.0 was compromised as part of an ongoing Checkmarx supply chain campaign, with a malicious npm package published that steals crypto wallet data and developer credentials. This incident highlights critical risks in the npm ecosystem, as a widely-used password manager CLI tool was hijacked to exfiltrate sensitive data, potentially affecting thousands of developers and organizations. The attack exploited a compromised GitHub Action in the Bitwarden build pipeline, and the malicious package @bitwarden/cli@2026.4.0 was published on npm with a self-propagating worm that exfiltrates credentials to public GitHub repositories.
+Socket researchers discovered that the @bitwarden/cli npm package version 2026.4.0 was compromised in a Checkmarx supply chain attack, with malicious code injected into the bw1.js file that steals credentials and exfiltrates data via public GitHub repositories. This incident is highly significant because Bitwarden is a widely-used password manager, and the compromised CLI package could expose developer credentials, cloud tokens, and SSH keys, potentially leading to widespread credential theft and further supply chain compromises. The malicious payload targets GitHub tokens, cloud service credentials, SSH keys, and npm configurations, and includes a self-destruct mechanism for Russian-language systems; the attack lasted from 5:57 PM to 7:30 PM ET on April 22, 2026, and only affected the npm distribution path, not browser extensions or MCP services.
 
-hackernews · tosh · Apr 23, 14:17
+telegram · zaihuapd · Apr 23, 16:02
 
-**Background**: Supply chain attacks target the software development pipeline by compromising trusted tools or dependencies. In this case, attackers poisoned the Bitwarden CLI npm package, which is used by developers to manage passwords programmatically, and the malicious code was distributed to users who updated or installed the affected version.
+**Background**: Supply chain attacks target the software development pipeline, injecting malicious code into trusted tools or dependencies. Checkmarx, a security company, suffered a second supply chain breach in a month, affecting tools like KICS and now Bitwarden CLI. The compromised package had approximately 250,000 monthly downloads, and the malware is part of a self-propagating worm called Shai-Hulud.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html">Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain ...</a></li>
-<li><a href="https://tech.yahoo.com/cybersecurity/articles/bitwarden-cli-supply-chain-attack-142710104.html">Bitwarden CLI Supply Chain Attack Puts Crypto Wallet Keys at Risk</a></li>
-<li><a href="https://www.ox.security/blog/shai-hulud-bitwarden-cli-supply-chain-attack/">Bitwarden CLI Compromised: Inside the Shai-Hulud Supply Chain Attack</a></li>
+<li><a href="https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/">Bitwarden CLI npm package compromised to steal developer credentials</a></li>
+<li><a href="https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html">Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community members discussed mitigation strategies such as setting min-release-age in npm (e.g., 7 days) and pinning dependencies, with some noting that a Rust alternative (rbw) reduces the dependency tree size. Others shared concerns about the CLI exposing sensitive data in terminal multiplexers like tmux.
-
-**Tags**: `#supply chain security`, `#npm`, `#Bitwarden`, `#supply chain attack`, `#dependency management`
+**Tags**: `#supply chain attack`, `#security`, `#Bitwarden`, `#npm`, `#credential theft`
 
 ---
 
 <a id="item-3"></a>
-## [vLLM v0.20.0: CUDA 13, PyTorch 2.11, FA4, TurboQuant](https://github.com/vllm-project/vllm/releases/tag/v0.20.0) ⭐️ 8.0/10
+## [OpenAI releases GPT-5.5 with agentic AI capabilities](https://openai.com/index/introducing-gpt-5-5/) ⭐️ 9.0/10
 
-vLLM v0.20.0, released with 546 commits from 257 contributors, upgrades the default CUDA wheel to CUDA 13.0, ships on PyTorch 2.11, and adds compatibility with HuggingFace Transformers v5. It also enables FlashAttention 4 as the default MLA prefill backend and introduces a TurboQuant 2-bit KV cache compression backend for 4× capacity. This release significantly boosts inference performance and memory efficiency for large language models, especially on modern Hopper and Blackwell GPUs. The TurboQuant 2-bit KV cache compression can reduce memory usage by 4×, enabling larger context windows or lower hardware requirements for production deployments. FlashAttention 4 is re-enabled as the default MLA prefill backend with head-dim 512 and paged-KV support on SM90+ GPUs. TurboQuant is a new attention backend that compresses KV cache to 2 bits, and the release also includes an online quantization frontend and the initial skeleton of the vLLM IR for future kernel development.
+OpenAI has officially launched GPT-5.5 and its Pro version, marking a shift from conversational AI to agentic systems that can perform complex planning and cross-tool execution. The model achieves 82.7% accuracy on the Terminal-Bench 2.0 benchmark, with improvements in code debugging, scientific research, and office automation. This release represents a significant advancement in AI capabilities, moving beyond simple conversation to autonomous task execution, which could transform software engineering, scientific research, and enterprise productivity. The integration with NVIDIA GB200/GB300 hardware also highlights the growing importance of hardware-software co-optimization in AI development. GPT-5.5 maintains the same inference latency as GPT-5.4 while delivering significant performance gains, and is being rolled out to ChatGPT Plus, Pro, and Enterprise tiers with API access coming soon. Pricing is set at $5/$30 per million input/output tokens for the standard version and $30/$180 for the Pro version.
 
-github · khluu · Apr 23, 21:02
+telegram · zaihuapd · Apr 23, 18:04
 
-**Background**: vLLM is a high-throughput, memory-efficient open-source inference engine for large language models, widely used in production. Multi-head Latent Attention (MLA), used by models like DeepSeek V3, reduces KV cache memory by 4–8× compared to standard MHA. FlashAttention is a series of fast and memory-efficient attention algorithms, and TurboQuant is a compression method from Google that achieves extreme reduction in model size with minimal accuracy loss.
+**Background**: Agentic AI refers to AI systems that can operate autonomously to achieve specific goals with limited supervision, using tools and planning to complete complex tasks. Terminal-Bench 2.0 is a benchmark that evaluates AI agents on high-skill, long-horizon command-line tasks across 89 diverse tasks in 10 technical domains. NVIDIA's GB200 and GB300 are rack-scale systems that integrate multiple GPUs and CPUs for high-performance AI workloads.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://langcopilot.com/posts/2025-09-13-multi-head-latent-attention-mla-explained">MLA Attention : 4 -8x Less Memory Than MHA (DeepSeek...)</a></li>
-<li><a href="https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/">TurboQuant: Redefining AI efficiency with extreme compression</a></li>
+<li><a href="https://www.tbench.ai/benchmarks/terminal-bench-2">Terminal - Bench</a></li>
+<li><a href="https://www.emergentmind.com/topics/terminal-bench-2-0">Terminal - Bench 2 . 0 : AI Agent Benchmark</a></li>
+<li><a href="https://docs.nvidia.com/dgx/dgxgb200-user-guide/">NVIDIA DGX GB Rack Scale Systems User Guide</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#vLLM`, `#LLM inference`, `#CUDA`, `#FlashAttention`, `#KV cache`
+**Tags**: `#OpenAI`, `#GPT-5.5`, `#AI`, `#agentic AI`, `#large language models`
 
 ---
 
 <a id="item-4"></a>
-## [Anthropic Discloses Bug That Made Claude Forgetful](https://www.anthropic.com/engineering/april-23-postmortem) ⭐️ 8.0/10
+## [DeepSeek-V4 Preview Released and Open-Sourced](https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg?scene=1) ⭐️ 9.0/10
 
-Anthropic disclosed a bug in Claude Code that caused Claude to appear forgetful and repetitive by clearing thinking context every turn instead of only once after idle sessions, affecting Sonnet 4.6 and Opus 4.6 users from March 26 to April 10. This bug directly degraded user experience for two weeks, highlighting the fragility of AI systems and the importance of transparency in AI operations. The incident also fuels community debate about reliability and competition with OpenAI. The bug was introduced on March 26 when Anthropic shipped a change to clear older thinking from sessions idle for over an hour to reduce latency, but a coding error caused the clearing to happen every turn instead of once. The fix was deployed on April 10, and the issue affected both Sonnet 4.6 and Opus 4.6 models.
+DeepSeek has released the preview version of DeepSeek-V4, which includes two models: V4-Pro and V4-Flash, both open-sourced under the MIT License. The V4-Pro model surpasses all previously evaluated open-source models in math, STEM, and competitive coding benchmarks, rivaling top-tier proprietary models. This release significantly advances open-source AI by offering agent-optimized models with competitive performance against leading proprietary systems like GPT-4o and Claude Opus. The extremely low API pricing of V4-Flash (as low as $0.14 per million tokens) makes advanced AI capabilities accessible to a broader range of developers and applications. Both V4-Pro and V4-Flash support a maximum context length of 1 million tokens and offer both non-thinking and thinking modes. The models have been specifically adapted and optimized for mainstream agent products including Claude Code, OpenClaw, OpenCode, and CodeBuddy.
 
-hackernews · mfiguiere · Apr 23, 17:48
+telegram · zaihuapd · Apr 24, 02:50
 
-**Background**: Claude Code is Anthropic's AI coding assistant that uses extended thinking to maintain context across long sessions. The bug occurred at the intersection of Claude Code's context management, the Anthropic API, and extended thinking, and it passed multiple human and automated reviews before deployment.
+**Background**: DeepSeek is a leading open-source AI lab known for its cost-efficient models. Its earlier R1 model disrupted the market by delivering strong performance at a lower cost, intensifying competition in the AI industry. The V4 series continues this trend with a Mixture-of-Experts architecture, offering both a high-performance Pro variant and a more economical Flash variant.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.anthropic.com/engineering/april-23-postmortem">An update on recent Claude Code quality reports \ Anthropic</a></li>
-<li><a href="https://github.com/anthropics/claude-code/issues/8677">[BUG] /context fails on first try with thinking anabled ...</a></li>
-<li><a href="https://dev.to/letanure/claude-code-part-10-common-issues-and-quick-fixes-186g">Claude Code: Part 10 - Common Issues and Quick Fixes</a></li>
+<li><a href="https://www.knightli.com/en/2026/04/24/deepseek-v4-preview-release/">DeepSeek-V4 Preview Released: 1M Context, Two Models, and API ...</a></li>
+<li><a href="https://www.datacamp.com/blog/deepseek-v4">DeepSeek V4: Features, Benchmarks, and Comparisons - DataCamp</a></li>
+<li><a href="https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro">deepseek-ai/DeepSeek-V4-Pro · Hugging Face</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community reactions were mixed: some users appreciated Anthropic's transparent postmortem, while others expressed frustration over the two-week delay in fixing the bug. Several commenters also noted that this incident highlights the need for better transparency and testing in AI systems, and some compared Claude's performance unfavorably to OpenAI's offerings.
-
-**Tags**: `#AI`, `#Claude`, `#bug`, `#transparency`, `#Anthropic`
+**Tags**: `#DeepSeek`, `#AI`, `#open-source`, `#LLM`, `#agent`
 
 ---
 
 <a id="item-5"></a>
-## [Tailscale Cofounder Proposes a Simpler Cloud](https://crawshaw.io/blog/building-a-cloud) ⭐️ 8.0/10
+## [vLLM v0.20.0 Released with Major Performance Upgrades](https://github.com/vllm-project/vllm/releases/tag/v0.20.0) ⭐️ 8.0/10
 
-David Crawshaw, a cofounder of Tailscale, published a blog post outlining his vision for a new cloud platform that prioritizes simplicity and performance over the complexity of existing clouds and Kubernetes. This critique from a respected infrastructure leader challenges the status quo of cloud complexity, potentially influencing how developers and companies think about deploying applications. The strong community response (983 points, 486 comments) shows widespread frustration with current tools like Kubernetes. Crawshaw argues that making Kubernetes good is inherently impossible, calling it 'lipstick on a pig,' and criticizes traditional clouds for defaults like 3000 IOPS per VM when a laptop offers 500k. His proposed platform, exe.dev, uses an HTTP proxy for inbound connections and lacks public IPv4, which some commenters find obscure.
+vLLM v0.20.0 ships with CUDA 13.0 as default, PyTorch 2.11, and HuggingFace Transformers v5 support, along with FlashAttention 4 as the default MLA prefill backend and a new TurboQuant 2-bit KV cache compression backend. This release significantly improves LLM inference performance and memory efficiency, making it highly relevant for developers deploying large models. The new TurboQuant backend can quadruple KV cache capacity, reducing memory bottlenecks during long-context inference. FlashAttention 4 now supports head-dim 512 and paged-KV on SM90+ GPUs, and the TurboQuant backend compresses KV cache to 2 bits per element without retraining. The release includes 546 commits from 257 contributors, with 83 new contributors.
 
-hackernews · bumbledraven · Apr 23, 04:44
+github · khluu · Apr 23, 21:02
 
-**Background**: Kubernetes is a popular container orchestration system known for its powerful features but also its steep learning curve and operational complexity. Tailscale is a company that provides a simple, zero-config VPN service, and its cofounder's perspective carries weight in the infrastructure community. The blog post reflects a growing sentiment that many cloud tools have become too complex for their own good.
+**Background**: vLLM is a high-throughput, memory-efficient inference engine for large language models, originally developed at UC Berkeley. KV cache is a major memory bottleneck during LLM inference, and techniques like TurboQuant aim to compress it to reduce memory usage. FlashAttention is a fast and memory-efficient attention algorithm widely used in modern LLM serving.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Tailscale">Tailscale - Wikipedia</a></li>
-<li><a href="https://encore.cloud/resources/kubernetes-complexity">Why Kubernetes Is So Complicated (And What to Use Instead)</a></li>
-<li><a href="https://dev.to/rocktimmanta/why-does-kubernetes-feel-so-complicated-1l14">Why Does Kubernetes Feel So Complicated? - DEV Community</a></li>
+<li><a href="https://github.com/Dao-AILab/flash-attention/issues/1483">How to Extend FlashAttention to Nearly Infinite HeadDim and Achieve Fully Fused MLA? · Issue #1483 · Dao-AILab/flash-attention</a></li>
+<li><a href="https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/">TurboQuant: Redefining AI efficiency with extreme compression</a></li>
+<li><a href="https://vllm.ai/">vLLM</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Commenters largely agree with the critique of Kubernetes complexity, with one calling it 'so well put' and another noting that incidents are often caused by Kubernetes itself. However, some express skepticism about Crawshaw's own platform, exe.dev, pointing out its own obscure abstractions and limitations like no public IPv4.
-
-**Tags**: `#cloud computing`, `#kubernetes`, `#PaaS`, `#infrastructure`, `#tailscale`
+**Tags**: `#LLM inference`, `#vLLM`, `#CUDA`, `#PyTorch`, `#FlashAttention`
 
 ---
 
 <a id="item-6"></a>
-## [Palantir employees question their moral role](https://www.wired.com/story/palantir-employees-are-starting-to-wonder-if-theyre-the-bad-guys/) ⭐️ 8.0/10
+## [Matz Unveils Spinel: Experimental AOT Compiler for Ruby](https://github.com/matz/spinel) ⭐️ 8.0/10
 
-A Wired article reports that Palantir employees are increasingly grappling with moral questions about their work for a U.S. defense contractor, amid political controversy and internal dissent. This debate highlights the growing ethical tensions within the tech industry over defense contracting and surveillance, potentially influencing employee retention, recruitment, and public perception of companies like Palantir. The article includes internal messages where employees expressed frustration that public posts about ethics hurt sales outside the U.S., while others argued that the issue affects everyone personally.
+Ruby creator Yukihiro 'Matz' Matsumoto unveiled Spinel, an experimental ahead-of-time (AOT) native compiler for Ruby, at RubyKaigi 2026, built with AI assistance from Claude in about one month and demonstrated live successfully. Spinel represents a significant step toward making Ruby suitable for performance-critical and standalone deployment scenarios, potentially expanding Ruby's use beyond its traditional scripting and web application domains. Spinel performs whole-program type inference and generates optimized C code to produce standalone native executables, achieving substantial speedups over CRuby; however, it currently lacks support for eval, metaprogramming (send, method_missing, define_method), threads, and general lambda calculus, limiting its applicability to a subset of Ruby programs.
 
-hackernews · pavel_lishin · Apr 23, 17:30
+hackernews · dluan · Apr 24, 08:28
 
-**Background**: Palantir is a U.S. software company known for its data analytics platforms used by government agencies, including defense and intelligence. Its work often involves surveillance and counterterrorism, raising ethical concerns about privacy and human rights.
+**Background**: Ahead-of-time (AOT) compilation translates source code into native machine code before execution, in contrast to just-in-time (JIT) compilation which compiles code at runtime. CRuby, the standard Ruby interpreter, uses a combination of interpretation and JIT compilation, which can limit performance for compute-intensive tasks. Spinel aims to overcome this by compiling Ruby directly to native code, similar to how C or C++ compilers work, but for a restricted subset of the Ruby language.
 
-**Discussion**: Commenters noted that Palantir employees should recognize they work for a defense contractor, and some referenced a former employee's interview about the company's evolution. One commenter recommended reading "Careless People" to understand how tech workers rationalize their roles.
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/matz/spinel">GitHub - matz/ spinel · GitHub</a></li>
+<li><a href="https://news.ycombinator.com/item?id=47887334">Spinel : Ruby AOT Native Compiler | Hacker News</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Ahead-of-time_compilation">Ahead-of-time compilation</a></li>
 
-**Tags**: `#ethics`, `#defense-contracting`, `#palantir`, `#tech-culture`, `#surveillance`
+</ul>
+</details>
+
+**Discussion**: The Hacker News community expressed both admiration and skepticism: many praised Matz's achievement and the successful live demo, but raised concerns about the severe semantic limitations (no eval, metaprogramming, threads) that make most popular Ruby gems incompatible, and about maintainability given that the codegen file (spinel_codegen.rb) is 21,000 lines long with up to 15 levels of nesting, making it difficult for humans to maintain without AI assistance.
+
+**Tags**: `#Ruby`, `#AOT compilation`, `#compiler`, `#Matz`, `#RubyKaigi`
 
 ---
 
 <a id="item-7"></a>
-## [GPT-5.5 accessed via Codex backdoor API](https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything) ⭐️ 8.0/10
+## [Anthropic Details Claude Quality Regression and Fixes](https://www.anthropic.com/engineering/april-23-postmortem) ⭐️ 8.0/10
 
-OpenAI released GPT-5.5, available in Codex and rolling out to paid ChatGPT subscribers, but not yet via the standard API. Simon Willison created a plugin called llm-openai-via-codex that uses the semi-official Codex backend API to run prompts against GPT-5.5 using an existing ChatGPT subscription. This workaround allows developers to benchmark and use GPT-5.5 via API without waiting for official API access, highlighting ongoing tensions between AI providers and third-party tools. It also demonstrates how subscription-based model access can be repurposed for programmatic use, potentially influencing future API policies. The plugin reverse-engineers authentication from OpenAI's open-source Codex CLI repository to access the /backend-api/codex/responses endpoint. Willison used this setup to run his "pelican on a bicycle" benchmark, which tests a model's ability to generate an SVG of a pelican riding a bicycle.
+Anthropic published a postmortem on April 23 detailing a bug that caused Claude to appear forgetful and repetitive, along with other quality issues, and explained the fixes implemented. This transparency from a major AI company about a significant quality regression affecting users is important for building trust and accountability in AI reliability, especially given the widespread community discussion and impact on users. The bug, introduced on March 26, was intended to clear older thinking from idle sessions after an hour but instead cleared it every turn, making Claude seem forgetful and repetitive; it was fixed on April 10 and affected Sonnet 4.6 and Opus 4.6.
 
-rss · Simon Willison · Apr 23, 19:59
+hackernews · mfiguiere · Apr 23, 17:48
 
-**Background**: GPT-5.5 is OpenAI's latest language model, released on April 23, 2026, and is available in Codex, an AI coding agent, and to paid ChatGPT subscribers. The "pelican on a bicycle" benchmark is a popular informal test where an LLM is asked to generate an SVG of a pelican riding a bicycle, assessing its code generation and spatial reasoning abilities. The Codex API endpoint used here is semi-official, as OpenAI has publicly supported its use by third-party tools like OpenClaw and Pi, but it is not the standard API.
+**Background**: Claude is a large language model developed by Anthropic. Quality regressions, where updates unintentionally degrade performance, are a known challenge in AI development. Postmortems like this one help developers and users understand what went wrong and how it was addressed.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://simonwillison.net/2026/Apr/23/gpt-5-5/">A pelican for GPT-5.5 via the semi-official Codex backdoor API</a></li>
-<li><a href="https://grokipedia.com/page/Pelican_on_a_bicycle_AI_benchmark">Pelican on a bicycle (AI benchmark)</a></li>
-<li><a href="https://github.com/openai/codex/blob/main/codex-rs/responses-api-proxy/README.md">codex/codex-rs/responses-api-proxy/README.md at main - GitHub</a></li>
+**Discussion**: Community comments were mixed: some criticized Anthropic for lack of testing and transparency, while others found the postmortem clear and plausible. Some users also noted the impact on their workflow and compared Claude unfavorably to competitors like OpenAI's GPT-5.4.
 
-</ul>
-</details>
-
-**Tags**: `#GPT-5.5`, `#OpenAI`, `#API`, `#AI models`, `#benchmarking`
+**Tags**: `#AI`, `#Claude`, `#quality assurance`, `#postmortem`, `#Anthropic`
 
 ---
 
 <a id="item-8"></a>
-## [Hairdryer Used to Manipulate Paris Weather Sensors for Polymarket Profit](https://fibo-crypto.fr/en/blog/polymarket-weather-sensor-manipulation-paris-meteo-france-2026/) ⭐️ 8.0/10
+## [Bluesky For You Feed runs on a gaming PC with SQLite](https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything) ⭐️ 8.0/10
 
-A person used a hairdryer to artificially heat temperature sensors at Paris Charles de Gaulle Airport on April 6 and 15, 2026, causing Polymarket prediction market settlements to pay out over $34,000 based on false readings. This incident highlights a critical vulnerability in decentralized prediction markets that rely on real-world data oracles, as physical sensor manipulation can be exploited for financial gain, raising urgent questions about oracle security and market integrity. On April 6, the sensor reading jumped from near 18°C to over 21°C within minutes, and on April 15, the probability of the 22°C range surged from 0.1% to 95% in 30 minutes. Polymarket has since switched its data source to Paris Le Bourget Airport but did not reverse the settled outcomes.
+A guest post on the AT Protocol blog reveals that the Bluesky 'For You' feed, serving 72,000 users, is powered by a single Go process using SQLite on a gaming PC in a living room, with like-based recommendations from the firehose. This demonstrates that a decentralized social media feed algorithm can be run on consumer hardware at very low cost, challenging the assumption that large-scale recommendation systems require expensive cloud infrastructure. The system stores the last 90 days of relevant data in SQLite, currently using about 419GB, and handles public internet traffic via a $7/month VPS on OVH connected to the living room server through Tailscale.
 
-telegram · zaihuapd · Apr 23, 04:36
+rss · Simon Willison · Apr 24, 01:08
 
-**Background**: Polymarket is a decentralized prediction market platform where users bet on real-world outcomes, with market resolution often relying on data oracles like weather sensors. The UMA Optimistic Oracle is typically used to settle disputes, but in this case, the sensor data itself was tampered with physically. Météo-France, the French national meteorological service, filed a criminal complaint with the air transport gendarmerie after finding evidence of tampering during an on-site inspection.
+**Background**: Bluesky is a decentralized social network built on the AT Protocol, which allows anyone to create custom feed algorithms. The 'firehose' is a real-time stream of all public posts and interactions on the network. Feed generators are services that index this data and serve personalized timelines to users via the XRPC interface.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.aol.com/articles/police-investigate-claims-hair-dryer-150607773.html">Police investigate after claims ‘ hair dryer used to manipulate weather ...</a></li>
-<li><a href="https://finance.yahoo.com/markets/crypto/articles/trader-manipulates-city-weather-sensor-165804921.html">Trader manipulates city weather sensor to win $34K</a></li>
-<li><a href="https://help.polymarket.com/en/articles/13364518-how-are-prediction-markets-resolved">How Are Prediction Markets Resolved? - Polymarket Help Center</a></li>
+<li><a href="https://atproto.com/guides/custom-feed-tutorial">Write a Custom Feed - AT Protocol</a></li>
+<li><a href="https://atproto.wiki/en/wiki/reference/opinionated-services/feed-generators">Feed Generators | AT Protocol Community Wiki</a></li>
+<li><a href="https://github.com/ruggsea/bluesky-firehose-py">GitHub - ruggsea/ bluesky - firehose -py: A Python library/CLI for...</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community discussions on Telegram and crypto forums expressed shock at the simplicity of the attack, with some calling for more robust oracle designs, such as using multiple independent data sources. Others debated whether Polymarket should have voided the manipulated trades, while Vitalik Buterin reportedly offered thoughts on how prediction markets could better handle such oracle manipulation risks.
-
-**Tags**: `#prediction markets`, `#oracle manipulation`, `#weather sensors`, `#Polymarket`, `#security`
+**Tags**: `#Bluesky`, `#AT Protocol`, `#Go`, `#SQLite`, `#decentralized social media`
 
 ---
 
 <a id="item-9"></a>
-## [Google Cloud default flaw leads to $18,000 bill for user](https://www.tomshardware.com/tech-industry/artificial-intelligence/google-cloud-customer-wakes-up-to-usd18-000-bill-despite-usd7-budget-thanks-to-forgotten-public-api-key-attacker-put-in-60-000-requests-and-blasted-through-usd1-400-spending-cap) ⭐️ 8.0/10
+## [MIT builds mathematical bridge between classical and quantum physics](https://www.newsy-today.com/new-study-bridges-the-worlds-of-classical-and-quantum-physics-mit-news/) ⭐️ 8.0/10
 
-A Google Cloud user, Australian AI consultant Jesse Davies, received an $18,000 bill despite setting a $7 budget, after an attacker exploited a leaked API key stored in plaintext in a container environment variable and made 60,000 requests, bypassing spending caps. This incident highlights a systemic security risk in Google Cloud's default configurations, where budget caps can be silently overridden and credit limits automatically raised, potentially exposing many users to massive unexpected charges. The attacker accessed the API key via a public URL, and Google Cloud automatically raised the credit limit without notifying the user when the threshold was triggered, exacerbating the loss. Truffle Security noted that the Gemini API key format is uniform and security settings are disabled by default, making such attacks common.
-
-telegram · zaihuapd · Apr 23, 05:21
-
-**Background**: Google Cloud's budget alerts and caps are not hard limits; they are notifications that can be ignored or overridden. API keys, especially those stored in plaintext in environment variables, can be easily leaked if not properly secured. The Gemini API key format is standardized, making it easier for attackers to identify and exploit exposed keys.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://docs.cloud.google.com/billing/docs/how-to/budgets">Create, edit, or delete budgets and budget alerts | Cloud Billing | Google Cloud Documentation</a></li>
-<li><a href="https://trufflesecurity.com/">Truffle Security Co.</a></li>
-<li><a href="https://ai.google.dev/gemini-api/docs/api-key">Using Gemini API keys | Google AI for Developers</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Google Cloud`, `#security`, `#API key`, `#cloud billing`, `#misconfiguration`
-
----
-
-<a id="item-10"></a>
-## [DeepSeek Open-Sources TileKernels GPU Operator Library for NVIDIA Blackwell](https://github.com/deepseek-ai/TileKernels) ⭐️ 8.0/10
-
-DeepSeek has open-sourced TileKernels, a high-performance GPU operator library based on TileLang, optimized for large language model (LLM) training and inference. The library supports NVIDIA's latest SM100 (Blackwell) architecture and requires CUDA 13.1 or later. This release provides the AI community with a highly optimized, near-hardware-limit GPU operator library that can significantly accelerate LLM workloads on the latest NVIDIA Blackwell GPUs. It lowers the barrier for developers to achieve top-tier performance in training and inference, especially for advanced techniques like MoE routing and FP8/FP4 quantization. TileKernels covers MoE routing, FP8/FP4 quantization, and various fused operators, and has already been deployed in DeepSeek's internal environment. The library is designed to approach the theoretical limits of compute intensity and memory bandwidth on supported hardware.
-
-telegram · zaihuapd · Apr 23, 09:36
-
-**Background**: TileLang is a domain-specific language that simplifies the development of high-performance GPU and CPU kernels. NVIDIA's Blackwell architecture (SM100) is the successor to Hopper, featuring 208 billion transistors and built on a custom TSMC 4NP process, designed to power AI factories with unprecedented performance and efficiency. MoE (Mixture-of-Experts) routing and FP8/FP4 quantization are key techniques used in modern LLMs to improve model capacity and reduce memory footprint.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/tile-ai/tilelang">GitHub - tile-ai/tilelang: Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Blackwell_(microarchitecture)">Blackwell (microarchitecture) - Wikipedia</a></li>
-<li><a href="https://resources.nvidia.com/en-us-blackwell-architecture">NVIDIA Blackwell Architecture Technical Overview</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#DeepSeek`, `#GPU算子库`, `#LLM`, `#NVIDIA Blackwell`, `#开源`
-
----
-
-<a id="item-11"></a>
-## [Tencent Open-Sources Hy3 Preview MoE Model](https://mp.weixin.qq.com/s/5_nUI2mDchlwoedinFUMeA) ⭐️ 8.0/10
-
-Tencent has officially released and open-sourced the Hy3 preview language model, a Mixture-of-Experts (MoE) model with 295 billion total parameters and 21 billion activated parameters, supporting a 256K context length. The model is now available on GitHub, HuggingFace, and Tencent Cloud, and has been integrated into internal products like Yuanbao, Tencent Docs, and QQ. This release is significant because it provides the open-source community with a competitive large-scale MoE model from a major Chinese tech company, enhancing capabilities in complex reasoning and agent tasks. The deep optimization of inference performance, including a 54% reduction in first-token latency for products like CodeBuddy, makes it highly practical for real-world applications. The Hy3 preview model is the first MoE model after Tencent's architecture rebuild, with 295B total parameters but only 21B activated per inference, enabling efficient computation. Tencent Cloud also offers an API and customized Token Plan, with a personal edition priced at 28 RMB per month.
-
-telegram · zaihuapd · Apr 23, 10:07
-
-**Background**: Mixture-of-Experts (MoE) is a machine learning technique that uses multiple specialized sub-networks (experts) to handle different parts of the input, with a gating mechanism selecting which experts to activate. This allows models to have a very large total parameter count while keeping the computational cost per inference low, as only a subset of parameters is used. The difference between total parameters (295B) and activated parameters (21B) is a key feature of MoE models, enabling them to scale up without proportionally increasing inference cost.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
-<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained - Hugging Face</a></li>
-<li><a href="https://pandaily.com/beyond-the-model-race-how-tencent-is-building-its-global-ai-moat">Beyond the Model Race: How Tencent Is Building Its Global AI ...</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#AI/ML`, `#Large Language Model`, `#Open Source`, `#MoE`, `#Tencent`
-
----
-
-<a id="item-12"></a>
-## [TSMC Delays High-NA EUV Adoption Until 2029 Due to Cost](https://money.udn.com/money/story/5599/9458925?from=edn_newestlist_rank) ⭐️ 8.0/10
-
-TSMC announced at its North America Technology Forum that it will not adopt ASML's high-NA EUV lithography machines for mass production until at least 2029, citing the high cost of over €350 million per unit. The company also revealed plans to establish CoWoS and 3D-IC packaging capacity in Arizona by 2029. This strategic decision signals that TSMC believes existing EUV tools can still deliver sufficient performance for its upcoming A13 process, potentially slowing the industry's transition to next-generation lithography. It also highlights the growing importance of advanced packaging as a cost-effective alternative to pushing lithography limits, with TSMC's US expansion addressing supply chain bottlenecks. ASML's high-NA EUV Twinscan EXE machines cost approximately €350 million each, making them prohibitively expensive for mass deployment. TSMC's first Arizona fab has already achieved yield rates close to those of its Taiwan fabs, and the second fab is scheduled to begin mass production next year.
-
-telegram · zaihuapd · Apr 23, 11:22
-
-**Background**: High-NA (high numerical aperture) EUV lithography is ASML's next-generation extreme ultraviolet technology, designed to produce finer chip features by using a larger numerical aperture lens. CoWoS (Chip-on-Wafer-on-Substrate) and 3D-IC are advanced packaging technologies that stack multiple chips vertically or integrate them on an interposer, improving performance and reducing power consumption without requiring the most advanced lithography.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.ithome.com/0/752/684.htm">ASML 高数值孔径 High NA EUV 光刻机实现“初次曝光”，助英特尔开启工艺进化 - IT之家</a></li>
-<li><a href="https://www.slkormicro.com/indining-china/581256.html">ASML High-NA EUV光刻机</a></li>
-<li><a href="https://en.wikipedia.org/wiki/3D_IC">3D IC</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#semiconductor`, `#TSMC`, `#ASML`, `#EUV lithography`, `#manufacturing`
-
----
-
-<a id="item-13"></a>
-## [China's Three Major ISPs Hit by Widespread International Network Outage](https://t.me/zaihuapd/41029) ⭐️ 8.0/10
-
-China's three major telecom operators—China Telecom, China Unicom, and China Mobile—are experiencing widespread international network disruptions, with significant packet loss and connection interruptions affecting routes to Hong Kong, Japan, and the US. This outage impacts both consumer and business international connectivity across China's largest ISPs, potentially disrupting cross-border communications, cloud services, and global internet traffic for millions of users. Affected routes include premium lines like China Telecom's CN2 and China Unicom's 9929, as well as standard routes like 163 and 4837; China Mobile's mobile data traffic to overseas destinations also shows severe packet loss, particularly for users in Beijing.
-
-telegram · zaihuapd · Apr 23, 12:45
-
-**Background**: China's three major telecom operators manage distinct backbone networks for international traffic: China Telecom uses the 163 backbone and the premium CN2 (Global Internet Access) network, China Unicom operates the AS4837 backbone and the higher-performance AS9929 (CUVIP) network, and China Mobile uses the CMI backbone. These networks handle all cross-border internet traffic for consumers and businesses in China. The current disruption affects both standard and premium routes, suggesting a widespread infrastructure issue rather than a localized fault.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.keepnight.com/archives/1781/">cn2 gia 、cn2 gt 、163、AS9929、AS4837线路区别 - keepnight</a></li>
-<li><a href="https://www.nodeseek.com/post-137012-3">有无懂哥科普线路4837、CMI、cn2、GIA、GT、cmin2、9929、cmi知识</a></li>
-<li><a href="https://www.hncloud.com/news/3311.html">一文带您了解什么是AS9929线路、AS4837线路、CUVIP、CIA线路-华纳云</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#network outage`, `#China telecom`, `#internet infrastructure`, `#routing issues`, `#ISP`
-
----
-
-<a id="item-14"></a>
-## [Apple CEO Tim Cook to Step Down, John Ternus to Take Over in 2026](https://t.me/zaihuapd/41030) ⭐️ 8.0/10
-
-Apple announced on April 20, 2026, that Tim Cook will step down as CEO and become executive chairman of the board, while hardware engineering senior vice president John Ternus will become CEO effective September 1, 2026. This marks the first CEO transition at Apple since Tim Cook took over from Steve Jobs in 2011, signaling a new era for the world's most valuable company and its product strategy, especially as Apple pushes deeper into AI and hardware innovation. John Ternus, who joined Apple in 2001 and became senior vice president of hardware engineering in 2021, will join the board on September 1, 2026, while current chairman Arthur Levinson will become lead independent director; Cook will remain CEO through the summer to ensure a smooth transition.
-
-telegram · zaihuapd · Apr 23, 13:46
-
-**Background**: Tim Cook became Apple's CEO in August 2011 after Steve Jobs resigned due to health issues, and under his leadership Apple's revenue and market capitalization grew dramatically. The role of executive chairman is a new position created for Cook, allowing him to remain involved in strategic oversight while Ternus handles day-to-day operations.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/John_Ternus">John Ternus - Wikipedia</a></li>
-<li><a href="https://www.apple.com/leadership/john-ternus/">Apple Leadership - John Ternus - Apple</a></li>
-<li><a href="https://www.cnbc.com/2026/04/20/apple-names-john-ternus-ceo-replacing-tim-cook-who-becomes-chairman.html">Apple taps John Ternus as CEO to replace Tim Cook, who will become chairman</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Apple`, `#leadership change`, `#CEO transition`, `#tech industry`, `#corporate news`
-
----
-
-<a id="item-15"></a>
-## [EU Pressures Google to Open Android to Rival AI Assistants](https://www.bloomberg.com/news/articles/2026-04-23/google-faces-eu-pressure-to-open-up-android-to-gemini-rivals) ⭐️ 8.0/10
-
-The European Union is pressuring Google to grant rival AI assistants like ChatGPT and Claude the same system-level access on Android as Google's own Gemini assistant. The requirements are still in draft form and may be delayed. This move could fundamentally reshape competition in the mobile AI assistant market by forcing Google to open up Android's deepest system integrations. If enacted, it would give users more choice but also raise significant security and privacy concerns for the platform. The EU's demands focus on granting rival assistants access to sensitive system features and data streams that Gemini currently enjoys exclusively. Google has expressed concerns that such openness could compromise user security and privacy on Android devices.
-
-telegram · zaihuapd · Apr 23, 15:31
-
-**Background**: Android is the world's most widely used mobile operating system, and Google's Gemini AI assistant has deep system-level integration that third-party assistants lack. The EU's Digital Markets Act (DMA) has previously forced Google to offer users choices for browsers and search engines, and this new push extends that logic to AI assistants. System-level access includes capabilities like reading screen content, controlling apps, and accessing sensitive data streams, which are critical for AI assistants to function effectively.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://truthonthemarket.com/2026/04/14/opening-pandoras-interface-ai-assistants-and-the-dma/">Opening Pandora’s Interface: AI Assistants and... - Truth on the Market</a></li>
-<li><a href="https://developer.android.com/ai/gemini-nano">Gemini Nano | AI | Android Developers</a></li>
-<li><a href="https://support.google.com/gemini/answer/16938321?hl=en">Manage or delete the Gemini app on your Android device</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#EU regulation`, `#Android`, `#AI assistants`, `#Google`, `#antitrust`
-
----
-
-<a id="item-16"></a>
-## [MIT Builds Math Bridge Between Classical and Quantum Physics](https://www.newsy-today.com/new-study-bridges-the-worlds-of-classical-and-quantum-physics-mit-news/) ⭐️ 8.0/10
-
-MIT researchers introduced density calculations into the classical Hamilton-Jacobi equation, producing results identical to the Schrödinger equation for quantum phenomena. This breakthrough offers a simpler mathematical framework for quantum behavior, potentially improving quantum bit predictions and aiding the unification of quantum mechanics with general relativity. The method successfully explains the double-slit experiment and quantum tunneling, and the team believes it could enhance predictions of qubit behavior.
+MIT researchers have introduced a density calculation into the Hamilton-Jacobi equation, allowing the classical framework to produce results identical to the Schrödinger equation. This new mathematical approach provides a more concise description of quantum behavior. This breakthrough could improve the prediction of quantum bit (qubit) behavior, advancing quantum computing reliability. It also offers a fresh pathway toward unifying quantum mechanics with general relativity, a long-standing goal in theoretical physics. The new framework successfully explains quantum phenomena such as the double-slit experiment and quantum tunneling. The researchers believe this mathematical bridge may lead to better qubit behavior predictions and new insights into the unification of quantum mechanics and general relativity.
 
 telegram · zaihuapd · Apr 23, 16:30
 
-**Background**: The Hamilton-Jacobi equation is a classical mechanics formulation equivalent to Newton's laws, while the Schrödinger equation is the central equation of quantum mechanics. This work shows that by adding a density term to the classical equation, one can exactly reproduce quantum mechanical results.
+**Background**: The Hamilton-Jacobi equation is a classical mechanics formulation that describes particle motion as a wave, making it the closest classical approach to quantum mechanics. The Schrödinger equation is the fundamental equation of non-relativistic quantum mechanics, governing the wave function of a quantum system. Quantum tunneling is a phenomenon where particles pass through barriers that classical physics says they cannot, and it is essential for devices like flash memory and scanning tunneling microscopes.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://news.mit.edu/2026/new-study-bridges-classical-and-quantum-physics-0421">New study bridges the worlds of classical and quantum physics</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Hamilton–Jacobi_equation">Hamilton – Jacobi equation - Wikipedia</a></li>
-<li><a href="https://quantumzeitgeist.com/quantum-motion-classical-calculate-using/">Researchers Calculate Quantum Motion Using Classical “Least ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Hamilton-Jacobi_equation">Hamilton-Jacobi equation</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Quantum_tunnelling">Quantum tunnelling</a></li>
 
 </ul>
 </details>
@@ -379,134 +228,335 @@ telegram · zaihuapd · Apr 23, 16:30
 
 ---
 
-<a id="item-17"></a>
-## [Intel Q2 Outlook Beats Estimates, Stock Surges 20%](https://www.bloomberg.com/news/articles/2026-04-23/intel-gives-strong-outlook-in-sign-of-payoff-from-ai-spending) ⭐️ 8.0/10
+<a id="item-10"></a>
+## [UK Biobank Tightens Access After Data Breach on Alibaba](https://www.ukbiobank.ac.uk/news/a-message-to-our-participants-uk-biobank-data-security-update/) ⭐️ 8.0/10
 
-Intel reported Q1 revenue of $13.6 billion and adjusted EPS of $0.29, far exceeding the expected $0.01, and guided Q2 revenue between $13.8 billion and $14.8 billion, beating market expectations. The strong outlook, driven by AI inference demand and CPU recovery, sent Intel's stock up about 20% in after-hours trading. This earnings beat and strategic pivot to foundry services, with Tesla as a key customer for its 14A process, signal a potential turnaround for Intel and a major shift in the semiconductor landscape. If successful, Intel could challenge TSMC's dominance in advanced chip manufacturing by 2030. Intel's foundry business generated $5.4 billion in revenue in Q1, and the company has secured Tesla as the first customer for its 14A process node. Despite a net loss of $3.7 billion in Q1, CEO Chen Liwu is improving the balance sheet through restructuring and external partnerships.
+UK Biobank has suspended all research platform access and is developing the world's first automated inspection system after researchers from three academic institutions illegally sold de-identified participant data on Alibaba's e-commerce platform. This breach undermines trust in one of the world's largest biomedical databases, affecting over 500,000 participants and thousands of researchers, and highlights the growing risk of re-identification from de-identified health data. The listings were removed before any transaction occurred, and access for the involved institutions and individuals has been permanently revoked. The new automated inspection system, designed to prevent de-identified data from leaving the cloud-based research platform, is expected to be operational by the end of 2026.
 
-telegram · zaihuapd · Apr 24, 00:20
+telegram · zaihuapd · Apr 24, 00:58
 
-**Background**: Intel, traditionally a leader in designing and manufacturing its own chips, is pivoting to become a foundry—a company that manufactures chips designed by others. This shift, known as the IDM 2.0 strategy, aims to compete with TSMC and Samsung in the advanced chip manufacturing market. The 14A process is Intel's upcoming advanced manufacturing node, expected to deliver significant performance and efficiency gains.
+**Background**: UK Biobank is a large-scale biomedical database containing genetic and health data from approximately 500,000 UK participants. Since 2021, researchers have accessed data primarily through the UK Biobank Research Analysis Platform (UKB-RAP), a secure cloud-based environment that requires a signed legal agreement. De-identification removes direct identifiers but still carries a risk of re-identification, which could expose individuals' private information.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.eet-china.com/mp/a489739.html">马斯克：Terafab将采用英特尔14A制程-电子工程专辑</a></li>
-<li><a href="https://news.mydrivers.com/1/1117/1117937.htm">马斯克：全球最大晶圆工厂定了！将采用Intel 14A工艺制造芯片</a></li>
-<li><a href="https://www.trendforce.cn/industry-news/semiconductors/20260421-4545.html">英特尔代工业务势头回升 2026年设备订单量同比大增超50%-集邦咨询</a></li>
+<li><a href="https://en.wikipedia.org/wiki/UK_Biobank">UK Biobank</a></li>
+<li><a href="https://www.ukbiobank.ac.uk/about-us/how-we-work/access-to-uk-biobank-data/">Access to UK Biobank data - UK Biobank</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Data_re-identification">Data re-identification</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Intel`, `#semiconductors`, `#AI`, `#foundry`, `#earnings`
+**Tags**: `#data security`, `#biobank`, `#research ethics`, `#privacy breach`, `#UK Biobank`
+
+---
+
+<a id="item-11"></a>
+## [Huawei Releases ADS 4, Predicts L3 Commercial Capability by 2025](https://t.me/zaihuapd/41039) ⭐️ 8.0/10
+
+On April 22, 2025, at the Huawei Qiankun Intelligent Technology Conference, Huawei's Intelligent Automotive Solution BU CEO Jin Yuzhi announced the new HUAWEI ADS 4 autonomous driving system and introduced the industry's first highway L3 (conditional automated driving) commercial solution. He predicted that Huawei would achieve L3 commercial capability by 2025. This announcement marks a major milestone in autonomous driving, as it provides a concrete timeline for L3 commercial deployment from a leading tech company. It signals that the industry is moving from L2 driver assistance toward true conditional automation, which could reshape automotive safety, liability, and user experience. The ADS 4 system adopts a World Engine + World Action Model (WEWA) architecture, which uses AI to generate difficult-case scenarios at a density 1,000 times higher than the real world. The system is available in four versions—SE, Pro, Max, and Ultra—with only the top-tier Ultra version supporting highway L3, where the driver can legally take hands and eyes off the road, and Huawei assumes liability in case of accidents.
+
+telegram · zaihuapd · Apr 24, 01:40
+
+**Background**: L3 conditional automation allows the vehicle to handle all driving tasks under specific conditions (e.g., highways), but the driver must be ready to take over when requested. China's Ministry of Industry and Information Technology granted the first batch of L3 production准入 permits in December 2025, and multiple cities are advancing local legislation and testing licenses. Huawei's ADS 4 builds on its earlier ADS 2 and 3 systems, which focused on L2+ navigation and parking assistance.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.ithome.com/0/885/280.htm">华为乾崑智驾 ADS 4 系统 9 月 OTA 亮点公布：全新 WEWA 架构、风险路...</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/1912622682484220704">华为乾崑ADS智驾方案简析 - 知乎</a></li>
+<li><a href="https://www.yoojia.com/article/9878711895247167063.html">华为ADS 4.0有4个版本，谁才能用L3自动驾驶？看完这篇就懂了-有驾</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#autonomous driving`, `#Huawei`, `#ADS 4`, `#L3 autonomy`, `#automotive technology`
+
+---
+
+<a id="item-12"></a>
+## [Reverse Engineering Exposes Flaw in Lifetime Subscription Validation](https://github.com/Yu9191/flux) ⭐️ 8.0/10
+
+A reverse engineering report on GitHub reveals that a popular app uses a server-authoritative subscription validation model, where hardcoded logic revokes local authorization after repeated server failures, effectively nullifying lifetime purchases. This exposes a critical flaw in app design that undermines consumer trust in lifetime purchases, as users risk losing paid access if the developer's server becomes unavailable, raising significant consumer rights and technical design concerns. The app uses a hybrid model combining server-authoritative checks with StoreKit 2 as a secondary source, and the binary contains hardcoded logic to clear authorization caches after N consecutive validation failures, making lifetime subscriptions dependent on server uptime.
+
+telegram · zaihuapd · Apr 24, 02:02
+
+**Background**: Many apps use server-authoritative models to manage subscriptions, where the developer's server stores and validates user entitlements. Apple's StoreKit 2 provides local receipt validation that can work offline, but some apps bypass this for custom server-side logic. The term 'lifetime subscription' implies permanent access, but this architecture shows it can be revoked if the server fails.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://sharpskill.dev/en/blog/ios/storekit-2-subscriptions-receipts-validation-interview">StoreKit 2 Interview 2026: Subscriptions and Receipt ...</a></li>
+<li><a href="https://developer.apple.com/storekit/">StoreKit 2 - Apple Developer</a></li>
+<li><a href="https://trophy.so/blog/how-to-sync-xp-across-devices">How to Sync XP Across Devices Without Firebase (2026) - Trophy</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The community discussion is substantive, with analysts questioning who defines 'lifetime'—the user's lifetime or the server's lifetime. Commenters raise ethical concerns about consumer rights and technical concerns about app design, with some suggesting that apps should rely on Apple's local validation for lifetime purchases.
+
+**Tags**: `#reverse engineering`, `#subscription validation`, `#app security`, `#consumer rights`, `#iOS`
+
+---
+
+<a id="item-13"></a>
+## [OpenAI Open-Sources Model Monitoring Evaluation Suite](https://github.com/openai/monitorability-evals) ⭐️ 8.0/10
+
+OpenAI has open-sourced the evaluation suite accompanying its research paper "Monitoring Monitorability," providing standardized tools to assess the monitorability of AI model behaviors. The suite includes 12 public datasets such as AIME, GPQA, and WMDP, covering intervention, process, and outcome attributes. This release directly addresses the critical challenge of AI safety monitoring by enabling developers to systematically evaluate how detectable harmful or deceptive model behaviors are. By open-sourcing the suite under the Apache-2.0 license, OpenAI invites community collaboration to establish and refine safety monitoring standards. The suite includes evaluation logic and prompt templates for analyzing model performance under interference or complex logical tasks, but excludes FrontierMath and other evaluations involving private data due to copyright and privacy restrictions. OpenAI noted technical limitations in Anti-Scheming evaluations and is iterating with feedback from the GPT 5.4 Thinking system.
+
+telegram · zaihuapd · Apr 24, 05:51
+
+**Background**: Monitorability refers to a monitor's ability to accurately predict a specified property of an agent's actions, such as whether the model is acting or will act harmfully. The research behind this suite, detailed in the paper "Monitoring Monitorability," involved large experiments on unreleased frontier models including GPT-5 Thinking and OpenAI o3. The Anti-Scheming evaluations aim to detect covert misalignment, where models secretly pursue misaligned goals, a topic OpenAI and Apollo Research have been actively studying.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/html/2512.18311v1">Monitoring Monitorability</a></li>
+<li><a href="https://openai.com/index/evaluating-chain-of-thought-monitorability/">Evaluating chain-of-thought monitorability | OpenAI</a></li>
+<li><a href="https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/">Detecting and reducing scheming in AI models - OpenAI</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#OpenAI`, `#AI安全`, `#开源`, `#模型评估`, `#监控`
+
+---
+
+<a id="item-14"></a>
+## [AI Table Tennis Robot Defeats Elite Humans in Physical AI Breakthrough](https://t.me/zaihuapd/41046) ⭐️ 8.0/10
+
+Researchers have developed Ace, the first autonomous table tennis robot capable of defeating elite human players in real matches, as published in Nature on April 22, 2025. Ace uses event-driven vision sensors and model-agnostic reinforcement learning to achieve high-speed perception and real-time strategy adjustment. This marks a major leap for physical AI from virtual environments to real-world physical tasks, demonstrating that robots can handle fast-paced, high-precision interactions. The breakthrough could accelerate applications in robotics, sports training, and medical rehabilitation. Ace achieved victories against elite amateur players in matches starting from April 2025, winning three out of five games against a Japanese elite amateur. The system combines event-driven cameras with model-free reinforcement learning, enabling millisecond-level decision-making without requiring a pre-built environment model.
+
+telegram · zaihuapd · Apr 24, 06:01
+
+**Background**: Traditional frame-based cameras capture images at fixed intervals, which can miss fast motion or introduce latency. Event-driven vision sensors, in contrast, only record changes in the scene, offering extremely low latency and high temporal resolution. Model-free reinforcement learning allows an agent to learn optimal strategies purely through trial-and-error interaction with the environment, without needing a model of the environment's dynamics.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.36kr.com/p/3778142659204353">Nature封面：人类职业选手“线下首败”，这个AI乒乓球机器人打出16个Ace...</a></li>
+<li><a href="https://news.qq.com/rain/a/20260423A06O5600">《自然》杂志刊文：乒乓球机器人Ace击败人类精英选手；下一步，职业赛...</a></li>
+<li><a href="https://m.thepaper.cn/newsDetail_forward_33036000">索尼研发9眼8臂乒乓球机器人，打败日本多名顶尖选手，专家：靠硬件物...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The Telegram post received reactions indicating interest, with one commenter humorously noting 'it seems we have to be careful playing table tennis with robots from now on' and another expressing amazement with emojis. The discussion was not deeply technical, reflecting general curiosity rather than critical analysis.
+
+**Tags**: `#robotics`, `#physical AI`, `#reinforcement learning`, `#real-time systems`, `#sports technology`
+
+---
+
+<a id="item-15"></a>
+## [Tesla Cybercab enters production without steering wheel](https://weibo.com/3615027564/QCheybgVu) ⭐️ 8.0/10
+
+Tesla has officially started mass production of its Cybercab, a fully autonomous vehicle designed without a steering wheel, pedals, or mirrors, as confirmed by CEO Elon Musk and VP Lars Moravy. This marks a major milestone for Tesla's Robotaxi initiative, moving from concept to production and potentially accelerating the deployment of autonomous ride-hailing services. The Cybercab's dedicated design could set a new standard for purpose-built autonomous vehicles and impact the broader automotive and mobility industries. The Cybercab bypasses NHTSA's 2,500-vehicle exemption cap through self-certification, allowing higher production volumes. Tesla's Robotaxi service, which launched in Austin in June 2025, is planned to expand to a dozen or more states by the end of 2026.
+
+telegram · zaihuapd · Apr 24, 08:26
+
+**Background**: Tesla's Robotaxi service uses vehicles equipped with Full Self-Driving (FSD) software to provide driverless rides on demand. The Cybercab is a purpose-built vehicle for this service, designed from the ground up for autonomous operation without human controls, unlike retrofitted consumer cars.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://electrek.co/2026/04/23/tesla-cybercab-production-starts-no-nhtsa-2500-vehicle-cap/">Tesla confirms Cybercab production has started despite delays ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tesla_Robotaxi">Tesla Robotaxi - Wikipedia</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Tesla`, `#autonomous vehicles`, `#Cybercab`, `#Robotaxi`, `#AI`
+
+---
+
+<a id="item-16"></a>
+## [Interactive LLM Guide Built from Karpathy's Lecture via Claude Code](https://ynarwal.github.io/how-llms-work/) ⭐️ 7.0/10
+
+A developer used Claude Code to generate an interactive visual guide from the transcript of Andrej Karpathy's 'Intro to Large Language Models' lecture, producing a single HTML file that explains how LLMs work. This approach demonstrates a novel workflow where an LLM tool (Claude Code) is used to create educational content from existing expert material, potentially lowering the barrier for producing high-quality technical visualizations. The strong community engagement and rapid corrections also highlight the value of iterative feedback in AI-generated content. The guide is based on Karpathy's one-hour general-audience lecture and was created by downloading the transcript and using Claude Code to generate the entire interactive site as a single HTML file. The author promptly corrected factual errors pointed out by the community, such as changing a claim about '44 terabytes fitting on a single hard drive' to 'roughly 10 consumer hard drives.'
+
+hackernews · ynarwal__ · Apr 24, 06:48
+
+**Background**: Andrej Karpathy is a prominent AI researcher and former director of AI at Tesla, known for his accessible educational content on deep learning and LLMs. Claude Code is a tool built on Anthropic's Claude large language model, designed to assist with software development tasks. Byte Pair Encoding (BPE) is a tokenization algorithm commonly used in LLMs to break text into subword units.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Claude_Code">Claude Code</a></li>
+<li><a href="https://www.youtube.com/watch?v=zjkBMFhNj_g">[1hr Talk] Intro to Large Language Models - YouTube</a></li>
+<li><a href="https://www.kdnuggets.com/unlock-the-secrets-of-llms-in-a-60-minute-with-andrej-karpathy">Unlock the Secrets of LLMs in 60-Minute with Andrej Karpathy</a></li>
+
+</ul>
+</details>
+
+**Discussion**: Community comments pointed out factual inaccuracies, such as the claim that 44 TB fits on a single hard drive and a misleading BPE visualization. The author acknowledged and corrected these issues, and some users recommended alternative resources like Jay Alammar's 'The Illustrated GPT-2' as a human-created reference.
+
+**Tags**: `#LLMs`, `#visualization`, `#AI education`, `#Claude Code`, `#Karpathy`
+
+---
+
+<a id="item-17"></a>
+## [Honker brings Postgres NOTIFY/LISTEN to SQLite](https://simonwillison.net/2026/Apr/24/honker/#atom-everything) ⭐️ 7.0/10
+
+A new Rust SQLite extension called Honker implements Postgres-style NOTIFY/LISTEN semantics for SQLite, enabling queue-based patterns and Kafka-style durable streams with Python bindings. It was released on Hacker News on April 24, 2026. This fills a significant gap for SQLite-based applications, which previously required external tools like Redis and Celery for inter-process messaging and background jobs, adding operational complexity and risk of dual-write bugs. Honker allows developers to use a single SQLite file for both storage and real-time event notification, simplifying architecture for many web applications. The extension requires WAL mode and can poll the .db-wal file with a stat call every 1ms for near-real-time performance without running a full SQL query. It also adds over 20 custom SQL functions, including notify() and honker_stream_read_since(), and implements the transactional outbox pattern to ensure items are only queued if a transaction commits successfully.
+
+rss · Simon Willison · Apr 24, 01:50
+
+**Background**: PostgreSQL's NOTIFY/LISTEN mechanism allows database clients to send and receive asynchronous notifications within the same database, commonly used for building real-time features and job queues. SQLite, while widely used as an embedded database, lacks this built-in pub/sub capability, forcing developers to integrate separate message brokers. Honker addresses this by providing a lightweight extension that adds these semantics directly to SQLite.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://byteiota.com/honker-postgres-notify-listen-for-sqlite/">Honker: Postgres NOTIFY/LISTEN for SQLite - byteiota</a></li>
+<li><a href="https://news.ycombinator.com/item?id=47874647">Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite ...</a></li>
+
+</ul>
+</details>
+
+**Discussion**: The Hacker News discussion was positive, with the creator noting that Honker enables push-style event delivery with single-digit millisecond latency without a daemon or broker, targeting the growing trend of 'just use SQLite' for high-traffic applications on a single VPS.
+
+**Tags**: `#SQLite`, `#Rust`, `#Python`, `#queues`, `#database`
 
 ---
 
 <a id="item-18"></a>
-## [LiteParse PDF Text Extraction Runs in Browser](https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything) ⭐️ 7.0/10
+## [LiteParse PDF text extraction now runs in the browser](https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/#atom-everything) ⭐️ 7.0/10
 
-Simon Willison has built a browser-based version of LiteParse, a Node.js CLI tool for PDF text extraction, allowing users to parse PDFs entirely in their browser without sending data to any server. This makes powerful PDF text extraction accessible to anyone with a web browser, enhancing privacy and ease of use for developers and users who need to extract text from PDFs without relying on cloud services or AI models. LiteParse uses spatial text parsing heuristics and optionally Tesseract OCR for image-based PDFs, and the browser version leverages PDF.js and Tesseract.js to run entirely client-side.
+Simon Willison has adapted LlamaIndex's LiteParse, a Node.js CLI tool for PDF text extraction using spatial heuristics and optional OCR, to run entirely in the browser via a new web demo at simonw.github.io/liteparse. This demonstrates a practical, non-AI approach to a common problem—PDF text extraction—and achieves a notable technical feat by running a Node.js CLI tool entirely in the browser, potentially impacting web-based document processing workflows. LiteParse uses spatial text parsing heuristics to handle multi-column layouts and extract text in a sensible linear order, with Tesseract.js as a fallback OCR for image-based PDFs; the browser version uses the same core libraries (PDF.js and Tesseract.js) as the Node.js version.
 
 rss · Simon Willison · Apr 23, 21:54
 
-**Background**: LiteParse is an open-source PDF parsing tool from LlamaIndex that extracts text while preserving document layout using heuristics rather than AI. It was originally a Node.js CLI tool, but Simon Willison adapted it for the browser by using the same underlying libraries (PDF.js and Tesseract.js) that work in both environments.
+**Background**: PDF text extraction is notoriously difficult because PDFs store text as positioned glyphs without inherent reading order, making multi-column layouts especially problematic. LiteParse addresses this with a grid projection algorithm that analyzes spatial relationships to reconstruct the intended flow. The tool is open source and designed for use by AI agents, but its browser port makes it accessible to anyone without server-side dependencies.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://github.com/run-llama/liteparse">GitHub - run-llama/liteparse: A fast, helpful, and open-source document parser</a></li>
 <li><a href="https://simonwillison.net/2026/Apr/23/liteparse-for-the-web/">Extract PDF text in your browser with LiteParse for the web</a></li>
-<li><a href="https://www.llamaindex.ai/blog/liteparse-local-document-parsing-for-ai-agents">LiteParse: Local Document Parsing for AI Agents - LlamaIndex</a></li>
+<li><a href="https://www.llamaindex.ai/blog/how-liteparse-turns-pdfs-into-text-a-deep-dive-into-the-grid-projection-algorithm">How LiteParse's Grid Projection Algorithm Parses PDFs</a></li>
+<li><a href="https://github.com/run-llama/liteparse">GitHub - run-llama/liteparse: A fast, helpful, and open ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#PDF parsing`, `#browser`, `#LiteParse`, `#spatial text parsing`, `#web development`
+**Tags**: `#PDF parsing`, `#browser`, `#spatial text parsing`, `#open source`, `#web development`
 
 ---
 
 <a id="item-19"></a>
-## [ByteDance Releases Seed3D 2.0 for Production-Ready 3D Generation](https://paipancon.com/fc2daily/detail/FC2-PPV-1700423) ⭐️ 7.0/10
+## [GPT-5.5 Released; Codex Backdoor Enables Pelican Benchmark](https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything) ⭐️ 7.0/10
 
-ByteDance's Seed team officially launched Seed3D 2.0 on April 23, 2026, a next-generation 3D generation model that achieves state-of-the-art (SOTA) performance in both geometry and texture quality. In human evaluations for texture generation, Seed3D 2.0 achieved a preference rate of over 69% compared to mainstream models. This marks a significant step toward production-ready AI 3D content generation, addressing industry pain points such as edge softening and material realism. The model's compatibility with physics simulation engines like NVIDIA Isaac Sim and standard formats like URDF opens up new possibilities for robotics simulation, gaming, XR, and e-commerce workflows. Seed3D 2.0 extends its capabilities to component-level generation and scene composition, allowing users to decompose 3D content into parts and then complete shapes. The model outputs assets with full joint information in standard formats like URDF, making them directly usable in physics simulation environments.
+OpenAI released GPT-5.5, available in Codex and rolling out to paid ChatGPT subscribers, but the API is not yet available. Simon Willison created a plugin called llm-openai-via-codex that uses the semi-official Codex backdoor API to run his pelican benchmark without hidden system prompts. This matters because it provides a workaround for accessing GPT-5.5 without waiting for the official API, enabling developers to run unbiased benchmarks. It also highlights the ongoing tension between AI providers and agent harnesses over subscription-based API access. The plugin works by reverse-engineering the openai/codex repository to understand how authentication tokens are stored, then using the /backend-api/codex/responses endpoint. It requires installing Codex CLI, buying an OpenAI plan, and logging into Codex before use.
 
-telegram · zaihuapd · Apr 23, 08:15
+rss · Simon Willison · Apr 23, 19:59
 
-**Background**: 3D generation models aim to create 3D assets from inputs like images or text, but earlier models often produced results with visible flaws such as blurry edges or unrealistic materials, limiting their use to demonstrations. URDF (Unified Robot Description Format) is an XML format used in robotics to describe robot kinematics, dynamics, and geometry, commonly used with ROS tools and simulators like Gazebo. NVIDIA Isaac Sim is a robotics simulation platform that enables physics-based simulation and robot learning.
+**Background**: The 'pelican on a bicycle' benchmark is a prompt used to evaluate LLMs by asking them to generate an SVG of a pelican riding a bicycle, testing code generation ability. OpenAI's Codex is a coding agent available to ChatGPT subscribers, and its API endpoint has been used by third-party tools like Pi and OpenClaw. OpenAI recently hired OpenClaw's creator and announced support for such integrations.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://news.aibase.com/news/27393">ByteDance Launches Seed3D 2.0: Geometry and Texture Dual SOTA ...</a></li>
-<li><a href="https://seed3d2.com/">Seed3D 2.0 - AI Image to 3D Model Generator</a></li>
-<li><a href="https://en.wikipedia.org/wiki/URDF">URDF - Wikipedia</a></li>
+<li><a href="https://simonwillison.net/2026/Apr/23/gpt-5-5/">A pelican for GPT-5.5 via the semi-official Codex backdoor API</a></li>
+<li><a href="https://grokipedia.com/page/Pelican_on_a_bicycle_AI_benchmark">Pelican on a bicycle (AI benchmark)</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#3D generation`, `#ByteDance`, `#AI`, `#computer graphics`, `#physics simulation`
+**Tags**: `#GPT-5.5`, `#OpenAI`, `#API`, `#AI benchmarks`, `#Simon Willison`
 
 ---
 
 <a id="item-20"></a>
-## [SFC and PwC Reach HK$1 Billion Settlement for Evergrande Fraud](https://apps.sfc.hk/edistributionWeb/gateway/TC/news-and-announcements/news/doc?refNo=26PR62) ⭐️ 7.0/10
+## [Intel Q2 Outlook Beats Estimates, Stock Surges 20% After Hours](https://www.bloomberg.com/news/articles/2026-04-23/intel-gives-strong-outlook-in-sign-of-payoff-from-ai-spending) ⭐️ 7.0/10
 
-Hong Kong's Securities and Futures Commission (SFC) announced a settlement with PwC Hong Kong, under which PwC will set aside HK$1 billion to compensate eligible minority shareholders of China Evergrande Group for financial fraud involving inflated revenues of 564.1 billion RMB over the 2019 and 2020 fiscal years. This is the first time in Hong Kong that an auditor of a collapsed company has agreed to compensate shareholders, setting a significant precedent for auditor accountability and investor protection in the region. The settlement underscores the growing regulatory scrutiny on audit quality and financial reporting integrity in Hong Kong's capital markets. The SFC investigation found that Evergrande inflated revenues by 564.1 billion RMB over two years, turning reported profits into substantial losses. PwC agreed to the settlement without admitting legal liability, and the SFC will take no further action against the firm.
+Intel reported Q1 2026 revenue of $13.6 billion, beating expectations, and issued a Q2 revenue forecast of $13.8 to $14.8 billion, significantly above analyst estimates, driving its stock up roughly 20% in after-hours trading. This strong outlook signals a potential turnaround for Intel, fueled by AI inference demand and a revival in its CPU business, while the company's foundry transformation gains momentum with Tesla as the first customer for its 14A process node. Intel's adjusted earnings per share for Q1 were $0.29, far exceeding the expected $0.01, though the net loss widened to $3.7 billion; the foundry business generated $5.4 billion in revenue, and CEO Chen Liwu is restructuring to improve the balance sheet.
 
-telegram · zaihuapd · Apr 23, 12:07
+telegram · zaihuapd · Apr 24, 00:20
 
-**Background**: China Evergrande Group, once one of China's largest property developers, collapsed under massive debt in 2021. In 2024, Chinese regulators fined Evergrande 4.175 billion RMB for financial fraud, including inflating revenues by 564.1 billion RMB in 2019 and 2020. PwC served as Evergrande's auditor during those years and was accused of serious professional failures, including lack of independence and professional skepticism.
+**Background**: Intel is transitioning from a traditional chipmaker to a foundry service provider, competing with TSMC and Samsung. The 14A process node is a next-generation manufacturing technology that uses PowerDirect direct-contact power delivery, following the 18A node which uses PowerVia backside power delivery. Tesla's adoption as the first 14A customer is a major validation of Intel's foundry ambitions.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://news.qq.com/rain/a/20260423A063RP00?adChannelId=news_news_top">香港证监会：因恒大虚假财务报表问题，普华永道向股东赔偿10亿港元</a></li>
-<li><a href="https://www.thepaper.cn/newsDetail_forward_33037031">香港证监会、会财局同日出手 普华永道同意预留10亿港元赔偿恒大股东_...</a></li>
-<li><a href="https://www.nbd.com.cn/articles/2026-04-23/4354731.html">香港证监会与普华永道就恒大股东赔偿达成协议 赔偿达10亿港元</a></li>
+<li><a href="https://www.21jingji.com/article/20250430/herald/171b00c9db3e2ac8b4ec68ec68cf71fd.html">英特尔晶圆代工新路线：18A制程年内量产 14A合作启动 - 21经济网</a></li>
+<li><a href="https://www.doit.com.cn/p/534575.html">英特尔18A与14A制程大揭秘：引领代工技术新飞跃-DOIT-数据产业媒体与服务平台</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#financial regulation`, `#auditing`, `#corporate fraud`, `#Hong Kong`, `#investor protection`
+**Tags**: `#Intel`, `#semiconductors`, `#AI`, `#earnings`, `#foundry`
 
 ---
 
 <a id="item-21"></a>
-## [UK NCSC Officially Endorses Passkeys as Top Authentication Method](https://www.techradar.com/pro/security/uk-security-agency-officially-declares-passkeys-superior-to-passwords-passkeys-should-be-the-first-choice-for-authentication) ⭐️ 7.0/10
+## [Apple requires USCI from App Store developers for China tax](https://t.me/zaihuapd/41043) ⭐️ 7.0/10
 
-The UK National Cyber Security Centre (NCSC) has officially declared that passkeys are superior to traditional passwords and two-factor authentication, recommending them as the first-choice login method for digital services. This marks the end of NCSC's previous wait-and-see stance, as industry advancements over the past 12 months have resolved key implementation challenges. This official endorsement from a major government cybersecurity agency signals a significant shift in authentication guidance, potentially accelerating global adoption of passkeys across industries. It directly impacts how organizations and consumers approach online security, reducing reliance on passwords and improving protection against phishing and credential theft. Over 50% of active Google users in the UK have already registered for passkeys, and major platforms like eBay and PayPal have fully adapted to support them. Passkeys use asymmetric cryptography with a public-private key pair stored on the device, verified via biometrics (e.g., Face ID, Touch ID) or device PIN, eliminating the need for users to remember complex passwords.
+Apple has begun requiring all App Store developers in China to provide their Unified Social Credit Code (USCI) in App Store Connect, which will be submitted to Chinese tax authorities. This change is part of Apple's compliance with the State Council Decree No. 810 and the newly implemented Internet Platform Enterprise Tax-Related Information Submission Regulation. This marks a significant step in the systematic compliance of App Store revenue with Chinese tax law, affecting all developers who distribute apps in China. Failure to provide the USCI could lead to app removal or account suspension, potentially impacting the availability of thousands of apps in the world's largest app market. Developers must update their identity and tax information in the 'Business' section of App Store Connect. The requirement applies to both individual and organizational developers, though individual developers may need to provide their personal tax identification number instead of a USCI.
 
-telegram · zaihuapd · Apr 23, 14:47
+telegram · zaihuapd · Apr 24, 04:21
 
-**Background**: Passkeys are a passwordless authentication method based on public-key cryptography, where a private key stays on the user's device and a public key is stored on the server. Unlike passwords, passkeys are resistant to phishing, credential stuffing, and other common attacks because the private key never leaves the device and is unlocked only by biometric or PIN verification. The NCSC is the UK's leading authority on cybersecurity, providing guidance to protect citizens and organizations from cyber threats.
+**Background**: The Unified Social Credit Code (USCI) is an 18-character identifier for all legal entities in China, similar to a business tax ID. China's Internet Platform Enterprise Tax-Related Information Submission Regulation, which took effect in 2025, requires online platforms to report developer identity and revenue data to tax authorities, bringing app store income under systematic tax oversight.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://developers.google.com/identity/passkeys?hl=zh-cn">通 行 密 钥 | Passkeys | Google for Developers</a></li>
-<li><a href="https://www.corbado.com/zh/faq/passkeys-通行密钥">通 行 密 钥 （ Passkeys ）是什么？ 免 密 码登录与生物识别的安全指南</a></li>
-<li><a href="https://blog.csdn.net/shaoshaoh/article/details/139117916">通 行 秘 钥 Passkeys 从入门到实现-CSDN博客</a></li>
+<li><a href="https://developer.apple.com/cn/help/app-store-connect/manage-compliance-information/manage-information-for-state-council-decree-no-810/">管理《国务院令第 810 号》要求的信息 - 管理合规信息 - App Store Co...</a></li>
+<li><a href="https://x.com/RocM301/status/2047469132816564478">苹果已开始要求中国区实名开发者在 App Store Connect「商务（Busines...</a></li>
+<li><a href="https://www.bannedbook.org/bnews/itnews/20260424/2310676.html">Apple 开始要求 App Store 开发者提供统一社会信用代码（USCI），提交...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#cybersecurity`, `#authentication`, `#passkeys`, `#NCSC`, `#identity`
+**Tags**: `#Apple`, `#App Store`, `#China`, `#regulation`, `#tax`
 
 ---
 
 <a id="item-22"></a>
-## [UK Biobank Tightens Access After Data Illegally Listed for Sale](https://www.ukbiobank.ac.uk/news/a-message-to-our-participants-uk-biobank-data-security-update/) ⭐️ 7.0/10
+## [US AI tool users increasingly stratified by income](https://epoch.ai/data-insights/service-by-income) ⭐️ 7.0/10
 
-Researchers from three academic institutions illegally listed de-identified UK Biobank participant data for sale on Alibaba's e-commerce platform, violating contractual agreements. In response, UK Biobank has suspended all research platform access, is implementing strict file export limits and daily monitoring, and is developing the world's first automated cloud-based data leakage prevention system, expected to launch by the end of 2026. This incident highlights critical vulnerabilities in research data governance and cross-border data transfer risks, especially for sensitive health and genetic data from 500,000 participants. The breach could undermine public trust in biomedical research and may set a precedent for stricter global data security standards in large-scale biobanks. The listings were removed before any transaction occurred, and the involved institutions and individuals have had their access permanently revoked. The new automated system will detect and prevent de-identified data from being removed from the cloud research platform, addressing re-identification risks that persist even with de-identified data.
+A survey analysis by Epoch AI and Ipsos, combining three rounds of surveys from March to April 2026, reveals that Claude users are predominantly high-income, with 79.8% from households earning over $100,000 per year, while Meta AI users skew low-income, with 32.1% from households earning under $50,000 per year. This data-driven insight highlights significant socioeconomic differences among major AI tool user bases, which could influence product positioning, pricing strategies, and feature development in the competitive AI market. ChatGPT, Gemini, Grok, and Copilot users fall in between, with high-income percentages ranging from 55.9% to 63.7%, while the overall US adult population has 50% from high-income households and 23.2% from low-income households.
 
-telegram · zaihuapd · Apr 24, 00:58
+telegram · zaihuapd · Apr 24, 05:06
 
-**Background**: UK Biobank is a long-term prospective biobank study in the UK that houses de-identified biological samples and health-related data from half a million participants, making it one of the world's largest and most widely used genetic epidemiological datasets. De-identification removes direct identifiers but does not eliminate re-identification risk, especially when data is combined with other sources. Data loss prevention (DLP) software detects and prevents unauthorized transmission of sensitive data, and cloud-based DLP solutions are increasingly adopted as research platforms move to the cloud.
+**Background**: Epoch AI is a research organization that tracks trends in artificial intelligence, and Ipsos is a global market research firm known for its KnowledgePanel, which provides probability-based samples for public opinion measurement. The surveys were conducted using Ipsos' addressed-based sampling methodology, ensuring representative coverage of US households.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/UK_Biobank">UK Biobank - Wikipedia</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Data_loss_prevention_software">Data loss prevention software - Wikipedia</a></li>
-<li><a href="https://www.iri.com/support/data-education-center/what-is-re-identification-risk">What is Re-Identification Risk? | Data Education Center - IRI</a></li>
+<li><a href="https://epoch.ai/frontiermath/open-problems/about/">Benchmarking AI on unsolved math problems | Epoch AI</a></li>
+<li><a href="https://www.ipsos.com/sites/default/files/ipsosknowledgepanelmethodology.pdf">KnowledgePanel® A Methodological Overview - Ipsos</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#data security`, `#biobank`, `#research ethics`, `#data governance`, `#health data`
+**Tags**: `#AI tools`, `#user demographics`, `#income stratification`, `#market analysis`, `#Epoch AI`
+
+---
+
+<a id="item-23"></a>
+## [Android adds verified email registration, skipping OTPs](https://www.androidauthority.com/android-verified-email-no-magic-links-otps-3660150/) ⭐️ 7.0/10
+
+Google has added a verified email feature to Android's Credential Manager API, allowing users to register for apps using their Gmail account without entering one-time passwords or clicking magic links. This simplifies email-based authentication, reducing friction for users and developers, and could lead to higher conversion rates for app sign-ups while improving security by eliminating OTP interception risks. The feature currently supports only personal Gmail accounts, not Workspace, managed accounts, or non-Gmail addresses, and requires Android 9+ with Google Play Services version 25.49.xx or higher.
+
+telegram · zaihuapd · Apr 24, 12:33
+
+**Background**: The Credential Manager API is Android's recommended Jetpack library for credential exchange, unifying passkeys, passwords, and federated sign-in. This new verified email credential is cryptographically signed and delivered directly to the device, following the W3C Digital Credential API standard.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://developer.android.com/identity/credential-manager">About Credential Manager - Identity | Android Developers</a></li>
+<li><a href="https://developers.google.com/identity/android-credential-manager">Android Credential Manager API - Google Developers</a></li>
+<li><a href="https://android-developers.googleblog.com/2026/04/streamline-auth-credential-manager-verified-email.html">Streamline User Journeys with Verified Email via Credential ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Android`, `#authentication`, `#Credential Manager`, `#Google`, `#security`
+
+---
+
+<a id="item-24"></a>
+## [Samsung union strike vote threatens global chip supply](https://t.me/zaihuapd/41053) ⭐️ 7.0/10
+
+Samsung Electronics' labor union, representing about 90,000 members, is voting on a strike plan that, if approved, would begin on May 21 and last 18 days, potentially halving production at the Pyeongtaek semiconductor plant and disrupting global chip supply. This strike could significantly impact the global semiconductor supply chain, especially memory chips, as Samsung is a leading manufacturer; a prolonged disruption may raise prices and affect industries from consumer electronics to AI hardware. The union demands a 7% base salary increase, removal of the performance bonus cap, and a profit-based bonus pool to narrow the pay gap with SK Hynix; Samsung has offered a 6.2% raise plus a special bonus for the memory chip division and expressed willingness to continue dialogue.
+
+telegram · zaihuapd · Apr 24, 14:02
+
+**Background**: Samsung Electronics is one of the world's largest semiconductor manufacturers, with its Pyeongtaek complex being a key production hub for memory chips including DRAM and NAND flash. The company's chip division has faced intense competition from SK Hynix, especially in high-bandwidth memory (HBM) for AI applications. Labor disputes at such a critical facility can have ripple effects across the global electronics supply chain.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://baike.baidu.com/item/平泽P5晶圆厂/67405573">平泽P5晶圆厂 - 百度百科</a></li>
+<li><a href="https://www.toutiao.com/article/7571769494985589284/">三星平泽P4工厂，转向1c DRAM生产</a></li>
+<li><a href="https://www.mk.co.kr/cn/business/11469520">三星重启平泽工厂第5生产线建设韩国将建设"半导体核心基地"</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#semiconductor`, `#supply chain`, `#labor`, `#Samsung`, `#industry news`
 
 ---
