@@ -5,404 +5,238 @@ date: 2026-04-25
 lang: zh
 ---
 
-> From 24 items, 17 important content pieces were selected
+> From 19 items, 10 important content pieces were selected
 
 ---
 
 1. [谷歌计划向 Anthropic 投资高达 400 亿美元](#item-1) ⭐️ 9.0/10
-2. [DeepSeek V4 预览版：最大开源权重模型，成本极低](#item-2) ⭐️ 9.0/10
-3. [DeepSeek-V4 预览版发布并开源，优化 Agent 能力](#item-3) ⭐️ 9.0/10
-4. [尼莱·帕特尔：'软件大脑'解释 AI 为何不受欢迎](#item-4) ⭐️ 8.0/10
-5. [Anthropic 事后分析揭示 Claude Code 三个缺陷](#item-5) ⭐️ 8.0/10
-6. [Bluesky '为你推荐' 动态运行在游戏 PC 和 SQLite 上](#item-6) ⭐️ 8.0/10
-7. [华为发布 ADS 4，目标 2025 年实现 L3 商用](#item-7) ⭐️ 8.0/10
-8. [逆向工程揭露终身订阅机制缺陷](#item-8) ⭐️ 8.0/10
-9. [OpenAI 开源模型监控评估套件](#item-9) ⭐️ 8.0/10
-10. [AI 乒乓球机器人击败人类精英选手](#item-10) ⭐️ 8.0/10
-11. [三星工会罢工投票威胁芯片供应](#item-11) ⭐️ 8.0/10
-12. [过度思考和范围蔓延破坏项目](#item-12) ⭐️ 7.0/10
-13. [Honker 将 Postgres NOTIFY/LISTEN 引入 SQLite](#item-13) ⭐️ 7.0/10
-14. [苹果要求中国 App Store 开发者提供统一社会信用代码](#item-14) ⭐️ 7.0/10
-15. [美国 AI 工具用户收入分层：Claude 偏高，Meta AI 偏低](#item-15) ⭐️ 7.0/10
-16. [特斯拉 Cybercab 在北美投产](#item-16) ⭐️ 7.0/10
-17. [Android 推出已验证邮箱注册，免输 OTP](#item-17) ⭐️ 7.0/10
+2. [OpenAI 自 GPT-5.4 起统一 Codex 与主模型](#item-2) ⭐️ 8.0/10
+3. [Nilay Patel：公众并不渴望自动化](#item-3) ⭐️ 8.0/10
+4. [2026 年一季度 GDP 增长掩盖青年与农民工失业率攀升](#item-4) ⭐️ 8.0/10
+5. [新型 10 GbE USB 适配器：更冷、更小、更便宜](#item-5) ⭐️ 7.0/10
+6. [OpenAI 发布 GPT-5.5 提示指南及关键技巧](#item-6) ⭐️ 7.0/10
+7. [TeamViewer 13/14 将停止公网连接，永久授权用户需转订阅](#item-7) ⭐️ 7.0/10
+8. [FCC 扩大路由器禁令至移动热点和 CPE 设备](#item-8) ⭐️ 7.0/10
+9. [中国规范金融产品网络营销，花呗白条展示将调整](#item-9) ⭐️ 7.0/10
+10. [123 云盘遭集中封号与服务异常](#item-10) ⭐️ 7.0/10
 
 ---
 
 <a id="item-1"></a>
 ## [谷歌计划向 Anthropic 投资高达 400 亿美元](https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic) ⭐️ 9.0/10
 
-谷歌计划向 AI 公司 Anthropic 投资高达 400 亿美元，其中初始投资 100 亿美元，估值 3500 亿美元，另外 300 亿美元取决于业绩目标。 这笔巨额投资标志着对 AI 基础设施和能力的战略押注，在 AI 军备竞赛加速的背景下加深了谷歌与 Anthropic 的联系，并凸显了基础模型的商品化趋势。 Anthropic 的年度经常性收入本月超过 300 亿美元，高于 2025 年底的约 90 亿美元，其 Claude Code 工具在开发者中获得了强劲吸引力。
+谷歌计划向 Anthropic 投资高达 400 亿美元，其中 100 亿美元为现金投资，对应估值 3500 亿美元；若达成业绩目标，将追加 300 亿美元，作为交换，谷歌云将在五年内为 Anthropic 提供 5 吉瓦的 TPU 计算能力。 这笔交易标志着 AI 基础设施融资模式的范式转变——云服务商成为前沿 AI 实验室的主要金主，也凸显了领先 AI 模型对算力的巨大需求，可能重塑谷歌、亚马逊和微软之间的竞争格局。 Anthropic 近期已与谷歌和博通签署协议购买多吉瓦级下一代 TPU 容量，这笔投资本质上是一种供应商融资安排，类似于供应商允许零售商延期支付货款。
 
 hackernews · elffjs · Apr 24, 16:04
 
-**背景**: Anthropic 是一家 AI 安全与研究公司，开发名为 Claude 的大型语言模型（LLMs）。谷歌此前通过与 Broadcom 的交易向 Anthropic 提供了 TPU 容量，这笔新投资被视为一种超大规模的供应商融资形式。
+**背景**: Anthropic 是一家成立于 2021 年的 AI 安全与研究公司，以其 Claude 系列大语言模型闻名。谷歌的 TPU（张量处理单元）是为加速 AI 工作负载而定制的芯片，最新一代可处理 121 exaflops 的算力。这笔交易反映了 Anthropic 在扩展 AI 服务时面临的严重算力瓶颈，此前亚马逊也已对其进行类似投资。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.reuters.com/business/google-plans-invest-up-40-billion-anthropic-bloomberg-news-reports-2026-04-24/">Google to invest up to $40 billion in AI rival Anthropic | Reuters</a></li>
-<li><a href="https://www.quiverquant.com/news/Google+Invests+$10+Billion+in+Anthropic+as+AI+Infrastructure+Race+Accelerates">Google Invests $10 Billion in Anthropic as AI Infrastructure Race Accelerates | Quiver Quantitative</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Anthropic">Anthropic - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Tensor_Processing_Unit">Tensor Processing Unit - Wikipedia</a></li>
+<li><a href="https://cloud.google.com/tpu">Tensor Processing Units (TPUs) | Google Cloud</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 社区评论指出，Anthropic 正面临严重的容量限制，导致其与亚马逊和谷歌签订了不利的合同。一些人认为这笔投资是对基础模型商品化的对冲，而另一些人则注意到 Claude 模型为开发者带来的惊人收入潜力。
+**社区讨论**: 社区评论指出，Anthropic 正面临严重的算力瓶颈，迫使其与亚马逊和谷歌签署了条件不利的合同。一些人认为这是大型科技公司相互对冲、防止对手在 AI 竞赛中胜出的策略；另一些人则质疑估值，认为基础模型正在商品化，真正的意图可能是硬件销售或对冲搜索广告收入。
 
-**标签**: `#AI`, `#investment`, `#Anthropic`, `#Google`, `#cloud computing`
+**标签**: `#AI`, `#investment`, `#Anthropic`, `#Google`, `#cloud infrastructure`
 
 ---
 
 <a id="item-2"></a>
-## [DeepSeek V4 预览版：最大开源权重模型，成本极低](https://simonwillison.net/2026/Apr/24/deepseek-v4/#atom-everything) ⭐️ 9.0/10
+## [OpenAI 自 GPT-5.4 起统一 Codex 与主模型](https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything) ⭐️ 8.0/10
 
-中国 AI 实验室 DeepSeek 于 2026 年 4 月 24 日发布了两个预览模型：DeepSeek-V4-Pro 和 DeepSeek-V4-Flash。V4-Pro 拥有 1.6 万亿总参数和 100 万 token 上下文，是迄今最大的开源权重模型；V4-Flash 则提供更轻量的 284B 总参数，成本仅为前沿模型的零头。 此次发布大幅推进了开源 AI 的发展，以前沿竞争力模型提供极低价格——V4-Flash 每百万输入 token 仅需 0.14 美元，远低于 GPT-5.4 Nano（0.20 美元）和 Claude Haiku 4.5（1.00 美元）等竞品。这挑战了专有模型的主导地位，可能加速开源权重 AI 在生产系统中的采用。 两个模型均采用混合专家（MoE）架构：V4-Pro 总参数 1.6T，每 token 激活 49B；V4-Flash 总参数 284B，每 token 激活 13B。它们以标准 MIT 许可证发布，V4-Pro 在 Hugging Face 上大小为 865GB，V4-Flash 为 160GB。
+Romain Huet 确认，OpenAI 自 GPT-5.4 起已将 Codex 与主模型统一为一个系统，GPT-5.5 进一步增强了代理式编程和计算机使用能力，因此不会单独发布 GPT-5.5-Codex 模型。 这一架构转变表明 OpenAI 正放弃独立的编程专用模型，将编程能力直接集成到主模型中。这简化了开发者的产品选择，并意味着未来在代理式编程和计算机使用方面的改进将惠及所有用户，而不仅仅是使用专用 Codex 模型的用户。 统一始于 GPT-5.4，GPT-5.5 在代理式编程和计算机使用方面取得了显著提升，使模型能够执行计算机上的任何任务。这证实 OpenAI 不会发布 GPT-5.5-Codex 模型，结束了此前包括 GPT-5.3-Codex 在内的独立编程模型产品线。
 
-rss · Simon Willison · Apr 24, 06:01
+rss · Simon Willison · Apr 25, 12:06
 
-**背景**: 混合专家（MoE）是一种神经网络架构，将计算拆分为多个专家子网络，使得模型能够以远少于同容量密集模型的计算量进行预训练。开源权重模型与完全开源 AI 不同，仅以宽松许可证发布训练好的模型参数，允许广泛使用，但训练数据和代码保持专有。DeepSeek 的 V4 系列基于其 V3 系列发展而来，V3.2 于 2025 年 12 月发布。
+**背景**: OpenAI Codex 最初是一系列专用于编程任务的大型语言模型，例如代码生成、调试和编辑。2026 年 2 月，OpenAI 发布了 GPT-5.3-Codex，该公司称该模型协助了自身的创建。代理式编程指使用更自主的 AI 代理进行软件开发，而计算机使用代理则通过自然语言命令自动化计算机任务。通过将 Codex 与主模型统一，OpenAI 旨在提供一个单一、更强大的系统，同时处理通用任务和编程任务。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Mixture_of_experts">Mixture of experts - Wikipedia</a></li>
-<li><a href="https://huggingface.co/blog/moe">Mixture of Experts Explained</a></li>
-<li><a href="https://www.neowin.net/news/deepseek-v4-goes-live-with-massive-16t-parameters-and-1m-context-support/">DeepSeek V4 goes live with massive 1.6T parameters and 1M ...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/OpenAI_Codex">OpenAI Codex - Wikipedia</a></li>
+<li><a href="https://www.nbcnews.com/tech/innovation/openai-says-new-codex-coding-model-helped-build-rcna257521">OpenAI says new Codex coding model helped build itself</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Agentic_coding">Agentic coding</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#DeepSeek`, `#open-source`, `#large language models`, `#machine learning`
+**标签**: `#openai`, `#gpt`, `#codex`, `#ai`, `#llms`
 
 ---
 
 <a id="item-3"></a>
-## [DeepSeek-V4 预览版发布并开源，优化 Agent 能力](https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg?scene=1) ⭐️ 9.0/10
+## [Nilay Patel：公众并不渴望自动化](https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything) ⭐️ 8.0/10
 
-DeepSeek 发布了 DeepSeek-V4 的预览版本，包括 V4-Pro 和 V4-Flash，并同步开源。V4-Pro 在数学、STEM 和竞赛型代码评测中超越所有已公开的开源模型，追及顶级闭源模型的能力。 此次发布通过提供能力强大、成本低廉且针对 Agent 工作流优化的开源模型，显著推动了开源 AI 的发展。它降低了开发者和研究人员构建复杂 AI Agent 的门槛，有望加速自主系统和工具使用应用的创新。 V4-Pro 和 V4-Flash 均支持最大 100 万 token 的上下文长度，并提供非思考模式和思考模式。V4-Flash 使用更少的参数和激活，在保持强大推理和 Agent 能力的同时，提供更快速、更经济的 API 服务。
+The Verge 主编 Nilay Patel 发布了一篇视频文章，指出公众对 AI 的抵触源于一种文化分歧：拥有“软件大脑”的人将世界视为可自动化的系统，而其他人则更看重以人为中心的体验。这篇文章得到了 Simon Willison 和 John Gruber 的转发，引发了关于 AI 社会影响的讨论。 这篇评论提出了一个新颖的框架——“软件大脑”——解释了为何技术人士对 AI 的热情常常与公众的怀疑相冲突，尽管 ChatGPT 使用量飙升。它揭示了一个关键脱节，可能影响未来 AI 产品的设计、营销和监管方式。 Patel 认为，“软件大脑”长期主导商业领域，而 AI 现在比以往任何时候都更能推动自动化，但“整个人类体验无法被数据库捕捉”。他以苹果、谷歌和亚马逊十多年来难以让普通人对智能家居自动化产生兴趣为例，证明人们并不渴望自动化。
 
-telegram · zaihuapd · Apr 24, 02:50
+rss · Simon Willison · Apr 24, 22:38
 
-**背景**: DeepSeek-V4 是一个混合专家（MoE）语言模型，总参数量达 1.6 万亿，激活参数量为 490 亿。它采用混合注意力架构，结合了压缩稀疏注意力（CSA）和重度压缩注意力（HCA），在长上下文任务中实现高效率。该模型专门针对 Claude Code、OpenClaw、OpenCode 和 CodeBuddy 等主流 Agent 框架进行了优化。
+**背景**: “软件大脑”是 Patel 创造的一个术语，指一种主要通过数据、流程和自动化的视角看待世界的思维方式——这在软件工程师和科技高管中很常见。这种文化分歧在工作场所自动化中已有体现，手工劳动者常感到被新系统边缘化。Patel 的文章延续了一个更广泛的辩论：AI 应该增强人类创造力，还是完全取代人类任务。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://docs.sglang.io/cookbook/autoregressive/DeepSeek/DeepSeek-V4">DeepSeek-V4 - SGLang Documentation</a></li>
-<li><a href="https://build.nvidia.com/deepseek-ai/deepseek-v4-pro/modelcard">deepseek-v4-pro Model by Deepseek-ai | NVIDIA NIM</a></li>
-<li><a href="https://deepseekmodel1.org/deepseek-v4">DeepSeek V4 — Next-Generation AI Model Architecture</a></li>
+<li><a href="https://blog.fibersmart.ai/the-challenges-of-implementing-automation-a-closer-look/">The Challenges of Implementing Automation : A Closer Look</a></li>
+<li><a href="https://medium.com/javascript-scene/are-programmer-brains-different-2068a52648a7">Are Programmer Brains Different?. What can neuroscience... | Medium</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#open-source`, `#large language model`, `#DeepSeek`, `#agent`
+**社区讨论**: 这篇文章被 Simon Willison 和 John Gruber 等技术评论人士广泛转发，并称赞其框架。讨论可能集中在“软件大脑”是否准确诊断了 AI 反弹的原因：一些人同意技术人士常忽视人文价值，而另一些人可能认为公众仍低估了自动化的益处。
+
+**标签**: `#AI`, `#society`, `#automation`, `#commentary`, `#tech-culture`
 
 ---
 
 <a id="item-4"></a>
-## [尼莱·帕特尔：'软件大脑'解释 AI 为何不受欢迎](https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything) ⭐️ 8.0/10
+## [2026 年一季度 GDP 增长掩盖青年与农民工失业率攀升](https://m.caixin.com/m/2026-04-24/102437308.html) ⭐️ 8.0/10
 
-The Verge 主编尼莱·帕特尔发表了一篇文字与视频文章，指出患有'软件大脑'的人——即从自动化视角看待世界的人——正与普通大众脱节，这解释了为何尽管 ChatGPT 使用量激增，AI 仍然不受欢迎。 这一分析凸显了科技精英对自动化的热情与公众对以人为本体验的渴望之间的关键文化与行业冲突，可能影响未来 AI 产品的设计与营销方式。 帕特尔引用 NBC 新闻民调，显示 AI 的好感度甚至低于 ICE，并指出 Z 世代在接触 AI 后似乎越来越讨厌它。他将科技行业的'软件大脑'思维与普通人不渴望自动化的事实进行对比，并以智能家居技术为例说明十年来未能吸引公众的失败。
+2026 年一季度，尽管 GDP 同比增长 5%，但 3 月全国城镇调查失业率升至 5.4%，其中 25—29 岁劳动力失业率创纪录升至 7.7%，外来农业户籍劳动力失业率升至 5.7%，为疫情结束以来近三年新高。 这些数据揭示了经济增长与就业创造之间的结构性脱节，表明基建、制造等资本密集型行业未能为青年毕业生和农民工创造足够就业岗位，可能加剧社会和经济不稳定。 25—29 岁年龄组失业率从 6.8%升至 7.7%，反映青年就业结构性恶化；毕业生期望与市场需求错配，16%期望从事软件/研发岗位，但市场实际需求不足 4.5%。
 
-rss · Simon Willison · Apr 24, 22:38
+telegram · zaihuapd · Apr 25, 14:45
 
-**背景**: '软件大脑'一词描述了一种以信息流、数据和自动化来建模一切的思维模式——这种视角数十年来主导了商业世界。帕特尔认为，虽然这种思维推动了创新，但它扁平化了人类体验，并疏远了那些不把世界视为可自动化对象的人。这篇文章延续了关于科技爱好者与普通大众之间鸿沟的长期争论，尤其是在 AI 采用方面。
+**背景**: 中国城镇调查失业率通过月度住户抽样调查按国际标准计算，涵盖登记和未登记失业人员。就业弹性衡量 GDP 每增长一个百分点带动就业增长的百分比；低弹性意味着增长由资本密集型行业驱动，创造就业有限。农民工主要集中于建筑、制造、批发零售和住宿餐饮等行业，这些行业在 2026 年一季度表现疲弱。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/">The people do not yearn for automation - simonwillison.net</a></li>
-<li><a href="https://www.youtube.com/watch?v=1RKGWg2Ex2U">THE PEOPLE DO NOT YEARN FOR AUTOMATION | Decoder - YouTube The Verge argues many people dislike AI because it pushes ... THE PEOPLE DO NOT YEARN FOR AUTOMATION - Career Ahead Magazine Daring Fireball: Nilay Patel: 'Beware Software Brain' THE PEOPLE DO NOT YEARN FOR AUTOMATION - Nilay Patel | Aetos.AI</a></li>
-<li><a href="https://careeraheadonline.com/the-people-do-not-yearn-for-automation/">THE PEOPLE DO NOT YEARN FOR AUTOMATION - Career Ahead Magazine</a></li>
+<li><a href="https://baike.baidu.com/item/城镇调查失业率/8062612">城镇调查失业率_百度百科 国家统计局的失业率是怎么算的？一文讲透统计逻辑与常见误区 统计局就发布城镇调查失业率有关问题答记者问 国家统计局：我国城镇调查失业率统计方法科学，不会低估全国失业情况_... 中国失业率数据是怎么计算的？- 大数跨境</a></li>
+<li><a href="https://baike.baidu.com/item/就业弹性系数/4791238">就业弹性系数 - 百度百科</a></li>
+<li><a href="https://news.qq.com/rain/a/20230615A03EEL00">国家统计局：我国城镇调查失业率统计方法科学，不会低估全国失业情况_...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI`, `#automation`, `#technology criticism`, `#software culture`, `#public perception`
+**标签**: `#China economy`, `#unemployment`, `#labor market`, `#structural change`, `#economic growth`
 
 ---
 
 <a id="item-5"></a>
-## [Anthropic 事后分析揭示 Claude Code 三个缺陷](https://simonwillison.net/2026/Apr/24/recent-claude-code-quality-reports/#atom-everything) ⭐️ 8.0/10
+## [新型 10 GbE USB 适配器：更冷、更小、更便宜](https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/) ⭐️ 7.0/10
 
-Anthropic 发布了一份事后分析报告，确认过去两个月广泛报道的 Claude Code 质量下降问题是由其 harness 中的三个缺陷引起的，而非底层 AI 模型本身。 这很重要，因为 Claude Code 是一款广泛使用的 AI 编程工具，这些缺陷直接影响了用户体验，使模型显得健忘和重复，从而削弱了用户对产品的信任。 其中一个关键缺陷于 3 月 26 日引入，导致 Claude 在每次对话轮次中都清除旧思考内容，而非仅在空闲会话恢复后执行一次，从而使模型显得健忘和重复。
+基于 RTL8159 的新型 10 GbE USB 3.2 适配器已进入市场，相比之前的 Thunderbolt 适配器，它们以更低成本、更小尺寸和更低发热量提供 10 千兆网络连接。 这一进展使得没有 Thunderbolt 端口的笔记本电脑和设备更容易获得 10 千兆以太网连接，可能加速其在需要高速网络的家庭实验室、小型办公室和媒体制作环境中的采用。 这些适配器使用 Realtek RTL8159 芯片组，并通过 USB 3.2 Gen 2 连接，其理论带宽为 10 Gbps，与 10 GbE 速度匹配。然而，正如社区测试中指出的，实际性能可能受到低功耗系统上中断率的限制。
 
-rss · Simon Willison · Apr 24, 01:31
+hackernews · calcifer · Apr 25, 05:56
 
-**背景**: Claude Code 是 Anthropic 推出的 AI 编程助手，帮助开发者编写、调试和重构代码。"Harness" 是管理 AI 模型如何与工具交互并维护会话状态的软件层；即使模型本身没有问题，这一层的缺陷也可能导致性能下降。
+**背景**: 以前，在笔记本电脑上实现 10 GbE 需要昂贵的 Thunderbolt 3/4 适配器，这些适配器提供 40 Gbps 带宽，但体积庞大且发热量大。USB 3.2 Gen 2 提供 10 Gbps 带宽，使其成为 10 GbE 的合适替代方案，无需承受 Thunderbolt 的成本和尺寸代价。USB 命名方案（例如 USB 3.2 Gen 2x2）一直是社区中混淆的来源。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents">Effective harnesses for long-running agents \ Anthropic</a></li>
+<li><a href="https://www.jeffgeerling.com/blog/2026/new-10-gbe-usb-adapters-cooler-smaller-cheaper/?ref=upstract.com">New 10 GbE USB adapters are cooler, smaller, cheaper - Jeff Geerling</a></li>
+<li><a href="https://americas.lexar.com/thunderbolt-3-vs-usb-3-2/">Thunderbolt 3 vs USB 3.2: External Drive Speeds for Video Editing</a></li>
+<li><a href="https://www.benq.com/content/b2c/en-us/campaign/monitor-for-mac/articles/thunderbolt4-thunderbolt3-usb3-1-gen2-type-c.html">Thunderbolt 3, Thunderbolt 4, and USB 3.1 Gen2 Type C: Faster Transmission, Better Productivity | BenQ US</a></li>
 
 </ul>
 </details>
 
-**社区讨论**: 文章中链接的 Hacker News 讨论可能对问题得到确认表示宽慰，并赞赏 Anthropic 的透明度，同时也指出了调试代理系统的复杂性。
+**社区讨论**: 社区评论强调了几个问题：ipferf3 测试可能需要多线程（-P 标志）才能准确测量低功耗硬件上的性能；USB 版本命名仍然令人困惑；一些用户更喜欢 SFP+端口，以便灵活使用 DAC 电缆和光纤；此外，还宣布了一款 Framework 扩展卡，提供了另一种外形选择。
 
-**标签**: `#Claude Code`, `#Anthropic`, `#AI coding tools`, `#postmortem`, `#bug analysis`
+**标签**: `#networking`, `#hardware`, `#USB`, `#10GbE`, `#community-discussion`
 
 ---
 
 <a id="item-6"></a>
-## [Bluesky '为你推荐' 动态运行在游戏 PC 和 SQLite 上](https://simonwillison.net/2026/Apr/24/serving-the-for-you-feed/#atom-everything) ⭐️ 8.0/10
+## [OpenAI 发布 GPT-5.5 提示指南及关键技巧](https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything) ⭐️ 7.0/10
 
-AT Protocol 博客上的一篇客座文章透露，Bluesky 的“为你推荐”自定义动态（拥有 72,000 名用户）由开发者客厅里一台游戏 PC 上的单个 Go 进程和 SQLite 提供服务，推荐算法基于点赞行为。 这表明去中心化社交媒体动态可以用出人意料的廉价硬件和低成本（每月 30 美元）大规模运行，挑战了关于算法推荐基础设施需求的传统假设。 该 Go 服务器消费 AT Protocol 的实时数据流（firehose），在 SQLite 中存储 90 天的数据（目前约 419GB），并通过 OVH 上每月 7 美元的 VPS 处理公共互联网流量，通过 Tailscale 连接到客厅服务器。
+OpenAI 发布了针对 GPT-5.5 的提示指南，该模型现已通过 API 提供，其中包含实用技巧，例如在多步骤任务中发送简短的用户可见更新以提升感知响应速度。指南还建议从全新基线开始迁移，而不是沿用旧提示栈中的每一条指令。 该指南意义重大，因为 GPT-5.5 代表了一个需要不同提示策略的新模型系列，从头开始的建议有助于开发者避免因旧提示导致性能下降。多步骤任务的特定技巧直接改善了如 Codex 等应用中的用户体验，使 AI 代理感觉更响应、更可靠。 OpenAI 建议在 Codex 中使用 $openai-docs migrate 命令升级现有代码，并遵循包含重写提示以更好适配 GPT-5.5 说明的升级指南。该指南警告应将 GPT-5.5 视为新模型系列，而非 GPT-5.2 或 GPT-5.4 的直接替代品。
 
-rss · Simon Willison · Apr 24, 01:08
+rss · Simon Willison · Apr 25, 04:13
 
-**背景**: Bluesky 是一个基于 AT Protocol 的去中心化社交网络，允许任何人运行自定义动态算法。Firehose 是网络所有事件的实时流，使第三方服务能够保持同步。SQLite 是一个轻量级嵌入式数据库引擎，通常不与大规模生产工作负载相关联。
+**背景**: GPT-5.5 是 OpenAI 最新的主要模型版本，可通过 API 使用并集成到 Codex 等工具中。Codex 是一款 AI 编程代理，截至 2026 年 3 月每周活跃用户超过 200 万。提示指南帮助开发者为大型语言模型编写有效指令，而 OpenAI 的 Skills 系统允许打包可复用的指令和脚本以用于重复性工作流程。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.bskyinfo.com/glossary/firehose/">Firehose | AT Protocol Glossary</a></li>
-<li><a href="https://docs.bsky.app/docs/starter-templates/custom-feeds">Custom Feeds | Bluesky</a></li>
-<li><a href="https://bsky.social/about/blog/7-27-2023-custom-feeds">Algorithmic Choice with Custom Feeds - Bluesky</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Bluesky`, `#AT Protocol`, `#Go`, `#SQLite`, `#decentralized social media`
+**标签**: `#GPT-5.5`, `#prompting`, `#OpenAI`, `#AI`, `#developer-tips`
 
 ---
 
 <a id="item-7"></a>
-## [华为发布 ADS 4，目标 2025 年实现 L3 商用](https://t.me/zaihuapd/41039) ⭐️ 8.0/10
+## [TeamViewer 13/14 将停止公网连接，永久授权用户需转订阅](https://www.landiannews.com/archives/112799.html) ⭐️ 7.0/10
 
-在 4 月 22 日的华为乾崑智能技术大会上，华为发布了新一代智驾系统 ADS 4，并推出了行业首个高速 L3 级有条件自动驾驶商用解决方案。华为预计将在 2025 年具备 L3 级自动驾驶的商用能力。 这标志着自动驾驶领域的一个重要里程碑，L3 级允许驾驶员在特定条件下脱离驾驶，将责任转移给车辆。华为此举可能加速整个行业对 L3 技术的采用，并加剧车企与科技公司之间的竞争。 ADS 4 采用了传感器深度融合和名为 WEWA 的全新世界模型架构，降低了端到端时延。华为智能汽车解决方案 BU CEO 靳玉志指出，该系统优先发展高速场景下的 L3 应用。
+TeamViewer 宣布，13 和 14 版本将于 2026 年 10 月 31 日终止生命周期，届时这两个版本将无法通过官方服务器进行公网远程连接，仅保留局域网功能。购买永久许可证的用户无法免费升级到新版，必须购买订阅制许可才能继续使用跨网远程连接服务。 这一政策变化直接影响了许多购买了 TeamViewer 永久许可证的 IT 专业人员和企业的远程访问工作流，迫使他们转向订阅制付费或寻找替代方案。这也反映了软件行业从一次性买断转向订阅模式的趋势，引发了对长期成本和供应商锁定的担忧。 受影响的授权被定义为“旧版软件的永久许可证”，TeamViewer 声称此举旨在提升安全性，并为受影响用户提供迁移优惠。然而，这一政策通过限制核心功能变相废除了买断授权的价值，引发了广泛批评。
 
-telegram · zaihuapd · Apr 24, 01:40
+telegram · zaihuapd · Apr 25, 05:43
 
-**背景**: L3 级自动驾驶（有条件自动化）允许车辆在特定条件（如高速）下处理所有驾驶任务，但驾驶员必须在系统请求时随时接管。这被认为是 L2 辅助驾驶与 L4 完全自动驾驶之间的关键一步，需要高精地图和强大的传感器系统支持。
+**背景**: TeamViewer 是一款流行的远程桌面和远程访问软件，允许用户通过互联网或局域网连接计算机。传统上，它提供永久许可证模式，用户一次性购买某个版本即可无限期使用。近年来，该公司已转向订阅制模式，停止对旧版本的支持正是这一转型的一部分。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://auto.huawei.com/cn/news/2026/2026-04-23-jishu">2026 华为乾崑技术大会在京举行 - auto.huawei.com</a></li>
-<li><a href="https://auto.news18a.com/news/storys_249621.html">auto.news18a.com/news/storys_249621.html</a></li>
-<li><a href="https://www.zhihu.com/question/395047744">什么才是真正的L3自动驾驶？ - 知乎</a></li>
+<li><a href="https://community.teamviewer.com/English/discussion/143746/end-of-support-for-teamviewer-versions-13-and-14">End of support for TeamViewer versions 13 and 14</a></li>
+<li><a href="https://linustechtips.com/topic/1614802-teamviewer-is-terminating-my-perpetual-license-—-has-this-happened-to-anyone-else-what-are-you-doing-about-this/">TeamViewer Is Terminating My Perpetual License — Has This ...</a></li>
+<li><a href="https://www.teamviewer.com/en-us/global/support/knowledge-base/teamviewer-classic/licensing/subscription/all-about-subscription/">All about subscription - TeamViewer</a></li>
 
 </ul>
 </details>
 
-**标签**: `#autonomous driving`, `#Huawei`, `#L3 autonomy`, `#ADS 4`, `#smart vehicles`
+**标签**: `#TeamViewer`, `#software licensing`, `#remote access`, `#EOL`, `#subscription model`
 
 ---
 
 <a id="item-8"></a>
-## [逆向工程揭露终身订阅机制缺陷](https://github.com/Yu9191/flux) ⭐️ 8.0/10
+## [FCC 扩大路由器禁令至移动热点和 CPE 设备](https://www.androidauthority.com/router-ban-expands-to-hotspots-3660505/) ⭐️ 7.0/10
 
-一份发布于 GitHub 的逆向工程报告揭示，某流行应用的订阅验证依赖于开发者控制的服务器，且代码中硬编码了连续验证失败后清除本地授权的逻辑，这可能导致终身订阅失效。 这一发现对终身订阅中“终身”的定义提出了关键质疑，并揭示了一个根本性的架构缺陷：一旦开发者服务器宕机，已付费用户的购买可能变得毫无价值，从而影响消费者权益和对订阅制软件的信任。 该应用采用“服务器为主、StoreKit 2 为辅”的混合验证模式，二进制文件中硬编码了连续验证失败 N 次后清除授权缓存的逻辑，这意味着服务器故障会主动撤销本地订阅状态，包括终身订阅。
+美国联邦通信委员会（FCC）更新了针对外国制造 Wi-Fi 路由器的禁令，现已将便携式移动热点（MiFi）和住宅用 LTE/5G CPE 设备纳入管制范围。该禁令仅适用于新申请设备，不影响已获批准的现有型号，并已向 Netgear 等部分厂商提供有条件豁免，准许其相关产品销售至 2027 年 10 月 1 日。 此次禁令扩大显著增加了对消费级网络硬件市场的监管影响，可能扰乱供应链、减少设备供应并推高消费者购买成本。这也表明技术供应链安全的地缘政治博弈正在加剧，尤其针对中国制造的网络设备。 该禁令目前豁免了具备热点功能的智能手机和企业级设备。FCC 已向 Netgear 等部分厂商提供有条件豁免，准许其相关产品销售至 2027 年 10 月 1 日。
 
-telegram · zaihuapd · Apr 24, 02:02
+telegram · zaihuapd · Apr 25, 09:32
 
-**背景**: 在 iOS 应用中，订阅验证可以使用 Apple 的 StoreKit 2 提供的签名交易数据进行本地验证，这是一种无需依赖外部服务器的可靠方式。然而，一些开发者为了获得更多控制权，选择自行实现服务器端验证，这引入了对服务器可用性的依赖。报告中提到的 WCDB 数据库是微信开发的跨平台数据库框架，在此用于本地缓存订阅状态。
+**背景**: CPE（Customer Premises Equipment，用户驻地设备）指位于用户端、与电信运营商服务对接的网络终端设备，包括路由器、调制解调器和无线网关等。2026 年 3 月，FCC 首次将外国制造的消费级路由器列入管制清单，影响了美国约 60% 的路由器市场，其中大部分产自中国。此次新规将禁令扩展至便携式热点和住宅 CPE 设备，进一步收紧了对国外制造网络硬件的管控。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.revenuecat.com/blog/engineering/ios-in-app-subscription-tutorial-with-storekit-2-and-swift/">iOS In-App Subscription Tutorial with StoreKit 2 and Swift</a></li>
-<li><a href="https://developer.apple.com/videos/play/wwdc2021/10114/">Meet StoreKit 2 - WWDC21 - Videos - Apple Developer</a></li>
-<li><a href="https://explore.market.dev/ecosystems/windows/projects/wcdb">WCDB is a cross-platform database framework developed by WeChat.</a></li>
+<li><a href="https://finance.sina.com.cn/tech/discovery/2026-04-25/doc-inhvtmsy2303586.shtml">美国封杀所有外国路由器：范围扩展至随身Wi-Fi、CPE设备！|路由器|FCC|消费级_新浪科技_新浪网</a></li>
+<li><a href="https://36kr.com/p/3749439521174017">美国FCC“路由器禁令”：家庭网络入口的地缘博弈与供应链洗牌-36氪</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/2029599279677814442">美国FCC颁布外国路由器禁令，市场影响如何？ - 知乎</a></li>
 
 </ul>
 </details>
 
-**标签**: `#reverse engineering`, `#subscription validation`, `#software architecture`, `#consumer rights`, `#server dependency`
+**标签**: `#FCC`, `#networking`, `#regulation`, `#hardware`, `#telecom`
 
 ---
 
 <a id="item-9"></a>
-## [OpenAI 开源模型监控评估套件](https://github.com/openai/monitorability-evals) ⭐️ 8.0/10
+## [中国规范金融产品网络营销，花呗白条展示将调整](https://finance.sina.cn/stock/jdts/2026-04-25/detail-inhvsuve3987870.d.html) ⭐️ 7.0/10
 
-OpenAI 开源了与其研究论文《Monitoring Monitorability》配套的评估套件，提供标准化工具来评估和提升 AI 模型行为的可监测性。该套件包含 AIME、GPQA 和 WMDP 等 12 项公开数据集，以及评估逻辑和提示词模板。 此次发布直接应对了监控先进 AI 系统的关键挑战，尤其是在模型变得能够进行复杂推理并可能表现出欺骗性行为的情况下。通过提供开源工具，OpenAI 使更广泛的研究社区能够协作制定稳健的 AI 安全监控标准。 该套件涵盖干预、过程及结果属性三大类评估，但受版权和隐私限制，未包含 FrontierMath 等私有数据集。OpenAI 指出在 Anti-Scheming 等评估项中存在技术局限，目前正结合 GPT 5.4 Thinking 系统的反馈进行迭代优化。
+中国八部门联合印发《金融产品网络营销管理办法》，自 2026 年 9 月 30 日起施行。新规要求非银行支付机构在收银台将支付工具与贷款产品分开展示并优先展示支付工具，同时禁止使用“低门槛”“秒到账”等营销表述。 这项新规直接影响花呗（蚂蚁集团）、白条（京东）和月付（美团）等被数亿消费者广泛使用的信用支付产品。其目的是遏制支付与借贷捆绑乱象，保护消费者权益，促进金融科技领域的公平竞争。 新规明确禁止非银行支付机构将贷款产品列为支付选项。同时，“低门槛”“秒到账”“低利率”等营销用语也被禁止，以防止误导性宣传。
 
-telegram · zaihuapd · Apr 24, 05:51
+telegram · zaihuapd · Apr 25, 10:03
 
-**背景**: 该套件基于 OpenAI 的研究论文《Monitoring Monitorability》，该论文探讨如何有效监控模型的思维链推理以检测不安全行为。研究发现，监控内部推理远比仅监控输出更有效。套件中包含的 Weapons of Mass Destruction Proxy (WMDP) 基准是一个多项选择题数据集，用于衡量生物安全、网络安全和化学安全方面的危险知识。
+**背景**: 中国的非银行支付机构（如支付宝、微信支付）是依法取得支付业务许可、从事电子支付业务的公司，并非传统银行。花呗、白条等“信用支付”产品允许消费者先消费后付款，常在收银台被突出展示，模糊了支付与借贷的界限。这项新规是中国政府加强金融科技监管、降低金融风险的系列举措之一。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://ninza7.medium.com/can-we-trust-ai-thinking-openais-verdict-on-monitoring-is-out-9f2fe709185d">Can We Trust AI “Thinking”? OpenAI ’s Verdict on Monitoring Is Out</a></li>
-<li><a href="https://arxiv.org/html/2512.18311v1">Monitoring Monitorability</a></li>
-<li><a href="https://openai.com/index/evaluating-chain-of-thought-monitorability/">Evaluating chain-of-thought monitorability | OpenAI</a></li>
+<li><a href="https://baike.baidu.com/item/非银行支付机构/55859651">非银行支付机构 - 百度百科 李强签署国务院令 公布《非银行支付机构监督管理条例》 非银行支付机构监督管理条例 颠覆与重塑 — 非银支付条例要点解读 - Han Kun Law 中华人民共和国国务院令 - pds.gov.cn 《非银行支付机构监督管理条例》（中华人民共和国国务院令第768号发布...</a></li>
+<li><a href="https://www.163.com/dy/article/KRC0ARNK0519DDQ2.html?clickfrom=w_tech">163.com/dy/article/KRC0ARNK0519DDQ2.html?clickfrom=w_tech</a></li>
 
 </ul>
 </details>
 
-**标签**: `#OpenAI`, `#AI安全`, `#开源`, `#模型评估`, `#监控`
+**社区讨论**: 在 Telegram 讨论中，有用户评论称花呗可以找支付宝客服强行关闭，之后不会再弹出。这表明部分用户正在主动寻求退出此类信用产品。
+
+**标签**: `#fintech`, `#regulation`, `#China`, `#payments`, `#consumer finance`
 
 ---
 
 <a id="item-10"></a>
-## [AI 乒乓球机器人击败人类精英选手](https://t.me/zaihuapd/41046) ⭐️ 8.0/10
+## [123 云盘遭集中封号与服务异常](https://www.bilibili.com/video/BV1UoojBqEjA) ⭐️ 7.0/10
 
-研究人员开发出自主乒乓球机器人“Ace”，它采用事件驱动视觉传感器和模型无关强化学习算法，在实时比赛中击败了精英人类选手。 这标志着物理 AI 的重大突破，证明机器人能够处理此前被认为极具挑战性的高速、高精度现实交互。该技术未来可应用于体育训练、医疗康复等需要快速物理响应的领域。 Ace 采用事件驱动视觉传感器，以极低延迟捕捉运动，并结合模型无关强化学习算法实时调整策略。在正式比赛中，它能稳定回击高速高旋转的球，并多次击败职业选手。
+自 2025 年 3 月 14 日晚起，大量 123 云盘用户反映出现集中性异常，包括充值或购买会员后短时间内遭封号、账号被系统注销、视频预览和转码失败、文件无法访问、下载速度明显下降，部分页面还会跳转至国家反诈中心。 这一事件削弱了用户对一家主要中国云存储提供商的信任，并引发了对服务可靠性、数据安全及客服质量的严重担忧，可能促使用户转向其他替代平台。 用户称人工客服响应缓慢且多为模板回复，负面评论遭删除或用户被拉黑。跳转至反诈中心的原因疑似是竞争对手恶意使用 123 云盘官方收款码进行虚假交易并举报。
 
-telegram · zaihuapd · Apr 24, 06:01
+telegram · zaihuapd · Apr 25, 11:50
 
-**背景**: 传统 AI 在围棋、象棋等回合制游戏中表现出色，但乒乓球等实时物理运动需要瞬间感知和反应。事件驱动视觉传感器不同于传统帧式相机，只记录场景中的变化，大幅降低延迟和数据量。模型无关强化学习使机器人无需依赖预定义环境模型即可学习和适应。
+**背景**: 123 云盘是一款免费云存储服务，注册即可获得高达 2TB 空间，支持单文件最大 100GB，不限制文件类型。它采用 PCDN（点对点内容分发网络）架构来提供高速下载。该服务因其慷慨的免费方案和便捷的分享功能而广受欢迎。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://blog.csdn.net/weixin_41496173/article/details/141365402">深度解析DeepMind乒乓球AI：从AlphaGo到AlphaPingPong的进化之路_ai 乒乓球-CSDN博客</a></li>
-<li><a href="https://www.prophesee.ai/wp-content/uploads/2021/10/Prophesee-Synsense-PR-CN.pdf">SynSense 时识科技与 Prophesee 普诺飞思达成战略合</a></li>
+<li><a href="https://www.bilibili.com/video/BV1QqvDeVEqz/">离谱，123云盘网站居然变成了国家反诈中心_哔哩哔哩_bilibili 123 云盘被曝集中封号 - nodeseek.com 离谱！知名网盘被反诈了！-技术圈 123网盘部分线路跳转防炸与临时解决 - 小鹿博客 知名网盘 123 云盘官方域名跳转反诈中心影响文件下载，官方回应称系竞...</a></li>
+<li><a href="https://post.smzdm.com/p/admvne6n/">知名网盘123云盘官方域名跳转反诈中心 官方回应称系恶意竞争举报_服务...</a></li>
+<li><a href="https://baijiahao.baidu.com/s?id=1821833000489491759">123云盘遭遇反诈困扰，用户下载受影响</a></li>
 
 </ul>
 </details>
 
-**标签**: `#robotics`, `#AI`, `#reinforcement learning`, `#physical AI`, `#table tennis`
+**社区讨论**: 在 B 站及其他论坛的社区讨论中，用户普遍表达了沮丧和不信任，许多人指责平台管理不善且缺乏透明度。部分用户猜测跳转反诈中心是恶意竞争所致，另一些人则批评公司响应缓慢、客服支持不足。
 
----
-
-<a id="item-11"></a>
-## [三星工会罢工投票威胁芯片供应](https://t.me/zaihuapd/41053) ⭐️ 8.0/10
-
-三星电子劳工工会代表约 9 万名成员正在就罢工计划进行投票，若通过，将从 5 月 21 日起罢工 18 天，可能使平泽半导体工厂产量减半，并扰乱全球芯片供应。 此次罢工可能严重影响全球半导体供应链，因为三星是主要的存储芯片制造商；任何生产中断都可能加剧芯片短缺，并影响依赖存储组件的行业。 工会要求将基础工资提高 7%、取消绩效奖金上限，并引入基于营业利润的奖金池，以缩小与竞争对手 SK 海力士的薪酬差距。三星电子提出加薪 6.2%及记忆芯片部门特别奖金方案，并表示将以诚意继续对话。
-
-telegram · zaihuapd · Apr 24, 14:02
-
-**背景**: 三星电子是全球最大的半导体制造商之一，尤其在 DRAM 和 NAND 闪存等存储芯片领域。平泽工厂是重要的生产基地。自 2022 年底人工智能热潮以来，SK 海力士在高带宽存储器（HBM）领域占据领先地位，业绩和奖金大幅提升，导致两家公司薪酬差距扩大，引发了三星员工的不满。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://hk.finance.yahoo.com/news/獎金僅sk海力士30-三星4萬員工氣炸喊罷工-產線恐停擺-004057735.html">獎金僅SK海力士30%！三星4萬員工氣炸喊罷工 產線恐停擺</a></li>
-<li><a href="https://news.tvbs.com.tw/world/3186727">三星史上最大規模罷工！員工不滿待遇差距 破4萬人上街18天</a></li>
-<li><a href="https://tech.ifeng.com/c/8sYl73iOPBJ">三星员工抗议与SK海力士存在巨大薪资差距，威胁将长期罢工</a></li>
-
-</ul>
-</details>
-
-**标签**: `#semiconductor`, `#supply chain`, `#Samsung`, `#labor strike`, `#hardware`
-
----
-
-<a id="item-12"></a>
-## [过度思考和范围蔓延破坏项目](https://kevinlynagh.com/newsletter/2026_04_overthinking/) ⭐️ 7.0/10
-
-Kevin Lynagh 发表了一篇文章，以自己制作厨房垃圾桶的经历为例，解释了过度思考、范围蔓延和结构差异如何破坏项目。 这篇文章引起了软件工程师和研究人员的强烈共鸣，因为它指出了一种常见且令人痛苦的模式，这种模式会导致时间浪费和工作未完成，并提供了避免它的实用见解。 作者说明了追求完美设计的愿望如何导致无休止的迭代和范围蔓延，最终阻碍项目完成。他将此与结构差异的概念进行对比，通过比较增量变化有助于保持专注。
-
-hackernews · alcazar · Apr 24, 14:28
-
-**背景**: 范围蔓延指的是项目需求超出原计划的无控制扩展，通常会导致延误和预算超支。结构差异是一种比较树形数据结构的技术，常用于版本控制中显示代码的有意义变化，而不仅仅是逐行差异。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Diff">diff - Wikipedia</a></li>
-<li><a href="https://tiniacoleyba.com/blog/scope-creep-in-software-3-concrete-examples/">Scope Creep in Software: 3 Concrete Examples - Tiniaco Leyba</a></li>
-<li><a href="https://github.com/Wilfred/difftastic/wiki/Structural-Diffs">Structural Diffs · Wilfred/difftastic Wiki</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 评论者分享了相关经验，有人指出博士研究因详尽的文献综述而遭受类似的范围蔓延。另一位引用了奥巴马的“更好就是好”来强调小的改进会随着时间的推移而累积，而一位 CEO 则表示团队很少后悔以较小的范围提前发布。
-
-**标签**: `#software engineering`, `#project management`, `#productivity`, `#scope creep`, `#technical debt`
-
----
-
-<a id="item-13"></a>
-## [Honker 将 Postgres NOTIFY/LISTEN 引入 SQLite](https://simonwillison.net/2026/Apr/24/honker/#atom-everything) ⭐️ 7.0/10
-
-Honker 是一个基于 Rust 的新 SQLite 扩展，实现了 Postgres 风格的 NOTIFY/LISTEN 队列语义，提供跨进程事件通知和持久化流式处理，并带有 Python 异步绑定。 该项目填补了基于 SQLite 的应用此前需要 Redis 或 Celery 等外部消息代理来处理后台任务和进程间通信的重大空白，降低了运维复杂性并消除了双写错误。 该扩展需要 WAL 模式，并通过每 1 毫秒对 .db-wal 文件执行 stat 调用来实现接近实时的轮询，无需运行完整的 SQL 查询。它还实现了事务性发件箱模式，确保仅当包含事务成功提交时才会将项目加入队列。
-
-rss · Simon Willison · Apr 24, 01:50
-
-**背景**: Postgres 的 NOTIFY 和 LISTEN 命令允许数据库会话发送和接收带有可选负载字符串的异步通知，常用于构建消息队列和事件驱动架构。SQLite 虽然因其简单性和嵌入式特性而被广泛使用，但缺乏这种内置的发布-订阅能力，迫使开发者依赖外部服务来实现类似功能。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://byteiota.com/honker-postgres-notify-listen-for-sqlite/">Honker: Postgres NOTIFY/LISTEN for SQLite | byteiota</a></li>
-<li><a href="https://news.ycombinator.com/item?id=47874647">Show HN: Honker – Postgres NOTIFY/LISTEN Semantics for SQLite ...</a></li>
-<li><a href="https://thinhdanggroup.github.io/postgres-as-a-message-bus/">Postgres as a Message Bus: Implementing Durable Event Queues ...</a></li>
-
-</ul>
-</details>
-
-**社区讨论**: 创建者在 Hacker News 上指出，Honker 无需单独的守护进程或代理即可实现个位数毫秒延迟的推送式事件传递，并且许多高流量应用现在运行在 Framework+SQLite+Litestream 栈上，使得该扩展成为自然之选。
-
-**标签**: `#SQLite`, `#Rust`, `#Python`, `#queues`, `#database`
-
----
-
-<a id="item-14"></a>
-## [苹果要求中国 App Store 开发者提供统一社会信用代码](https://t.me/zaihuapd/41043) ⭐️ 7.0/10
-
-苹果已开始要求所有 App Store 开发者提供统一社会信用代码（USCI），以便提交给中国税务机关。 这一监管变化直接影响所有在中国 App Store 分发应用的开发者，可能影响应用可用性和开发者的合规成本。 统一社会信用代码是由中国签发给注册组织的 18 位字母数字标识，用于税务、市场监管和银行系统。
-
-telegram · zaihuapd · Apr 24, 04:21
-
-**背景**: 统一社会信用代码是中国所有法人实体的强制性标识，将商业登记和税务识别合并为一个代码。苹果此举符合中国对数字平台报告开发者税务信息的更广泛监管要求。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://en.wikipedia.org/wiki/Unified_Social_Credit_Identifier">Unified Social Credit Identifier - Wikipedia</a></li>
-<li><a href="https://fdichina.com/blog/unified-social-credit-code-china/">Unified Social Credit Code : 5 Essential Facts and How to Verify It in...</a></li>
-<li><a href="https://www.registrationchina.com/articles/unified-social-credit-code-uscc/">What is the Unified Social Credit Code in China</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Apple`, `#App Store`, `#China`, `#regulation`, `#developer`
-
----
-
-<a id="item-15"></a>
-## [美国 AI 工具用户收入分层：Claude 偏高，Meta AI 偏低](https://epoch.ai/data-insights/service-by-income) ⭐️ 7.0/10
-
-Epoch AI 与 Ipsos 合并 2026 年 3 月至 4 月的三轮调查分析显示，美国主要 AI 工具的周活用户收入分层加剧：79.8%的 Claude 用户来自年收入 10 万美元以上的家庭，而 Meta AI 用户中这一比例仅为 36.5%。 这种基于收入的用户分层对产品定位、可及性和市场策略具有重要意义，表明不同 AI 工具吸引截然不同的社会经济群体，并可能加剧数字不平等。 Meta AI 用户中有 32.1%来自年收入 5 万美元以下的家庭，而 Claude 仅为 6.4%；ChatGPT、Gemini、Grok 和 Copilot 的高收入用户占比则介于 55.9%至 63.7%之间。
-
-telegram · zaihuapd · Apr 24, 05:06
-
-**背景**: 该数据来自追踪 AI 趋势的研究机构 Epoch AI 与全球市场研究公司 Ipsos，基于 2026 年 3 月至 4 月的三轮调查，覆盖美国主要 AI 工具的周活用户。美国成年人整体中约 50%来自年收入 10 万美元以上的家庭，该比例作为比较基准。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://grokipedia.com/page/Epoch_AI">Epoch AI</a></li>
-<li><a href="https://www.ipsos.com/en-us">Ipsos | Global Market Research and Public Opinion Specialist</a></li>
-
-</ul>
-</details>
-
-**标签**: `#AI tools`, `#user demographics`, `#income inequality`, `#market analysis`, `#Epoch AI`
-
----
-
-<a id="item-16"></a>
-## [特斯拉 Cybercab 在北美投产](https://weibo.com/3615027564/QCheybgVu) ⭐️ 7.0/10
-
-特斯拉宣布，其完全自动驾驶的 Cybercab 已在北美启动量产。该车型取消了方向盘、踏板和后视镜，完全围绕自动驾驶系统设计，由车载 AI 接管所有行驶控制。 这标志着自动驾驶和 Robotaxi 服务的重要里程碑，因为 Cybercab 通过取消传统驾驶控制装置，代表了车辆设计的范式转变。此举有助于特斯拉推进其 Robotaxi 网络，并可能加速自动驾驶网约车的商业化进程。 Cybercab 是为无人驾驶运营而专门设计的，其整车架构和交互系统均为自动驾驶场景定制。特斯拉于 2024 年 10 月首次发布 Cybercab，马斯克此前曾表示目标是在一年内部署 100 万辆自动驾驶出租车。
-
-telegram · zaihuapd · Apr 24, 08:26
-
-**背景**: Robotaxi（自动驾驶出租车）是指无需人类驾驶员、通过网络提供网约车服务的自动驾驶车辆。特斯拉长期致力于全自动驾驶（FSD）技术，而 Cybercab 是其首款为此目的专门打造的量产车型，完全取消了手动控制装置。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://lifeofze.com/2024/10/16/tesla-introduce-robotaxi-cybercab/">完全 自 动 驾 驶 交通的时代来临， TESLA 揭开 ROBOTAXI CYBERCAB ...</a></li>
-<li><a href="https://lovemandarinvoice.com/tesla-cybercab/">Tesla 发布完全 自 动 驾 驶 汽车 – Mandarin Voice</a></li>
-<li><a href="https://auto123channel.com/2024/10/11/all-new-tesla-cybercab-official-debut/">售价 RM130,000！ 全新 Tesla Cybercab ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#autonomous driving`, `#Tesla`, `#robotaxi`, `#electric vehicles`, `#AI`
-
----
-
-<a id="item-17"></a>
-## [Android 推出已验证邮箱注册，免输 OTP](https://www.androidauthority.com/android-verified-email-no-magic-links-otps-3660150/) ⭐️ 7.0/10
-
-Google 为 Android 的 Credential Manager API 新增了“已验证邮箱”功能，用户可以使用设备上存储的加密验证邮箱凭证注册应用，无需再输入一次性验证码或点击魔法链接。 这一功能简化了 Android 上基于邮箱的注册和身份验证流程，通过消除一次性验证码和魔法链接带来的操作繁琐和钓鱼风险，显著提升了用户体验和安全性。 该功能目前仅支持个人 Gmail 账号；Workspace、受管账号及非 Gmail 地址可能仍需额外验证。它还支持账号找回和敏感操作再认证，要求设备运行 Android 9 及以上版本，且 Google Play 服务版本为 25.49.xx 或更高。
-
-telegram · zaihuapd · Apr 24, 12:33
-
-**背景**: Credential Manager API 是 Android 推荐的用于凭证交换的 Jetpack 库，统一支持通行密钥、密码和联合登录。已验证邮箱功能实现了 W3C 的数字凭证 API 标准，通过该 API 直接向 Android 设备颁发经过加密验证的邮箱凭证。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://developer.android.com/identity/credential-manager">About Credential Manager - Identity | Android Developers</a></li>
-<li><a href="https://developers.google.com/identity/android-credential-manager">Android Credential Manager API - Google Developers</a></li>
-<li><a href="https://android-developers.googleblog.com/2026/04/streamline-auth-credential-manager-verified-email.html">Streamline User Journeys with Verified Email via Credential ...</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Android`, `#Authentication`, `#Credential Manager`, `#Google`, `#Security`
+**标签**: `#cloud storage`, `#service outage`, `#account suspension`, `#customer support`, `#China tech`
 
 ---
